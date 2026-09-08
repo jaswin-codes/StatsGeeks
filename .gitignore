@@ -9,3 +9,8 @@ data/preprocessed/
 __pycache__/
 .ipynb_checkpoints/
 .venv/
+# Large model artifacts - locations and checksums recorded instead
+candidate/artifacts/*.joblib
+
+# The 9 KB adaptation artifact IS the deliverable, so keep it despite *.pkl above
+!candidate/artifacts/stage1_madrid.pkl
