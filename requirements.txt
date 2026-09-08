@@ -1,0 +1,19 @@
+# Environment for the StatsGeeks building-age transfer submission.
+# Recorded 2026-09-08 from the machine that produced every reported number.
+#
+# NOTE: this stack is substantially NEWER than the organiser's. It reproduces
+# the starter data pipeline exactly (all six prototype budgets match to 4 dp)
+# but NOT the starter Random Forest numbers - Madrid CV 0.6281 vs their 0.6179
+# and zero-shot 0.4433 vs their 0.3427. That difference is systematic and
+# deterministic, not noise. See docs/EXPERIMENT_LOG.md EXP-001 and EXP-002.
+#
+# Python 3.13.15
+numpy==2.5.1
+pandas==3.0.5
+scikit-learn==1.9.0
+scipy==1.18.1
+pyarrow==25.0.1
+matplotlib==3.11.1
+joblib==1.6.0
+nbformat==5.11.1
+nbconvert==7.17.1
