@@ -51,8 +51,12 @@ check("Metric weights match feature count", len(st["metric_weights"]) == 60)
 check("Adaptation artifact is small enough to be portable",
       (ART / "stage1_madrid.pkl").stat().st_size < 5_000_000,
       f"{(ART / 'stage1_madrid.pkl').stat().st_size/1024:.0f} KB")
+check("Selected method recorded", st.get("method") == "top30", str(st.get("method")))
+check("Selected feature subset recorded", len(st["selected_feature_idx"]) == 30,
+      f"{len(st['selected_feature_idx'])} of 60 features")
 
-lda, w = st["lda"], st["metric_weights"]
+w        = st["metric_weights"]
+sel_idx  = st["selected_feature_idx"]
 
 # ---- load target features, then DISCARD the query labels ------------------
 with PKL.open("rb") as f:
@@ -88,8 +92,14 @@ def prototype_predict(Xs, ys, Xq):
 
 
 print("\n-- Adapting with the frozen Madrid transform (label-free query path) --")
-Z_sup, Z_qry = X_sup * w, X_qry * w        # the Madrid-learned metric
+# The audited transform: keep the 30 features Madrid found most informative,
+# scaled by that same importance. Both come from the frozen artifact.
+Z_sup = X_sup[:, sel_idx] * w[sel_idx]
+Z_qry = X_qry[:, sel_idx] * w[sel_idx]
 pred = prototype_predict(Z_sup, y_sup, Z_qry)
+
+check("Adaptation used the audited method (30 selected dims)",
+      Z_qry.shape[1] == 30, f"{Z_qry.shape[1]} dims")
 
 check("Inference ran without query labels", True, f"{len(pred)} predictions")
 check("Predictions are all valid classes", set(np.unique(pred)).issubset({1, 2, 3, 4}),
@@ -101,9 +111,9 @@ f1 = f1_score(ya_true[query_mask], pred, average="macro")
 print(f"\n  Macro F1 on the held-out query set: {f1:.4f}")
 
 # the source state must be unchanged by adaptation
-check("Source LDA unchanged by adaptation", hasattr(lda, "scalings_"))
-check("Metric weights unchanged by adaptation",
-      np.array_equal(w, st["metric_weights"]))
+check("Metric weights unchanged by adaptation", np.array_equal(w, st["metric_weights"]))
+check("Selected feature subset unchanged by adaptation",
+      np.array_equal(sel_idx, st["selected_feature_idx"]))
 
 # the full forest is a separate optional artifact - adaptation must not need it
 rf_path = ART / "stage1_rf.joblib"
