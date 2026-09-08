@@ -1,0 +1,11 @@
+# Large datasets
+data/*.parquet
+
+# Generated files
+data/preprocessed/
+*.pkl
+
+# Python
+__pycache__/
+.ipynb_checkpoints/
+.venv/
