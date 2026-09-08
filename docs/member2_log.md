@@ -45,6 +45,15 @@ Own this log. Duplicate the daily section for Day 1, Day 2, and Thursday. Update
 
 ### Problems Encountered
 
+- **BLOCKER (open) — cannot push to origin; no write access to the team repository.** `git push origin member2-baseline` fails with:
+  > `remote: Permission to jaswin-codes/StatsGeeks.git denied to BuanyomiAmetor.`
+  > `fatal: unable to access 'https://github.com/jaswin-codes/StatsGeeks.git/': The requested URL returned error: 403`
+
+  The remote is Jaswin's personal repository. Git authenticated correctly as `BuanyomiAmetor`; that account simply lacks write permission. Note `origin/member2-baseline` already exists at `165fe11`, so the branch was created for me but collaborator access was never granted.
+  - **Impact:** commit `eab0bf1` is safe locally and the branch is 1 ahead of origin — no work is at risk — but the Team Lead **cannot review the baseline evidence** and the Member 3 / Member 4 handoffs are blocked until this is resolved.
+  - **Fix required (repo owner only):** Jaswin adds `BuanyomiAmetor` as a collaborator with **Write** access (repo → Settings → Collaborators → Add people), then I retry the push.
+  - **Escalated to Team Lead.** Recommend checking whether Members 3 and 4 have the same problem — if the repo was set up from one account, they are likely blocked too and may not have discovered it yet. Worth resolving now rather than at the Day 1 merge checkpoint.
+
 - `seaborn` is not installed. **Impact: none.** Verified by repository-wide search that no notebook imports it — Notebooks 3 and 4 use only `numpy`, `pandas`, `matplotlib`, `sklearn`, `pickle`, `pathlib`, and Notebook 2 (EDA, not in the reference execution path) does not use it either. Deliberately left uninstalled — see DEC-M2-04.
 - `data/Open Notebook.onetoc2` was showing as modified; it is a OneNote index file that OneDrive rewrites in the background (binary, zero real content change). Restored to the committed version to keep the working tree clean. No project impact.
 - Benign warnings during kernel start (zmq Proactor event-loop `RuntimeWarning`; IPKernelApp plain-TCP notice). Recorded for completeness; neither affects computation.
