@@ -1,0 +1,44 @@
+{
+  "abnormal_ready_marker_before_termination": true,
+  "candidate_modelling": false,
+  "code_hashes": {
+    "gate4_lifecycle.py": "8ccb275ac923e51c502be0b43d327955ab3aa8d6a2f1c2c0563536db140d3de4",
+    "gate4_production_boundary.py": "0c5cb83af8cddd773b33e2f39aa21d62a86e4750bb38984e21c6a0c2e7ea3de0",
+    "gate4_production_probe.py": "a8a53d7e8b0a3cfd8047817b90ce01a01b3018c3ad2bf3016ee6a0bf716077f0",
+    "verify_gate4_production_suite.py": "f5365c1bdc49cade1c69687865102f2616711a420a54f28e851dbf7b192a54bf"
+  },
+  "comparator_models_executed": false,
+  "evidence_hashes": {
+    "probe_1.json": "55582580ff8924d20861cdb9edb09c70b9071050aee08813ac4453064c8bc381",
+    "probe_2.json": "995699adff6690660a5add7616ac7c5e323be1ffaa81c274f57a0aef46e56738",
+    "probe_3.json": "fa475d263d8e51766fd64280467f07fa70c137fc9b39fd221e5393ce861bc6c8",
+    "probe_4.json": "8f123450158b69f55853341687ea58d0cc40ed9fe3964cea17ef96299b803a1e",
+    "probe_5.json": "9e299d4b99aa455812fa07cbb94215afe7c7c7f2f286896466175e5154e58969",
+    "probe_6.json": "8b2cdbd4a06c21c77bd4dc1193fe75f319ad282881625cd6759acd16e73bafa6",
+    "probe_7.json": "9317730cea3abe3b15b5de0fc32fccd119483dc86b489da21ec5f98d8802a6e4"
+  },
+  "matched_three_consumer_transport": true,
+  "normal_and_detached_child_teardown": true,
+  "output_negative_tests": {
+    "boolean": true,
+    "duplicate_field": true,
+    "duplicate_or_reordered_ids": true,
+    "extra_episode": true,
+    "extra_episode_packet": true,
+    "extra_label": true,
+    "hidden_labels": true,
+    "interrupted": true,
+    "invalid_class": true,
+    "invalid_json": true,
+    "label_request": true,
+    "nonfinite": true,
+    "path": true,
+    "short": true,
+    "unreaped": true,
+    "worker_failure": true
+  },
+  "post_abnormal_fresh_state": true,
+  "production_real_episode_probes": 7,
+  "status": "PASS",
+  "two_distinct_episode_packets": true
+}

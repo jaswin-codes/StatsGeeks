@@ -1,0 +1,28 @@
+{
+  "status": "OFFLINE_CHECKS_PASS",
+  "seconds": 2.6529867999997805,
+  "historical_inventory_payloads_verified": {
+    "G4C-E2-008": 216,
+    "G4C-E3-001": 184
+  },
+  "protected_artifacts_verified": 33,
+  "manifest_sha256": "9d493d99f60098cb22fd781c51e2d2907d6831df72cb2524700293aa1a1bbf32",
+  "rf_sha256": "5ffdd11f300532a14b3c2957a1ac77b748aa91c0a4d1a88f1ff0a3735dc75870",
+  "unchanged_worker_and_boundary_assets": [
+    "episode_worker.py",
+    "source_worker.py",
+    "preflight_worker.py",
+    "g4c_boundary.py",
+    "gate4_production_boundary.py",
+    "gate4_lifecycle.py"
+  ],
+  "archived_E2_episodes": 60,
+  "archived_E2_method_metric_records": 300,
+  "archived_E3_predictions_hash_checked_only": 52,
+  "optimized_prediction_equivalence": "NOT_EXECUTED: worker launch prohibited",
+  "new_scientific_conclusions": false,
+  "worker_launches": 0,
+  "experiments_started": 0,
+  "independence_scope": "Separate verification implementation/process; not another human reviewer",
+  "execution_readiness_certification": "PENDING authorized end-to-end equivalence and E4/E5 bindings"
+}

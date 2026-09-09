@@ -1,0 +1,65 @@
+{
+  "lifecycle_phase_timings": [
+    {
+      "episode_id": "G4A-B005-T01",
+      "launch_to_namespace_seconds": 0.023769125999990592,
+      "namespace_to_end_of_worker_stream_seconds": 18.584741938999997,
+      "teardown_completion_seconds": 0.007085945000000038,
+      "teardown_timing_basis": "before_launcher_wait to teardown_complete",
+      "final_survivors": [],
+      "reaped_count": 1
+    },
+    {
+      "episode_id": "G4A-B025-T01",
+      "launch_to_namespace_seconds": 0.0276882470000146,
+      "namespace_to_end_of_worker_stream_seconds": 16.144469576999967,
+      "teardown_completion_seconds": 0.007250182999996468,
+      "teardown_timing_basis": "before_launcher_wait to teardown_complete",
+      "final_survivors": [],
+      "reaped_count": 1
+    },
+    {
+      "episode_id": "G4A-B050-T01",
+      "launch_to_namespace_seconds": 0.020395027000006394,
+      "namespace_to_end_of_worker_stream_seconds": 16.094922898999982,
+      "teardown_completion_seconds": 0.004957019000016771,
+      "teardown_timing_basis": "before_launcher_wait to teardown_complete",
+      "final_survivors": [],
+      "reaped_count": 1
+    },
+    {
+      "episode_id": "G4A-B100-T01",
+      "launch_to_namespace_seconds": 0.03145128200003455,
+      "namespace_to_end_of_worker_stream_seconds": 15.054710199999988,
+      "teardown_completion_seconds": 0.005862283999988449,
+      "teardown_timing_basis": "before_launcher_wait to teardown_complete",
+      "final_survivors": [],
+      "reaped_count": 1
+    },
+    {
+      "episode_id": "G4A-B200-T01",
+      "launch_to_namespace_seconds": 0.04713824300000624,
+      "namespace_to_end_of_worker_stream_seconds": 16.35748252799999,
+      "teardown_completion_seconds": 0.0059652169999822036,
+      "teardown_timing_basis": "launcher_wait_completed to teardown_complete (lower bound; pre-wait observation raced with exit)",
+      "final_survivors": [],
+      "reaped_count": 1
+    }
+  ],
+  "startup_observed_seconds": 110.8354537999985,
+  "post_prediction_probe_scoring_and_final_integrity_allowance_seconds": 38.54736409999896,
+  "forecast": {
+    "mean_episode_seconds": 52.149192840000254,
+    "median_episode_seconds": 51.81606060000013,
+    "max_episode_seconds": 54.21580630000062,
+    "point_60_seconds": 3278.3343883000125,
+    "all_60_at_observed_max_seconds": 3402.331195900035,
+    "cold_staging_allowance_seconds": 33.08,
+    "conservative_multiplier": 1.2,
+    "conservative_60_seconds": 4122.493435080041,
+    "hard_limit_seconds": 5000,
+    "conservative_margin_seconds": 877.5065649199587,
+    "conservative_margin_percent": 17.550131298399176,
+    "decision_before_protected_state_gate": "runtime timing supports readiness"
+  }
+}

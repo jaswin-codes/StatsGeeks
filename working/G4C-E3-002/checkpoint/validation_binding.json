@@ -1,0 +1,22 @@
+{
+  "binding_version": 1,
+  "run_id": "G4C-E3-002",
+  "candidate": "E3",
+  "manifest_sha256": "9d493d99f60098cb22fd781c51e2d2907d6831df72cb2524700293aa1a1bbf32",
+  "rf_sha256": "5ffdd11f300532a14b3c2957a1ac77b748aa91c0a4d1a88f1ff0a3735dc75870",
+  "validator_sha256": "02299fc780e624933255b5aa4e01192bb8d4e53d92c27fd0bcb0d12834a8828c",
+  "preparation_sha256": "9c0bf85da046b9ee48352aa410018af9f4e526500b614ef952662fdf23841e9b",
+  "paths": {
+    "manifest": "checkpoint/episode_manifest.json",
+    "state": "candidate_state/source_state.json",
+    "rows": "results/per_episode_results.json",
+    "summary": "results/execution_summary.json",
+    "report": "EXECUTION_REPORT.md",
+    "inventory": "artifact_hash_manifest.json"
+  },
+  "historical_output_fallback": false,
+  "validation_command": [
+    "e3_validator.py",
+    "G4C-E3-002"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "allowed_metadata_events": [
+    {
+      "after": {
+        "attributes": 32,
+        "bytes": 9680,
+        "file_id": 19421773393797285,
+        "links": 1,
+        "mtime_ns": 1788893704858611800,
+        "regular": true,
+        "sha256": "082e416deab7a5fbf7db0f24186d8a1135a258e1d37507f4f52072fb322f8e82",
+        "signature_hex": "a12fff43d9ef764c9ee210ea5722765f"
+      },
+      "before": {
+        "attributes": 32,
+        "bytes": 9544,
+        "file_id": 19421773393797285,
+        "links": 1,
+        "mtime_ns": 1788892892540666500,
+        "regular": true,
+        "sha256": "516003e09e847ddeccff55a466b8a917a83f05791b7136c781ecdf2cfa62f608",
+        "signature_hex": "a12fff43d9ef764c9ee210ea5722765f"
+      },
+      "path": "working/Open Notebook.onetoc2"
+    }
+  ],
+  "candidate_output_roots_present": {
+    "candidate_state": false,
+    "evidence": false,
+    "predictions": false,
+    "results": false
+  },
+  "closed_G4C_E2_001_unchanged": true,
+  "coordinator_retry": false,
+  "models_loaded_or_fit": 0,
+  "nonallowlisted_checkpoint_changes": [],
+  "original_clean": true,
+  "status": "BLOCKED_PRESERVED",
+  "timestamp_utc": "2026-09-08T19:04:08.491226+00:00",
+  "workers_launched": 0
+}

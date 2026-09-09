@@ -1,0 +1,21 @@
+{
+  "exact_predictions": 60,
+  "fresh_state_probes": 3,
+  "historical_raw_exact": 60,
+  "historical_u0_exact": 60,
+  "independent_score_confusion_records": 60,
+  "independent_source_state": true,
+  "label_boundary": "Verifier privileged; candidate workers limited to source state/current support and never receive query labels/manifest",
+  "manifest_sha256": "9d493d99f60098cb22fd781c51e2d2907d6831df72cb2524700293aa1a1bbf32",
+  "original_clean": true,
+  "packet_hash_reconstruction": 60,
+  "protected_33": "PASS",
+  "rng_manifest_replay": 60,
+  "run_id": "G4C-E2-008",
+  "same_query_alignment": true,
+  "seconds": 141.81009990000166,
+  "status": "PASS",
+  "verdict": "INCONCLUSIVE",
+  "verifier_sha256": "2b0553a1fc16a1871a52a0390e1bbe6e2ade8478074ab4c065db9a3006baa089",
+  "worker_teardown": 60
+}

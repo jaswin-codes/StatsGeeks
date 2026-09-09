@@ -1,0 +1,21 @@
+{
+  "status": "BLOCKED",
+  "run_id": "G4C-E2-002",
+  "phase": "PREPARATION_DRY_RUN",
+  "command": "C:/Users/jaswi/AppData/Local/Programs/Python/Python311/python.exe -I -B working/G4C-E2-002/coordinator/coordinator.py --dry-run-preflight",
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\working\\G4C-E2-002\\coordinator\\coordinator.py\", line 10, in <module>\n    from integrity_policy import (RUN_ID, ROOT_MUTABLE_METADATA, classify_new_paths,\nModuleNotFoundError: No module named 'integrity_policy'\n",
+  "failure_class": "COORDINATOR_PACKAGING_PREFLIGHT_FAILURE",
+  "failure_point": "Module import before dry_run() and before any anchor/model/worker operation",
+  "cause": "Under host Python isolated mode (-I), the sibling coordinator directory was not available for the plain integrity_policy import.",
+  "candidate_workers_launched": 0,
+  "modelling_data_loaded": false,
+  "labels_loaded": false,
+  "episode_manifest_contents_loaded": false,
+  "models_fit": 0,
+  "predictions_constructed": 0,
+  "repair_or_retry_performed": false,
+  "historical_artifacts_modified": false,
+  "disposition": "STOP per prompt. Preserve new coordinator bytes and failure; do not patch or rerun in this task."
+}

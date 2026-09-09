@@ -1,0 +1,54 @@
+{
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "staging": {
+    "path": "/home/jaswin/.local/share/statsgeeks/frozen_rf/5ffdd11f300532a14b3c2957a1ac77b748aa91c0a4d1a88f1ff0a3735dc75870.pkl",
+    "sha256": "5ffdd11f300532a14b3c2957a1ac77b748aa91c0a4d1a88f1ff0a3735dc75870",
+    "bytes": 1336382673,
+    "created": true,
+    "seconds": 33.079637450999996
+  },
+  "samples": [
+    {
+      "repeat": 1,
+      "source_hash_seconds": 19.229687082000005,
+      "source_stream": {
+        "seconds": 17.025298936,
+        "bytes": 1336382673
+      },
+      "native_hash_seconds": 1.365475895000003,
+      "native_stream": {
+        "seconds": 0.12280167400000153,
+        "bytes": 1336382673
+      }
+    },
+    {
+      "repeat": 2,
+      "native_hash_seconds": 1.3570804529999947,
+      "native_stream": {
+        "seconds": 0.11864319999999395,
+        "bytes": 1336382673
+      },
+      "source_hash_seconds": 18.731125276,
+      "source_stream": {
+        "seconds": 16.169222293000004,
+        "bytes": 1336382673
+      }
+    },
+    {
+      "repeat": 3,
+      "source_hash_seconds": 19.946162049999984,
+      "source_stream": {
+        "seconds": 15.897350920999997,
+        "bytes": 1336382673
+      },
+      "native_hash_seconds": 1.372537378000004,
+      "native_stream": {
+        "seconds": 0.11569639100000018,
+        "bytes": 1336382673
+      }
+    }
+  ],
+  "workers_launched": 0,
+  "models_loaded": 0,
+  "experiments_started": 0
+}

@@ -1,0 +1,4 @@
+{
+  "status": "FAIL",
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/G4C-E2-007/coordinator/g4c_linux_call.py\", line 8, in <module>\n    packet=json.loads(a.packet.read_text());raw,evidence=run(packet,a.worker.read_bytes(),a.role,rf_path=a.rf)\n                                                         ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/G4C-E2-007/coordinator/g4c_boundary.py\", line 17, in run\n    if APPROVED.get(role)!=digest: raise RuntimeError('Unapproved worker bytes')\n                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Unapproved worker bytes\n"
+}

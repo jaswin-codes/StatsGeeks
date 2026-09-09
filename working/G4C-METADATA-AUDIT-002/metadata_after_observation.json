@@ -1,0 +1,19 @@
+{
+  "utc": "2026-09-08T18:36:55.954829+00:00",
+  "bytes": 9368,
+  "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+  "mtime_ns": 1788892325673875700,
+  "header_guid_le": "43ff2fa1-efd9-4c76-9ee2-10ea5722765f",
+  "utf16_directory_strings": [
+    "__pycache__",
+    "member3_baseline_frozen",
+    "baseline_artifacts",
+    "G4A-PRODUCTION-001",
+    "G4A-TEARDOWN-002",
+    "G4B-E1-001",
+    "G4C-PREFLIGHT-001",
+    "G4C-PROVENANCE-CHECKPOINT",
+    "G4C-E2-001",
+    "G4C-METADATA-AUDIT-002"
+  ]
+}

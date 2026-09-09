@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "default_deny_comparison": true,
+    "exact_allowlist_literal": true,
+    "manifest_hash_only": true,
+    "model_import_guard": true,
+    "new_namespace_owner_classification": true,
+    "no_execution_in_preparation": true,
+    "no_glob_allowlist": true,
+    "rf_hash_only": true
+  },
+  "operational_limitation": "coordinator import failed under -I; checks were not reached; no retry",
+  "source_hashes": {
+    "working/G4C-E2-002/coordinator/coordinator.py": "0c4f6719ccc776cd726a2e9672a44bdd071d6b91f907fdde160cfc858304927d",
+    "working/G4C-E2-002/coordinator/integrity_policy.py": "580d2ae8f716783b3702e636749075d220da15c7390ce011f1c8b051039802f2"
+  },
+  "status": "SOURCE_PARSE_PASS_OPERATIONAL_PREFLIGHT_FAIL",
+  "timestamp_utc": "2026-09-08T19:04:04.367444+00:00"
+}

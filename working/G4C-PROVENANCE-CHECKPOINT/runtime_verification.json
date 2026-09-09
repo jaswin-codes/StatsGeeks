@@ -1,0 +1,53 @@
+{
+  "python": "3.14.4 (main, Jun 18 2026, 14:25:02) [GCC 15.2.0]",
+  "lock_sha256": "cbebbda8f2a2a470d3d639e51fdf63b24afa7c950044bbf6b35a81dc9c21b514",
+  "tree_sha256": "b4e8c3f09000fd6764d8491ca963b8a3a246545e8a4a6244270db44a2d51b19f",
+  "files": 4355,
+  "exact_match": true,
+  "wheels": {
+    "joblib": {
+      "filename": "joblib-1.5.3-py3-none-any.whl",
+      "sha256": "5fc3c5039fc5ca8c0276333a188bbd59d6b7ab37fe6632daa76bc7f9ec18e713",
+      "source": "/home/jaswin/.local/share/gate4a/runtime_v2/wheels/joblib-1.5.3-py3-none-any.whl",
+      "version": "1.5.3"
+    },
+    "narwhals": {
+      "cache_source": "/mnt/c/Users/jaswi/AppData/Local/pip/Cache/http-v2/0/5/2/8/0/05280cda432a199e99befa1378983526a79ebfe8f09c7acb977a04c6.body",
+      "filename": "narwhals-2.25.0-py3-none-any.whl",
+      "sha256": "1f0f403e8c7e4463cde9bfe78b12fdd809e3ae3dda6d9b2f802934fb9c7a6a8f",
+      "source": "/home/jaswin/.local/share/gate4a/runtime_v4_narwhals/narwhals-2.25.0-py3-none-any.whl",
+      "version": "2.25.0"
+    },
+    "numpy": {
+      "filename": "numpy-2.4.6-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "a2c306dea656c12c68f51f4cea133cbe78ca7435eb28c735eac1d3ebe73be6e8",
+      "source": "/home/jaswin/.local/share/gate4a/runtime_v2/wheels/numpy-2.4.6-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "version": "2.4.6"
+    },
+    "scikit-learn": {
+      "filename": "scikit_learn-1.9.0-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "1fea2cc5677ab49d6f5bade978c866da44957b712d92e9635e8b4f723013c3cb",
+      "source": "/home/jaswin/.local/share/gate4a/runtime_v2/wheels/scikit_learn-1.9.0-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "version": "1.9.0"
+    },
+    "scipy": {
+      "filename": "scipy-1.17.1-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "eee2cfda04c00a857206a4330f0c5e3e56535494e30ca445eb19ec624ae75118",
+      "source": "/home/jaswin/.local/share/gate4a/runtime_v2/wheels/scipy-1.17.1-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "version": "1.17.1"
+    },
+    "threadpoolctl": {
+      "filename": "threadpoolctl-3.6.0-py3-none-any.whl",
+      "sha256": "43a0b8fd5a2928500110039e43a5eed8480b918967083ea48dc3ab9f13c4a7fb",
+      "source": "/home/jaswin/.local/share/gate4a/runtime_v2/wheels/threadpoolctl-3.6.0-py3-none-any.whl",
+      "version": "3.6.0"
+    }
+  },
+  "sandbox_environment": {
+    "HOME": "/tmp",
+    "LD_LIBRARY_PATH": "/numeric/numpy.libs:/numeric/scikit_learn.libs:/numeric/scipy.libs",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin"
+  }
+}

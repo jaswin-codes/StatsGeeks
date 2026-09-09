@@ -1,0 +1,35 @@
+{
+  "utc": "2026-09-08T18:41:45.644759+00:00",
+  "git_head": "165fe11df8779eed514c75bd2852c2b9588a18a4",
+  "allowed_mutable_paths": [
+    "working/Open Notebook.onetoc2"
+  ],
+  "fingerprint_count": 431,
+  "fingerprints_sha256": "e1e1d8bda427d15f41ee06ed1ff5e391d6210ab2637b950cd4ac5158f9fd1a2a",
+  "policy_sha256": "8946c08a9e3baa1fa6166196d2e6f21ef7086922323d7e4d44e598da0c7b7f43",
+  "metadata_before_directory_creation": {
+    "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+    "bytes": 9368,
+    "mtime_ns": 1788892325673875700,
+    "file_id": 19421773393797285,
+    "attributes": 32,
+    "signature_hex": "a12fff43d9ef764c9ee210ea5722765f",
+    "regular": true,
+    "links": 1
+  },
+  "metadata_at_checkpoint": {
+    "sha256": "516003e09e847ddeccff55a466b8a917a83f05791b7136c781ecdf2cfa62f608",
+    "bytes": 9544,
+    "mtime_ns": 1788892892540666500,
+    "file_id": 19421773393797285,
+    "attributes": 32,
+    "signature_hex": "a12fff43d9ef764c9ee210ea5722765f",
+    "regular": true,
+    "links": 1
+  },
+  "new_evidence_destinations": [
+    "working/G4C-METADATA-AUDIT-002/",
+    "working/G4C-PROVENANCE-CHECKPOINT-002/"
+  ],
+  "no_candidate_execution_authorized": true
+}

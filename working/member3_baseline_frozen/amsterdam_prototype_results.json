@@ -1,0 +1,48 @@
+{
+  "artifact_type": "recovered_notebook_output_summary",
+  "note": "Notebook output stores summaries only; per-trial scores/prototypes/support indices were kernel memory and are unavailable after shutdown.",
+  "results": {
+    "10": {
+      "mean_macro_f1": 0.5649,
+      "n_trials": 10,
+      "std_macro_f1_ddof0": 0.0312
+    },
+    "100": {
+      "mean_macro_f1": 0.6129,
+      "n_trials": 10,
+      "std_macro_f1_ddof0": 0.0097
+    },
+    "200": {
+      "mean_macro_f1": 0.615,
+      "n_trials": 10,
+      "std_macro_f1_ddof0": 0.0036
+    },
+    "25": {
+      "mean_macro_f1": 0.5986,
+      "n_trials": 10,
+      "std_macro_f1_ddof0": 0.0176
+    },
+    "5": {
+      "mean_macro_f1": 0.5437,
+      "n_trials": 10,
+      "std_macro_f1_ddof0": 0.0324
+    },
+    "50": {
+      "mean_macro_f1": 0.6079,
+      "n_trials": 10,
+      "std_macro_f1_ddof0": 0.0101
+    }
+  },
+  "rng": "np.random.default_rng(42), one advancing generator across all budgets/trials",
+  "shots_per_class": [
+    5,
+    10,
+    25,
+    50,
+    100,
+    200
+  ],
+  "source_executed_notebook": "working\\4-Modelling_member3_reference_executed.ipynb",
+  "source_executed_notebook_sha256": "37761873bc8d9ef57b13515b66ed636d400830b0b186cf25d55b41ccb3fc208e",
+  "support_indices_available": false
+}

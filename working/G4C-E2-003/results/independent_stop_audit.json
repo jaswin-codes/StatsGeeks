@@ -1,0 +1,42 @@
+{
+  "status": "PASS_STOP_EVIDENCE_CONFIRMED",
+  "timestamp_utc": "2026-09-08T19:22:22.882530+00:00",
+  "failure_class": "PRIVILEGED_COORDINATOR_DESERIALIZATION_INFRASTRUCTURE_FAILURE",
+  "exact_module": "working.minimal_standard_scaler",
+  "exact_class": "StandardScaler",
+  "pickle_reference_offset": 49901669,
+  "cause": "Host Python -I excluded repository root, so pickle could not import project module required by accepted preprocessed artifact.",
+  "minimum_future_packaging_change": "A separately authorized new attempt would need a narrowly pinned import mechanism for the exact working.minimal_standard_scaler module before pickle.load; no broad sys.path/environment fallback. Not applied here.",
+  "workers_launched": 0,
+  "worker_evidence_json_count": 0,
+  "prediction_npz_count": 0,
+  "candidate_state_payload_count": 0,
+  "source_fits": 0,
+  "candidate_fits": 0,
+  "scores": 0,
+  "independent_candidate_validation": "NOT_RUN_NO_OUTPUTS",
+  "pickle_load_attempted": true,
+  "pickle_load_returned": false,
+  "label_exposure_assessment": "No object was assigned to coordinator variable d and no worker existed. Pickle may have internally reconstructed preceding members before failing near the scaler reference; therefore do not claim no host-side transient deserialization. No labels entered fitting/prediction.",
+  "protected_33": "PASS",
+  "manifest_hash": "PASS",
+  "rf_hash": "PASS",
+  "original_clean": true,
+  "historical_runs": [
+    {
+      "inventory": "working/G4C-E2-001/artifact_hash_manifest.json",
+      "files": 18,
+      "status": "PASS"
+    },
+    {
+      "inventory": "working/G4C-E2-002/checkpoint/artifact_hash_manifest.json",
+      "files": 11,
+      "status": "PASS"
+    }
+  ],
+  "E2_scientific_criteria": "NOT_EVALUATED",
+  "E3_authorization_recommended": false,
+  "notebook4_rerun": false,
+  "retry_or_repair": false,
+  "execution_coordinator_sha256": "36a5f6ecb08419a1dfde61eab61c03645e9013ae00a31ae8e06da21580dfe78c"
+}

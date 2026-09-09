@@ -1,0 +1,22 @@
+{
+  "run_id": "G4B-E1-001",
+  "sandbox": {
+    "python": "3.14.4",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "scikit_learn": "1.9.0",
+    "narwhals": "2.25.0",
+    "joblib": "1.5.3",
+    "threadpoolctl": "3.6.0",
+    "openblas_threads": 1,
+    "omp_threads": 1,
+    "address_space_limit_bytes": 6442450944,
+    "cpu_limit_seconds_per_worker": 180,
+    "peak_rss": "NOT_CAPTURED"
+  },
+  "runtime_lock_sha256": "cbebbda8f2a2a470d3d639e51fdf63b24afa7c950044bbf6b35a81dc9c21b514",
+  "runtime_tree_sha256": "b4e8c3f09000fd6764d8491ca963b8a3a246545e8a4a6244270db44a2d51b19f",
+  "manifest_sha256": "9d493d99f60098cb22fd781c51e2d2907d6831df72cb2524700293aa1a1bbf32",
+  "host_fallback": false,
+  "dependencies_added": false
+}

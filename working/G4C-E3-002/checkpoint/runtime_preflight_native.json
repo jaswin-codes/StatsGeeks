@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "python": "3.14.4 (main, Jun 18 2026, 14:25:02) [GCC 15.2.0]",
+  "executable": "/usr/bin/python3.14",
+  "runtime_tree_files": 4355,
+  "runtime_lock_sha256": "cbebbda8f2a2a470d3d639e51fdf63b24afa7c950044bbf6b35a81dc9c21b514",
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "sklearn": "1.9.0",
+    "joblib": "1.5.3",
+    "threadpoolctl": "3.6.0",
+    "narwhals": "2.25.0"
+  },
+  "native_rf": {
+    "path": "/home/jaswin/.local/share/statsgeeks/frozen_rf/5ffdd11f300532a14b3c2957a1ac77b748aa91c0a4d1a88f1ff0a3735dc75870.pkl",
+    "sha256": "5ffdd11f300532a14b3c2957a1ac77b748aa91c0a4d1a88f1ff0a3735dc75870",
+    "bytes": 1336382673,
+    "mode": "0444",
+    "linux_native": true
+  },
+  "existing_production_processes": []
+}

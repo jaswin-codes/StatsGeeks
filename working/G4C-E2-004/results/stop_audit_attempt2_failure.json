@@ -1,0 +1,9 @@
+{
+  "status": "VERIFIER_ASSERTION_FAILURE",
+  "candidate_execution_retried": false,
+  "candidate_outputs_changed": false,
+  "traceback": "Traceback (most recent call last):\n  File <stdin>, line 8, in <module>\nAssertionError\n",
+  "disposition": "Independent stop-audit did not complete. No further verifier repair or retry performed. This reinforces STOP and prevents any validation PASS claim.",
+  "scientific_disagreement": false,
+  "candidate_validation": "NOT COMPLETED"
+}

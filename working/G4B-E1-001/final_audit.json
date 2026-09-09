@@ -1,0 +1,13 @@
+{
+  "E2_E5": false,
+  "auditor_sha256": "782fbd27780f5146416c7d36d3f098b584ae95ea84380a4436afccd361191a74",
+  "current_support_label_scopes": 60,
+  "episode_outputs": 60,
+  "manifest_sha256": "9d493d99f60098cb22fd781c51e2d2907d6831df72cb2524700293aa1a1bbf32",
+  "original_clean": true,
+  "protected_33": "PASS",
+  "query_fingerprints": 60,
+  "source_state_hashes": 60,
+  "status": "PASS",
+  "teardown": 60
+}

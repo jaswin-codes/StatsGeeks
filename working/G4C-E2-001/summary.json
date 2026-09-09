@@ -1,0 +1,20 @@
+{
+  "run_id": "G4C-E2-001",
+  "status": "STOPPED_BEFORE_WORKER_LAUNCH",
+  "scientific_verdict": "NOT_EVALUATED",
+  "episodes_completed": 0,
+  "source_fits": 0,
+  "candidate_workers_launched": 0,
+  "primary_25_shot": null,
+  "independent_candidate_verification": "NOT_RUN",
+  "independent_stop_audit": "independent_stop_audit.json",
+  "reason": "Checkpointed pre-existing working/Open Notebook.onetoc2 changed after provenance capture; coordinator integrity assertion failed.",
+  "dirty_start_authorized": true,
+  "dirty_git_itself_was_a_blocker": false,
+  "protected_33_match_at_stop": true,
+  "original_clean_at_stop": true,
+  "manifest_unchanged": true,
+  "notebook4_rerun": false,
+  "next_candidates": {"E3": "NOT_RUN", "E4": "NOT_RUN", "E5": "NOT_RUN"},
+  "retry_or_repair_performed": false
+}

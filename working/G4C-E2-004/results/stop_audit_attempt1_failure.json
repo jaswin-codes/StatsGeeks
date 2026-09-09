@@ -1,0 +1,8 @@
+{
+  "status": "VERIFIER_IMPLEMENTATION_FAILURE",
+  "candidate_execution_retried": false,
+  "candidate_outputs_changed": false,
+  "reason": "The first stop-audit parser selected the first textual occurrence of 'Worker failed:' from Python source context rather than the final embedded JSON occurrence, causing an assertion before output creation.",
+  "repair_scope": "Verifier-only parsing changed to use the final marker and JSONDecoder.raw_decode. No worker, source fit, episode, prediction, or candidate artifact was rerun.",
+  "scientific_disagreement": false
+}

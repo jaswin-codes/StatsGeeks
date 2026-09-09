@@ -1,0 +1,35 @@
+{
+  "run_id": "G4C-INFRA-PICKLE-001",
+  "status": "PASS_READY_FOR_EXPERIMENT_EXECUTION",
+  "excludes_self": true,
+  "created_utc": "2026-09-08T19:32:44.191331+00:00",
+  "files": {
+    "working/G4C-INFRA-PICKLE-001/deserialization_receipt.json": {
+      "bytes": 888,
+      "sha256": "2867890f9e207b2c2c1c7722d91d1d621b046fecf18699e83567295e974f68aa"
+    },
+    "working/G4C-INFRA-PICKLE-001/integrity_after.json": {
+      "bytes": 1378,
+      "sha256": "d803b72df54898eb3f0851e98296c4e7a139775ccaba3dcebda44266944a0927"
+    },
+    "working/G4C-INFRA-PICKLE-001/isolated_pickle_loader.py": {
+      "bytes": 4538,
+      "sha256": "bc4b26e17909642985dab8d6dd1a60f5e6f09982680a09daa74b496c923ff488"
+    },
+    "working/G4C-INFRA-PICKLE-001/loader.log": {
+      "bytes": 118,
+      "sha256": "e17c6ebab1004e2010ab2433cf97beb08d49c9a8064f77b35f59b73fd789e7cd"
+    },
+    "working/G4C-INFRA-PICKLE-001/Open Notebook.onetoc2": {
+      "bytes": 5040,
+      "sha256": "9bdb89ef1128c0e856cbfcf7e37e40c43f688dcd1a8a623b9ba60101381769c0"
+    },
+    "working/G4C-INFRA-PICKLE-001/REPORT.md": {
+      "bytes": 4061,
+      "sha256": "5515973f09ebce6e599e8cfe4b8516a870f4505efa6bf6658ba67492e6fe3f24"
+    }
+  },
+  "workers_launched": 0,
+  "models_fit": 0,
+  "predictions_generated": 0
+}

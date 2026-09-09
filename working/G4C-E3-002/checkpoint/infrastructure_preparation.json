@@ -1,0 +1,35 @@
+{
+  "authorization": {
+    "run_id": "G4C-E3-002",
+    "candidate": "E3",
+    "scope": "execution",
+    "utc": "2026-09-09T08:47:47.412099+00:00",
+    "authorization": "User explicitly authorizes proceeding after prelaunch stop and accepting only CERT-004 documented OneNote metadata change; all scientific/runtime/isolation/integrity/validation checks retained. No E4/E5.",
+    "metadata_exception": {
+      "path": "working/G4C-INFRA-PERF-001/code/Open Notebook.onetoc2",
+      "accepted_sha256": "e2e685e8b6be61f2d70f5e33191a4629a1b92d1516f1f6c1738ace9a75904025"
+    },
+    "prelaunch_report_preserved_sha256": "63590ca5c8d34fcbc81d530a7b3d0cd3e638ca58024a1c71cbf1d64e67ceb65a",
+    "no_prior_predictions_or_state_reused": true
+  },
+  "source": "working/G4C-E3-001/coordinator",
+  "changes": [
+    "existing certified bounded signature read",
+    "existing certified native RF transport",
+    "new run identity only",
+    "authorized preparation in existing prelaunch-only directory"
+  ],
+  "code_hashes": {
+    "episode_worker.py": "b3cf5ab28ccbac2506c8ed7398a3b25254b24c86d8e58e5f1de742577660c350",
+    "source_worker.py": "c00c31624c9e107ce5aba2024c9c834648ff92f816acb390127846a2b3938d30",
+    "preflight_worker.py": "bb5a3114ebfaa4cf0716d9cf4f4467c6682924c95ffd7fa631b40ca4b513e2f6",
+    "g4c_boundary.py": "8f26bf3aac0c978d259e6461bb4b088f2309d12e824baeb181292d991c0a4483",
+    "gate4_lifecycle.py": "8ccb275ac923e51c502be0b43d327955ab3aa8d6a2f1c2c0563536db140d3de4",
+    "gate4_production_boundary.py": "7a3bf3357cc786590e4ccf868c7c52af7072c18db7b5ddd9f76edefe30b24d95",
+    "execution_coordinator.py": "b7aab518605f809c28bab02ba8db34f168d5968bc14bbdc4b68bef541be89442",
+    "g4c_linux_call.py": "6ca48dea6a3bf49c3ed629ba120eb5093d0e4afd48b651a424594f7584a7f6e3",
+    "immutable_io.py": "7c21179b2e9c22712d7cdc658139dfa6f7f51e18c82ebc3bd13b775e2bc361e7",
+    "native_cache.json": "63d9e618ad733a185315e9603fc96582d07b737ed8233baa16d148990100ab81"
+  },
+  "experiments_launched": 0
+}

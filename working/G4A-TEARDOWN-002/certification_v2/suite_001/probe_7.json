@@ -1,0 +1,516 @@
+{
+  "candidate_modelling": false,
+  "child_pid": 477,
+  "code_sha256": "ddb0578f7bcc8ed40763708f74194996e9af1ea2c8cfaf62852cf213278d95c0",
+  "elapsed_seconds": 17.61060926800002,
+  "episode_index": 0,
+  "immediate_namespace_survivors": [
+    477
+  ],
+  "interrupted": false,
+  "lifecycle": {
+    "deadline_seconds": 5,
+    "events": [
+      {
+        "kind": "observation",
+        "monotonic_seconds": 0.056216719000019566,
+        "pid": 476,
+        "process": {
+          "cmdline": "/usr/bin/bwrap --unshare-all --unshare-user --disable-userns --die-with-parent --new-session --cap-drop ALL --ro-bind /home/jaswin/.local/share/gate4a/runtime_v4_narwhals/image / --proc /proc --dev /dev --tmpfs /tmp --chdir /tmp --clearenv --tmpfs /app --ro-bind-data 4 /app/entry.py --remount-ro /app --info-fd 6 --setenv HOME /tmp --setenv LD_LIBRARY_PATH /numeric/numpy.libs:/numeric/scikit_learn.libs:/numeric/scipy.libs --setenv OMP_NUM_THREADS 1 --setenv OPENBLAS_NUM_THREADS 1 --setenv PATH /usr/bin -- /usr/bin/python3.14 -I -B /app/entry.py ",
+          "command": "bwrap",
+          "exit_code": 0,
+          "exit_signal": 17,
+          "namespace_pids": [
+            "476"
+          ],
+          "pid": 476,
+          "pid_namespace": "pid:[4026532221]",
+          "ppid": 332,
+          "process_group": 476,
+          "session": 476,
+          "start_ticks": 16409,
+          "state": "R"
+        },
+        "stage": "launch",
+        "start_ticks": 16409,
+        "wall_time_ns": 1788874706279539535
+      },
+      {
+        "kind": "observation",
+        "monotonic_seconds": 0.06226855799999953,
+        "pid": 476,
+        "process": {
+          "cmdline": "/usr/bin/bwrap --unshare-all --unshare-user --disable-userns --die-with-parent --new-session --cap-drop ALL --ro-bind /home/jaswin/.local/share/gate4a/runtime_v4_narwhals/image / --proc /proc --dev /dev --tmpfs /tmp --chdir /tmp --clearenv --tmpfs /app --ro-bind-data 4 /app/entry.py --remount-ro /app --info-fd 6 --setenv HOME /tmp --setenv LD_LIBRARY_PATH /numeric/numpy.libs:/numeric/scikit_learn.libs:/numeric/scipy.libs --setenv OMP_NUM_THREADS 1 --setenv OPENBLAS_NUM_THREADS 1 --setenv PATH /usr/bin -- /usr/bin/python3.14 -I -B /app/entry.py ",
+          "command": "bwrap",
+          "exit_code": 0,
+          "exit_signal": 17,
+          "namespace_pids": [
+            "476"
+          ],
+          "pid": 476,
+          "pid_namespace": "pid:[4026532221]",
+          "ppid": 332,
+          "process_group": 476,
+          "session": 476,
+          "start_ticks": 16409,
+          "state": "S"
+        },
+        "stage": "streaming",
+        "start_ticks": 16409,
+        "wall_time_ns": 1788874706285589420
+      },
+      {
+        "kind": "observation",
+        "monotonic_seconds": 0.07052700300002357,
+        "pid": 477,
+        "process": {
+          "cmdline": "/usr/bin/bwrap --unshare-all --unshare-user --disable-userns --die-with-parent --new-session --cap-drop ALL --ro-bind /home/jaswin/.local/share/gate4a/runtime_v4_narwhals/image / --proc /proc --dev /dev --tmpfs /tmp --chdir /tmp --clearenv --tmpfs /app --ro-bind-data 4 /app/entry.py --remount-ro /app --info-fd 6 --setenv HOME /tmp --setenv LD_LIBRARY_PATH /numeric/numpy.libs:/numeric/scikit_learn.libs:/numeric/scipy.libs --setenv OMP_NUM_THREADS 1 --setenv OPENBLAS_NUM_THREADS 1 --setenv PATH /usr/bin -- /usr/bin/python3.14 -I -B /app/entry.py ",
+          "command": "bwrap",
+          "exit_code": 0,
+          "exit_signal": 17,
+          "namespace_pids": [
+            "477",
+            "1"
+          ],
+          "pid": 477,
+          "pid_namespace": "pid:[4026532230]",
+          "ppid": 476,
+          "process_group": 477,
+          "session": 477,
+          "start_ticks": 16412,
+          "state": "S"
+        },
+        "stage": "namespace_created",
+        "start_ticks": 16412,
+        "wall_time_ns": 1788874706293847966
+      },
+      {
+        "kind": "observation",
+        "monotonic_seconds": 0.07701531600000067,
+        "pid": 478,
+        "process": {
+          "cmdline": "/usr/bin/python3.14 -I -B /app/entry.py ",
+          "command": "python3.14",
+          "exit_code": 0,
+          "exit_signal": 17,
+          "namespace_pids": [
+            "478",
+            "2"
+          ],
+          "pid": 478,
+          "pid_namespace": "pid:[4026532230]",
+          "ppid": 477,
+          "process_group": 477,
+          "session": 477,
+          "start_ticks": 16414,
+          "state": "R"
+        },
+        "stage": "streaming",
+        "start_ticks": 16414,
+        "wall_time_ns": 1788874706300335808
+      },
+      {
+        "kind": "observation",
+        "monotonic_seconds": 4.5024042699999995,
+        "pid": 478,
+        "process": {
+          "cmdline": "/usr/bin/python3.14 -I -B /app/entry.py ",
+          "command": "python3.14",
+          "exit_code": 0,
+          "exit_signal": 17,
+          "namespace_pids": [
+            "478",
+            "2"
+          ],
+          "pid": 478,
+          "pid_namespace": "pid:[4026532230]",
+          "ppid": 477,
+          "process_group": 477,
+          "session": 477,
+          "start_ticks": 16414,
+          "state": "S"
+        },
+        "stage": "streaming",
+        "start_ticks": 16414,
+        "wall_time_ns": 1788874710725724742
+      },
+      {
+        "kind": "observation",
+        "monotonic_seconds": 4.593138496000023,
+        "pid": 478,
+        "process": {
+          "cmdline": "/usr/bin/python3.14 -I -B /app/entry.py ",
+          "command": "python3.14",
+          "exit_code": 0,
+          "exit_signal": 17,
+          "namespace_pids": [
+            "478",
+            "2"
+          ],
+          "pid": 478,
+          "pid_namespace": "pid:[4026532230]",
+          "ppid": 477,
+          "process_group": 477,
+          "session": 477,
+          "start_ticks": 16414,
+          "state": "R"
+        },
+        "stage": "streaming",
+        "start_ticks": 16414,
+        "wall_time_ns": 1788874710816458767
+      },
+      {
+        "kind": "observation",
+        "monotonic_seconds": 4.595838879000013,
+        "pid": 478,
+        "process": {
+          "cmdline": "/usr/bin/python3.14 -I -B /app/entry.py ",
+          "command": "python3.14",
+          "exit_code": 0,
+          "exit_signal": 17,
+          "namespace_pids": [
+            "478",
+            "2"
+          ],
+          "pid": 478,
+          "pid_namespace": "pid:[4026532230]",
+          "ppid": 477,
+          "process_group": 477,
+          "session": 477,
+          "start_ticks": 16414,
+          "state": "S"
+        },
+        "stage": "streaming",
+        "start_ticks": 16414,
+        "wall_time_ns": 1788874710819158589
+      },
+      {
+        "kind": "observation",
+        "monotonic_seconds": 10.700469126000002,
+        "pid": 478,
+        "process": {
+          "cmdline": "/usr/bin/python3.14 -I -B /app/entry.py ",
+          "command": "python3.14",
+          "exit_code": 0,
+          "exit_signal": 17,
+          "namespace_pids": [
+            "478",
+            "2"
+          ],
+          "pid": 478,
+          "pid_namespace": "pid:[4026532230]",
+          "ppid": 477,
+          "process_group": 477,
+          "session": 477,
+          "start_ticks": 16414,
+          "state": "R"
+        },
+        "stage": "streaming",
+        "start_ticks": 16414,
+        "wall_time_ns": 1788874716923793325
+      },
+      {
+        "kind": "observation",
+        "monotonic_seconds": 15.886071928000007,
+        "pid": 478,
+        "process": {
+          "cmdline": "/usr/bin/python3.14 -I -B /app/entry.py ",
+          "command": "python3.14",
+          "exit_code": 0,
+          "exit_signal": 17,
+          "namespace_pids": [
+            "478",
+            "2"
+          ],
+          "pid": 478,
+          "pid_namespace": "pid:[4026532230]",
+          "ppid": 477,
+          "process_group": 477,
+          "session": 477,
+          "start_ticks": 16414,
+          "state": "S"
+        },
+        "stage": "streaming",
+        "start_ticks": 16414,
+        "wall_time_ns": 1788874722109392409
+      },
+      {
+        "kind": "observation",
+        "monotonic_seconds": 15.94142779500001,
+        "pid": 479,
+        "process": {
+          "cmdline": "/usr/bin/python3.14 -I -B /app/entry.py ",
+          "command": "python3.14",
+          "exit_code": 0,
+          "exit_signal": 17,
+          "namespace_pids": [
+            "479",
+            "3"
+          ],
+          "pid": 479,
+          "pid_namespace": "pid:[4026532230]",
+          "ppid": 478,
+          "process_group": 479,
+          "session": 479,
+          "start_ticks": 17995,
+          "state": "S"
+        },
+        "stage": "streaming",
+        "start_ticks": 17995,
+        "wall_time_ns": 1788874722164748707
+      },
+      {
+        "kind": "observation",
+        "monotonic_seconds": 16.40734585300001,
+        "pid": 478,
+        "process": {
+          "cmdline": "/usr/bin/python3.14 -I -B /app/entry.py ",
+          "command": "python3.14",
+          "exit_code": 0,
+          "exit_signal": 17,
+          "namespace_pids": [
+            "478",
+            "2"
+          ],
+          "pid": 478,
+          "pid_namespace": "pid:[4026532230]",
+          "ppid": 477,
+          "process_group": 477,
+          "session": 477,
+          "start_ticks": 16414,
+          "state": "R"
+        },
+        "stage": "streaming",
+        "start_ticks": 16414,
+        "wall_time_ns": 1788874722630665934
+      },
+      {
+        "kind": "observation",
+        "monotonic_seconds": 17.564876310000017,
+        "pid": 476,
+        "process": {
+          "cmdline": "",
+          "command": "bwrap",
+          "exit_code": 0,
+          "exit_signal": 17,
+          "namespace_pids": [
+            "476"
+          ],
+          "pid": 476,
+          "pid_namespace": "pid:[4026532221]",
+          "ppid": 332,
+          "process_group": 476,
+          "session": 476,
+          "start_ticks": 16409,
+          "state": "Z"
+        },
+        "stage": "streaming",
+        "start_ticks": 16409,
+        "wall_time_ns": 1788874723788196511
+      },
+      {
+        "kind": "observation",
+        "monotonic_seconds": 17.56500466,
+        "pid": 477,
+        "process": {
+          "cmdline": "",
+          "command": "bwrap",
+          "exit_code": 9,
+          "exit_signal": 17,
+          "namespace_pids": [
+            "477",
+            "1"
+          ],
+          "pid": 477,
+          "pid_namespace": "pid:[4026532230]",
+          "ppid": 332,
+          "process_group": 477,
+          "session": 477,
+          "start_ticks": 16412,
+          "state": "S"
+        },
+        "stage": "streaming",
+        "start_ticks": 16412,
+        "wall_time_ns": 1788874723788324060
+      },
+      {
+        "kind": "observation",
+        "monotonic_seconds": 17.565036570000018,
+        "pid": 478,
+        "process": null,
+        "stage": "streaming",
+        "start_ticks": 16414,
+        "wall_time_ns": 1788874723788355819
+      },
+      {
+        "kind": "observation",
+        "monotonic_seconds": 17.565167494999997,
+        "pid": 479,
+        "process": {
+          "cmdline": "",
+          "command": "python3.14",
+          "exit_code": 9,
+          "exit_signal": 17,
+          "namespace_pids": [
+            "479",
+            "3"
+          ],
+          "pid": 479,
+          "pid_namespace": "pid:[4026532230]",
+          "ppid": 477,
+          "process_group": 479,
+          "session": 479,
+          "start_ticks": 17995,
+          "state": "R"
+        },
+        "stage": "streaming",
+        "start_ticks": 17995,
+        "wall_time_ns": 1788874723788486754
+      },
+      {
+        "kind": "observation",
+        "monotonic_seconds": 17.603866812000007,
+        "pid": 477,
+        "process": {
+          "cmdline": "",
+          "command": "bwrap",
+          "exit_code": 9,
+          "exit_signal": 17,
+          "namespace_pids": [
+            "477",
+            "1"
+          ],
+          "pid": 477,
+          "pid_namespace": "pid:[4026532230]",
+          "ppid": 332,
+          "process_group": 477,
+          "session": 477,
+          "start_ticks": 16412,
+          "state": "Z"
+        },
+        "stage": "before_launcher_wait",
+        "start_ticks": 16412,
+        "wall_time_ns": 1788874723827187524
+      },
+      {
+        "kind": "observation",
+        "monotonic_seconds": 17.603913449000004,
+        "pid": 479,
+        "process": null,
+        "stage": "before_launcher_wait",
+        "start_ticks": 17995,
+        "wall_time_ns": 1788874723827233139
+      },
+      {
+        "kind": "launcher_wait_completed",
+        "monotonic_seconds": 17.60483265900001,
+        "returncode": 0,
+        "wall_time_ns": 1788874723828152419
+      },
+      {
+        "kind": "observation",
+        "monotonic_seconds": 17.606818134000008,
+        "pid": 476,
+        "process": null,
+        "stage": "immediate_post_wait",
+        "start_ticks": 16409,
+        "wall_time_ns": 1788874723830137794
+      },
+      {
+        "exit_code": -9,
+        "kind": "waitpid_reaped",
+        "monotonic_seconds": 17.607177937000017,
+        "pid": 477,
+        "start_ticks": 16412,
+        "wait_status": 9,
+        "wall_time_ns": 1788874723830497357
+      },
+      {
+        "kind": "observation",
+        "monotonic_seconds": 17.60881912800002,
+        "pid": 477,
+        "process": null,
+        "stage": "bounded_settle",
+        "start_ticks": 16412,
+        "wall_time_ns": 1788874723832138848
+      },
+      {
+        "kind": "teardown_complete",
+        "monotonic_seconds": 17.608901271999997,
+        "survivors": [],
+        "wall_time_ns": 1788874723832220832
+      }
+    ],
+    "final_survivors": [],
+    "historical_432_434_state": "Not recorded; cannot retrospectively determine",
+    "immediate_post_wait": [
+      {
+        "cmdline": "",
+        "command": "bwrap",
+        "exit_code": 9,
+        "exit_signal": 17,
+        "namespace_pids": [
+          "477",
+          "1"
+        ],
+        "pid": 477,
+        "pid_namespace": "pid:[4026532230]",
+        "ppid": 332,
+        "process_group": 477,
+        "session": 477,
+        "start_ticks": 16412,
+        "state": "Z"
+      }
+    ],
+    "known_identities": {
+      "476": 16409,
+      "477": 16412,
+      "478": 16414,
+      "479": 17995
+    },
+    "owner_pid": 332,
+    "pass_": true,
+    "reaped": [
+      {
+        "exit_code": -9,
+        "pid": 477,
+        "start_ticks": 16412,
+        "wait_status": 9
+      }
+    ],
+    "samples": 2049,
+    "subreaper_enabled": true
+  },
+  "namespace": "pid:[4026532230]",
+  "namespace_initial_members": [
+    477,
+    478
+  ],
+  "namespace_survivors": [],
+  "packet_fields": [
+    "X_query",
+    "X_source",
+    "X_support",
+    "parameters",
+    "query_ids",
+    "support_ids",
+    "y_source",
+    "y_support"
+  ],
+  "packet_sha256": "38fd3615c2eff7426a73846416a7b67e30caec3e1fe1c6185c5e37660f3f6818",
+  "reason": null,
+  "resource_limits": {
+    "address_space_bytes": 6442450944,
+    "cpu_seconds": 120,
+    "output_bytes": 78172,
+    "threads": 1
+  },
+  "returncode": 0,
+  "routing_role": "future_E1",
+  "runtime_lock_sha256": "cbebbda8f2a2a470d3d639e51fdf63b24afa7c950044bbf6b35a81dc9c21b514",
+  "status": "PASS",
+  "stderr": "",
+  "stdout_bytes": 52048,
+  "stdout_sha256": "ece514293c692fce0758d5942be9236132f06dca6a3820df98be2748292e1f35",
+  "teardown_pass": true
+}

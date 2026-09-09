@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-09-09T07:10:27.418723+00:00",
+  "authorization_scope": "Infrastructure upgrade, file I/O benchmarking, offline and synthetic tests; NO workers or experiments",
+  "git_head": "165fe11df8779eed514c75bd2852c2b9588a18a4",
+  "original_git_status": "",
+  "existing_experiment_files_modified": false,
+  "new_run_directories_created": false,
+  "new_worker_launches": 0,
+  "staged_native_rf_bytes": 1336382673,
+  "phase_3_implemented": false,
+  "execution_readiness": "NOT_CERTIFIED_END_TO_END",
+  "offline_checks": "PASS"
+}

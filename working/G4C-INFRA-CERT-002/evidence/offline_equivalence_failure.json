@@ -1,0 +1,10 @@
+{
+  "status": "FAIL",
+  "error": "NPZ byte divergence: G4A-B005-T01",
+  "selected_episode_ordinals": [
+    1,
+    21,
+    51
+  ],
+  "worker_launches": 0
+}

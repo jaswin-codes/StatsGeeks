@@ -1,0 +1,116 @@
+{
+  "abnormal_teardown": "NOT_RUN_STOP_RULE",
+  "artifact_sha256": {
+    "working/gate4_runtime_lock.json": "5fbd566cdd9b1597a12e2e1a927ccf2820175d55d4d601047909a1023408bc4b",
+    "working/gate4_runtime_provision_attempt3.log": "d48f119d9d0d746d2438e98f2d79793ef6e6a8e091841e52ec66e0846c44f88a",
+    "working/gate4_runtime_validation.json": "da9278cadc5e3c4f4b7ccacc375b8fc9364b4b91f17ddff6489c43c3e6ccaada",
+    "working/provision_gate4_runtime.py": "1da0e45cb881c597e62a0bf61a517a6b5284d6b35cf985cd5f85ae5f5dcb46cf",
+    "working/verify_gate4_runtime.py": "0209eca81e792615c844f320280fbb3824dacd6388231e457b26ba50926967d2"
+  },
+  "artifact_type": "runtime_dependency_repair_failure_not_manifest",
+  "candidate_metrics": false,
+  "candidate_modelling": false,
+  "cause": "Approved pinned wheel set omits a required Python dependency of the unchanged scikit-learn 1.9.0. No Narwhals wheel/version/hash has been authorised; no fallback or download attempted.",
+  "created_utc": "2026-09-08T12:32:21.851313+00:00",
+  "cross_episode_isolation": "NOT_RUN_STOP_RULE",
+  "declared_native_dependency_inventory": "working/gate4_runtime_lock.json: declared_native_sources and dependency_resolution",
+  "dependency_evidence": "Requires-Dist in scikit_learn-1.9.0.dist-info/METADATA from the pinned wheel",
+  "exact_error": "RuntimeError('Isolated numerical runtime failed: Traceback (most recent call last):\\n  File \"<string>\", line 6, in <module>\\n    import sklearn, joblib, threadpoolctl\\n  File \"/numeric/sklearn/__init__.py\", line 70, in <module>\\n    from sklearn.base import clone  # noqa: E402\\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \"/numeric/sklearn/base.py\", line 20, in <module>\\n    from sklearn.utils._metadata_requests import _MetadataRequester, _routing_enabled\\n  File \"/numeric/sklearn/utils/__init__.py\", line 9, in <module>\\n    from sklearn.utils._chunking import gen_batches, gen_even_slices\\n  File \"/numeric/sklearn/utils/_chunking.py\", line 11, in <module>\\n    from sklearn.utils._param_validation import Interval, validate_params\\n  File \"/numeric/sklearn/utils/_param_validation.py\", line 17, in <module>\\n    from sklearn.utils.validation import _is_arraylike_not_scalar\\n  File \"/numeric/sklearn/utils/validation.py\", line 14, in <module>\\n    import narwhals.stable.v2 as nw\\nModuleNotFoundError: No module named \\'narwhals\\'\\n')",
+  "fresh_state": "NOT_RUN_STOP_RULE",
+  "host_fallback": "No host runtime mount; clean environment; isolated root is the staged image. Traceback imports sklearn from /numeric. Full post-import native-map check was not reached.",
+  "image_file_count": 4188,
+  "image_path": "/home/jaswin/.local/share/gate4a/runtime_v3/image",
+  "independent_verification": "Separate WSL verifier rebuilt identical runtime bytes, then failed isolated stack import; not an overall PASS",
+  "interpreter_path": "/usr/bin/python3.14",
+  "interpreter_sha256": "b8d8288faefdd300201f43fcf00f6f539a27218eeed3a3dff5ab10b9c4c99700",
+  "libquadmath_staging": "PASS: explicit wheel-local loader paths and reuse of already-staged dependencies; no recursive image-prefix copying",
+  "manifest_created": false,
+  "manifest_integrity": "NOT_RUN_NO_MANIFEST",
+  "matched_comparator_routing": "NOT_RERUN; prior feasibility only",
+  "next_authorised_action": "STOP for Team Lead review; request exact version and wheel SHA256 approval for the required Narwhals dependency, then a narrowly scoped runtime-staging continuation. No E1.",
+  "normal_teardown": "NOT_RUN_REAL_EPISODES",
+  "notebook4_rerun": false,
+  "numerical_operations": "NOT_REACHED: stack import failed before smoke arithmetic",
+  "original_git_status": "",
+  "prediction_boundary": "NOT_RUN_THIS_ATTEMPT",
+  "protected_files_changed": [],
+  "protected_files_count": 33,
+  "provisioning_loader_environment": {
+    "LC_ALL": "C",
+    "LD_LIBRARY_PATH": "/home/jaswin/.local/share/gate4a/runtime_v3/image/numeric/numpy.libs:/home/jaswin/.local/share/gate4a/runtime_v3/image/numeric/scikit_learn.libs:/home/jaswin/.local/share/gate4a/runtime_v3/image/numeric/scipy.libs:/home/jaswin/.local/share/gate4a/runtime_v3/image/lib/x86_64-linux-gnu:/home/jaswin/.local/share/gate4a/runtime_v3/image/usr/lib/x86_64-linux-gnu",
+    "PATH": "/usr/bin:/bin"
+  },
+  "quadmath_resolution": [
+    {
+      "elf": "numeric/numpy.libs/libquadmath-96973f99-934c22de.so.0.0.0",
+      "ldd": "\tlinux-vdso.so.1 (0x000077cdd591f000)\n\tlibm.so.6 => /home/jaswin/.local/share/gate4a/runtime_v3/image/usr/lib/x86_64-linux-gnu/libm.so.6 (0x000077cdd54da000)\n\tlibc.so.6 => /home/jaswin/.local/share/gate4a/runtime_v3/image/usr/lib/x86_64-linux-gnu/libc.so.6 (0x000077cdd5200000)\n\t/lib64/ld-linux-x86-64.so.2 (0x000077cdd5921000)\n"
+    },
+    {
+      "elf": "numeric/numpy.libs/libgfortran-040039e1-0352e75f.so.5.0.0",
+      "ldd": "\tlinux-vdso.so.1 (0x000074ba62b42000)\n\tlibquadmath-96973f99-934c22de.so.0.0.0 => /home/jaswin/.local/share/gate4a/runtime_v3/image/numeric/numpy.libs/libquadmath-96973f99-934c22de.so.0.0.0 (0x000074ba62200000)\n\tlibz.so.1 => /home/jaswin/.local/share/gate4a/runtime_v3/image/usr/lib/x86_64-linux-gnu/libz.so.1 (0x000074ba62b1c000)\n\tlibm.so.6 => /home/jaswin/.local/share/gate4a/runtime_v3/image/usr/lib/x86_64-linux-gnu/libm.so.6 (0x000074ba624da000)\n\tlibgcc_s.so.1 => /home/jaswin/.local/share/gate4a/runtime_v3/image/usr/lib/x86_64-linux-gnu/libgcc_s.so.1 (0x000074ba62aee000)\n\tlibc.so.6 => /home/jaswin/.local/share/gate4a/runtime_v3/image/usr/lib/x86_64-linux-gnu/libc.so.6 (0x000074ba61e00000)\n\t/lib64/ld-linux-x86-64.so.2 (0x000074ba62b44000)\n"
+    },
+    {
+      "elf": "numeric/scipy.libs/libquadmath-96973f99-934c22de.so.0.0.0",
+      "ldd": "\tlinux-vdso.so.1 (0x00007dcd1b8df000)\n\tlibm.so.6 => /home/jaswin/.local/share/gate4a/runtime_v3/image/usr/lib/x86_64-linux-gnu/libm.so.6 (0x00007dcd1b4da000)\n\tlibc.so.6 => /home/jaswin/.local/share/gate4a/runtime_v3/image/usr/lib/x86_64-linux-gnu/libc.so.6 (0x00007dcd1b200000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007dcd1b8e1000)\n"
+    },
+    {
+      "elf": "numeric/scipy.libs/libgfortran-040039e1-0352e75f.so.5.0.0",
+      "ldd": "\tlinux-vdso.so.1 (0x000074651ede8000)\n\tlibquadmath-96973f99-934c22de.so.0.0.0 => /home/jaswin/.local/share/gate4a/runtime_v3/image/numeric/scipy.libs/libquadmath-96973f99-934c22de.so.0.0.0 (0x000074651e400000)\n\tlibz.so.1 => /home/jaswin/.local/share/gate4a/runtime_v3/image/usr/lib/x86_64-linux-gnu/libz.so.1 (0x000074651edc2000)\n\tlibm.so.6 => /home/jaswin/.local/share/gate4a/runtime_v3/image/usr/lib/x86_64-linux-gnu/libm.so.6 (0x000074651e6da000)\n\tlibgcc_s.so.1 => /home/jaswin/.local/share/gate4a/runtime_v3/image/usr/lib/x86_64-linux-gnu/libgcc_s.so.1 (0x000074651ed94000)\n\tlibc.so.6 => /home/jaswin/.local/share/gate4a/runtime_v3/image/usr/lib/x86_64-linux-gnu/libc.so.6 (0x000074651e000000)\n\t/lib64/ld-linux-x86-64.so.2 (0x000074651edea000)\n"
+    },
+    {
+      "elf": "numeric/scipy.libs/libquadmath-828275a7.so.0.0.0",
+      "ldd": "\tlinux-vdso.so.1 (0x000077e40c395000)\n\tlibm.so.6 => /home/jaswin/.local/share/gate4a/runtime_v3/image/usr/lib/x86_64-linux-gnu/libm.so.6 (0x000077e40c267000)\n\tlibc.so.6 => /home/jaswin/.local/share/gate4a/runtime_v3/image/usr/lib/x86_64-linux-gnu/libc.so.6 (0x000077e40bc00000)\n\t/lib64/ld-linux-x86-64.so.2 (0x000077e40c397000)\n"
+    },
+    {
+      "elf": "numeric/scipy.libs/libgfortran-8f1e9814.so.5.0.0",
+      "ldd": "\tlinux-vdso.so.1 (0x000074aded577000)\n\tlibquadmath-828275a7.so.0.0.0 => /home/jaswin/.local/share/gate4a/runtime_v3/image/numeric/scipy.libs/libquadmath-828275a7.so.0.0.0 (0x000074adecc00000)\n\tlibz.so.1 => /home/jaswin/.local/share/gate4a/runtime_v3/image/usr/lib/x86_64-linux-gnu/libz.so.1 (0x000074aded551000)\n\tlibm.so.6 => /home/jaswin/.local/share/gate4a/runtime_v3/image/usr/lib/x86_64-linux-gnu/libm.so.6 (0x000074adeceda000)\n\tlibgcc_s.so.1 => /home/jaswin/.local/share/gate4a/runtime_v3/image/usr/lib/x86_64-linux-gnu/libgcc_s.so.1 (0x000074aded523000)\n\tlibc.so.6 => /home/jaswin/.local/share/gate4a/runtime_v3/image/usr/lib/x86_64-linux-gnu/libc.so.6 (0x000074adec800000)\n\t/lib64/ld-linux-x86-64.so.2 (0x000074aded579000)\n"
+    }
+  ],
+  "real_episode_isolation": "NOT_RUN_STOP_RULE",
+  "required_missing_dependency": "narwhals>=2.0.1",
+  "runtime_functional": "FAIL: isolated sklearn import requires absent narwhals",
+  "runtime_rebuild": "PASS: independent full byte-tree reconstruction completed before import smoke failed",
+  "sandbox_environment": {
+    "HOME": "/tmp",
+    "LD_LIBRARY_PATH": "/numeric/numpy.libs:/numeric/scikit_learn.libs:/numeric/scipy.libs",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin"
+  },
+  "sixty_episode_replay": "NOT_RERUN_STOP_RULE; existing 60 stored identity/RNG records unchanged",
+  "status": "BLOCKED",
+  "stop_stage": "isolated full numerical-stack import",
+  "tree_sha256": "4a8db6867aca47681f6694a0f32b5d97c2e8c605d144935422f297a04fee1958",
+  "wheels": {
+    "joblib": {
+      "filename": "joblib-1.5.3-py3-none-any.whl",
+      "sha256": "5fc3c5039fc5ca8c0276333a188bbd59d6b7ab37fe6632daa76bc7f9ec18e713",
+      "source": "/home/jaswin/.local/share/gate4a/runtime_v2/wheels/joblib-1.5.3-py3-none-any.whl",
+      "version": "1.5.3"
+    },
+    "numpy": {
+      "filename": "numpy-2.4.6-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "a2c306dea656c12c68f51f4cea133cbe78ca7435eb28c735eac1d3ebe73be6e8",
+      "source": "/home/jaswin/.local/share/gate4a/runtime_v2/wheels/numpy-2.4.6-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "version": "2.4.6"
+    },
+    "scikit-learn": {
+      "filename": "scikit_learn-1.9.0-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "1fea2cc5677ab49d6f5bade978c866da44957b712d92e9635e8b4f723013c3cb",
+      "source": "/home/jaswin/.local/share/gate4a/runtime_v2/wheels/scikit_learn-1.9.0-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "version": "1.9.0"
+    },
+    "scipy": {
+      "filename": "scipy-1.17.1-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "eee2cfda04c00a857206a4330f0c5e3e56535494e30ca445eb19ec624ae75118",
+      "source": "/home/jaswin/.local/share/gate4a/runtime_v2/wheels/scipy-1.17.1-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "version": "1.17.1"
+    },
+    "threadpoolctl": {
+      "filename": "threadpoolctl-3.6.0-py3-none-any.whl",
+      "sha256": "43a0b8fd5a2928500110039e43a5eed8480b918967083ea48dc3ab9f13c4a7fb",
+      "source": "/home/jaswin/.local/share/gate4a/runtime_v2/wheels/threadpoolctl-3.6.0-py3-none-any.whl",
+      "version": "3.6.0"
+    }
+  }
+}

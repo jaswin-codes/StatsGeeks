@@ -1,0 +1,19 @@
+{
+  "certification_id": "G4C-INFRA-CERT-002",
+  "status": "FAIL",
+  "binding_tests": "PASS",
+  "offline_test_count": 19,
+  "protected_state": "PASS",
+  "protected_artifacts": 33,
+  "historical_files_checked": 1055,
+  "changed_historical_files": 0,
+  "prediction_equivalence": "FAIL_NPZ_BYTE_IDENTITY_ORIGINAL_REFERENCE",
+  "failed_episode": "G4A-B005-T01",
+  "prediction_array_comparison": "ELEMENTWISE_MATCH_FIRST_REFERENCE_EPISODE",
+  "optimized_prediction_comparison": "NOT_REACHED",
+  "runtime_readiness": "NOT_CERTIFIED",
+  "workers_launched": 0,
+  "full_experiments": 0,
+  "infrastructure_modified": false,
+  "historical_runs_modified": false
+}

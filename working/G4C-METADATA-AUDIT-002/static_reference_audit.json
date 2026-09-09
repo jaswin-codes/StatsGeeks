@@ -1,0 +1,969 @@
+{
+  "code_files": [
+    {
+      "path": "working/audit_gate4b_e1_final.py",
+      "sha256": "782fbd27780f5146416c7d36d3f098b584ae95ea84380a4436afccd361191a74",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/certify_gate4_manifest.py",
+      "sha256": "6a2bd30a5d8e9610121b171804dec33ddb01d03cb0bc5e0fae2313d1a9fc1c2e",
+      "literal_metadata_references": [
+        {
+          "line": 25,
+          "text": "    assert (ROOT/'original/Open Notebook.onetoc2').stat().st_file_attributes & 1"
+        }
+      ],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/diagnose_gate4_teardown.py",
+      "sha256": "0b04aaa40f69e3437a7c6244d7662caabf61505dfe147350268420528dceb272",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/freeze_member3_notebook4_outputs.py",
+      "sha256": "6a16e84e05458bdad1667bfdbb0056a7a5100028a74a6c9d59177dabfee277d0",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/g4c_boundary.py",
+      "sha256": "4891fb1847b99246cd30e94b36cfb7cf162c6a5b66290b790caf0c993d1698f2",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/g4c_episode_worker.py",
+      "sha256": "f556b29631c85cce77b2a196ad64bee50c1aeefe9fe15c1c9bfc3b08da694d8f",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": [
+        {
+          "line": 10,
+          "text": "for p in Path('/proc/self/fd').iterdir():"
+        }
+      ]
+    },
+    {
+      "path": "working/g4c_linux_call.py",
+      "sha256": "30616e0ba270fef02601685692db600abe3769492846a126c800c5a2151c2034",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/g4c_source_worker.py",
+      "sha256": "c00c31624c9e107ce5aba2024c9c834648ff92f816acb390127846a2b3938d30",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/gate4b_boundary.py",
+      "sha256": "1ffe0f29ab4eeb0808d951a2243fcab20c775dab7b71c46862a33fb79a6b434c",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/gate4b_episode_worker.py",
+      "sha256": "05dcde156dfaf0fef67a6ac9f7e07f61801dee5496ded765a364abef7751524a",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/gate4b_linux_call.py",
+      "sha256": "e14f8c979dba300b74366b2530cc2ccba09b3f518105e3a0b155e67fb403ebf6",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/gate4b_preflight_worker.py",
+      "sha256": "bb5a3114ebfaa4cf0716d9cf4f4467c6682924c95ffd7fa631b40ca4b513e2f6",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": [
+        {
+          "line": 8,
+          "text": "for p in Path('/proc/self/fd').iterdir():"
+        }
+      ]
+    },
+    {
+      "path": "working/gate4b_source_worker.py",
+      "sha256": "1d4eb63496d5161b953cd54deec6c1c2c506a703d0dcf2e8b8638d954aa0c03d",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/gate4_isolated_worker.py",
+      "sha256": "8057da28cf73bb3d9e176156dd291660d06168f7140dc25a0ee69aa24f3562dc",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/gate4_isolation.py",
+      "sha256": "f18540b48be82e545528ac61acd04df200f9f3fe56033bb39d92164830125485",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/gate4_lifecycle.py",
+      "sha256": "8ccb275ac923e51c502be0b43d327955ab3aa8d6a2f1c2c0563536db140d3de4",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": [
+        {
+          "line": 39,
+          "text": "    for p in Path('/proc').iterdir():"
+        }
+      ]
+    },
+    {
+      "path": "working/gate4_production_boundary.py",
+      "sha256": "e02e2f34e4fb5a099dc014f4dd462ca8cc4362c0e59f7e2476bcea316a6f2ac3",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": [
+        {
+          "line": 37,
+          "text": "    actual = {p.relative_to(image).as_posix(): sha(p) for p in sorted(image.rglob('*')) if p.is_file()}"
+        },
+        {
+          "line": 56,
+          "text": "    for p in Path('/proc').iterdir():"
+        }
+      ]
+    },
+    {
+      "path": "working/gate4_production_probe.py",
+      "sha256": "ddb0578f7bcc8ed40763708f74194996e9af1ea2c8cfaf62852cf213278d95c0",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": [
+        {
+          "line": 17,
+          "text": "for p in Path('/proc/self/fd').iterdir():"
+        }
+      ]
+    },
+    {
+      "path": "working/independently_verify_gate4_manifest.py",
+      "sha256": "88e885d5c72b65ad3ab110d7cf39a59ad6357d87061dfa3392f655a4763175c9",
+      "literal_metadata_references": [
+        {
+          "line": 50,
+          "text": "    assert (ROOT/'original/Open Notebook.onetoc2').stat().st_file_attributes & 1"
+        }
+      ],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/member3_artifact_helpers.py",
+      "sha256": "87fb7af733ede8a955b3ec6774588f7e32659a11b715566a4f6850d3cc251ab5",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/minimal_standard_scaler.py",
+      "sha256": "c15ccb5f40b6c9f062f3a332ce523a1021daad65ec1f122394d388d715e2d111",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/provision_gate4_runtime.py",
+      "sha256": "1da0e45cb881c597e62a0bf61a517a6b5284d6b35cf985cd5f85ae5f5dcb46cf",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": [
+        {
+          "line": 77,
+          "text": "    elf = [target] + [p for p in image.rglob('*') if p.is_file() and '.so' in p.name]"
+        },
+        {
+          "line": 114,
+          "text": "    inventory = {str(p.relative_to(image)): sha(p) for p in sorted(image.rglob('*')) if p.is_file()}"
+        },
+        {
+          "line": 115,
+          "text": "    for p in image.rglob('*'):"
+        }
+      ]
+    },
+    {
+      "path": "working/run_g4c_candidate.py",
+      "sha256": "f911e5beba7bed5a0d60e1c758b391a6daa2a9ff0a6db30cfbe55e77a2a56a3f",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": [
+        {
+          "line": 17,
+          "text": "    cp=json.loads((ROOT/'working/G4C-PROVENANCE-CHECKPOINT/input_artifact_hashes.json').read_text())"
+        },
+        {
+          "line": 41,
+          "text": "        entry={'run_id':run.name,'created_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'dirty_state_authorized':True,'git_head':subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(),'git_status':subprocess.check_output(['git','status','--short'],cwd=ROOT,text=True),'parameters':params,'code_hashes':codehash,'manifest_sha256':MH,'source_rng':'No stochastic candidate fitting','sampler':'frozen 60-episode PCG64(42), budget-major advancing state','rng_start':m['episodes'][0]['rng_before'],'runtime':'working/G4C-PROVENANCE-CHECKPOINT/runtime_verification.json','resource_limits':{'address_space_gib':6,'cpu_seconds':180,'wall_timeout_seconds':180,'threads':1},'baseline_and_input_hashes_reference':'working/G4C-PROVENANCE-CHECKPOINT/input_artifact_hashes.json'};save(run/'entry.json',entry)"
+        }
+      ]
+    },
+    {
+      "path": "working/run_gate4b_e1.py",
+      "sha256": "e59527281f6080d6df581e547ccdb88d20c0b3672f7142ee023f4c24957423c4",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/run_gate4_production_probe.py",
+      "sha256": "f0c1fb88583202d3ccc0f2d3d2f67cdd14884d36d2a9f131de21bb48bc3e013f",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/run_member2_preprocessing.py",
+      "sha256": "8ae69141c9fa5f04687d1237ce974f9c18d1bb76dbd8f7a338383e5084a0fe7d",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/run_member3_notebook4_artifact_capture.py",
+      "sha256": "41a4a9e7d4b5f66fbb06180fce1f0724258a32c1c1391074804ef1d2fb88612f",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/run_member3_notebook4_reference.py",
+      "sha256": "7ed22f17116d2690516db02c686396995074a3ec5a6bd84d63f1d9c5cc206bc6",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/stage_gate4_approved_narwhals.py",
+      "sha256": "ce81aa4ec81b0fb0f480b606053b4387c1abdf082f5e33e93d910d50c6f1af37",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": [
+        {
+          "line": 30,
+          "text": "    return {p.relative_to(root).as_posix(): sha(p) for p in sorted(root.rglob('*')) if p.is_file()}"
+        },
+        {
+          "line": 62,
+          "text": "    for p in numeric.rglob('*'):"
+        }
+      ]
+    },
+    {
+      "path": "working/verify_g4c_candidate.py",
+      "sha256": "4aa8424170014052507104b253e4bf56055e568853696136b0480368b5bdc04f",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": [
+        {
+          "line": 121,
+          "text": "    pins=json.loads((ROOT/'working/G4C-PROVENANCE-CHECKPOINT/input_artifact_hashes.json').read_text());assert all(sha(ROOT/p)==v['sha256'] for p,v in pins.items())"
+        }
+      ]
+    },
+    {
+      "path": "working/verify_gate4a_episodes.py",
+      "sha256": "6ad66b3e0a8a287e1277c8e43c76759493f2fe9362cc5e685750c6ee30b51532",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": [
+        {
+          "line": 102,
+          "text": "    paths = list((ROOT / 'original').rglob('*'))"
+        },
+        {
+          "line": 103,
+          "text": "    paths += list((ROOT / 'working/baseline_artifacts').rglob('*'))"
+        },
+        {
+          "line": 104,
+          "text": "    paths += list((ROOT / 'working/member3_baseline_frozen').rglob('*'))"
+        }
+      ]
+    },
+    {
+      "path": "working/verify_gate4b_e1.py",
+      "sha256": "11a4e2dd270355d554b44687cc0b774a51aa1c4b17bfff55993a40a1f1915be5",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/verify_gate4_approved_runtime_tree.py",
+      "sha256": "3b5390c904f83b8335132f5a2e367161b3ae47e071e8d1223dc0b4e97e52caee",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": [
+        {
+          "line": 19,
+          "text": "    return {f.relative_to(p).as_posix(): sha(f) for f in sorted(p.rglob('*')) if f.is_file()}"
+        }
+      ]
+    },
+    {
+      "path": "working/verify_gate4_isolation_repair.py",
+      "sha256": "b4e348c527998658fcdd1faa327475232c94a3bcba643eadf029ab157c372844",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/verify_gate4_production_suite.py",
+      "sha256": "f5365c1bdc49cade1c69687865102f2616711a420a54f28e851dbf7b192a54bf",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/verify_gate4_runtime.py",
+      "sha256": "0209eca81e792615c844f320280fbb3824dacd6388231e457b26ba50926967d2",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": [
+        {
+          "line": 41,
+          "text": "    return {str(p.relative_to(root)): sha(p) for p in sorted(root.rglob('*')) if p.is_file()}"
+        }
+      ]
+    },
+    {
+      "path": "working/G4A-PRODUCTION-001/code_at_stop/gate4_production_boundary.py",
+      "sha256": "d942c83a425a78ce92b64a6b8c24d9db0974b17abce5e28a33c62f327cebcff5",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": [
+        {
+          "line": 35,
+          "text": "    actual = {p.relative_to(image).as_posix(): sha(p) for p in sorted(image.rglob('*')) if p.is_file()}"
+        },
+        {
+          "line": 54,
+          "text": "    for p in Path('/proc').iterdir():"
+        }
+      ]
+    },
+    {
+      "path": "working/G4A-PRODUCTION-001/code_at_stop/gate4_production_probe.py",
+      "sha256": "a8a53d7e8b0a3cfd8047817b90ce01a01b3018c3ad2bf3016ee6a0bf716077f0",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": [
+        {
+          "line": 17,
+          "text": "for p in Path('/proc/self/fd').iterdir():"
+        }
+      ]
+    },
+    {
+      "path": "working/G4A-PRODUCTION-001/code_at_stop/run_gate4_production_probe.py",
+      "sha256": "f0c1fb88583202d3ccc0f2d3d2f67cdd14884d36d2a9f131de21bb48bc3e013f",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/G4A-PRODUCTION-001/code_at_stop/verify_gate4_production_suite.py",
+      "sha256": "46c329b160d875d1a9612246b2aa892ce7efcf35f7e4af474f4080f9248cd91b",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/G4A-TEARDOWN-002/certified_code/certify_gate4_manifest.py",
+      "sha256": "6a2bd30a5d8e9610121b171804dec33ddb01d03cb0bc5e0fae2313d1a9fc1c2e",
+      "literal_metadata_references": [
+        {
+          "line": 25,
+          "text": "    assert (ROOT/'original/Open Notebook.onetoc2').stat().st_file_attributes & 1"
+        }
+      ],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/G4A-TEARDOWN-002/certified_code/diagnose_gate4_teardown.py",
+      "sha256": "0b04aaa40f69e3437a7c6244d7662caabf61505dfe147350268420528dceb272",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/G4A-TEARDOWN-002/certified_code/gate4_lifecycle.py",
+      "sha256": "8ccb275ac923e51c502be0b43d327955ab3aa8d6a2f1c2c0563536db140d3de4",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": [
+        {
+          "line": 39,
+          "text": "    for p in Path('/proc').iterdir():"
+        }
+      ]
+    },
+    {
+      "path": "working/G4A-TEARDOWN-002/certified_code/gate4_production_boundary.py",
+      "sha256": "e02e2f34e4fb5a099dc014f4dd462ca8cc4362c0e59f7e2476bcea316a6f2ac3",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": [
+        {
+          "line": 37,
+          "text": "    actual = {p.relative_to(image).as_posix(): sha(p) for p in sorted(image.rglob('*')) if p.is_file()}"
+        },
+        {
+          "line": 56,
+          "text": "    for p in Path('/proc').iterdir():"
+        }
+      ]
+    },
+    {
+      "path": "working/G4A-TEARDOWN-002/certified_code/gate4_production_probe.py",
+      "sha256": "ddb0578f7bcc8ed40763708f74194996e9af1ea2c8cfaf62852cf213278d95c0",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": [
+        {
+          "line": 17,
+          "text": "for p in Path('/proc/self/fd').iterdir():"
+        }
+      ]
+    },
+    {
+      "path": "working/G4A-TEARDOWN-002/certified_code/independently_verify_gate4_manifest.py",
+      "sha256": "88e885d5c72b65ad3ab110d7cf39a59ad6357d87061dfa3392f655a4763175c9",
+      "literal_metadata_references": [
+        {
+          "line": 50,
+          "text": "    assert (ROOT/'original/Open Notebook.onetoc2').stat().st_file_attributes & 1"
+        }
+      ],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/G4A-TEARDOWN-002/certified_code/verify_gate4_production_suite.py",
+      "sha256": "f5365c1bdc49cade1c69687865102f2616711a420a54f28e851dbf7b192a54bf",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/G4A-TEARDOWN-002/final_certification/code/gate4_lifecycle.py",
+      "sha256": "8ccb275ac923e51c502be0b43d327955ab3aa8d6a2f1c2c0563536db140d3de4",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": [
+        {
+          "line": 39,
+          "text": "    for p in Path('/proc').iterdir():"
+        }
+      ]
+    },
+    {
+      "path": "working/G4A-TEARDOWN-002/final_certification/code/gate4_production_boundary.py",
+      "sha256": "0c5cb83af8cddd773b33e2f39aa21d62a86e4750bb38984e21c6a0c2e7ea3de0",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": [
+        {
+          "line": 37,
+          "text": "    actual = {p.relative_to(image).as_posix(): sha(p) for p in sorted(image.rglob('*')) if p.is_file()}"
+        },
+        {
+          "line": 56,
+          "text": "    for p in Path('/proc').iterdir():"
+        }
+      ]
+    },
+    {
+      "path": "working/G4A-TEARDOWN-002/final_certification/code/gate4_production_probe.py",
+      "sha256": "a8a53d7e8b0a3cfd8047817b90ce01a01b3018c3ad2bf3016ee6a0bf716077f0",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": [
+        {
+          "line": 17,
+          "text": "for p in Path('/proc/self/fd').iterdir():"
+        }
+      ]
+    },
+    {
+      "path": "working/G4A-TEARDOWN-002/final_certification/code/verify_gate4_production_suite.py",
+      "sha256": "f5365c1bdc49cade1c69687865102f2616711a420a54f28e851dbf7b192a54bf",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/G4A-TEARDOWN-002/pre_repair_code/gate4_production_boundary.py",
+      "sha256": "4ef1e0545e2cb6f570fd41b5a8e1f9a8a079c349fddf683d0d9756d50a5878ec",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": [
+        {
+          "line": 35,
+          "text": "    actual = {p.relative_to(image).as_posix(): sha(p) for p in sorted(image.rglob('*')) if p.is_file()}"
+        },
+        {
+          "line": 54,
+          "text": "    for p in Path('/proc').iterdir():"
+        }
+      ]
+    },
+    {
+      "path": "working/G4A-TEARDOWN-002/pre_repair_code/gate4_production_probe.py",
+      "sha256": "a8a53d7e8b0a3cfd8047817b90ce01a01b3018c3ad2bf3016ee6a0bf716077f0",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": [
+        {
+          "line": 17,
+          "text": "for p in Path('/proc/self/fd').iterdir():"
+        }
+      ]
+    },
+    {
+      "path": "working/G4A-TEARDOWN-002/pre_repair_code/run_gate4_production_probe.py",
+      "sha256": "f0c1fb88583202d3ccc0f2d3d2f67cdd14884d36d2a9f131de21bb48bc3e013f",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/G4A-TEARDOWN-002/pre_repair_code/verify_gate4_production_suite.py",
+      "sha256": "46c329b160d875d1a9612246b2aa892ce7efcf35f7e4af474f4080f9248cd91b",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/G4B-E1-001/code/audit_gate4b_e1_final.py",
+      "sha256": "782fbd27780f5146416c7d36d3f098b584ae95ea84380a4436afccd361191a74",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/G4B-E1-001/code/gate4b_boundary.py",
+      "sha256": "1ffe0f29ab4eeb0808d951a2243fcab20c775dab7b71c46862a33fb79a6b434c",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/G4B-E1-001/code/gate4b_episode_worker.py",
+      "sha256": "05dcde156dfaf0fef67a6ac9f7e07f61801dee5496ded765a364abef7751524a",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/G4B-E1-001/code/gate4b_linux_call.py",
+      "sha256": "e14f8c979dba300b74366b2530cc2ccba09b3f518105e3a0b155e67fb403ebf6",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/G4B-E1-001/code/gate4b_preflight_worker.py",
+      "sha256": "bb5a3114ebfaa4cf0716d9cf4f4467c6682924c95ffd7fa631b40ca4b513e2f6",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": [
+        {
+          "line": 8,
+          "text": "for p in Path('/proc/self/fd').iterdir():"
+        }
+      ]
+    },
+    {
+      "path": "working/G4B-E1-001/code/gate4b_source_worker.py",
+      "sha256": "1d4eb63496d5161b953cd54deec6c1c2c506a703d0dcf2e8b8638d954aa0c03d",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/G4B-E1-001/code/run_gate4b_e1.py",
+      "sha256": "e59527281f6080d6df581e547ccdb88d20c0b3672f7142ee023f4c24957423c4",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    },
+    {
+      "path": "working/G4B-E1-001/code/verify_gate4b_e1.py",
+      "sha256": "11a4e2dd270355d554b44687cc0b774a51aa1c4b17bfff55993a40a1f1915be5",
+      "literal_metadata_references": [],
+      "enumeration_or_checkpoint_references": []
+    }
+  ],
+  "manifest_inventory_references": [
+    {
+      "path": "working/gate4_episode_manifest.json",
+      "matches": [
+        {
+          "line": 12,
+          "text": "    \"original/Open Notebook.onetoc2\": \"a893d930d1d00f38b078bd96df08f6760dd8bbbf8bd7d2bdbf1b2a02239281fc\","
+        },
+        {
+          "line": 17,
+          "text": "    \"working/baseline_artifacts/Open Notebook.onetoc2\": \"989634ca4b3289918b3e47c07db4b5f2a22994b303f16025ee2f24700de1838c\","
+        },
+        {
+          "line": 27,
+          "text": "    \"working/member3_baseline_frozen/Open Notebook.onetoc2\": \"2064df45bbfbc846e222eead7c50942aba9df3266245fe3bb44dfffcc36d335f\","
+        },
+        {
+          "line": 80365,
+          "text": "  \"git_dirty_state\": \" M \\\"Open Notebook.onetoc2\\\"\\n M \\\"data/Open Notebook.onetoc2\\\"\\n M docs/DECISION_REGISTER.md\\n M docs/MASTER_PLAN.md\\n M \\\"docs/Open Notebook.onetoc2\\\"\\n M docs/TEAM_LOG.md\\n M docs/member1_log.md\\n M docs/member2_log.md\\n M docs/member3_log.md\\n M docs/member4_log.md\\n M \\\"models/Open Notebook.onetoc2\\\"\\n M \\\"presentation/Open Notebook.onetoc2\\\"\\n M \\\"submission/Open Notebook.onetoc2\\\"\\n M \\\"working/Open Notebook.onetoc2\\\"\\n?? docs/member3_baseline_discrepancy_audit.md\\n?? docs/member3_modelling_readiness.md\\n?? docs/member4_evidence_inventory.md\\n?? docs/member4_phase1_judging_pack.md\\n?? docs/member4_presentation_outline.md\\n?? nul\\n?? working/3-Preprocessing_member2_baseline.ipynb\\n?? working/3-Preprocessing_member2_baseline_executed.ipynb\\n?? working/4-Modelling_member3_reference.ipynb\\n?? working/4-Modelling_member3_reference_executed.ipynb\\n?? working/G4A-PRODUCTION-001/\\n?? working/G4A-TEARDOWN-002/\\n?? working/baseline_artifacts/\\n?? working/certify_gate"
+        }
+      ]
+    },
+    {
+      "path": "working/gate4_episode_manifest_validation.json",
+      "matches": [
+        {
+          "line": 2872,
+          "text": "    \"original/Open Notebook.onetoc2\": \"a893d930d1d00f38b078bd96df08f6760dd8bbbf8bd7d2bdbf1b2a02239281fc\","
+        },
+        {
+          "line": 2877,
+          "text": "    \"working/baseline_artifacts/Open Notebook.onetoc2\": \"989634ca4b3289918b3e47c07db4b5f2a22994b303f16025ee2f24700de1838c\","
+        },
+        {
+          "line": 2887,
+          "text": "    \"working/member3_baseline_frozen/Open Notebook.onetoc2\": \"2064df45bbfbc846e222eead7c50942aba9df3266245fe3bb44dfffcc36d335f\","
+        },
+        {
+          "line": 2924,
+          "text": "  \"working_tree_state\": \" M \\\"Open Notebook.onetoc2\\\"\\n M \\\"data/Open Notebook.onetoc2\\\"\\n M docs/DECISION_REGISTER.md\\n M docs/MASTER_PLAN.md\\n M \\\"docs/Open Notebook.onetoc2\\\"\\n M docs/TEAM_LOG.md\\n M docs/member1_log.md\\n M docs/member2_log.md\\n M docs/member3_log.md\\n M docs/member4_log.md\\n M \\\"models/Open Notebook.onetoc2\\\"\\n M \\\"presentation/Open Notebook.onetoc2\\\"\\n M \\\"submission/Open Notebook.onetoc2\\\"\\n M \\\"working/Open Notebook.onetoc2\\\"\\n?? docs/member3_baseline_discrepancy_audit.md\\n?? docs/member3_modelling_readiness.md\\n?? docs/member4_evidence_inventory.md\\n?? docs/member4_phase1_judging_pack.md\\n?? docs/member4_presentation_outline.md\\n?? nul\\n?? working/3-Preprocessing_member2_baseline.ipynb\\n?? working/3-Preprocessing_member2_baseline_executed.ipynb\\n?? working/4-Modelling_member3_reference.ipynb\\n?? working/4-Modelling_member3_reference_executed.ipynb\\n?? working/baseline_artifacts/\\n?? working/freeze_member3_notebook4_outputs.py\\n?? working/gate4_baseline_error_an"
+        }
+      ]
+    },
+    {
+      "path": "working/baseline_artifacts/recovery_manifest.json",
+      "matches": [
+        {
+          "line": 3,
+          "text": "    \"Open Notebook.onetoc2\""
+        }
+      ]
+    },
+    {
+      "path": "working/G4A-PRODUCTION-001/artifact_hash_manifest.json",
+      "matches": [
+        {
+          "line": 4,
+          "text": "    \"working/G4A-PRODUCTION-001/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 12,
+          "text": "    \"working/G4A-PRODUCTION-001/code_at_stop/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 72,
+          "text": "    \"working/G4A-PRODUCTION-001/suite_001/Open Notebook.onetoc2\": {"
+        }
+      ]
+    },
+    {
+      "path": "working/G4A-PRODUCTION-001/entry.json",
+      "matches": [
+        {
+          "line": 12,
+          "text": "    \"original/Open Notebook.onetoc2\": \"a893d930d1d00f38b078bd96df08f6760dd8bbbf8bd7d2bdbf1b2a02239281fc\","
+        },
+        {
+          "line": 17,
+          "text": "    \"working/baseline_artifacts/Open Notebook.onetoc2\": \"989634ca4b3289918b3e47c07db4b5f2a22994b303f16025ee2f24700de1838c\","
+        },
+        {
+          "line": 27,
+          "text": "    \"working/member3_baseline_frozen/Open Notebook.onetoc2\": \"2064df45bbfbc846e222eead7c50942aba9df3266245fe3bb44dfffcc36d335f\","
+        },
+        {
+          "line": 45,
+          "text": "  \"git_status\": \" M \\\"Open Notebook.onetoc2\\\"\\n M \\\"data/Open Notebook.onetoc2\\\"\\n M docs/DECISION_REGISTER.md\\n M docs/MASTER_PLAN.md\\n M \\\"docs/Open Notebook.onetoc2\\\"\\n M docs/TEAM_LOG.md\\n M docs/member1_log.md\\n M docs/member2_log.md\\n M docs/member3_log.md\\n M docs/member4_log.md\\n M \\\"models/Open Notebook.onetoc2\\\"\\n M \\\"presentation/Open Notebook.onetoc2\\\"\\n M \\\"submission/Open Notebook.onetoc2\\\"\\n M \\\"working/Open Notebook.onetoc2\\\"\\n?? docs/member3_baseline_discrepancy_audit.md\\n?? docs/member3_modelling_readiness.md\\n?? docs/member4_evidence_inventory.md\\n?? docs/member4_phase1_judging_pack.md\\n?? docs/member4_presentation_outline.md\\n?? nul\\n?? working/3-Preprocessing_member2_baseline.ipynb\\n?? working/3-Preprocessing_member2_baseline_executed.ipynb\\n?? working/4-Modelling_member3_reference.ipynb\\n?? working/4-Modelling_member3_reference_executed.ipynb\\n?? working/G4A-PRODUCTION-001/\\n?? working/baseline_artifacts/\\n?? working/freeze_member3_notebook4_outputs.py\\n?? working"
+        }
+      ]
+    },
+    {
+      "path": "working/G4A-TEARDOWN-002/artifact_hash_manifest.json",
+      "matches": [
+        {
+          "line": 14,
+          "text": "    \"working/G4A-TEARDOWN-002/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 22,
+          "text": "    \"working/G4A-TEARDOWN-002/certification_v2/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 26,
+          "text": "    \"working/G4A-TEARDOWN-002/certification_v2/suite_001/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 62,
+          "text": "    \"working/G4A-TEARDOWN-002/certified_code/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 98,
+          "text": "    \"working/G4A-TEARDOWN-002/final_certification/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 102,
+          "text": "    \"working/G4A-TEARDOWN-002/final_certification/code/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 122,
+          "text": "    \"working/G4A-TEARDOWN-002/final_certification/suite_001/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 162,
+          "text": "    \"working/G4A-TEARDOWN-002/independent_repeat/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 166,
+          "text": "    \"working/G4A-TEARDOWN-002/independent_repeat/suite_001/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 230,
+          "text": "    \"working/G4A-TEARDOWN-002/pre_repair_code/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 250,
+          "text": "    \"working/G4A-TEARDOWN-002/suite_001/Open Notebook.onetoc2\": {"
+        }
+      ]
+    },
+    {
+      "path": "working/G4A-TEARDOWN-002/entry.json",
+      "matches": [
+        {
+          "line": 11,
+          "text": "    \"original/Open Notebook.onetoc2\": \"a893d930d1d00f38b078bd96df08f6760dd8bbbf8bd7d2bdbf1b2a02239281fc\","
+        },
+        {
+          "line": 16,
+          "text": "    \"working/baseline_artifacts/Open Notebook.onetoc2\": \"989634ca4b3289918b3e47c07db4b5f2a22994b303f16025ee2f24700de1838c\","
+        },
+        {
+          "line": 26,
+          "text": "    \"working/member3_baseline_frozen/Open Notebook.onetoc2\": \"2064df45bbfbc846e222eead7c50942aba9df3266245fe3bb44dfffcc36d335f\","
+        },
+        {
+          "line": 43,
+          "text": "  \"git_status\": \" M \\\"Open Notebook.onetoc2\\\"\\n M \\\"data/Open Notebook.onetoc2\\\"\\n M docs/DECISION_REGISTER.md\\n M docs/MASTER_PLAN.md\\n M \\\"docs/Open Notebook.onetoc2\\\"\\n M docs/TEAM_LOG.md\\n M docs/member1_log.md\\n M docs/member2_log.md\\n M docs/member3_log.md\\n M docs/member4_log.md\\n M \\\"models/Open Notebook.onetoc2\\\"\\n M \\\"presentation/Open Notebook.onetoc2\\\"\\n M \\\"submission/Open Notebook.onetoc2\\\"\\n M \\\"working/Open Notebook.onetoc2\\\"\\n?? docs/member3_baseline_discrepancy_audit.md\\n?? docs/member3_modelling_readiness.md\\n?? docs/member4_evidence_inventory.md\\n?? docs/member4_phase1_judging_pack.md\\n?? docs/member4_presentation_outline.md\\n?? nul\\n?? working/3-Preprocessing_member2_baseline.ipynb\\n?? working/3-Preprocessing_member2_baseline_executed.ipynb\\n?? working/4-Modelling_member3_reference.ipynb\\n?? working/4-Modelling_member3_reference_executed.ipynb\\n?? working/G4A-PRODUCTION-001/\\n?? working/G4A-TEARDOWN-002/\\n?? working/baseline_artifacts/\\n?? working/freeze_member3_no"
+        }
+      ]
+    },
+    {
+      "path": "working/G4B-E1-001/artifact_hash_manifest.json",
+      "matches": [
+        {
+          "line": 11,
+          "text": "    \"original/Open Notebook.onetoc2\": \"a893d930d1d00f38b078bd96df08f6760dd8bbbf8bd7d2bdbf1b2a02239281fc\","
+        },
+        {
+          "line": 16,
+          "text": "    \"working/baseline_artifacts/Open Notebook.onetoc2\": \"989634ca4b3289918b3e47c07db4b5f2a22994b303f16025ee2f24700de1838c\","
+        },
+        {
+          "line": 26,
+          "text": "    \"working/member3_baseline_frozen/Open Notebook.onetoc2\": \"2064df45bbfbc846e222eead7c50942aba9df3266245fe3bb44dfffcc36d335f\","
+        },
+        {
+          "line": 44,
+          "text": "    \"working/G4B-E1-001/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 52,
+          "text": "    \"working/G4B-E1-001/code/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 96,
+          "text": "    \"working/G4B-E1-001/evidence/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 620,
+          "text": "    \"working/G4B-E1-001/predictions/Open Notebook.onetoc2\": {"
+        }
+      ]
+    },
+    {
+      "path": "working/G4B-E1-001/entry.json",
+      "matches": [
+        {
+          "line": 6,
+          "text": "  \"git_dirty_status\": \" M \\\"Open Notebook.onetoc2\\\"\\n M \\\"data/Open Notebook.onetoc2\\\"\\n M docs/DECISION_REGISTER.md\\n M docs/MASTER_PLAN.md\\n M \\\"docs/Open Notebook.onetoc2\\\"\\n M docs/TEAM_LOG.md\\n M docs/member1_log.md\\n M docs/member2_log.md\\n M docs/member3_log.md\\n M docs/member4_log.md\\n M \\\"models/Open Notebook.onetoc2\\\"\\n M \\\"presentation/Open Notebook.onetoc2\\\"\\n M \\\"submission/Open Notebook.onetoc2\\\"\\n M \\\"working/Open Notebook.onetoc2\\\"\\n?? docs/member3_baseline_discrepancy_audit.md\\n?? docs/member3_modelling_readiness.md\\n?? docs/member4_evidence_inventory.md\\n?? docs/member4_phase1_judging_pack.md\\n?? docs/member4_presentation_outline.md\\n?? nul\\n?? working/3-Preprocessing_member2_baseline.ipynb\\n?? working/3-Preprocessing_member2_baseline_executed.ipynb\\n?? working/4-Modelling_member3_reference.ipynb\\n?? working/4-Modelling_member3_reference_executed.ipynb\\n?? working/G4A-PRODUCTION-001/\\n?? working/G4A-TEARDOWN-002/\\n?? working/G4B-E1-001/\\n?? working/baseline_artifacts/"
+        },
+        {
+          "line": 18,
+          "text": "    \"original/Open Notebook.onetoc2\": \"a893d930d1d00f38b078bd96df08f6760dd8bbbf8bd7d2bdbf1b2a02239281fc\","
+        },
+        {
+          "line": 23,
+          "text": "    \"working/baseline_artifacts/Open Notebook.onetoc2\": \"989634ca4b3289918b3e47c07db4b5f2a22994b303f16025ee2f24700de1838c\","
+        },
+        {
+          "line": 33,
+          "text": "    \"working/member3_baseline_frozen/Open Notebook.onetoc2\": \"2064df45bbfbc846e222eead7c50942aba9df3266245fe3bb44dfffcc36d335f\","
+        }
+      ]
+    },
+    {
+      "path": "working/G4B-E1-001/summary.json",
+      "matches": [
+        {
+          "line": 11,
+          "text": "    \"original/Open Notebook.onetoc2\": \"a893d930d1d00f38b078bd96df08f6760dd8bbbf8bd7d2bdbf1b2a02239281fc\","
+        },
+        {
+          "line": 16,
+          "text": "    \"working/baseline_artifacts/Open Notebook.onetoc2\": \"989634ca4b3289918b3e47c07db4b5f2a22994b303f16025ee2f24700de1838c\","
+        },
+        {
+          "line": 26,
+          "text": "    \"working/member3_baseline_frozen/Open Notebook.onetoc2\": \"2064df45bbfbc846e222eead7c50942aba9df3266245fe3bb44dfffcc36d335f\","
+        }
+      ]
+    },
+    {
+      "path": "working/G4C-E2-001/artifact_hash_manifest.json",
+      "matches": [
+        {
+          "line": 9,
+          "text": "    \"working/G4C-E2-001/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 25,
+          "text": "    \"working/G4C-E2-001/code/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 37,
+          "text": "    \"working/G4C-E2-001/evidence/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 41,
+          "text": "    \"working/G4C-E2-001/predictions/Open Notebook.onetoc2\": {"
+        }
+      ]
+    },
+    {
+      "path": "working/G4C-E2-001/independent_stop_audit.json",
+      "matches": [
+        {
+          "line": 7,
+          "text": "      \"path\": \"working/Open Notebook.onetoc2\","
+        },
+        {
+          "line": 50,
+          "text": "    \"original/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 75,
+          "text": "    \"working/baseline_artifacts/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 125,
+          "text": "    \"working/member3_baseline_frozen/Open Notebook.onetoc2\": {"
+        }
+      ]
+    },
+    {
+      "path": "working/G4C-E2-001/summary.json",
+      "matches": [
+        {
+          "line": 11,
+          "text": "  \"reason\": \"Checkpointed pre-existing working/Open Notebook.onetoc2 changed after provenance capture; coordinator integrity assertion failed.\","
+        }
+      ]
+    },
+    {
+      "path": "working/G4C-PREFLIGHT-001/artifact_hash_manifest.json",
+      "matches": [
+        {
+          "line": 4,
+          "text": "  \"working/G4C-PREFLIGHT-001/Open Notebook.onetoc2\": \"f6f96e7a1bbf203176392983292daed6a8d35834735162fe0d2e85ddee5b8aa8\","
+        }
+      ]
+    },
+    {
+      "path": "working/G4C-PREFLIGHT-001/preflight.json",
+      "matches": [
+        {
+          "line": 48,
+          "text": "    \"original/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 73,
+          "text": "    \"working/baseline_artifacts/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 123,
+          "text": "    \"working/member3_baseline_frozen/Open Notebook.onetoc2\": {"
+        }
+      ]
+    },
+    {
+      "path": "working/G4C-PROVENANCE-CHECKPOINT/artifact_hash_manifest.json",
+      "matches": [
+        {
+          "line": 12,
+          "text": "  \"Open Notebook.onetoc2\": \"1632b7209696d6b67479854928a473692cb425dbbc0c814d60c5ae1bef22204b\","
+        }
+      ]
+    },
+    {
+      "path": "working/G4C-PROVENANCE-CHECKPOINT/input_artifact_hashes.json",
+      "matches": [
+        {
+          "line": 10,
+          "text": "  \"data/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 14,
+          "text": "  \"data/preprocessed/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 38,
+          "text": "  \"original/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 74,
+          "text": "  \"working/baseline_artifacts/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 110,
+          "text": "  \"working/G4A-TEARDOWN-002/certification_v2/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 114,
+          "text": "  \"working/G4A-TEARDOWN-002/certification_v2/suite_001/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 174,
+          "text": "  \"working/G4A-TEARDOWN-002/certified_code/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 198,
+          "text": "  \"working/G4A-TEARDOWN-002/final_certification/code/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 206,
+          "text": "  \"working/G4A-TEARDOWN-002/final_certification/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 210,
+          "text": "  \"working/G4A-TEARDOWN-002/final_certification/suite_001/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 250,
+          "text": "  \"working/G4A-TEARDOWN-002/independent_repeat/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 254,
+          "text": "  \"working/G4A-TEARDOWN-002/independent_repeat/suite_001/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 310,
+          "text": "  \"working/G4A-TEARDOWN-002/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 330,
+          "text": "  \"working/G4A-TEARDOWN-002/pre_repair_code/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 346,
+          "text": "  \"working/G4A-TEARDOWN-002/suite_001/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 398,
+          "text": "  \"working/G4B-E1-001/code/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 418,
+          "text": "  \"working/G4B-E1-001/evidence/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 698,
+          "text": "  \"working/G4B-E1-001/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 946,
+          "text": "  \"working/G4B-E1-001/predictions/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 1182,
+          "text": "  \"working/member3_baseline_frozen/Open Notebook.onetoc2\": {"
+        },
+        {
+          "line": 1198,
+          "text": "  \"working/Open Notebook.onetoc2\": {"
+        }
+      ]
+    }
+  ],
+  "scope": "All pre-existing working Python text; selected manifest/entry/hash inventory text. No modelling pickle/NPZ or candidate feature/state payload loaded. Literal-reference absence alone is not proof against dynamic access; broad enumeration and packet construction reviewed separately."
+}

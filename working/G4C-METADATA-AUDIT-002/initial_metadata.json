@@ -1,0 +1,19 @@
+{
+  "observed_utc": "2026-09-08T18:31:59.974012+00:00",
+  "path": "working/Open Notebook.onetoc2",
+  "size": 8192,
+  "sha256": "e0a91560faa8fb0413d34cf1e7d982a000bf61297f8c61bb8fb4fc69b6ff66d1",
+  "creation_time_ns": 1788855157455043900,
+  "mtime_ns": 1788891628708562300,
+  "atime_ns": 1788892319974012200,
+  "attributes": 32,
+  "header_hex": "a12fff43d9ef764c9ee210ea5722765f36bedd44753208439c37cb066de1e661000000000000000000000000000000003fdd9a101b91f549a5d01791edc8aed81b0000001b0000001b0000001b0000000000000000000000ffffffff000000000d000000000000000000000000000000ffffffff000000000000000000000000",
+  "header_guid_le": "43ff2fa1-efd9-4c76-9ee2-10ea5722765f",
+  "next_guids_le": [
+    "44ddbe36-3275-4308-9c37-cb066de1e661",
+    "00000000-0000-0000-0000-000000000000",
+    "109add3f-911b-49f5-a5d0-1791edc8aed8"
+  ],
+  "git_index": "100644 b5013052a1f9c94f897041e42b4be1f5bd24505c 0\tworking/Open Notebook.onetoc2\n",
+  "git_status": " M \"working/Open Notebook.onetoc2\"\n"
+}

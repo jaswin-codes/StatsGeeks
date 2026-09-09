@@ -1,0 +1,40 @@
+{
+  "run_id": "G4C-E2-003",
+  "phase": "PREPARATION_ONLY",
+  "candidate": "E2 bounded diagonal Fisher weighting plus target prototypes",
+  "execution_authorized": false,
+  "fixed_parameters": {
+    "source_fit_scope": "Madrid source labels only",
+    "epsilon": 0.000001,
+    "clip": [0.25, 4.0],
+    "identity_mixture": 0.5,
+    "classes": [1, 2, 3, 4],
+    "seed": 42,
+    "budgets": [5, 10, 25, 50, 100, 200],
+    "trials_per_budget": 10,
+    "primary_budget": 25,
+    "metric": "macro F1",
+    "std_ddof": 0
+  },
+  "exact_metadata_allowlist": ["working/Open Notebook.onetoc2"],
+  "preexisting_default": "DENY_MUTATION",
+  "coordinator_created_namespace": "working/G4C-E2-003/",
+  "candidate_artifact_roots_if_later_authorized": ["predictions/", "evidence/", "candidate_state/", "results/"],
+  "candidate_visibility": {
+    "source_worker": ["Madrid source X", "Madrid source y", "fixed E2 parameters"],
+    "episode_worker": ["frozen source state", "current support X/y/IDs", "current query X/IDs", "fixed episode metadata"],
+    "forbidden": ["query labels", "full Amsterdam labels", "other episode labels", "episode manifest", "project filesystem", "scoring feedback"]
+  },
+  "worker_policy": {
+    "fresh_private_namespace_per_worker": true,
+    "private_tmpfs": true,
+    "project_not_mounted": true,
+    "manifest_not_mounted": true,
+    "dedicated_subreaper": true,
+    "pid_and_start_tick_tracking": true,
+    "zombies_count_as_survivors": true,
+    "prediction_finalization_requires_success_and_complete_reaping": true
+  },
+  "execution_gate": "A later explicit Team Lead authorization and separate immutable execution entrypoint are required. This preparation coordinator cannot execute E2.",
+  "closed_runs": ["working/G4C-E2-001/ must remain unchanged and never be reused", "working/G4C-E2-002/ must remain unchanged and never be reused"]
+}

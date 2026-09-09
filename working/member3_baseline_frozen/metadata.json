@@ -1,0 +1,38 @@
+{
+  "artifact_type": "notebook4_reference_baseline_freeze",
+  "cv_params": {
+    "n_repeats": 5,
+    "n_splits": 5,
+    "random_state": 42
+  },
+  "environment": {
+    "executable": "C:\\Users\\jaswi\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "numpy": "2.4.6",
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "scikit_learn": "1.9.0",
+    "scipy": "1.17.1"
+  },
+  "executed_notebook": "working\\4-Modelling_member3_reference_executed.ipynb",
+  "executed_notebook_sha256": "37761873bc8d9ef57b13515b66ed636d400830b0b186cf25d55b41ccb3fc208e",
+  "freeze_scope": "Recoverable outputs from completed reference execution only; no cells rerun.",
+  "input_pickle": "data\\preprocessed\\preprocessed_data.pkl",
+  "input_pickle_sha256": "51f11bc9025b5d4ffe2f9e03a8c76b70e4cfd0e91cb36876a9d021181e8ccdbe",
+  "rerun_performed": false,
+  "rf_params": {
+    "class_weight": "balanced",
+    "n_estimators": 500,
+    "n_jobs": -1,
+    "random_state": 42
+  },
+  "source_notebook": "original\\4-Modelling.ipynb",
+  "source_notebook_sha256": "709fa081f33186253715e1cd525b5d2a7c8b7a05259855fc72f137c9233551ae",
+  "unavailable_after_kernel_shutdown": [
+    "rf_final fitted model",
+    "CV fitted forests and OOF prediction/probability arrays",
+    "y_ams_pred_zero and proba_amsterdam_zero",
+    "prototype per-trial scores, support/query indices, prototypes, and query predictions"
+  ],
+  "working_notebook": "working\\4-Modelling_member3_reference.ipynb",
+  "working_notebook_sha256": "709fa081f33186253715e1cd525b5d2a7c8b7a05259855fc72f137c9233551ae",
+  "zero_shot_procedure": "Fresh RF fit on all Madrid X/y, then rf_final.predict(X_amsterdam), then macro F1 against y_amsterdam."
+}

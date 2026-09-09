@@ -1,0 +1,17 @@
+{
+  "lock_sha256": "cbebbda8f2a2a470d3d639e51fdf63b24afa7c950044bbf6b35a81dc9c21b514",
+  "tree_sha256": "b4e8c3f09000fd6764d8491ca963b8a3a246545e8a4a6244270db44a2d51b19f",
+  "files": 4355,
+  "tree_match": true,
+  "wheel_matches": {
+    "joblib": true,
+    "narwhals": true,
+    "numpy": true,
+    "scikit-learn": true,
+    "scipy": true,
+    "threadpoolctl": true
+  },
+  "bwrap_match": true,
+  "python": "3.14.4 (main, Jun 18 2026, 14:25:02) [GCC 15.2.0]",
+  "no_worker_launched": true
+}

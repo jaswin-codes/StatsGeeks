@@ -1,0 +1,24 @@
+{
+  "artifact_type": "manifest",
+  "files": {
+    "amsterdam_prototype_results.json": {
+      "bytes": 1314,
+      "sha256": "8daf472e4a081dcd84344718436395746a19081b58b59ec83f0f047d5d530b6d"
+    },
+    "amsterdam_zero_shot_results.json": {
+      "bytes": 1013,
+      "sha256": "6b965f2a700c8d62eec9c79706d4950ef07dba78858e127edfe80f2835d3fa9a"
+    },
+    "madrid_cv_results.json": {
+      "bytes": 854,
+      "sha256": "6cff27f7448522ede547a7df835fefc19487105d56be40d2da880dae8fba7b5e"
+    },
+    "metadata.json": {
+      "bytes": 1776,
+      "sha256": "5fb0bada0c7bfd00f0c9c5a9274f8249640d538aa9cd12786ef23ee237c3c319"
+    }
+  },
+  "input_pickle_sha256": "51f11bc9025b5d4ffe2f9e03a8c76b70e4cfd0e91cb36876a9d021181e8ccdbe",
+  "rerun_performed": false,
+  "source_executed_notebook_sha256": "37761873bc8d9ef57b13515b66ed636d400830b0b186cf25d55b41ccb3fc208e"
+}

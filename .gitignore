@@ -19,3 +19,5 @@ candidate/artifacts/*.joblib
 
 # v2 feature cache - large, regenerate with candidate/build_features_v2.py
 data/preprocessed/features_v2.pkl
+working/G4A-PRODUCTION-001/current_packet.json
+working/G4A-PRODUCTION-001/second_packet.json

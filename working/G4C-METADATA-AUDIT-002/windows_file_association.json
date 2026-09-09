@@ -1,0 +1,5 @@
+{
+  ".onetoc2": "OneNote.TableOfContents.12",
+  "OneNote.TableOfContents.12": "Microsoft OneNote Table Of Contents",
+  "OneNote.TableOfContents.12\\shell\\open\\command": "\"C:\\Program Files\\Microsoft Office\\Root\\Office16\\ONENOTE.EXE\" /navigate \"%1\""
+}

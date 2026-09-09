@@ -1,0 +1,22 @@
+# Runtime benchmark STOP
+
+```
+Traceback (most recent call last):
+  File "C:\Users\jaswi\Downloads\Hackathon3_StatsGeeks - Copy\working\G4C-INFRA-CERT-004\code\runtime_benchmark.py", line 147, in <module>
+    try:main()
+        ~~~~^^
+  File "C:\Users\jaswi\Downloads\Hackathon3_StatsGeeks - Copy\working\G4C-INFRA-CERT-004\code\runtime_benchmark.py", line 68, in main
+    start=time.perf_counter(); c.preexisting_integrity(); record["phases"]["coordinator_startup_integrity_seconds"]=time.perf_counter()-start
+                               ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\jaswi\Downloads\Hackathon3_StatsGeeks - Copy\working\G4C-INFRA-CERT-004\benchmark_run\coordinator\execution_coordinator.py", line 41, in preexisting_integrity
+    cp=json.loads((ROOT/'working/G4C-PROVENANCE-CHECKPOINT-002/file_fingerprints.json').read_text())
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\pathlib\__init__.py", line 787, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\pathlib\__init__.py", line 771, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\working\\working\\G4C-PROVENANCE-CHECKPOINT-002\\file_fingerprints.json'
+
+```

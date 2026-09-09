@@ -1,0 +1,198 @@
+{
+  "timestamp_utc": "2026-09-08T18:08:16.841820+00:00",
+  "status": "BLOCKED",
+  "candidate_workers_launched": 0,
+  "episodes_executed": 0,
+  "git_head": "165fe11df8779eed514c75bd2852c2b9588a18a4",
+  "git_clean": false,
+  "tracked_status_paths_match_E1_entry": true,
+  "current_git_diff_binary_sha256": "7cc8b799245406d0f6f9dcf2c040c2f253b6733b35e1f8d9cfc0a8580543a2e9",
+  "E1_entry_git_diff_sha256": "86c8924dcae3fab297a46bdbf814daaea02d2b11b8ab2231433d691e1af427f5",
+  "diff_provenance_note": "Recorded E1 diff hash differs from current git diff and git diff --binary hashes; E1 entry does not specify its exact diff command. Not evidence that protected files changed.",
+  "protected_files": {
+    "data/amsterdam_data.parquet": {
+      "expected": "32388f3a9792b01d9831ca4d0fc4bfadba132a1c23c06e372d7a82e985be0719",
+      "actual": "32388f3a9792b01d9831ca4d0fc4bfadba132a1c23c06e372d7a82e985be0719",
+      "match": true
+    },
+    "data/madrid_train.parquet": {
+      "expected": "0e106a07044d867f8c68e77de8c36826c491d0f26692b8cde753d1046ce24c9c",
+      "actual": "0e106a07044d867f8c68e77de8c36826c491d0f26692b8cde753d1046ce24c9c",
+      "match": true
+    },
+    "data/preprocessed/preprocessed_data.pkl": {
+      "expected": "51f11bc9025b5d4ffe2f9e03a8c76b70e4cfd0e91cb36876a9d021181e8ccdbe",
+      "actual": "51f11bc9025b5d4ffe2f9e03a8c76b70e4cfd0e91cb36876a9d021181e8ccdbe",
+      "match": true
+    },
+    "original/1-Introduction.ipynb": {
+      "expected": "dd2b1e23eb8bc79d23ad5ac96d75ec99b15c28166e72db6d4f84f2e90afe640a",
+      "actual": "dd2b1e23eb8bc79d23ad5ac96d75ec99b15c28166e72db6d4f84f2e90afe640a",
+      "match": true
+    },
+    "original/2-Reading_Data.ipynb": {
+      "expected": "aa093cf5980e2218629e9dfe3a68ec20e8814b4bf4c33ae1bdb525532658ad9a",
+      "actual": "aa093cf5980e2218629e9dfe3a68ec20e8814b4bf4c33ae1bdb525532658ad9a",
+      "match": true
+    },
+    "original/3-Preprocessing.ipynb": {
+      "expected": "86136f0ab901a4fd15f45e7545c5107f98fb17ed271e9c46c12d0d614b261175",
+      "actual": "86136f0ab901a4fd15f45e7545c5107f98fb17ed271e9c46c12d0d614b261175",
+      "match": true
+    },
+    "original/4-Modelling.ipynb": {
+      "expected": "709fa081f33186253715e1cd525b5d2a7c8b7a05259855fc72f137c9233551ae",
+      "actual": "709fa081f33186253715e1cd525b5d2a7c8b7a05259855fc72f137c9233551ae",
+      "match": true
+    },
+    "original/Open Notebook.onetoc2": {
+      "expected": "a893d930d1d00f38b078bd96df08f6760dd8bbbf8bd7d2bdbf1b2a02239281fc",
+      "actual": "a893d930d1d00f38b078bd96df08f6760dd8bbbf8bd7d2bdbf1b2a02239281fc",
+      "match": true
+    },
+    "working/3-Preprocessing_member2_baseline.ipynb": {
+      "expected": "a97bf8f5b76fd3a3b852a3c1cf8b5a13efd697da62d44c85ed0c0ef9da50809b",
+      "actual": "a97bf8f5b76fd3a3b852a3c1cf8b5a13efd697da62d44c85ed0c0ef9da50809b",
+      "match": true
+    },
+    "working/3-Preprocessing_member2_baseline_executed.ipynb": {
+      "expected": "c6f7a50463f2785f10ff78a732fb655a29b282d89692b51d5baf4dbeb3fa3368",
+      "actual": "c6f7a50463f2785f10ff78a732fb655a29b282d89692b51d5baf4dbeb3fa3368",
+      "match": true
+    },
+    "working/4-Modelling_member3_reference.ipynb": {
+      "expected": "709fa081f33186253715e1cd525b5d2a7c8b7a05259855fc72f137c9233551ae",
+      "actual": "709fa081f33186253715e1cd525b5d2a7c8b7a05259855fc72f137c9233551ae",
+      "match": true
+    },
+    "working/4-Modelling_member3_reference_executed.ipynb": {
+      "expected": "37761873bc8d9ef57b13515b66ed636d400830b0b186cf25d55b41ccb3fc208e",
+      "actual": "37761873bc8d9ef57b13515b66ed636d400830b0b186cf25d55b41ccb3fc208e",
+      "match": true
+    },
+    "working/baseline_artifacts/Open Notebook.onetoc2": {
+      "expected": "989634ca4b3289918b3e47c07db4b5f2a22994b303f16025ee2f24700de1838c",
+      "actual": "989634ca4b3289918b3e47c07db4b5f2a22994b303f16025ee2f24700de1838c",
+      "match": true
+    },
+    "working/baseline_artifacts/amsterdam_zero_shot.npz": {
+      "expected": "e1d13830cc0d8d0f820aa0cc93a923b32117101b6ae1cea2c19c28ecb532523c",
+      "actual": "e1d13830cc0d8d0f820aa0cc93a923b32117101b6ae1cea2c19c28ecb532523c",
+      "match": true
+    },
+    "working/baseline_artifacts/feature_schema.json": {
+      "expected": "bea946aaf7d96e12370af5800f4e719bafe0f7b30fee4354278f7ef36e1f107a",
+      "actual": "bea946aaf7d96e12370af5800f4e719bafe0f7b30fee4354278f7ef36e1f107a",
+      "match": true
+    },
+    "working/baseline_artifacts/madrid_cv_oof.npz": {
+      "expected": "a52a7d721e505f3983fc470e1ef1785fac8ce7e6e4d59e0e09e663c425e2cbc5",
+      "actual": "a52a7d721e505f3983fc470e1ef1785fac8ce7e6e4d59e0e09e663c425e2cbc5",
+      "match": true
+    },
+    "working/baseline_artifacts/prototype_trial_scores.npz": {
+      "expected": "637631d7df4cf0d9f315424e9a3411744b26aeeea91b5c152da41ab7788c29ab",
+      "actual": "637631d7df4cf0d9f315424e9a3411744b26aeeea91b5c152da41ab7788c29ab",
+      "match": true
+    },
+    "working/baseline_artifacts/recovery_manifest.json": {
+      "expected": "01a6eb4b2e18f1eb99e06ddb84b6d2927d4992c0e999f7d9366f5af6ca26ff73",
+      "actual": "01a6eb4b2e18f1eb99e06ddb84b6d2927d4992c0e999f7d9366f5af6ca26ff73",
+      "match": true
+    },
+    "working/baseline_artifacts/recovery_validation.json": {
+      "expected": "f58c4ad5c99a0031eb5c2673905c53802484247a70874170e10f796fa15706f9",
+      "actual": "f58c4ad5c99a0031eb5c2673905c53802484247a70874170e10f796fa15706f9",
+      "match": true
+    },
+    "working/baseline_artifacts/rf_final.pkl": {
+      "expected": "5ffdd11f300532a14b3c2957a1ac77b748aa91c0a4d1a88f1ff0a3735dc75870",
+      "actual": "5ffdd11f300532a14b3c2957a1ac77b748aa91c0a4d1a88f1ff0a3735dc75870",
+      "match": true
+    },
+    "working/freeze_member3_notebook4_outputs.py": {
+      "expected": "6a16e84e05458bdad1667bfdbb0056a7a5100028a74a6c9d59177dabfee277d0",
+      "actual": "6a16e84e05458bdad1667bfdbb0056a7a5100028a74a6c9d59177dabfee277d0",
+      "match": true
+    },
+    "working/member3_artifact_helpers.py": {
+      "expected": "87fb7af733ede8a955b3ec6774588f7e32659a11b715566a4f6850d3cc251ab5",
+      "actual": "87fb7af733ede8a955b3ec6774588f7e32659a11b715566a4f6850d3cc251ab5",
+      "match": true
+    },
+    "working/member3_baseline_frozen/Open Notebook.onetoc2": {
+      "expected": "2064df45bbfbc846e222eead7c50942aba9df3266245fe3bb44dfffcc36d335f",
+      "actual": "2064df45bbfbc846e222eead7c50942aba9df3266245fe3bb44dfffcc36d335f",
+      "match": true
+    },
+    "working/member3_baseline_frozen/amsterdam_prototype_results.json": {
+      "expected": "8daf472e4a081dcd84344718436395746a19081b58b59ec83f0f047d5d530b6d",
+      "actual": "8daf472e4a081dcd84344718436395746a19081b58b59ec83f0f047d5d530b6d",
+      "match": true
+    },
+    "working/member3_baseline_frozen/amsterdam_zero_shot_results.json": {
+      "expected": "6b965f2a700c8d62eec9c79706d4950ef07dba78858e127edfe80f2835d3fa9a",
+      "actual": "6b965f2a700c8d62eec9c79706d4950ef07dba78858e127edfe80f2835d3fa9a",
+      "match": true
+    },
+    "working/member3_baseline_frozen/artifact_manifest.json": {
+      "expected": "c8541c570a702f7c2a616113d9c74269a83522af4b1ac6877f25d2b7dc51f435",
+      "actual": "c8541c570a702f7c2a616113d9c74269a83522af4b1ac6877f25d2b7dc51f435",
+      "match": true
+    },
+    "working/member3_baseline_frozen/madrid_cv_results.json": {
+      "expected": "6cff27f7448522ede547a7df835fefc19487105d56be40d2da880dae8fba7b5e",
+      "actual": "6cff27f7448522ede547a7df835fefc19487105d56be40d2da880dae8fba7b5e",
+      "match": true
+    },
+    "working/member3_baseline_frozen/metadata.json": {
+      "expected": "5fb0bada0c7bfd00f0c9c5a9274f8249640d538aa9cd12786ef23ee237c3c319",
+      "actual": "5fb0bada0c7bfd00f0c9c5a9274f8249640d538aa9cd12786ef23ee237c3c319",
+      "match": true
+    },
+    "working/minimal_standard_scaler.py": {
+      "expected": "c15ccb5f40b6c9f062f3a332ce523a1021daad65ec1f122394d388d715e2d111",
+      "actual": "c15ccb5f40b6c9f062f3a332ce523a1021daad65ec1f122394d388d715e2d111",
+      "match": true
+    },
+    "working/run_member2_preprocessing.py": {
+      "expected": "8ae69141c9fa5f04687d1237ce974f9c18d1bb76dbd8f7a338383e5084a0fe7d",
+      "actual": "8ae69141c9fa5f04687d1237ce974f9c18d1bb76dbd8f7a338383e5084a0fe7d",
+      "match": true
+    },
+    "working/run_member3_notebook4_artifact_capture.py": {
+      "expected": "41a4a9e7d4b5f66fbb06180fce1f0724258a32c1c1391074804ef1d2fb88612f",
+      "actual": "41a4a9e7d4b5f66fbb06180fce1f0724258a32c1c1391074804ef1d2fb88612f",
+      "match": true
+    },
+    "working/run_member3_notebook4_reference.py": {
+      "expected": "7ed22f17116d2690516db02c686396995074a3ec5a6bd84d63f1d9c5cc206bc6",
+      "actual": "7ed22f17116d2690516db02c686396995074a3ec5a6bd84d63f1d9c5cc206bc6",
+      "match": true
+    },
+    "working/verify_gate4a_episodes.py": {
+      "expected": "6ad66b3e0a8a287e1277c8e43c76759493f2fe9362cc5e685750c6ee30b51532",
+      "actual": "6ad66b3e0a8a287e1277c8e43c76759493f2fe9362cc5e685750c6ee30b51532",
+      "match": true
+    }
+  },
+  "manifest_sha256": "9d493d99f60098cb22fd781c51e2d2907d6831df72cb2524700293aa1a1bbf32",
+  "original_git_status": "",
+  "historical_gate4a_report": "working/G4A-TEARDOWN-002/REPORT.md",
+  "historical_gate4b_report": "working/G4B-E1-001/REPORT.md",
+  "historical_E1_final_audit_status": "PASS",
+  "runtime_check": {
+    "method": "read-only WSL Python file-tree SHA256 comparison to approved narwhals lock",
+    "python": "3.14.4",
+    "files": 4355,
+    "exact_tree_match": true,
+    "candidate_import_and_boundary_probe": "NOT_RUN"
+  },
+  "transport_warning": "First WSL version command failed because Git Bash converted /usr/bin/python3 to a Windows Git path. Corrected shell path conversion for read-only runtime check; no runtime substitution or candidate attempt.",
+  "scientific_verdicts": {
+    "E2": "NOT_RUN",
+    "E3": "NOT_RUN",
+    "E4": "NOT_RUN",
+    "E5": "NOT_RUN"
+  }
+}
