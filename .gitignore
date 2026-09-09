@@ -16,3 +16,6 @@ candidate/artifacts/*.joblib
 !candidate/artifacts/stage1_madrid.pkl
 
 # Figures are committed (small, needed for slides); large artifacts are not
+
+# v2 feature cache - large, regenerate with candidate/build_features_v2.py
+data/preprocessed/features_v2.pkl
