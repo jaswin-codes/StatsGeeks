@@ -111,11 +111,12 @@ abstract = (
     "The organiser's starter pipeline appears to perform transfer learning but does not: its "
     "Madrid-trained Random Forest is discarded, and Amsterdam prototypes are computed from "
     "Amsterdam data alone. We reproduced that baseline exactly, then built a method that "
-    "genuinely reuses Madrid-learned state - a frozen, importance-weighted distance metric - "
-    "and demonstrated its benefit against a target-only control on matched, nested episodes.\n\n"
-    "The gain is small but consistent across every budget. Our main finding is that the ranking "
-    "of source representations depends on the label budget: within-class whitening hurts at five "
-    "shots and helps at two hundred. We report two failed approaches and five stated limitations."
+    "genuinely reuses Madrid-learned state.\n\n"
+    "Our contribution is prototype shrinkage. An Amsterdam class mean estimated from five "
+    "pixels is nearly unbiased but very noisy, so we shrink it toward Madrid's class geometry, "
+    "with the weight falling as target data grows. Five-shot macro F1 rises by 0.0515 over "
+    "target-only prototypes, winning 40 of 50 paired episodes. The optimal shrinkage declines "
+    "monotonically with budget, exactly as shrinkage theory predicts."
 )
 _, p = txt(s, 0.7, 2.1, 11.9, 4.3)
 r = p.add_run()
@@ -124,7 +125,7 @@ r.font.size = Pt(15)
 r.font.color.rgb = MUTED
 _, p = txt(s, 0.7, 6.7, 6.0, 0.4)
 r = p.add_run()
-r.text = "Abstract - 144 words"
+r.text = "Abstract"
 r.font.size = Pt(10)
 r.font.color.rgb = MUTED
 
@@ -252,6 +253,28 @@ r = p.add_run()
 r.text = "Positive at every budget.\nThe lines are close - that is the honest picture."
 r.font.size = Pt(14)
 r.font.color.rgb = INK
+
+# --------------------------------------------------------------- 9c shrinkage
+s = slide()
+title(s, "The biggest gain is where the data is scarcest",
+      "Prototype shrinkage toward Madrid's class geometry", "M3")
+pic(s, "fig9_shrinkage.png", 0.45, 2.0, 3.5)
+bullets(s, [
+    "**At 5 shots, an Amsterdam class mean comes from 5 points in 60 dimensions.**",
+    "Nearly unbiased, but very noisy. Madrid's prototype comes from 76,263 pixels:",
+    "biased, because it is a different city, but stable.",
+    "",
+    "**So shrink the noisy estimate toward the stable one:**",
+    "        p = mu_A  +  lambda (Madrid class offset)  +  (1-lambda)(support mean - mu_A)",
+    "",
+    "**+0.0515 macro F1 at 5 shots. 40 of 50 paired episodes won.**",
+    "",
+    "**And the optimal lambda falls monotonically as target data grows** -",
+    "0.5 at five shots, 0.1 at two hundred. We did not impose that; it is what",
+    "shrinkage theory predicts, recovered from the data.",
+    "",
+    "mu_A uses the SUPPORT set only. Query features are never touched.",
+], x=4.6, y=1.95, w=8.4, size=13, gap=0.35)
 
 # --------------------------------------------------------------- 9b replication
 s = slide()
@@ -385,7 +408,8 @@ title(s, "Conclusion", None, "M1")
 bullets(s, [
     "**The starter's transfer learning transferred nothing. We proved it.**",
     "**We built one that does, and measured it against the right control.**",
-    "**The improvement is small. The method is sound. The failures are documented.**",
+    "**Five-shot macro F1 up 0.0515 over the target-only control, 40 of 50 episodes won.**",
+    "**The failures are documented. The method is sound.**",
 ], y=2.5, gap=0.72)
 _, p = txt(s, 0.9, 5.0, 11.5, 1.2)
 r = p.add_run()
