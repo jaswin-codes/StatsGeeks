@@ -28,5 +28,5 @@ Status options: Proposed, Accepted, Blocked, Rejected, Superseded. Preserve hist
 | Topic | Question | Provisional handling |
 |---|---|---|
 | Presentation | Time limit? | Built for 10 minutes; three slides marked cuttable for 5 |
-| Justification | 300 words (Notebook 1) or 500 (rubric)? | Drafted to 287, satisfies both |
+| ~~Justification word limit~~ | **RESOLVED 2026-09-09: 500 words.** | Submission version is 467 words. A 269-word fallback is retained if a shorter limit is ever imposed. |
 | Submission | Upload mechanism, deadline, required artifact formats? | Inventory prepared in `docs/SUBMISSION_INVENTORY.md`; do not invent requirements |
