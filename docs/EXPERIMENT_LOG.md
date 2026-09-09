@@ -185,11 +185,111 @@ a 30 m pixel, so the labels are intrinsically noisy.
 
 ---
 
+## EXP-006 — Season-controlled, coverage-aware, label-free features (v2)
+
+**Status:** smoke/development · **Commit:** `5f4cd4b` · **Owner:** Member 2/3 scope
+
+**Motivation.** All nine representations in EXP-004 landed within 0.011 of each
+other around a control of 0.5926. Nine different ways of using Madrid's learning
+barely moved the result — the signature of a **feature** bottleneck, not a method
+bottleneck.
+
+**Hypothesis.** Three signals the starter discards carry usable information, the
+largest being season. Measured directly from the raw data:
+
+| | Madrid | Amsterdam |
+|---|---|---|
+| Median day-of-year | **175** (late June) | **105** (mid April) |
+| June–August share | 48.3% | 20.5% |
+
+A **70-day offset**. Vegetation phenology moves NDVI substantially between those
+dates, so part of what a model reads as domain shift is season, not architecture.
+The starter never uses `doy`. It also drops `coverage` (building fraction, mean
+0.505 Madrid vs 0.421 Amsterdam) and records no observation density.
+
+**Changes.** `candidate/build_features_v2.py` — 94 features: May–Sep
+season-controlled spectral statistics, day-of-year summaries, `coverage`
+restored, observation-density and gap features, explicit late-minus-early change
+magnitudes, and label-free change timing. Vectorised gap-fill runs in **85 s**
+against the starter's 13.5 min.
+
+**Structural result — MASTER_PLAN #10 addressed.** `build_features()` never sees
+a label; labels are derived separately and joined by pixel key. The same function
+would run unchanged on a hidden test set with no label column.
+
+**Bug found and fixed during development.** The observation-density features were
+initially all constant: the mask was built from the *interpolated* grid, which has
+no NaNs left, so every pixel showed 42 observations. Fixed by adding a
+no-interpolate path.
+
+---
+
+## EXP-007 — Does v2 beat v1? **No. Rejected.**
+
+**Status:** smoke/development · **Commit:** `5f4cd4b`
+
+Both feature sets evaluated on the **same pixels in the same episodes**, aligned
+by `(px_key, py_key)`, so only the representation differs.
+
+| | selection mean | audit | zero-shot |
+|---|---|---|---|
+| v1 best (`topk`) | 0.6049 | — | 0.4433 |
+| v2 best (`rfw`) | **0.6050** | worse at 4 of 5 budgets, **8/25 wins** | 0.4316 |
+
+**+0.0001 on selection. Nothing.**
+
+**Diagnosis.** The new features are mildly informative but **dilutive**. They hold
+**29.1% of RF importance across 38% of the columns** — below average per column.
+Best new feature (`NIR_warm_mean`) ranks 8th of 94; `coverage` only 40th. Going
+from 60 to 94 dimensions makes prototype estimation noisier, which is why v2
+loses most at **5 shots (−0.0166)**.
+
+**This is the same mechanism as EXP-004's whitening result:** in the low-data
+regime, extra dimensions cost more in estimation error than they add in signal.
+Two independent experiments now point at the same principle.
+
+**Decision.** Per the gate fixed before running, **v1 is kept for the
+submission.** The seasonal offset is reported as a measured finding with a
+negative test — the hypothesis was well-motivated, correctly tested, and wrong.
+
+---
+
+## EXP-008 — Independent replication on fresh episodes
+
+**Status:** smoke/development · **Commit:** `5f4cd4b`
+
+**Why.** The Day-1 audit set had informed two decisions (DEC-012), capping what
+could honestly be claimed. EXP-007 required a new episode draw, giving a
+legitimate opportunity to test the **already-fixed** v1 method on episodes that
+did not exist when it was chosen. Seed **2026**, never used for any selection.
+
+| shots | control | v1_topk | gain | paired wins |
+|---|---|---|---|---|
+| 5 | 0.4922 | 0.5100 | **+0.0178** | 4/5 |
+| 25 | 0.6037 | 0.6082 | +0.0046 | 3/5 |
+| 50 | 0.6107 | 0.6117 | +0.0010 | 2/5 |
+| 100 | 0.6163 | 0.6194 | +0.0031 | 5/5 |
+| 200 | 0.6168 | 0.6204 | +0.0036 | 5/5 |
+| | | | | **19/25** |
+
+**This is external validation, not a re-audit of the selection set**, so it does
+not inherit the DEC-012 caveat. Positive at every budget in both runs, and the
+5-shot gain is now the largest of the five — the regime the challenge cares most
+about.
+
+**Ceiling evidence, now three independent lines:** nine transfer methods within
+0.011; two separately built feature sets both plateau near 0.62; Amsterdam
+few-shot at 200 shots approaches Madrid's own full-data CV of 0.6281.
+**Recommendation: stop optimising.**
+
+---
+
 ## Open items
 
 | # | Item | Owner |
 |---|---|---|
 | 1 | scikit-learn version hypothesis untested (EXP-001) | unassigned |
+| 5 | v2 features rejected but the label-free builder is unused in the shipped pipeline (EXP-006) | deferred, documented |
 | 2 | No experiment reviewed by another member | Team Lead |
 | 3 | Gate S reload must be run by someone other than its author | any other member |
 | 4 | 244 MB `stage1_rf.joblib` not in git and not backed up | Member 2 |

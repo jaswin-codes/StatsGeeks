@@ -253,6 +253,24 @@ r.text = "Positive at every budget.\nThe lines are close - that is the honest pi
 r.font.size = Pt(14)
 r.font.color.rgb = INK
 
+# --------------------------------------------------------------- 9b replication
+s = slide()
+title(s, "And it replicates", "On episodes that did not exist when the method was chosen", "M3")
+pic(s, "fig8_replication.png", 0.7, 1.95, 4.6)
+bullets(s, [
+    "**The method was fixed on one episode set.**",
+    "**Then tested on a brand new one, seed 2026.**",
+    "",
+    "19 of 25 paired episodes won.",
+    "Positive at every budget, in both runs.",
+    "",
+    "**The 5-shot gain is the largest: +0.0178** -",
+    "the regime the challenge actually cares about.",
+    "",
+    "**This is external validation, not a re-audit**",
+    "**of the set we selected on.**",
+], x=6.7, y=2.1, w=6.0, size=15, gap=0.42)
+
 # --------------------------------------------------------------- 10 ablation
 s = slide()
 title(s, "What is worth transferring from Madrid?",
@@ -288,6 +306,29 @@ bullets(s, [
     "**collapse, not useless supervision.**",
 ], x=6.8, y=2.1, w=5.9, size=15, gap=0.42)
 
+# --------------------------------------------------------------- 11b season
+s = slide()
+title(s, "We found a 70-day seasonal offset - and tested it",
+      "A hypothesis that did not pan out, and why that is still a result", "M4")
+pic(s, "fig7_season_offset.png", 0.6, 1.95, 4.6)
+bullets(s, [
+    "**Madrid's median observation is day 175. Amsterdam's is 105.**",
+    "June-August share: Madrid 48.3%, Amsterdam 20.5%.",
+    "So part of the apparent domain shift is phenology, not architecture.",
+    "The starter never uses the day-of-year column at all.",
+    "",
+    "**We rebuilt the features to control for it** - season-matched spectra,",
+    "coverage restored, observation density, label-free change timing. 94 features.",
+    "",
+    "**It did not help.** +0.0001 on selection; slightly worse on audit.",
+    "The new features hold 29% of importance across 38% of the columns -",
+    "informative but dilutive. Going 60 to 94 dimensions makes prototype",
+    "estimation noisier, which is why it loses most at 5 shots.",
+    "",
+    "**Same lesson as the whitening result: in the low-data regime, extra**",
+    "**dimensions cost more in estimation error than they add in signal.**",
+], x=5.9, y=2.0, w=7.0, size=13, gap=0.34)
+
 # --------------------------------------------------------------- 12 honesty
 s = slide()
 title(s, "Reading the numbers honestly",
@@ -303,7 +344,8 @@ bullets(s, [
     "Accuracy 0.4496 exceeds macro F1 0.4433 on",
     "zero-shot - accuracy would have flattered us.",
     "",
-    "**Two methods were audited, so we crown no winner.**",
+    "**Two methods were audited on the first set, so we crown no winner -**",
+    "**but the headline result replicates on independent episodes.**",
 ], x=5.9, y=2.05, w=6.8, size=15, gap=0.42)
 
 # --------------------------------------------------------------- 13 failure
@@ -329,7 +371,8 @@ bullets(s, [
     "**1.  Features are still built label-dependently** - the pipeline could not currently",
     "        generate features for an unlabelled hidden test set.",
     "**2.  Scaling is fitted before cross-validation** - not fold-safe.",
-    "**3.  The audit set informed two decisions** - so we crown no winner.",
+    "**3.  Two methods were audited on the original set** - so we crown no winner there.",
+    "        The headline result has since been replicated on an independent episode set.",
     "**4.  No independent verification yet** - Gate S needs a second person.",
     "**5.  We appear to be near a label-noise ceiling.**",
     "",
