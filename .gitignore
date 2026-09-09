@@ -9,3 +9,13 @@ data/preprocessed/
 __pycache__/
 .ipynb_checkpoints/
 .venv/
+# Large model artifacts - locations and checksums recorded instead
+candidate/artifacts/*.joblib
+
+# The 9 KB adaptation artifact IS the deliverable, so keep it despite *.pkl above
+!candidate/artifacts/stage1_madrid.pkl
+
+# Figures are committed (small, needed for slides); large artifacts are not
+
+# v2 feature cache - large, regenerate with candidate/build_features_v2.py
+data/preprocessed/features_v2.pkl
