@@ -1,0 +1,20 @@
+{
+  "paths": [
+    "candidate/experiments_2h/PLAN.md",
+    "candidate/experiments_2h/expA_source_local/configuration.json",
+    "candidate/experiments_2h/expA_source_local/configuration_repeat.json",
+    "candidate/experiments_2h/expB_dim_shrink/configuration.json",
+    "candidate/experiments_2h/expB_dim_shrink/configuration_repeat.json",
+    "candidate/experiments_2h/expC_class_diagnostic/configuration.json",
+    "candidate/experiments_2h/expC_class_diagnostic/configuration_repeat.json",
+    "candidate/experiments_2h/expD_spatial/configuration.json",
+    "candidate/experiments_2h/expD_spatial/configuration_repeat.json",
+    "candidate/experiments_2h/expE_temporal/configuration.json",
+    "candidate/experiments_2h/expE_temporal/configuration_repeat.json",
+    "candidate/experiments_2h/expF_covariance/configuration.json",
+    "candidate/experiments_2h/expF_covariance/configuration_repeat.json",
+    "candidate/experiments_2h/expF_covariance/spatial/configuration.json",
+    "candidate/experiments_2h/expF_covariance/spatial/configuration_repeat.json"
+  ],
+  "status": "indexed"
+}

@@ -1,0 +1,10 @@
+{
+  "path": "candidate/publication/submission_bundle.zip",
+  "sha256": "ed8ff94f54c8f90738a3f5c577f099148f8554e151be845c1928b92662f9fd10",
+  "bytes": 129468817,
+  "files": 1288,
+  "archive_hashes_verified": true,
+  "allowlist_verified": true,
+  "created_utc": "2026-09-09T18:39:47.633377+00:00",
+  "note": "Receipt/ZIP excluded from research seal to avoid circularity; archive has its own independent seal"
+}

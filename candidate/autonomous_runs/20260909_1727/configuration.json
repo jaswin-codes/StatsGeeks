@@ -1,0 +1,30 @@
+{
+  "base": {
+    "kind": "rf",
+    "leaf": 1,
+    "features": "sqrt",
+    "trees": 200,
+    "pool": true,
+    "adaptive": true,
+    "spatial": true,
+    "prior": 20.0,
+    "rho_factor": 1.0,
+    "sigma": 1.0,
+    "neighbours": 9,
+    "steps": 1,
+    "coord": false,
+    "bilateral": false,
+    "covblend": 0.0
+  },
+  "development_bank_seed": 20260909,
+  "development_labels": 800,
+  "selection": "Five folds of held-out support labels; no final/audit query truth",
+  "final_seed": 20260910,
+  "final_excludes_development_bank": true,
+  "TARGET_LABELS_USED": false,
+  "SUPPORT_LABELS_USED": true,
+  "TARGET_FEATURES_USED": true,
+  "COORDINATES_USED": true,
+  "QUERY_LABEL_USAGE": "evaluation only; never selection/adaptation/stopping",
+  "population_sd_ddof": 0
+}

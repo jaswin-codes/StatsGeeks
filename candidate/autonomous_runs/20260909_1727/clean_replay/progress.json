@@ -1,0 +1,6 @@
+{
+  "exact_prediction_arrays": 4000,
+  "episodes": 1000,
+  "completed_trials": 200,
+  "seconds": 2150.552621603012
+}

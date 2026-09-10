@@ -1,0 +1,127 @@
+{
+  "created_utc": "2026-09-09T19:08:50.620710+00:00",
+  "timestamp_id": "20260909T190850Z",
+  "git_branch": "integration",
+  "git_commit": "7f012bba90b4c04305bcaebe24b53de59f0ca170",
+  "worktree_dirty": true,
+  "model_in_presentation": "EXP-010 historical fallback",
+  "current_research_model": "Coordinate_RF development-locked (not the deck)",
+  "organizer_email": "uctstatsgeekssociety@uct.ac.za",
+  "submission_ready": false,
+  "blocker": "Final-method notebook absent; included notebooks are reference evidence only",
+  "files": [
+    {
+      "relative_path": "deliverables_20260909T190850Z/presentation/StatsGeeks_BuildingAge.pptx",
+      "file_type": "pptx",
+      "size": 201174,
+      "sha256": "d2bfd6e1eeb5f1348cfd75f4e5a657501c75ed55c1b5b7b57317fd38b80a1697",
+      "source_path": "presentation/StatsGeeks_BuildingAge.pptx",
+      "source_modified_utc": "2026-09-09T12:02:29.414190+00:00",
+      "reason": "Organizer-requested presentation; strongest existing deck, frozen EXP-010 historical result"
+    },
+    {
+      "relative_path": "deliverables_20260909T190850Z/presentation/StatsGeeks_BuildingAge.pdf",
+      "file_type": "pdf",
+      "size": 473588,
+      "sha256": "bb4813a6399e4fe216b49efed897b3750a662173999ed827517e8039439a34e4",
+      "source_path": "presentation/StatsGeeks_BuildingAge.pdf",
+      "source_modified_utc": "2026-09-09T12:02:34.274718+00:00",
+      "reason": "Static viewing alternative for the same presentation"
+    },
+    {
+      "relative_path": "deliverables_20260909T190850Z/justification/written_justification.txt",
+      "file_type": "txt",
+      "size": 2859,
+      "sha256": "a98bcea0c44af07257ec8bfef13187373e96d62fa02643721a9ef7ae42427399",
+      "source_path": "submission_dry_run/justification/written_justification.txt",
+      "source_modified_utc": "2026-09-09T12:09:22.826855+00:00",
+      "reason": "Existing submission-ready standalone approach explanation; matches EXP-010 deck"
+    },
+    {
+      "relative_path": "deliverables_20260909T190850Z/working/3-Preprocessing_member2_baseline_executed.ipynb",
+      "file_type": "ipynb",
+      "size": 32812,
+      "sha256": "c6f7a50463f2785f10ff78a732fb655a29b282d89692b51d5baf4dbeb3fa3368",
+      "source_path": "working/3-Preprocessing_member2_baseline_executed.ipynb",
+      "source_modified_utc": "2026-09-08T09:19:20.011977+00:00",
+      "reason": "Strongest audited executed preprocessing notebook for accepted local artifact; REFERENCE, not a final candidate notebook"
+    },
+    {
+      "relative_path": "deliverables_20260909T190850Z/working/4-Modelling_member3_reference_executed.ipynb",
+      "file_type": "ipynb",
+      "size": 6946149,
+      "sha256": "37761873bc8d9ef57b13515b66ed636d400830b0b186cf25d55b41ccb3fc208e",
+      "source_path": "working/4-Modelling_member3_reference_executed.ipynb",
+      "source_modified_utc": "2026-09-08T10:09:16.462252+00:00",
+      "reason": "Strongest audited executed modelling notebook; REFERENCE BASELINE ONLY, not EXP-010/Coordinate_RF"
+    },
+    {
+      "relative_path": "deliverables_20260909T190850Z/working/minimal_standard_scaler.py",
+      "file_type": "py",
+      "size": 1133,
+      "sha256": "c15ccb5f40b6c9f062f3a332ce523a1021daad65ec1f122394d388d715e2d111",
+      "source_path": "working/minimal_standard_scaler.py",
+      "source_modified_utc": "2026-09-08T08:48:46.252849+00:00",
+      "reason": "Required import for the selected preprocessing notebook and its produced pickle"
+    },
+    {
+      "relative_path": "deliverables_20260909T190850Z/code/exp010_predict.py",
+      "file_type": "py",
+      "size": 9431,
+      "sha256": "72846b9d5af5e24171ab00e3d4effafbb3045d29f83a9586fe762872e8055cfd",
+      "source_path": "candidate/exp010_predict.py",
+      "source_modified_utc": "2026-09-09T11:46:25.279876+00:00",
+      "reason": "Frozen EXP-010 adaptation implementation corresponding to the presentation; Python, not a notebook substitute"
+    },
+    {
+      "relative_path": "deliverables_20260909T190850Z/model/exp010_stage1_madrid.pkl",
+      "file_type": "pkl",
+      "size": 6221,
+      "sha256": "2f4dc0f7a84ea54e967d7a96573b349331e1777ddb0a4a46e4925cad7bd6d266",
+      "source_path": "candidate/artifacts/exp010_stage1_madrid.pkl",
+      "source_modified_utc": "2026-09-09T11:18:34.734802+00:00",
+      "reason": "Small source-only learned adaptation state required by the frozen EXP-010 inference code"
+    },
+    {
+      "relative_path": "deliverables_20260909T190850Z/requirements.txt",
+      "file_type": "txt",
+      "size": 12,
+      "sha256": "a83a2a4ed7ab2e022b9b8a83cfa2b8cf52cc243006c597e8b96f90a8365590ac",
+      "source_path": "submission_dry_run/requirements.txt",
+      "source_modified_utc": "2026-09-09T12:09:59.682385+00:00",
+      "reason": "Existing minimal dependency file for the EXP-010 inference CLI; not the full notebook environment"
+    },
+    {
+      "relative_path": "README.md",
+      "file_type": "md",
+      "size": 6862,
+      "sha256": "8ba2090b2d9f03863b405d0690ec0e832819a5daa1efb3592cd5551ce9489e20",
+      "source_path": "generated from inspected repository evidence and operative user-supplied organizer instruction",
+      "source_modified_utc": "2026-09-09T19:08:50.620710+00:00",
+      "reason": "Required submission cover/checklist; exposes scope and gaps without changing original deliverables"
+    },
+    {
+      "relative_path": "FINAL_SUBMISSION_CHECKLIST.md",
+      "file_type": "md",
+      "size": 3434,
+      "sha256": "b169eeb1fa886287eb68e07924ef48d49aaeeadd6806e4a25f5d63018ad3d194",
+      "source_path": "generated from inspected repository evidence and operative user-supplied organizer instruction",
+      "source_modified_utc": "2026-09-09T19:08:50.620710+00:00",
+      "reason": "Required submission cover/checklist; exposes scope and gaps without changing original deliverables"
+    }
+  ],
+  "control_files": [
+    {
+      "relative_path": "MANIFEST.json",
+      "file_type": "json",
+      "source_path": "generated snapshot metadata",
+      "reason": "Indexes all deliverables; its hash/size recorded in SHA256SUMS.txt and external seal to avoid self-hash paradox"
+    },
+    {
+      "relative_path": "SHA256SUMS.txt",
+      "file_type": "txt",
+      "source_path": "generated snapshot seal",
+      "reason": "Hashes payload and manifest; its own hash/size recorded in external seal"
+    }
+  ]
+}

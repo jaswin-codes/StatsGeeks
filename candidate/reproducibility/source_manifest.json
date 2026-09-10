@@ -1,0 +1,10 @@
+{
+  "candidate/autonomous_runs/20260909_1727/final_complete.json": "d672e9319d794b00101821d1382a2a6543580d513d3eecf35dbc0c0a9bd65166",
+  "candidate/autonomous_runs/20260909_1727/spatial_complete.json": "7a7f94fada3ad5ab8a719e73640208babecabebb61fac4e5da8f807389ad8bff",
+  "candidate/autonomous_runs/20260909_1727/ablation_complete.json": "75c1681de901344991258466a3d77cf54e714777a70c266417987f3b5f2360e7",
+  "candidate/autonomous_runs/20260909_1727/optimization_complete.json": "df4da8e2b0bceab0e274657fb39f5beb6384c69e68ce674a00e9f2ed54e30895",
+  "candidate/autonomous_runs/20260909_1727/SELECTION_LOCK.json": "ad3e9d6805a58563a9ddadff1b9be81ff90491c7dd160425e441877bcc8029f4",
+  "candidate/autonomous_runs/20260909_1727/provenance.json": "11fbe5f50cef2559374d706981ed592d7f834faea40613bdf74783861cb59745",
+  "candidate/autonomous_runs/20260909_1727/configuration.json": "634bb266e1b4853966184d2802351dedad5f2d57747e5edff82217d9d9db4709",
+  "candidate/autonomous_runs/20260909_1727/clean_replay/verification.json": "5345874150fa141cb3f1e7354469c8b201a148de000ca831708640d0317d6cb4"
+}

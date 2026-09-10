@@ -1,5 +1,33 @@
 # `candidate/` — the source-learned transfer method
 
+> **FINAL SCIENTIFIC FREEZE.** EXP-010 is the primary result; the safe headline is **45/50 paired wins** against the `k=60, lambda=0` control. Tuned schedule: `k=30, lambda=0.6` at five shots and `k=45, lambda=0` at 25/50/100/200 shots. The authoritative arrays are in `artifacts/joint_sweep.json`; verify them with `verify_frozen_results.py` (arithmetic only).
+>
+> `artifacts/stage1_madrid.pkl` is a **legacy top-30 artifact and does not represent EXP-010**. The packaging-only `artifacts/exp010_stage1_madrid.pkl` contains the frozen EXP-010 weights, top-30/top-45 indices, Madrid class offsets, and budget schedule; `exp010_predict.py` now consumes it for support-only adaptation and label-free query prediction. `final_vs_starter.json` and `shrinkage_chain.json` are partially verified auxiliary evidence and are not the headline. Do not claim 47/50, 9.7%, or independent replication of EXP-010.
+>
+## Frozen EXP-010 judge reproduction
+
+`artifacts/exp010_stage1_madrid.pkl` is the final Madrid Stage 1 state. It stores the ordered 60-feature schema, Madrid RF importances/metric weights, top-30 and top-45 feature indices, Madrid class offsets, classes, metadata, and the frozen budget schedule. `exp010_predict.py` loads that artifact, computes the Amsterdam centre and class prototypes from support data only, and predicts query features without accepting query labels.
+
+Accepted budgets and immutable settings are: 5 → `(k=30, lambda=0.6)`; 25, 50, 100, and 200 → `(k=45, lambda=0.0)`. The caller supplies exactly that many support rows per class. `seed` is a required run identifier; prediction is deterministic because support rows are supplied rather than sampled by this interface.
+
+Inputs are NPZ files. Support must contain `X`, `y`, and `feature_names`; query must contain only `X` and `feature_names`. Both `X` arrays must be finite numeric matrices with 60 columns in the artifact's exact order. They must already be constructed with the Madrid-fitted preprocessing used by EXP-010. The legacy feature builder is label-dependent; this interface therefore consumes precomputed feature matrices and never needs query labels, but it does not provide a new raw-data feature builder.
+
+```bash
+python candidate/exp010_predict.py --artifact candidate/artifacts/exp010_stage1_madrid.pkl --support support.npz --query query.npz --shots 5 --seed 31337 --output predictions.npy
+```
+
+Run the software-only clean-process smoke test (synthetic inputs; no scientific metric):
+
+```bash
+python candidate/test_exp010_interface.py
+```
+
+Verify the frozen published arithmetic separately with `python candidate/verify_frozen_results.py`. Check submission-critical file hashes against `artifacts/SHA256SUMS.txt`.
+
+> The baseline discrepancy is unresolved: unchanged source produced local Madrid CV `0.6281 ± 0.0043` and zero-shot `0.4433`, versus organiser-saved `0.6179 ± 0.0043` and `0.3427`; incomplete package/input provenance prevents attribution or an exact-reproduction claim. The material below records earlier development history and must be read subject to this freeze notice.
+
+<!-- Historical material below. -->
+
 This folder contains the team's actual transfer learning method: the thing the
 organiser's starter code does **not** do.
 

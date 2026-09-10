@@ -1,0 +1,7 @@
+{
+  "pass": true,
+  "command": "python -I -B candidate/experiments_2h/run.py B --repeat",
+  "exact_prediction_arrays_checked": 400,
+  "episodes_equal": true,
+  "runtime_seconds": 15.223277100001724
+}

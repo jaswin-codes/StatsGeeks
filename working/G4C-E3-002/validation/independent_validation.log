@@ -1,0 +1,5 @@
+{
+  "status": "FAIL",
+  "seconds": 68.65330268,
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/G4C-E3-002/run_independent_validation.py\", line 21, in <module>\n    result=e3_validator.validate_e3_run(RUN)\n  File \"/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/G4C-E3-002/coordinator/e3_validator.py\", line 418, in validate_e3_run\n    context = production_context(run)\n  File \"/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/G4C-E3-002/coordinator/e3_validator.py\", line 381, in production_context\n    require(not subprocess.check_output(['git', 'status', '--short', '--', 'original/'], cwd=root), 'Original tree dirty')\n    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/G4C-E3-002/coordinator/e3_validator.py\", line 40, in require\n    raise ValidationError(message)\ne3_validator.ValidationError: Original tree dirty\n"
+}

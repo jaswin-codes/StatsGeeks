@@ -1,0 +1,8 @@
+{
+  "cache_directories": [
+    "working/__pycache__",
+    "working/G4C-INFRA-PERF-001/code/__pycache__",
+    "presentation/__pycache__"
+  ],
+  "reason": "Excluded from export; retained locally to avoid deleting protected/referenced evidence"
+}

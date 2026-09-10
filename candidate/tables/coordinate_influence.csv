@@ -1,0 +1,11 @@
+budget,trial,feature,importance,kind
+5,0,coordinate_x,0.018018228768560268,"impurity; transformed axes, not raw spectral features"
+5,0,coordinate_y,0.009653585672764493,"impurity; transformed axes, not raw spectral features"
+25,0,coordinate_x,0.013359706874253753,"impurity; transformed axes, not raw spectral features"
+25,0,coordinate_y,0.00936090506411666,"impurity; transformed axes, not raw spectral features"
+50,0,coordinate_x,0.025060015949833737,"impurity; transformed axes, not raw spectral features"
+50,0,coordinate_y,0.010310554355237984,"impurity; transformed axes, not raw spectral features"
+100,0,coordinate_x,0.026436741182333988,"impurity; transformed axes, not raw spectral features"
+100,0,coordinate_y,0.018262272953432742,"impurity; transformed axes, not raw spectral features"
+200,0,coordinate_x,0.028945826740141064,"impurity; transformed axes, not raw spectral features"
+200,0,coordinate_y,0.018849876557272337,"impurity; transformed axes, not raw spectral features"

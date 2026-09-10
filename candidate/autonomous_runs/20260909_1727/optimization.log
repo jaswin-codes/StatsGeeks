@@ -1,0 +1,13 @@
+17:38:02 optimization ASTRA_AGF: support CV 0.766282
+17:38:09 optimization RF_half_features: support CV 0.754911
+17:38:14 optimization ExtraTrees: support CV 0.770155
+17:38:46 optimization BoostedTrees: support CV 0.747317
+17:38:51 optimization Coordinate_RF: support CV 0.769798
+17:38:57 optimization Stronger_diagonal: support CV 0.758102
+17:39:02 optimization Less_diagonal: support CV 0.760011
+17:39:08 optimization Covariance_blend: support CV 0.766241
+17:39:13 optimization No_source_prior: support CV 0.760888
+17:39:19 optimization Confidence_prior: support CV 0.765015
+17:39:25 optimization Wide_graph: support CV 0.763424
+17:39:31 optimization Bilateral_graph: support CV 0.762404
+17:39:37 optimization Two_step_graph: support CV 0.766736

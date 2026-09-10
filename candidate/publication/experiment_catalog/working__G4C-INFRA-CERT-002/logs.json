@@ -1,0 +1,8 @@
+{
+  "paths": [
+    "working/G4C-INFRA-CERT-002/evidence/offline_equivalence.log",
+    "working/G4C-INFRA-CERT-002/evidence/validator_tests_attempt1.log",
+    "working/G4C-INFRA-CERT-002/evidence/validator_tests_attempt2.log"
+  ],
+  "status": "indexed"
+}

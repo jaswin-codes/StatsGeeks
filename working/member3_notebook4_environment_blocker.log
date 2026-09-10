@@ -1,0 +1,68 @@
+# Notebook 4 reference baseline — environment blocker
+
+**Time:** 2026-09-08 11:41 SAST  
+**Scope:** Reference-only Notebook 4 reproduction authorised by DEC-001. No model fitting, prediction, prototype episode, or notebook execution occurred.
+
+## Accepted input artifact
+
+- `data/preprocessed/preprocessed_data.pkl`
+- SHA256: `51f11bc9025b5d4ffe2f9e03a8c76b70e4cfd0e91cb36876a9d021181e8ccdbe`
+- Phase 1 accepted contract: Madrid `(76263, 60)`, Amsterdam `(25992, 60)`, four classes, 60 ordered features. See `working/member2_baseline_handoff.md`.
+
+## Environment tested
+
+Interpreter:
+
+```text
+C:\Users\jaswi\AppData\Local\Programs\Python\Python311\python.exe
+Python 3.11.9 (MSC v.1938 64 bit (AMD64))
+```
+
+Packages visible to this interpreter:
+
+```text
+numpy 2.4.6
+scipy 1.17.1
+scikit-learn 1.9.0
+```
+
+Probe command:
+
+```text
+python.exe -u -c "import time; t=time.perf_counter(); import sklearn; print('sklearn', sklearn.__version__, 'seconds', round(time.perf_counter()-t,3)); from sklearn.ensemble import RandomForestClassifier; from sklearn.model_selection import RepeatedStratifiedKFold; print('RF_IMPORT_PASS')"
+```
+
+Observed output / failure:
+
+```text
+sklearn 1.9.0 seconds 6.237
+ImportError: DLL load failed while importing _gradient_boosting: An Application Control policy has blocked this file.
+```
+
+A `RandomForestClassifier` cannot be imported because importing `sklearn.ensemble` imports the blocked compiled extension. Therefore Notebook 4 cannot faithfully execute in this environment. No fallback classifier, substituted implementation, changed parameters, or protocol workaround was used.
+
+Additional probe: Python 3.14.6 (`C:\Python314\python.exe`) imported NumPy 2.5.3 and SciPy 1.18.1 but did not complete `import sklearn` within a 20-second bounded probe; it was not used for modelling. Python 3.13.2 lacks NumPy.
+
+## Preprocessed artifact reload
+
+The accepted pickle was reloaded successfully in the tested Python 3.11 interpreter from the repository root (so `working.minimal_standard_scaler` was importable):
+
+```text
+PICKLE_RELOAD_PASS
+Madrid (76263, 60) [1, 2, 3, 4]
+Amsterdam (25992, 60) [1, 2, 3, 4]
+Feature_names 60
+```
+
+## Preservation checks
+
+```text
+original/4-Modelling.ipynb SHA256: 709fa081f33186253715e1cd525b5d2a7c8b7a05259855fc72f137c9233551ae
+original/3-Preprocessing.ipynb SHA256: 86136f0ab901a4fd15f45e7545c5107f98fb17ed271e9c46c12d0d614b261175
+git status --short -- original: clean
+original/Open Notebook.onetoc2 attributes: A R (read-only remains set)
+```
+
+## Required next action
+
+Use an administrator-approved Python environment where `from sklearn.ensemble import RandomForestClassifier` and `from sklearn.model_selection import RepeatedStratifiedKFold` both import successfully. Re-run this reference task unchanged from the accepted pickle; do not substitute an implementation.

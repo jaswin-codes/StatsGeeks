@@ -1,0 +1,17 @@
+{
+  "data/madrid_train.parquet": {
+    "sha256": "0e106a07044d867f8c68e77de8c36826c491d0f26692b8cde753d1046ce24c9c",
+    "bytes": 141959981,
+    "role": "unchanged local organizer input; check redistribution permission"
+  },
+  "data/amsterdam_data.parquet": {
+    "sha256": "32388f3a9792b01d9831ca4d0fc4bfadba132a1c23c06e372d7a82e985be0719",
+    "bytes": 43840149,
+    "role": "unchanged local organizer input; check redistribution permission"
+  },
+  "data/preprocessed/preprocessed_data.pkl": {
+    "sha256": "51f11bc9025b5d4ffe2f9e03a8c76b70e4cfd0e91cb36876a9d021181e8ccdbe",
+    "bytes": 50721695,
+    "role": "unchanged local organizer input; check redistribution permission"
+  }
+}

@@ -1,0 +1,354 @@
+[
+  {
+    "name": "learning_curve",
+    "caption": "Error bars: population SD (ddof=0), not CI. Conditional bootstrap mean intervals in learning_curve.csv.",
+    "files": [
+      "candidate/figures/publication/learning_curve.png",
+      "candidate/figures/publication/learning_curve.svg",
+      "candidate/figures/publication/learning_curve.pdf"
+    ],
+    "transparent": "candidate/presentation/learning_curve_transparent.png",
+    "dpi": 350
+  },
+  {
+    "name": "budget_comparison",
+    "caption": "All five budgets, same locked evaluation population.",
+    "files": [
+      "candidate/figures/publication/budget_comparison.png",
+      "candidate/figures/publication/budget_comparison.svg",
+      "candidate/figures/publication/budget_comparison.pdf"
+    ],
+    "transparent": "candidate/presentation/budget_comparison_transparent.png",
+    "dpi": 350
+  },
+  {
+    "name": "paired_gain",
+    "caption": "Matched by budget and trial; boxes summarize paired differences, not independent-city uncertainty.",
+    "files": [
+      "candidate/figures/publication/paired_gain.png",
+      "candidate/figures/publication/paired_gain.svg",
+      "candidate/figures/publication/paired_gain.pdf"
+    ],
+    "transparent": "candidate/presentation/paired_gain_transparent.png",
+    "dpi": 350
+  },
+  {
+    "name": "cumulative_wins",
+    "caption": "Saved episode order is arbitrary; cumulative trends do not represent learning or sequential inference.",
+    "files": [
+      "candidate/figures/publication/cumulative_wins.png",
+      "candidate/figures/publication/cumulative_wins.svg",
+      "candidate/figures/publication/cumulative_wins.pdf"
+    ],
+    "transparent": "candidate/presentation/cumulative_wins_transparent.png",
+    "dpi": 350
+  },
+  {
+    "name": "cumulative_gain",
+    "caption": "Saved episode order is arbitrary; cumulative trends do not represent learning or sequential inference.",
+    "files": [
+      "candidate/figures/publication/cumulative_gain.png",
+      "candidate/figures/publication/cumulative_gain.svg",
+      "candidate/figures/publication/cumulative_gain.pdf"
+    ],
+    "transparent": "candidate/presentation/cumulative_gain_transparent.png",
+    "dpi": 350
+  },
+  {
+    "name": "confusion_EXP010_raw",
+    "caption": "200 shots/class, 200 episodes. Counts are repeated query appearances, not unique independent pixels.",
+    "files": [
+      "candidate/figures/publication/confusion_EXP010_raw.png",
+      "candidate/figures/publication/confusion_EXP010_raw.svg",
+      "candidate/figures/publication/confusion_EXP010_raw.pdf"
+    ],
+    "transparent": "candidate/presentation/confusion_EXP010_raw_transparent.png",
+    "dpi": 350
+  },
+  {
+    "name": "confusion_EXP010_normalized",
+    "caption": "200 shots/class, 200 episodes. Counts are repeated query appearances, not unique independent pixels.",
+    "files": [
+      "candidate/figures/publication/confusion_EXP010_normalized.png",
+      "candidate/figures/publication/confusion_EXP010_normalized.svg",
+      "candidate/figures/publication/confusion_EXP010_normalized.pdf"
+    ],
+    "transparent": "candidate/presentation/confusion_EXP010_normalized_transparent.png",
+    "dpi": 350
+  },
+  {
+    "name": "confusion_EXPF_raw",
+    "caption": "200 shots/class, 200 episodes. Counts are repeated query appearances, not unique independent pixels.",
+    "files": [
+      "candidate/figures/publication/confusion_EXPF_raw.png",
+      "candidate/figures/publication/confusion_EXPF_raw.svg",
+      "candidate/figures/publication/confusion_EXPF_raw.pdf"
+    ],
+    "transparent": "candidate/presentation/confusion_EXPF_raw_transparent.png",
+    "dpi": 350
+  },
+  {
+    "name": "confusion_EXPF_normalized",
+    "caption": "200 shots/class, 200 episodes. Counts are repeated query appearances, not unique independent pixels.",
+    "files": [
+      "candidate/figures/publication/confusion_EXPF_normalized.png",
+      "candidate/figures/publication/confusion_EXPF_normalized.svg",
+      "candidate/figures/publication/confusion_EXPF_normalized.pdf"
+    ],
+    "transparent": "candidate/presentation/confusion_EXPF_normalized_transparent.png",
+    "dpi": 350
+  },
+  {
+    "name": "confusion_ASTRA_AGF_raw",
+    "caption": "200 shots/class, 200 episodes. Counts are repeated query appearances, not unique independent pixels.",
+    "files": [
+      "candidate/figures/publication/confusion_ASTRA_AGF_raw.png",
+      "candidate/figures/publication/confusion_ASTRA_AGF_raw.svg",
+      "candidate/figures/publication/confusion_ASTRA_AGF_raw.pdf"
+    ],
+    "transparent": "candidate/presentation/confusion_ASTRA_AGF_raw_transparent.png",
+    "dpi": 350
+  },
+  {
+    "name": "confusion_ASTRA_AGF_normalized",
+    "caption": "200 shots/class, 200 episodes. Counts are repeated query appearances, not unique independent pixels.",
+    "files": [
+      "candidate/figures/publication/confusion_ASTRA_AGF_normalized.png",
+      "candidate/figures/publication/confusion_ASTRA_AGF_normalized.svg",
+      "candidate/figures/publication/confusion_ASTRA_AGF_normalized.pdf"
+    ],
+    "transparent": "candidate/presentation/confusion_ASTRA_AGF_normalized_transparent.png",
+    "dpi": 350
+  },
+  {
+    "name": "confusion_Coordinate_RF_raw",
+    "caption": "200 shots/class, 200 episodes. Counts are repeated query appearances, not unique independent pixels.",
+    "files": [
+      "candidate/figures/publication/confusion_Coordinate_RF_raw.png",
+      "candidate/figures/publication/confusion_Coordinate_RF_raw.svg",
+      "candidate/figures/publication/confusion_Coordinate_RF_raw.pdf"
+    ],
+    "transparent": "candidate/presentation/confusion_Coordinate_RF_raw_transparent.png",
+    "dpi": 350
+  },
+  {
+    "name": "confusion_Coordinate_RF_normalized",
+    "caption": "200 shots/class, 200 episodes. Counts are repeated query appearances, not unique independent pixels.",
+    "files": [
+      "candidate/figures/publication/confusion_Coordinate_RF_normalized.png",
+      "candidate/figures/publication/confusion_Coordinate_RF_normalized.svg",
+      "candidate/figures/publication/confusion_Coordinate_RF_normalized.pdf"
+    ],
+    "transparent": "candidate/presentation/confusion_Coordinate_RF_normalized_transparent.png",
+    "dpi": 350
+  },
+  {
+    "name": "per_class",
+    "caption": "Pooled precision/recall/F1 at 200 shots. Mean per-episode class F1 is separately tabulated.",
+    "files": [
+      "candidate/figures/publication/per_class.png",
+      "candidate/figures/publication/per_class.svg",
+      "candidate/figures/publication/per_class.pdf"
+    ],
+    "transparent": "candidate/presentation/per_class_transparent.png",
+    "dpi": 350
+  },
+  {
+    "name": "per_class_EXP010",
+    "caption": "Pooled class metrics; support counts repeated query appearances.",
+    "files": [
+      "candidate/figures/publication/per_class_EXP010.png",
+      "candidate/figures/publication/per_class_EXP010.svg",
+      "candidate/figures/publication/per_class_EXP010.pdf"
+    ],
+    "transparent": "candidate/presentation/per_class_EXP010_transparent.png",
+    "dpi": 350
+  },
+  {
+    "name": "per_class_EXPF",
+    "caption": "Pooled class metrics; support counts repeated query appearances.",
+    "files": [
+      "candidate/figures/publication/per_class_EXPF.png",
+      "candidate/figures/publication/per_class_EXPF.svg",
+      "candidate/figures/publication/per_class_EXPF.pdf"
+    ],
+    "transparent": "candidate/presentation/per_class_EXPF_transparent.png",
+    "dpi": 350
+  },
+  {
+    "name": "per_class_ASTRA_AGF",
+    "caption": "Pooled class metrics; support counts repeated query appearances.",
+    "files": [
+      "candidate/figures/publication/per_class_ASTRA_AGF.png",
+      "candidate/figures/publication/per_class_ASTRA_AGF.svg",
+      "candidate/figures/publication/per_class_ASTRA_AGF.pdf"
+    ],
+    "transparent": "candidate/presentation/per_class_ASTRA_AGF_transparent.png",
+    "dpi": 350
+  },
+  {
+    "name": "per_class_Coordinate_RF",
+    "caption": "Pooled class metrics; support counts repeated query appearances.",
+    "files": [
+      "candidate/figures/publication/per_class_Coordinate_RF.png",
+      "candidate/figures/publication/per_class_Coordinate_RF.svg",
+      "candidate/figures/publication/per_class_Coordinate_RF.pdf"
+    ],
+    "transparent": "candidate/presentation/per_class_Coordinate_RF_transparent.png",
+    "dpi": 350
+  },
+  {
+    "name": "spatial",
+    "caption": "10 paired trials per spatial direction, 10-key-unit buffer; 200 shots. Summary bars have no fabricated SD. Random control has different geography.",
+    "files": [
+      "candidate/figures/publication/spatial.png",
+      "candidate/figures/publication/spatial.svg",
+      "candidate/figures/publication/spatial.pdf"
+    ],
+    "transparent": "candidate/presentation/spatial_transparent.png",
+    "dpi": 350
+  },
+  {
+    "name": "spatial_summary",
+    "caption": "10 paired trials per spatial direction, 10-key-unit buffer; 200 shots. Summary bars have no fabricated SD. Random control has different geography.",
+    "files": [
+      "candidate/figures/publication/spatial_summary.png",
+      "candidate/figures/publication/spatial_summary.svg",
+      "candidate/figures/publication/spatial_summary.pdf"
+    ],
+    "transparent": "candidate/presentation/spatial_summary_transparent.png",
+    "dpi": 350
+  },
+  {
+    "name": "ablation",
+    "caption": "A=RF, B=pool covariance, C=Gaussian graph, D=adaptive shrinkage; factorial prior disabled. Mechanism rows use full ASTRA recipe. Not an additive causal ladder.",
+    "files": [
+      "candidate/figures/publication/ablation.png",
+      "candidate/figures/publication/ablation.svg",
+      "candidate/figures/publication/ablation.pdf"
+    ],
+    "transparent": "candidate/presentation/ablation_transparent.png",
+    "dpi": 350
+  },
+  {
+    "name": "histogram",
+    "caption": "200 episodes per model/budget on one fixed city; density uses Gaussian KDE with default Scott bandwidth.",
+    "files": [
+      "candidate/figures/publication/histogram.png",
+      "candidate/figures/publication/histogram.svg",
+      "candidate/figures/publication/histogram.pdf"
+    ],
+    "transparent": "candidate/presentation/histogram_transparent.png",
+    "dpi": 350
+  },
+  {
+    "name": "boxplot",
+    "caption": "200 episodes per model/budget on one fixed city; density uses Gaussian KDE with default Scott bandwidth.",
+    "files": [
+      "candidate/figures/publication/boxplot.png",
+      "candidate/figures/publication/boxplot.svg",
+      "candidate/figures/publication/boxplot.pdf"
+    ],
+    "transparent": "candidate/presentation/boxplot_transparent.png",
+    "dpi": 350
+  },
+  {
+    "name": "violin",
+    "caption": "200 episodes per model/budget on one fixed city; density uses Gaussian KDE with default Scott bandwidth.",
+    "files": [
+      "candidate/figures/publication/violin.png",
+      "candidate/figures/publication/violin.svg",
+      "candidate/figures/publication/violin.pdf"
+    ],
+    "transparent": "candidate/presentation/violin_transparent.png",
+    "dpi": 350
+  },
+  {
+    "name": "density",
+    "caption": "200 episodes per model/budget on one fixed city; density uses Gaussian KDE with default Scott bandwidth.",
+    "files": [
+      "candidate/figures/publication/density.png",
+      "candidate/figures/publication/density.svg",
+      "candidate/figures/publication/density.pdf"
+    ],
+    "transparent": "candidate/presentation/density_transparent.png",
+    "dpi": 350
+  },
+  {
+    "name": "runtime",
+    "caption": "Historical episode timings and single fixed-reference profiled replays are distinct regimes. No source refit; memory and RF fit/predict times in runtime.csv.",
+    "files": [
+      "candidate/figures/publication/runtime.png",
+      "candidate/figures/publication/runtime.svg",
+      "candidate/figures/publication/runtime.pdf"
+    ],
+    "transparent": "candidate/presentation/runtime_transparent.png",
+    "dpi": 350
+  },
+  {
+    "name": "feature_importance",
+    "caption": "Captured from verification fit; transformed covariance axes are not raw spectral features. Impurity importance is biased and not causal.",
+    "files": [
+      "candidate/figures/publication/feature_importance.png",
+      "candidate/figures/publication/feature_importance.svg",
+      "candidate/figures/publication/feature_importance.pdf"
+    ],
+    "transparent": "candidate/presentation/feature_importance_transparent.png",
+    "dpi": 350
+  },
+  {
+    "name": "coordinate_influence",
+    "caption": "Descriptive split usage, not a perturbation or feature-selection experiment; geographic trade-off reported separately.",
+    "files": [
+      "candidate/figures/publication/coordinate_influence.png",
+      "candidate/figures/publication/coordinate_influence.svg",
+      "candidate/figures/publication/coordinate_influence.pdf"
+    ],
+    "transparent": "candidate/presentation/coordinate_influence_transparent.png",
+    "dpi": 350
+  },
+  {
+    "name": "covariance_spectrum",
+    "caption": "Exact frozen shrinkage formula; full-pool covariance is label-free. Units are mixed raw feature units.",
+    "files": [
+      "candidate/figures/publication/covariance_spectrum.png",
+      "candidate/figures/publication/covariance_spectrum.svg",
+      "candidate/figures/publication/covariance_spectrum.pdf"
+    ],
+    "transparent": "candidate/presentation/covariance_spectrum_transparent.png",
+    "dpi": 350
+  },
+  {
+    "name": "covariance_shrinkage",
+    "caption": "Covariance divided by original feature standard deviations for display. Visualization does not change model inputs.",
+    "files": [
+      "candidate/figures/publication/covariance_shrinkage.png",
+      "candidate/figures/publication/covariance_shrinkage.svg",
+      "candidate/figures/publication/covariance_shrinkage.pdf"
+    ],
+    "transparent": "candidate/presentation/covariance_shrinkage_transparent.png",
+    "dpi": 350
+  },
+  {
+    "name": "calibration",
+    "caption": "Evaluation only; no calibrator fitted. Ten fixed equal-width confidence bins. Spatially dependent pixels; no binomial independence intervals.",
+    "files": [
+      "candidate/figures/publication/calibration.png",
+      "candidate/figures/publication/calibration.svg",
+      "candidate/figures/publication/calibration.pdf"
+    ],
+    "transparent": "candidate/presentation/calibration_transparent.png",
+    "dpi": 350
+  },
+  {
+    "name": "transfer",
+    "caption": "Source-only uses saved contextual prior; target-only and blend are internal ASTRA probabilities before graph smoothing. No additive/causal claim; one fixed episode, no error bars.",
+    "files": [
+      "candidate/figures/publication/transfer.png",
+      "candidate/figures/publication/transfer.svg",
+      "candidate/figures/publication/transfer.pdf"
+    ],
+    "transparent": "candidate/presentation/transfer_transparent.png",
+    "dpi": 350
+  }
+]

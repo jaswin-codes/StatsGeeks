@@ -1,0 +1,10 @@
+# Frozen inference pins copied from model/requirements-repro.txt.
+# pandas is required by the notebook; nbformat supports structural validation.
+# Python 3.14.6 observed. Clean installation was not attempted in this audit.
+numpy==2.5.3
+scipy==1.18.1
+scikit-learn==1.9.0
+threadpoolctl==3.6.0
+pandas==3.0.5
+nbformat==5.11.1
+# A compatible Jupyter frontend/kernel is optional and not certified here.

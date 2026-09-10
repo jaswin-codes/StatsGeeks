@@ -1,0 +1,18 @@
+{
+  "paths": [
+    "candidate/experiments_2h/expF_covariance/predictions.npz",
+    "candidate/experiments_2h/expF_covariance/predictions_repeat.npz",
+    "candidate/experiments_2h/expF_covariance/results.json",
+    "candidate/experiments_2h/expF_covariance/results_repeat.json",
+    "candidate/experiments_2h/expF_covariance/interface_test/predictions_100.npy",
+    "candidate/experiments_2h/expF_covariance/interface_test/predictions_200.npy",
+    "candidate/experiments_2h/expF_covariance/interface_test/predictions_25.npy",
+    "candidate/experiments_2h/expF_covariance/interface_test/predictions_5.npy",
+    "candidate/experiments_2h/expF_covariance/interface_test/predictions_50.npy",
+    "candidate/experiments_2h/expF_covariance/spatial/predictions.npz",
+    "candidate/experiments_2h/expF_covariance/spatial/predictions_repeat.npz",
+    "candidate/experiments_2h/expF_covariance/spatial/results.json",
+    "candidate/experiments_2h/expF_covariance/spatial/results_repeat.json"
+  ],
+  "status": "indexed"
+}

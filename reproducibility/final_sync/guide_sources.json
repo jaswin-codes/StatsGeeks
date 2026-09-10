@@ -1,0 +1,58 @@
+{
+  "scope": "Documentation source preservation only; scientific seals untouched",
+  "sources": {
+    "candidate/team_preparation/MEMBER_1_GUIDE.md": {
+      "sha256": "e21d6a5bd72807cbe7eca2a7712bf5a9552566fdd4fdbe0700777871ab49b45e",
+      "preserved_characters": 13362
+    },
+    "candidate/team_preparation/MEMBER_2_GUIDE.md": {
+      "sha256": "a0029efc412e4e2a257a1c88ad77075ed0bd6a996d6a4e8c75240e5334b4562e",
+      "preserved_characters": 13982
+    },
+    "candidate/team_preparation/MEMBER_3_GUIDE.md": {
+      "sha256": "e55c1706f35e79ce237146cecceab3855f0143655a963183f12e792b8d886f3f",
+      "preserved_characters": 14463
+    },
+    "candidate/team_preparation/PROJECT_MASTER_GUIDE.md": {
+      "sha256": "ee20bf27b5ad1f0426f5a9be8200c03fd56186509801a44d42276e6d24704acb",
+      "preserved_characters": 98160
+    },
+    "candidate/team_preparation/PROJECT_NARRATIVE.md": {
+      "sha256": "55c73c2a8616d94cb2eaf987cd691b262b963f6be1426d2db4eb3cf9643e0a92",
+      "preserved_characters": 50196
+    },
+    "candidate/team_preparation/PRESENTATION_QA.md": {
+      "sha256": "96cb56fc7722b6ea864242fd6421673aad16f593e70492a1dbb1ca5feaf57f9c",
+      "preserved_characters": 9308
+    },
+    "candidate/team_preparation/TONIGHT_REVISION.md": {
+      "sha256": "81699aebbb36f13147eb5ba54cbff01bf6bec1e78e58e411e4ed3d9f02866aad",
+      "preserved_characters": 9231
+    },
+    "archive/team_history/SPEAKER_1_setup.md": {
+      "sha256": "66765d4f03aeb4a9bc290b94878e194e9943364bc81a6acde1c2ec84b9c74f05",
+      "preserved_characters": 3956
+    },
+    "archive/team_history/SPEAKER_2_method.md": {
+      "sha256": "348923d494fc5a74b1f6d726986f11813329e80447187c863af928bfd5635978",
+      "preserved_characters": 4211
+    },
+    "archive/team_history/SPEAKER_3_science.md": {
+      "sha256": "140d4743a2918cdb69911f6de9c9900f7943340dfca02551d5c21dc2cb61163e",
+      "preserved_characters": 6221
+    },
+    "archive/team_history/member4_presentation_outline.md": {
+      "sha256": "70fce73e413aea4c69a8d7eb62dfcf2c6c93411586987df43715c742ffb542a7",
+      "preserved_characters": 3319
+    },
+    "archive/presentation_history/pre_final_sync/docs/judge/PRESENTATION_OUTLINE.md": {
+      "sha256": "e0e5b12f3abffe4dc9500c75ad14bdc90e5fa2595944d4ce0e2b5d42f6fdd1cf",
+      "preserved_characters": 668
+    },
+    "archive/presentation_history/pre_final_sync/presentation/README.md": {
+      "sha256": "e80bd1f09ea91e7d2f1d268f3d4c224c533bbcf9e7d17808f0fcfd3b4e573bee",
+      "preserved_characters": 2377
+    }
+  },
+  "archive_policy": "Hash-bound candidate preparation documents and embedded deck notes are archived in place, excluded from current rehearsal navigation."
+}

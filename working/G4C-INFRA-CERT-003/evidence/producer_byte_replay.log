@@ -1,0 +1,128 @@
+{
+  "status": "BYTE_AND_PAYLOAD_EQUIVALENCE_PASS",
+  "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.5.3",
+  "zlib": "1.3.1.zlib-ng",
+  "episodes": 3,
+  "inference_paths": 2,
+  "serialization_replays": 12,
+  "results": [
+    {
+      "mode": "original",
+      "episode_id": "G4A-B005-T01",
+      "replays": [
+        {
+          "path": "evidence/producer_replay/original/1/G4A-B005-T01.npz",
+          "bytes": 139993,
+          "sha256": "d3c7641cedf4fde41c6e709fc8ea9d214b710eaa09935ba4d31e96c73773d8b0"
+        },
+        {
+          "path": "evidence/producer_replay/original/2/G4A-B005-T01.npz",
+          "bytes": 139993,
+          "sha256": "d3c7641cedf4fde41c6e709fc8ea9d214b710eaa09935ba4d31e96c73773d8b0"
+        }
+      ],
+      "reference_sha256": "d3c7641cedf4fde41c6e709fc8ea9d214b710eaa09935ba4d31e96c73773d8b0",
+      "file_byte_identity": true,
+      "payload_identity": true
+    },
+    {
+      "mode": "original",
+      "episode_id": "G4A-B025-T01",
+      "replays": [
+        {
+          "path": "evidence/producer_replay/original/1/G4A-B025-T01.npz",
+          "bytes": 138761,
+          "sha256": "a1c468e41f214cb7e620482525cc91da6ad3b1edb661aec1f42a0912ea0aac38"
+        },
+        {
+          "path": "evidence/producer_replay/original/2/G4A-B025-T01.npz",
+          "bytes": 138761,
+          "sha256": "a1c468e41f214cb7e620482525cc91da6ad3b1edb661aec1f42a0912ea0aac38"
+        }
+      ],
+      "reference_sha256": "a1c468e41f214cb7e620482525cc91da6ad3b1edb661aec1f42a0912ea0aac38",
+      "file_byte_identity": true,
+      "payload_identity": true
+    },
+    {
+      "mode": "original",
+      "episode_id": "G4A-B200-T01",
+      "replays": [
+        {
+          "path": "evidence/producer_replay/original/1/G4A-B200-T01.npz",
+          "bytes": 136137,
+          "sha256": "8329b553ccea3822d39399609802acf0beb0473c21c9274356ae19c52d70f714"
+        },
+        {
+          "path": "evidence/producer_replay/original/2/G4A-B200-T01.npz",
+          "bytes": 136137,
+          "sha256": "8329b553ccea3822d39399609802acf0beb0473c21c9274356ae19c52d70f714"
+        }
+      ],
+      "reference_sha256": "8329b553ccea3822d39399609802acf0beb0473c21c9274356ae19c52d70f714",
+      "file_byte_identity": true,
+      "payload_identity": true
+    },
+    {
+      "mode": "optimized_native",
+      "episode_id": "G4A-B005-T01",
+      "replays": [
+        {
+          "path": "evidence/producer_replay/optimized_native/1/G4A-B005-T01.npz",
+          "bytes": 139993,
+          "sha256": "d3c7641cedf4fde41c6e709fc8ea9d214b710eaa09935ba4d31e96c73773d8b0"
+        },
+        {
+          "path": "evidence/producer_replay/optimized_native/2/G4A-B005-T01.npz",
+          "bytes": 139993,
+          "sha256": "d3c7641cedf4fde41c6e709fc8ea9d214b710eaa09935ba4d31e96c73773d8b0"
+        }
+      ],
+      "reference_sha256": "d3c7641cedf4fde41c6e709fc8ea9d214b710eaa09935ba4d31e96c73773d8b0",
+      "file_byte_identity": true,
+      "payload_identity": true
+    },
+    {
+      "mode": "optimized_native",
+      "episode_id": "G4A-B025-T01",
+      "replays": [
+        {
+          "path": "evidence/producer_replay/optimized_native/1/G4A-B025-T01.npz",
+          "bytes": 138761,
+          "sha256": "a1c468e41f214cb7e620482525cc91da6ad3b1edb661aec1f42a0912ea0aac38"
+        },
+        {
+          "path": "evidence/producer_replay/optimized_native/2/G4A-B025-T01.npz",
+          "bytes": 138761,
+          "sha256": "a1c468e41f214cb7e620482525cc91da6ad3b1edb661aec1f42a0912ea0aac38"
+        }
+      ],
+      "reference_sha256": "a1c468e41f214cb7e620482525cc91da6ad3b1edb661aec1f42a0912ea0aac38",
+      "file_byte_identity": true,
+      "payload_identity": true
+    },
+    {
+      "mode": "optimized_native",
+      "episode_id": "G4A-B200-T01",
+      "replays": [
+        {
+          "path": "evidence/producer_replay/optimized_native/1/G4A-B200-T01.npz",
+          "bytes": 136137,
+          "sha256": "8329b553ccea3822d39399609802acf0beb0473c21c9274356ae19c52d70f714"
+        },
+        {
+          "path": "evidence/producer_replay/optimized_native/2/G4A-B200-T01.npz",
+          "bytes": 136137,
+          "sha256": "8329b553ccea3822d39399609802acf0beb0473c21c9274356ae19c52d70f714"
+        }
+      ],
+      "reference_sha256": "8329b553ccea3822d39399609802acf0beb0473c21c9274356ae19c52d70f714",
+      "file_byte_identity": true,
+      "payload_identity": true
+    }
+  ],
+  "workers_launched": 0,
+  "models_loaded": 0,
+  "production_writer_modified": false
+}

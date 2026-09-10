@@ -1,0 +1,21 @@
+# Predeclared sprint plan
+
+All writes isolated here. Existing dirty work preserved; protected_before.json records pre-run hashes. Read-only frozen artifact must match 2f4dc0f7a84ea54e967d7a96573b349331e1777ddb0a4a46e4925cad7bd6d266. Data hash must match artifact. Python isolated mode with explicit repository path only for trusted pickle class resolution; bytecode disabled; BLAS single-threaded.
+
+Protocol: joint_sweep.episodes, seed 31337, trials 0-9, budgets 5/25/50/100/200, balanced nested support, remaining pixels query. Query labels available only to episode sampler/scorer, never predictors. All predictions for each episode generated before scoring. Raw predictions, indices, scores, class metrics saved. SD ddof=0. Existing seed 2026 development uses the same labelled pool, so no claim of independent development validation. No grid winner will be selected for deployment; descriptive maxima are exploratory, not independent confirmation. All configurations declared here before new scores.
+
+A: compact schedule k30 at 5, k45 otherwise; frozen Madrid weighting/offsets. Source probabilities: softmax negative squared distance to support centre + Madrid class offsets (lambda=1); local probabilities: same transform, labelled-support class means (lambda=0). Shared temperature = mean squared within-class support residual norm, floor 1e-12, no query statistics. alpha=[0,.25,.5,.75,1]. Source endpoint is support-recentered source geometry, not zero-shot nor the EXP010 endpoint. Local classifier fits only support; representation remains source-derived. Primary fixed candidate alpha=.5, chosen before scores; others descriptive sensitivity analysis. Exact frozen EXP010 separately compared.
+
+B: exactly five configurations: all60 weighted lambda0; compact lambda0; all60 weighted lambda.4; compact lambda.4; compact lambda.6. Compact schedule k30 at5/k45 otherwise; no k sweep. Interaction = (compact.4-compact0)-(all.4-all0). Pure factorial at lambda0/.4 with extra strong compact arm.
+
+C: frozen vs all60 weighted lambda0 (historical joint control) and compact lambda0 (isolates prototype shrinkage). Per-class covariance contribution to macro variance = cov(F1_class,macro)/4. Poor episode threshold mean-1 population SD, descriptive only. No class safeguard fitted.
+
+D: one fixed spatial stress: vertical median px_key split; support on alternating side each trial, query opposite side, exclude query within 10 px_key units of split (coordinate-key units, not assumed metres). Support sampled balanced with RNG31337; all budgets nested. Require >=200 support rows/class and all classes in query else block. Compare frozen and predeclared A alpha.5 regardless of audit rank, avoiding selection. This is region shift plus separation, not official protocol. Geometry used only by evaluator, no model target-pool statistics.
+
+F (priority before E): support prototypes in compact weighted representation; Euclidean, diagonal pooled within-class support variance, regularized pooled support covariance (0.5*C+0.5*trace(C)/k*I), fixed ridge 1e-8; no shrinkage of prototypes, to isolate metric. All budgets. No covariance hyperparameter search.
+
+E: only three source-standardized physical late-minus-early contrasts (NIR,SWIR1,SWIR2), constructed from inverse-scaled existing period means, no raw rebuild. Append to compact representation, each weighted sqrt(mean selected feature importance); source offsets extended consistently; frozen lambda schedule. No RF retraining. Initial budgets5/25/200 only; no expansion based on audit. Explicit fixed small append rather than uncertain replacement.
+
+G: BLOCKED unless explicit permission found. Original Introduction sections1.5/1.7 permit small labelled Amsterdam adaptation but do not explicitly permit target-pool distribution estimation. docs/MASTER_PLAN.md line74 explicitly lists this as unresolved. No alignment executed.
+
+Order A, B, C, D, F, E, G, synthesis. Each computational branch <= its requested cap, subprocess timeouts; negative branches not rescued. No submission/presentation changes or automatic promotion. Clean-process repeat of all completed computational branches; compare predictions exactly, not just rounded scores. Initial isolated pickle load needed explicit repository path for working.* class; no data transformation changed.

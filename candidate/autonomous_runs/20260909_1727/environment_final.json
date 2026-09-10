@@ -1,0 +1,9 @@
+{
+  "python": "3.14.6",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "sklearn": "1.9.0",
+  "matplotlib": "3.11.1",
+  "threadpoolctl": "3.6.0"
+}

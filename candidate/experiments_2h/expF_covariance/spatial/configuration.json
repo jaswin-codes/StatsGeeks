@@ -1,0 +1,120 @@
+{
+  "seed": 31337,
+  "trials": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "budgets": [
+    5,
+    25,
+    50,
+    100,
+    200
+  ],
+  "spatial": {
+    "key": "px_key",
+    "cut": 20934.5,
+    "buffer_key_units": 10,
+    "support_side": "alternates by trial parity",
+    "pixel_ids_shape": [
+      25992,
+      2
+    ],
+    "coordinate_min": [
+      20600,
+      193134
+    ],
+    "coordinate_max": [
+      21323,
+      193681
+    ],
+    "units": "coordinate-key units; not assumed metres"
+  },
+  "configurations": {
+    "5": {
+      "euclidean": {
+        "k": 30,
+        "metric": "euclidean"
+      },
+      "diagonal": {
+        "k": 30,
+        "metric": "diagonal"
+      },
+      "regularized": {
+        "k": 30,
+        "metric": "regularized"
+      }
+    },
+    "25": {
+      "euclidean": {
+        "k": 45,
+        "metric": "euclidean"
+      },
+      "diagonal": {
+        "k": 45,
+        "metric": "diagonal"
+      },
+      "regularized": {
+        "k": 45,
+        "metric": "regularized"
+      }
+    },
+    "50": {
+      "euclidean": {
+        "k": 45,
+        "metric": "euclidean"
+      },
+      "diagonal": {
+        "k": 45,
+        "metric": "diagonal"
+      },
+      "regularized": {
+        "k": 45,
+        "metric": "regularized"
+      }
+    },
+    "100": {
+      "euclidean": {
+        "k": 45,
+        "metric": "euclidean"
+      },
+      "diagonal": {
+        "k": 45,
+        "metric": "diagonal"
+      },
+      "regularized": {
+        "k": 45,
+        "metric": "regularized"
+      }
+    },
+    "200": {
+      "euclidean": {
+        "k": 45,
+        "metric": "euclidean"
+      },
+      "diagonal": {
+        "k": 45,
+        "metric": "diagonal"
+      },
+      "regularized": {
+        "k": 45,
+        "metric": "regularized"
+      }
+    }
+  },
+  "data_sha256": "51f11bc9025b5d4ffe2f9e03a8c76b70e4cfd0e91cb36876a9d021181e8ccdbe",
+  "script_sha256": "4731784af4b2d5efe1b3fc9ccb9a1c35b1a2538fda5a4d374d29cab1fddc32d5",
+  "shared_script_sha256": "1f5c6db190ad3badf6c713f7a88d59c7880d4d95dd2a0efc9c935845d4d45095",
+  "addendum_sha256": "c647f191c058536279d06d7190783183c897251418d76620db2667e7d5116560",
+  "selection": "none; all predeclared F arms",
+  "purpose": "exploratory robustness; not independent confirmation",
+  "population_sd_ddof": 0
+}

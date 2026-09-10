@@ -1,0 +1,29 @@
+{
+  "external_quarantine": "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy - excluded_forensics_20260909_201729",
+  "competitor_repository": "C:/Users/jaswi/JaswinHackathon",
+  "latest_locally_evidenced_commit": "cf9af6cffea292af9460bf572de33c32a10212d9",
+  "no_fetch_or_competitor_execution": true,
+  "own_audits": [
+    {
+      "path": "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy - excluded_forensics_20260909_201729\\COMPARABILITY_AUDIT.md",
+      "sha256": "8d8145f8ba98956a3fbfc962530865a274e0aa7a9f3136125fbf22c54513f7cc"
+    },
+    {
+      "path": "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy - excluded_forensics_20260909_201729\\FINAL_GAP_ANALYSIS.md",
+      "sha256": "7bd0c673c3d3d8b444fc84b877740a0f00e23fef8c0b6532d456522f58e6a661"
+    },
+    {
+      "path": "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy - excluded_forensics_20260909_201729\\FORENSIC_TRACE.md",
+      "sha256": "a5c78f20cb05f80ab73f7b68bf1f91ef6cda36416ca3aa2d63d8f3281fcf996d"
+    },
+    {
+      "path": "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy - excluded_forensics_20260909_201729\\SEARCH_SCOPE_ADDENDUM.md",
+      "sha256": "cda0125b29c270991f1bf01af3860625420066cad8cc8fec7718b67a0d9575b2"
+    },
+    {
+      "path": "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy - excluded_forensics_20260909_201729\\SPATIAL_DIRECTION_AUDIT.md",
+      "sha256": "51f6160d9238752b54f00a816d4059c48deb3fe41d5c22eb524ac1926d0feb57"
+    }
+  ],
+  "scope": "Read-only factual synthesis of our own forensic audits; no copied competitor documentation/code/results payload"
+}

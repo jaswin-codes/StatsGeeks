@@ -1,0 +1,7 @@
+{
+  "paths": [
+    "candidate/experiments_agf/configuration.json",
+    "candidate/experiments_agf/SELECTION_LOCK.json"
+  ],
+  "status": "indexed"
+}

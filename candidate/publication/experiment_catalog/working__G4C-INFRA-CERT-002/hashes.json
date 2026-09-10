@@ -1,0 +1,16 @@
+{
+  "working/G4C-INFRA-CERT-002/artifact_hash_manifest.json": "baa6cec8932c752b11d3c189c8e9c7d1287cc312f801ec6368e1bcbe39898464",
+  "working/G4C-INFRA-CERT-002/certification.json": "d79d2b18c75be3b2f95b2da27538cd4992a13c293a4f82f90bdab6aedfad5fb3",
+  "working/G4C-INFRA-CERT-002/CERTIFICATION_REPORT.md": "98031d3b620523abddb930c5fb0cb188bac94afd2768e21b65aff70ccff3908f",
+  "working/G4C-INFRA-CERT-002/PATH_BINDING_MAP.md": "7475178c59f43706351cb3a4485bd081a81e4f8357286b33b67b315e144491e6",
+  "working/G4C-INFRA-CERT-002/code/bind_e3_validation.py": "a0b3608955d81d81f705669cc20faf64584dc14b7a900698359763947bd0fba2",
+  "working/G4C-INFRA-CERT-002/code/e3_validator.py": "02299fc780e624933255b5aa4e01192bb8d4e53d92c27fd0bcb0d12834a8828c",
+  "working/G4C-INFRA-CERT-002/code/offline_equivalence.py": "eba7094ca7a7c8de052cbacea7358dcfdc08f243cef5047ce9c0e63eae4e6f49",
+  "working/G4C-INFRA-CERT-002/code/test_validator.py": "a084b1db5626790fa98ede0c01fd9d0d312f2ac6e30a565a7f16c77588bb0461",
+  "working/G4C-INFRA-CERT-002/evidence/offline_equivalence.log": "ed7c521c7283e76fad2e25d92d790ee4ccec14747c60f2b0ec9ccb893b8ee227",
+  "working/G4C-INFRA-CERT-002/evidence/offline_equivalence_failure.json": "9d97e228fa22ba0bc0f9006e26693d0a264bd194247b45e27dded03d41f3e118",
+  "working/G4C-INFRA-CERT-002/evidence/protected_after.json": "54436fd28abf04d9bfc3f1b3ae7cc9f62b77cec6291ffa4566f8e9109e9b5d2b",
+  "working/G4C-INFRA-CERT-002/evidence/protected_before.json": "5d7b0dc565f61824f08a597382d8651f67d0a92df3ee3c492ca98aa6eecd3d62",
+  "working/G4C-INFRA-CERT-002/evidence/validator_tests_attempt1.log": "657999f382e63b222c5d0f5ba4e765171b9e06258942e63fa16bbb7d7313a1f5",
+  "working/G4C-INFRA-CERT-002/evidence/validator_tests_attempt2.log": "e87b2339d044a7d36d99b8f86e4882dae476eb607d5d180ea7e7c38ea335adc3"
+}

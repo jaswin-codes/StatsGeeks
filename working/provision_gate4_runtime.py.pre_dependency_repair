@@ -1,0 +1,110 @@
+"""Provision a private, hash-pinned Linux runtime; no project data or model access.
+
+Run once in WSL Ubuntu. Downloads pinned binary wheels from PyPI with published
+SHA256 verification; copies only Python, stdlib, required shared libraries and
+these packages into a label-free image outside Git. No system package changes.
+"""
+import hashlib
+import json
+import os
+from pathlib import Path
+import shutil
+import subprocess
+import sys
+import urllib.request
+import zipfile
+from datetime import datetime, timezone
+
+PINS = {'numpy': '2.4.6', 'scipy': '1.17.1', 'scikit-learn': '1.9.0',
+        'joblib': '1.5.3', 'threadpoolctl': '3.6.0'}
+ROOT = Path(__file__).resolve().parents[1]
+DEST = Path.home() / '.local/share/gate4a/runtime_v2'
+LOCK = ROOT / 'working/gate4_runtime_lock.json'
+
+
+def sha(path):
+    with path.open('rb') as f:
+        return hashlib.file_digest(f, 'sha256').hexdigest()
+
+
+def main():
+    if DEST.exists() or LOCK.exists():
+        raise FileExistsError('Exclusive runtime provisioning; preserve existing evidence')
+    if sys.version_info[:2] != (3, 14) or os.uname().machine != 'x86_64':
+        raise RuntimeError('This pinned image requires observed CPython 3.14 x86_64')
+    DEST.mkdir(parents=True)
+    image = DEST / 'image'
+    wheels = DEST / 'wheels'
+    wheels.mkdir()
+    records = {}
+    for name, version in PINS.items():
+        with urllib.request.urlopen(f'https://pypi.org/pypi/{name}/{version}/json', timeout=45) as f:
+            metadata = json.load(f)
+        matches = [v for v in metadata['urls'] if v['filename'].endswith('.whl') and
+                   (v['filename'].endswith('py3-none-any.whl') or
+                    ('-cp314-cp314-' in v['filename'] and 'manylinux' in v['filename'] and
+                     v['filename'].endswith('x86_64.whl')))]
+        if not matches:
+            raise RuntimeError(f'No pinned binary wheel for {name} {version}')
+        wheel = sorted(matches, key=lambda v: v['filename'])[0]
+        path = wheels / wheel['filename']
+        with urllib.request.urlopen(wheel['url'], timeout=90) as remote, path.open('xb') as local:
+            shutil.copyfileobj(remote, local)
+        if sha(path) != wheel['digests']['sha256']:
+            raise RuntimeError('Wheel integrity mismatch')
+        with zipfile.ZipFile(path) as z:
+            for member in z.infolist():
+                p = Path(member.filename)
+                if p.is_absolute() or '..' in p.parts:
+                    raise RuntimeError('Unsafe wheel member')
+            z.extractall(image / 'numeric')
+        records[name] = {'version': version, 'filename': path.name,
+                         'url': wheel['url'], 'sha256': sha(path)}
+    python = Path(sys.executable).resolve()
+    target = image / 'usr/bin/python3.14'
+    target.parent.mkdir(parents=True)
+    shutil.copy2(python, target)
+    stdlib = Path('/usr/lib/python3.14')
+    shutil.copytree(stdlib, image / 'usr/lib/python3.14',
+                    ignore=shutil.ignore_patterns('__pycache__', 'site-packages', 'dist-packages'))
+    # ELF dependency closure. ldd is applied only to trusted installed/wheel files.
+    elf = [target] + [p for p in image.rglob('*') if p.is_file() and '.so' in p.name]
+    done = set()
+    while elf:
+        path = elf.pop()
+        if str(path) in done:
+            continue
+        done.add(str(path))
+        out = subprocess.run(['ldd', str(path)], capture_output=True, text=True)
+        for line in out.stdout.splitlines():
+            if '=> not found' in line:
+                raise RuntimeError('Unresolved runtime dependency: ' + line)
+            words = line.split()
+            dependencies = [w for w in words if w.startswith('/')]
+            for dep in dependencies:
+                src = Path(dep)
+                dst = image / dep.lstrip('/')
+                if not dst.exists():
+                    dst.parent.mkdir(parents=True, exist_ok=True)
+                    shutil.copy2(src, dst, follow_symlinks=True)
+                    elf.append(dst)
+    # Runtime is never exposed writable to workers; hashes checked every launch.
+    inventory = {str(p.relative_to(image)): sha(p) for p in sorted(image.rglob('*')) if p.is_file()}
+    for p in image.rglob('*'):
+        p.chmod(0o555 if p.is_dir() or p.name == 'python3.14' else 0o444)
+    image.chmod(0o555)
+    lock = {'version': 2, 'created_utc': datetime.now(timezone.utc).isoformat(),
+            'image_path': str(image), 'python': sys.version, 'kernel': os.uname().release,
+            'wheels': records, 'files': inventory,
+            'tree_sha256': hashlib.sha256(json.dumps(inventory, sort_keys=True, separators=(',', ':')).encode()).hexdigest(),
+            'bwrap_sha256': sha(Path('/usr/bin/bwrap')),
+            'bwrap_version': subprocess.check_output(['bwrap', '--version'], text=True).strip(),
+            'provisioner_sha256': sha(Path(__file__))}
+    with LOCK.open('x') as f:
+        json.dump(lock, f, indent=2, sort_keys=True)
+        f.write('\n')
+    print(json.dumps({k: lock[k] for k in ['image_path', 'tree_sha256', 'bwrap_version']}))
+
+
+if __name__ == '__main__':
+    main()

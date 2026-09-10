@@ -1,0 +1,24 @@
+165fe11 | Jaswin Chinthala | 2026-09-08 08:41:05 +0200 | Initial hackathon repository
+48c7770 | Jaswin Chinthala | 2026-09-08 08:44:24 +0200 | Add README for StatsGeeks Hackathon 2026
+e7faf43 | Jaswin Chinthala | 2026-09-08 08:47:28 +0200 | Create README.md for dataset guidelines
+52c7357 | Ametor Buanyomi | 2026-09-08 11:09:57 +0200 | baseline: record reproduced reference evidence (RUN-M2-001, RUN-M2-002)
+6ec5324 | Ametor Buanyomi | 2026-09-08 11:09:58 +0200 | docs: record push blocker - no write access to team repository
+e43b464 | Ametor Buanyomi | 2026-09-08 11:11:55 +0200 | docs: correct the push blocker - misdiagnosis, no access change needed
+f9dce46 | Ametor Buanyomi | 2026-09-08 15:13:32 +0200 | model: source-learned transfer candidate with final-audit separation
+96435da | Ametor Buanyomi | 2026-09-08 15:28:33 +0200 | model: representation search over 9 source states, plus final audit
+b6615dc | Ametor Buanyomi | 2026-09-08 15:32:29 +0200 | docs: experiment log and Member 3 log for the candidate work
+115e294 | Ametor Buanyomi | 2026-09-08 16:05:58 +0200 | docs: figures, validity checks, and pinned dependency manifest
+4308d0a | Ametor Buanyomi | 2026-09-08 16:10:27 +0200 | docs: READMEs for candidate/ and scripts/
+177f11c | Ametor Buanyomi | 2026-09-08 16:18:07 +0200 | docs: presentation outline, abstract and justification drafts
+33e01fc | Ametor Buanyomi | 2026-09-09 09:56:53 +0200 | docs: submission deck, decision register, team log, submission inventory
+5f4cd4b | Ametor Buanyomi | 2026-09-09 10:14:15 +0200 | EXP-006/007: season-aware features tested and rejected; transfer benefit independently replicated on fresh episodes
+8d3d2c1 | Ametor Buanyomi | 2026-09-09 10:17:57 +0200 | docs: add replication and seasonal-finding slides; log EXP-006/007/008
+7faee9f | Ametor Buanyomi | 2026-09-09 10:25:07 +0200 | EXP-009: prototype shrinkage toward Madrid class geometry - the strongest result
+3532fb7 | Ametor Buanyomi | 2026-09-09 10:26:51 +0200 | docs: shrinkage becomes the headline result; deck to 21 slides
+c53275c | Ametor Buanyomi | 2026-09-09 10:37:31 +0200 | EXP-010: joint (k, lambda) sweep - both knobs are budget-dependent
+1763d9b | Ametor Buanyomi | 2026-09-09 10:54:59 +0200 | docs: redesigned deck, project summary, speaker scripts, justification
+7c57a24 | Ametor Buanyomi | 2026-09-09 10:55:49 +0200 | docs: trim justification for real word-limit margin
+7e59642 | Ametor Buanyomi | 2026-09-09 11:00:26 +0200 | docs: 500-word limit confirmed - justification expanded and re-trimmed
+fc463e5 | Jaswin Chinthala | 2026-09-09 12:44:32 +0200 | Merge remote-tracking branch 'origin/member2-baseline' into integration
+0179d59 | Jaswin Chinthala | 2026-09-09 12:46:22 +0200 | docs: add Gate4 audits and repository documentation
+7f012bb | Jaswin Chinthala | 2026-09-09 12:52:46 +0200 | gate4: add runtime, verification and certification framework

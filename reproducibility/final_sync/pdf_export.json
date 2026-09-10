@@ -1,0 +1,7 @@
+{
+    "slides":  10,
+    "input":  "FINAL_SUBMISSION/presentation.pptx",
+    "output":  "FINAL_SUBMISSION/presentation.pdf",
+    "method":  "PowerPoint read-only open; PDF SaveAs; PPTX not saved",
+    "scientific_execution":  false
+}

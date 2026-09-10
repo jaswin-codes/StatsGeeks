@@ -1,0 +1,72 @@
+=== Cell 2 ===
+Setup complete.
+
+=== Cell 4 ===
+Madrid: 3,172,765 rows x 48 columns
+  Years:  1984-2025  (42 distinct years)
+  Pixels: 76,263 unique geographic pixels
+
+Amsterdam: 1,062,877 rows x 48 columns
+  Years:  1984-2025  (42 distinct years)
+  Pixels: 25,992 unique geographic pixels
+
+
+=== Cell 6 ===
+Madrid (76,263 labelled pixels):
+  Class 1 (Pre-1960): 13,794
+  Class 2 (1960-1984): 27,152
+  Class 3 (1984-2004): 18,672
+  Class 4 (2004-2024): 16,645
+
+Amsterdam (25,992 labelled pixels):
+  Class 1 (Pre-1945): 7,568
+  Class 2 (1945-1984): 8,802
+  Class 3 (1984-2004): 6,745
+  Class 4 (2004-2024): 2,877
+
+
+=== Cell 8 ===
+Flattening observations...
+  [Madrid] Removed 34,845 haze-contaminated rows (Blue > 15,000)
+  [Amsterdam] Removed 12,917 haze-contaminated rows (Blue > 15,000)
+Madrid: 3,137,920 valid pixel-year rows, 76,263 unique pixels
+Amsterdam: 1,049,960 valid pixel-year rows, 25,992 unique pixels
+Madrid: 0 pixels with no early data, 163 with no late data
+Amsterdam: 0 pixels with no early data, 7 with no late data
+
+=== Cell 10 ===
+Filling time-series gaps...
+Madrid: 3,203,046 rows after gap-fill (42 years x 76,263 pixels)
+Amsterdam: 1,091,664 rows after gap-fill (42 years x 25,992 pixels)
+
+=== Cell 12 ===
+Spectral indices added.
+
+=== Cell 14 ===
+Building per-pixel feature vectors...
+Madrid: 76,263 pixels, 64 total columns
+  has_early_data=0: 0 pixels  (gap-filled early period)
+Amsterdam: 25,992 pixels, 64 total columns
+  has_early_data=0: 0 pixels  (gap-filled early period)
+
+Total features: 60  (12 overall + 10 indices + 12 early + 12 late + 12 YOY + 2 indicators)
+
+=== Cell 15 ===
+3-Preprocessing_member2_baseline.ipynb:cell15:16: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+
+=== Cell 17 ===
+Madrid: (76263, 60)  NaN check: OK
+Amsterdam: (25992, 60)  NaN check: OK
+Standardised.
+
+=== Cell 19 ===
+Saved to: data\preprocessed\preprocessed_data.pkl  (48.4 MB)
+
+madrid: X=(76263, 60), y=(76263,); finite, labels, pixel IDs, reload and transform PASS
+amsterdam: X=(25992, 60), y=(25992,); finite, labels, pixel IDs, reload and transform PASS
+Scaler: working.minimal_standard_scaler.StandardScaler; n_features_in_=60
+Scaler population variance and constant-column handling: PASS on notebook data
+Feature names: ['Blue_mean', 'Green_mean', 'Red_mean', 'NIR_mean', 'SWIR1_mean', 'SWIR2_mean', 'Blue_std', 'Green_std', 'Red_std', 'NIR_std', 'SWIR1_std', 'SWIR2_std', 'NDVI_mean', 'NDBI_mean', 'UI_mean', 'MNDWI_mean', 'BSI_mean', 'NDVI_std', 'NDBI_std', 'UI_std', 'MNDWI_std', 'BSI_std', 'Blue_early_mean', 'Green_early_mean', 'Red_early_mean', 'NIR_early_mean', 'SWIR1_early_mean', 'SWIR2_early_mean', 'Blue_early_std', 'Green_early_std', 'Red_early_std', 'NIR_early_std', 'SWIR1_early_std', 'SWIR2_early_std', 'Blue_late_mean', 'Green_late_mean', 'Red_late_mean', 'NIR_late_mean', 'SWIR1_late_mean', 'SWIR2_late_mean', 'Blue_late_std', 'Green_late_std', 'Red_late_std', 'NIR_late_std', 'SWIR1_late_std', 'SWIR2_late_std', 'd_Blue_mean', 'd_Green_mean', 'd_Red_mean', 'd_NIR_mean', 'd_SWIR1_mean', 'd_SWIR2_mean', 'd_Blue_std', 'd_Green_std', 'd_Red_std', 'd_NIR_std', 'd_SWIR1_std', 'd_SWIR2_std', 'has_early_data', 'has_late_data']
+Original notebook unchanged; SHA256: 86136f0ab901a4fd15f45e7545c5107f98fb17ed271e9c46c12d0d614b261175
+Artifact: data\preprocessed\preprocessed_data.pkl bytes: 50721695
+VALIDATION PASSED

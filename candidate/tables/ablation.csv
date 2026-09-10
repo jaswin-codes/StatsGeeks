@@ -1,0 +1,13 @@
+method,origin,shots,mean,population_sd,episodes,configuration,protocol
+A,factorial,160,0.7221945713063025,0.021714543379944967,5,"{""adaptive"": false, ""pool"": false, ""prior"": 0.0, ""spatial"": false}",five development folds; 160 train/40 validation per class
+A+B,factorial,160,0.7307523192039099,0.04237461549813168,5,"{""adaptive"": false, ""pool"": true, ""prior"": 0.0, ""spatial"": false}",five development folds; 160 train/40 validation per class
+A+B+C,factorial,160,0.7454998805969926,0.03491333376642827,5,"{""adaptive"": false, ""pool"": true, ""prior"": 0.0, ""spatial"": true}",five development folds; 160 train/40 validation per class
+A+B+C+D,factorial,160,0.7608881349196162,0.026659916408882142,5,"{""adaptive"": true, ""pool"": true, ""prior"": 0.0, ""spatial"": true}",five development folds; 160 train/40 validation per class
+A+B+D,factorial,160,0.7319722912268285,0.0375895890758035,5,"{""adaptive"": true, ""pool"": true, ""prior"": 0.0, ""spatial"": false}",five development folds; 160 train/40 validation per class
+A+C,factorial,160,0.738429885338076,0.018284883998124005,5,"{""adaptive"": false, ""pool"": false, ""prior"": 0.0, ""spatial"": true}",five development folds; 160 train/40 validation per class
+A+C+D,factorial,160,0.7558918750936438,0.026482966588255365,5,"{""adaptive"": true, ""pool"": false, ""prior"": 0.0, ""spatial"": true}",five development folds; 160 train/40 validation per class
+A+D,factorial,160,0.7268623026790951,0.02308335664837406,5,"{""adaptive"": true, ""pool"": false, ""prior"": 0.0, ""spatial"": false}",five development folds; 160 train/40 validation per class
+ASTRA_AGF,factorial,160,0.7662817435871073,0.0250710676744723,5,{},five development folds; 160 train/40 validation per class
+EXPF,factorial,160,0.6843214608971799,0.025614261987940753,5,{},five development folds; 160 train/40 validation per class
+No_source_prior,mechanism,160,0.7608881349196162,0.026659916408882142,5,"{""prior"": 0.0}",five development folds; 160 train/40 validation per class
+Coordinate_RF,mechanism,160,0.7697983014977485,0.016355896216551744,5,"{""coord"": true}",five development folds; 160 train/40 validation per class

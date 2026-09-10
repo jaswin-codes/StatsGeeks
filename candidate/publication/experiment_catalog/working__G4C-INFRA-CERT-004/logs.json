@@ -1,0 +1,9 @@
+{
+  "paths": [
+    "working/G4C-INFRA-CERT-004/evidence/runtime_benchmark.log",
+    "working/G4C-INFRA-CERT-004/evidence/runtime_benchmark_attempt2.log",
+    "working/G4C-INFRA-CERT-004/evidence/runtime_benchmark_attempt3.log",
+    "working/G4C-INFRA-CERT-004/evidence/runtime_benchmark_attempt4.log"
+  ],
+  "status": "indexed"
+}

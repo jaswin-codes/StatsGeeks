@@ -1,0 +1,38 @@
+{
+  "pass": true,
+  "frozen_EXP010_integrity": true,
+  "protected_file_count": 34,
+  "protected_changed_files": [],
+  "query_label_fitting_or_prediction_leakage": false,
+  "audit_based_model_selection": true,
+  "information_regime": "transductive",
+  "clean_process_reproduction": true,
+  "checks": [
+    "physical_source_reproduction",
+    "source_basis_audit_reproducibility",
+    "capacity_leaf1_audit_reproducibility",
+    "candidate_interface",
+    "candidate_interface_reload",
+    "final_100_reproducibility",
+    "final_yspatial_reproducibility",
+    "final_competitor_protocol_reproducibility",
+    "h_interface_reproduction"
+  ],
+  "standalone_source_and_500_episode_rebuild": true,
+  "standalone_reference_arrays_exact": 1500,
+  "pinned_wrapper_exact": true,
+  "canonical_EXP010_50_episode_scores_exact": true,
+  "historical_EXPF_50_prediction_arrays_exact": true,
+  "recipe_files_sha256": {
+    "candidate_predict.py": "8fc75074861db89f2f664cd6c3b2ba0b0983eac35e7aa0eab883c3201a088ee6",
+    "stage2_models.py": "026dffe2ca577cd181657040631fae2fda5db696e168ccb5aa9a8ebe5d7e029e",
+    "models.py": "0ee3089472219e257a258f3e2dd7d0ed906e19102b9d447d8279fe0b4be7a7ee",
+    "FINAL_SELECTION.md": "e37fed4bd7f43a5d72ef240ab0117f519ce4259ed13d230201588545fd82784e"
+  },
+  "state_sha256": "355473d3cab7f7d7c403e323ada92d1e182ef31c4c10da2e10546e9eaa792627",
+  "packaged_result_rows": 1990,
+  "method_episode_records_including_repeats": 23750,
+  "competition_presentation_modified_by_this_session": false,
+  "competitor_exact_tuned_reproduction": false,
+  "competitor_mechanism_reproduction": true
+}

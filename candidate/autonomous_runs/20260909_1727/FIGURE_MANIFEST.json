@@ -1,0 +1,22 @@
+{
+  "files": [
+    "figures\\01_budget_performance.png",
+    "figures\\01_budget_performance.svg",
+    "figures\\02_paired_gains.png",
+    "figures\\02_paired_gains.svg",
+    "figures\\03_spatial_directions.png",
+    "figures\\03_spatial_directions.svg",
+    "figures\\04_support_ablation.png",
+    "figures\\04_support_ablation.svg",
+    "figures\\05_confusion_matrices.png",
+    "figures\\05_confusion_matrices.svg",
+    "figures\\06_per_class_f1.png",
+    "figures\\06_per_class_f1.svg",
+    "figures\\07_prediction_maps.png",
+    "figures\\07_prediction_maps.svg"
+  ],
+  "source_results_sha256": "d672e9319d794b00101821d1382a2a6543580d513d3eecf35dbc0c0a9bd65166",
+  "spatial_results_sha256": "7a7f94fada3ad5ab8a719e73640208babecabebb61fac4e5da8f807389ad8bff",
+  "selection_used": false,
+  "query_truth_usage": "confusion and F1 diagnostics only"
+}

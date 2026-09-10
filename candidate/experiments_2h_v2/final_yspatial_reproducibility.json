@@ -1,0 +1,5 @@
+{
+  "pass": true,
+  "arrays_exact": 300,
+  "episodes_per_budget": 10
+}

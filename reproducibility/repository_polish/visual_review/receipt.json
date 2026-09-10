@@ -1,0 +1,8 @@
+{
+  "source": "FINAL_SUBMISSION/presentation.pdf",
+  "pages": 16,
+  "renderer": "existing local pypdfium2",
+  "fresh_pdf_render": true,
+  "pptx_fresh_render": false,
+  "training": false
+}

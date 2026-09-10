@@ -1,0 +1,299 @@
+{
+  "checks": [
+    {
+      "name": "full_nbformat_schema",
+      "status": "BLOCKED",
+      "detail": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa1 in position 0: invalid start byte"
+    },
+    {
+      "name": "package_membership",
+      "status": "PASS",
+      "detail": {
+        "missing": [],
+        "extra": []
+      }
+    },
+    {
+      "name": "package_manifest_hashes",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "checksum_coverage",
+      "status": "PASS",
+      "detail": 39
+    },
+    {
+      "name": "package_checksums",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "canonical_copies_byte_identical",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "top_level_allowlist",
+      "status": "FAIL",
+      "detail": ""
+    },
+    {
+      "name": "frozen_model_hashes",
+      "status": "PASS",
+      "detail": [
+        "agf_model.py",
+        "pool_state.pkl",
+        "SELECTION_LOCK.json"
+      ]
+    },
+    {
+      "name": "feature_contract",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "selected_model_unchanged",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "all_package_files_structurally_open",
+      "status": "FAIL",
+      "detail": {
+        "opened": 32,
+        "errors": [
+          {
+            "file": "model/evidence/Open Notebook.onetoc2",
+            "error": "'utf-8' codec can't decode byte 0xa1 in position 0: invalid start byte"
+          },
+          {
+            "file": "model/Open Notebook.onetoc2",
+            "error": "'utf-8' codec can't decode byte 0xa1 in position 0: invalid start byte"
+          },
+          {
+            "file": "model/reports/Open Notebook.onetoc2",
+            "error": "'utf-8' codec can't decode byte 0xa1 in position 0: invalid start byte"
+          },
+          {
+            "file": "model/tables/Open Notebook.onetoc2",
+            "error": "'utf-8' codec can't decode byte 0xa1 in position 0: invalid start byte"
+          },
+          {
+            "file": "model/verification_inputs/Open Notebook.onetoc2",
+            "error": "'utf-8' codec can't decode byte 0xa1 in position 0: invalid start byte"
+          },
+          {
+            "file": "Open Notebook.onetoc2",
+            "error": "'utf-8' codec can't decode byte 0xa1 in position 0: invalid start byte"
+          },
+          {
+            "file": "results_summary/Open Notebook.onetoc2",
+            "error": "'utf-8' codec can't decode byte 0xa1 in position 0: invalid start byte"
+          },
+          {
+            "file": "written_explanation/Open Notebook.onetoc2",
+            "error": "'utf-8' codec can't decode byte 0xa1 in position 0: invalid start byte"
+          }
+        ],
+        "pickle": "opcode syntax only, NOT deserialized"
+      }
+    },
+    {
+      "name": "notebook_exact_path_only_derivation",
+      "status": "FAIL",
+      "detail": ""
+    },
+    {
+      "name": "notebook_literal_runtime_paths",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "five_reference_episode_schemas",
+      "status": "PASS",
+      "detail": {
+        "5": {
+          "support": 20,
+          "query": 25172,
+          "valid": true
+        },
+        "25": {
+          "support": 100,
+          "query": 25092,
+          "valid": true
+        },
+        "50": {
+          "support": 200,
+          "query": 24992,
+          "valid": true
+        },
+        "100": {
+          "support": 400,
+          "query": 24792,
+          "valid": true
+        },
+        "200": {
+          "support": 800,
+          "query": 24392,
+          "valid": true
+        }
+      }
+    },
+    {
+      "name": "locked_confusion_f1_arithmetic",
+      "status": "PASS",
+      "detail": {
+        "records": 4000,
+        "errors": []
+      }
+    },
+    {
+      "name": "locked_summary_arithmetic",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "learning_curve_tables_match_locked_summary",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "pdf_text_extraction",
+      "status": "PASS",
+      "detail": {
+        "pages": 16,
+        "stderr": ""
+      }
+    },
+    {
+      "name": "pdf_slide_page_count",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "all_five_mean_sd_tokens_in_current_materials",
+      "status": "PASS",
+      "detail": {}
+    },
+    {
+      "name": "explanation_five_means_match",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "explanation_embedded_in_slides",
+      "status": "FAIL",
+      "detail": ""
+    },
+    {
+      "name": "new_explicit_local_markdown_links",
+      "status": "FAIL",
+      "detail": [
+        {
+          "file": "PROJECT_EXECUTIVE_SUMMARY.md",
+          "target": "DELIVERABLE_VALIDATION.md"
+        },
+        {
+          "file": "PROJECT_EXECUTIVE_SUMMARY.md",
+          "target": "FINAL_PRE_FLIGHT.md"
+        },
+        {
+          "file": "docs/README_SUBMISSION.md",
+          "target": "../DELIVERABLE_VALIDATION.md"
+        },
+        {
+          "file": "docs/README_SUBMISSION.md",
+          "target": "../FINAL_PRE_FLIGHT.md"
+        },
+        {
+          "file": "deliverables/README.md",
+          "target": "../DELIVERABLE_VALIDATION.md"
+        }
+      ]
+    },
+    {
+      "name": "installed_package_pins",
+      "status": "PASS",
+      "detail": {
+        "numpy": {
+          "required": "==2.5.3",
+          "installed": "2.5.3",
+          "matches": true
+        },
+        "scipy": {
+          "required": "==1.18.1",
+          "installed": "1.18.1",
+          "matches": true
+        },
+        "scikit-learn": {
+          "required": "==1.9.0",
+          "installed": "1.9.0",
+          "matches": true
+        },
+        "threadpoolctl": {
+          "required": "==3.6.0",
+          "installed": "3.6.0",
+          "matches": true
+        },
+        "pandas": {
+          "required": "==3.0.5",
+          "installed": "3.0.5",
+          "matches": true
+        },
+        "nbformat": {
+          "required": "==5.11.1",
+          "installed": "5.11.1",
+          "matches": true
+        }
+      }
+    },
+    {
+      "name": "new_diagram_formats",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "all_original_files_preserved",
+      "status": "FAIL",
+      "detail": {
+        "inventoried": 5214,
+        "changed": [
+          "Open Notebook.onetoc2",
+          "archive/Open Notebook.onetoc2"
+        ],
+        "missing": []
+      }
+    }
+  ],
+  "details": {
+    "slides": 16,
+    "explanation_words_whitespace": 340,
+    "abstract_words_whitespace": 28,
+    "word_limit_status": "340 words: exceeds conservative 300-word interpretation; below 500. Organizer confirmation required.",
+    "legacy_broken_links": [
+      {
+        "file": "candidate/autonomous_ml_overnight/20260909T200015Z/local_deps/pypdfium2-5.13.0.dist-info/licenses/data/windows_x64/BUILD_LICENSES/libjpeg_turbo.md",
+        "target": "README.ijg"
+      }
+    ],
+    "link_scope": "Explicit inline local Markdown file targets only; no heading anchors, external URLs, prose or notebook prose references certified.",
+    "environment": {
+      "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+      "clean_install_tested": false
+    },
+    "historical_root_manifest_mismatches": [],
+    "historical_manifest_note": "Reported separately from this pass preservation. Never rewrite a frozen manifest to make it pass.",
+    "runtime_not_run": [
+      "source training",
+      "support RF adaptation",
+      "prediction replay",
+      "notebook execution",
+      "pickle deserialization",
+      "fresh PowerPoint/PDF rendering",
+      "clean environment installation"
+    ]
+  },
+  "failed_checks": 6,
+  "scope": "Read-only/static and saved-evidence arithmetic; not scientific reproduction"
+}

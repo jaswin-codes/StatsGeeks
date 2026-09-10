@@ -1,0 +1,58 @@
+audit 0 5 LR 0.573
+audit 0 25 LR done
+audit 0 50 LR done
+audit 0 100 LR done
+audit 0 200 LR done
+audit 1 5 LR done
+audit 1 25 LR done
+audit 1 50 LR done
+audit 1 100 LR done
+audit 1 200 LR done
+audit 2 5 LR done
+audit 2 25 LR done
+audit 2 50 LR done
+audit 2 100 LR done
+audit 2 200 LR done
+audit 3 5 LR done
+audit 3 25 LR done
+audit 3 50 LR done
+audit 3 100 LR done
+audit 3 200 LR done
+audit 4 5 LR done
+audit 4 25 LR done
+audit 4 50 LR done
+audit 4 100 LR done
+audit 4 200 LR done
+audit 5 5 LR done
+audit 5 25 LR done
+audit 5 50 LR done
+audit 5 100 LR done
+audit 5 200 LR done
+audit 6 5 LR done
+audit 6 25 LR done
+audit 6 50 LR done
+audit 6 100 LR done
+audit 6 200 LR done
+audit 7 5 LR done
+audit 7 25 LR done
+audit 7 50 LR done
+audit 7 100 LR done
+audit 7 200 LR done
+audit 8 5 LR done
+audit 8 25 LR done
+audit 8 50 LR done
+audit 8 100 LR done
+audit 8 200 LR done
+audit 9 5 LR done
+audit 9 25 LR done
+audit 9 50 LR done
+audit 9 100 LR done
+audit 9 200 LR done
+Traceback (most recent call last):
+  File "C:\Users\jaswi\Downloads\Hackathon3_StatsGeeks - Copy\candidate\experiments_2h_v2\run.py", line 81, in <module>
+    with threadpool_limits(limits=1): main()
+                                      ~~~~^^
+  File "C:\Users\jaswi\Downloads\Hackathon3_StatsGeeks - Copy\candidate\experiments_2h_v2\run.py", line 74, in main
+    old=json.loads((HERE/(mode+'.json')).read_text()); assert old['records']==rec
+                                                              ^^^^^^^^^^^^^^^^^^^
+AssertionError

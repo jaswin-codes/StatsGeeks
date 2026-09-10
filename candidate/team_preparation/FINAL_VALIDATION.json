@@ -1,0 +1,73 @@
+{
+  "checked_utc": "2026-09-09T19:41:07.075237+00:00",
+  "passed_payload_and_preservation": true,
+  "errors": [],
+  "snapshot_intended_files": 13,
+  "snapshot_intended_hashes_valid": true,
+  "snapshot_directory_exact_membership": false,
+  "unsealed_background_files": [
+    "Open Notebook.onetoc2",
+    "deliverables_20260909T190850Z/Open Notebook.onetoc2",
+    "deliverables_20260909T190850Z/code/Open Notebook.onetoc2",
+    "deliverables_20260909T190850Z/justification/Open Notebook.onetoc2",
+    "deliverables_20260909T190850Z/model/Open Notebook.onetoc2",
+    "deliverables_20260909T190850Z/presentation/Open Notebook.onetoc2",
+    "deliverables_20260909T190850Z/working/Open Notebook.onetoc2"
+  ],
+  "unsealed_files_deleted": false,
+  "clean_zip_hash": "8138e6ba7a55467de48e8120b7f2f49a4a66410a5c202cabd954a4174596f6ea",
+  "zip_integrity_and_external_extraction_pass": true,
+  "source_copy_hashes_preserved": true,
+  "read_only_ntfs_write_delete_protection": "Applied to snapshot and ZIP; see SNAPSHOT_PROTECTION.json; no destructive write probe run",
+  "competitor_material_in_snapshot": false,
+  "development_or_sealed_truth_containers_in_snapshot": false,
+  "baseline_notebook_evaluation_displays_present": true,
+  "full_notebook_schema_validation": "Unavailable due existing nbformat dependency-resource Unicode import error; JSON/AST checks pass; no dependency modifications",
+  "notebooks_current_model": false,
+  "notebooks_self_contained_runtime": false,
+  "notebook_external_dependencies": [
+    "authorized raw organizer Parquets",
+    "derived preprocessed pickle",
+    "compatible notebook/scientific environment"
+  ],
+  "exp010_unchanged": true,
+  "protected_files_checked": 3486,
+  "protected_changes": [],
+  "git_branch": "integration",
+  "git_commit": "7f012bba90b4c04305bcaebe24b53de59f0ca170",
+  "questions": 66,
+  "question_categories": 22,
+  "member_guides": 3,
+  "broken_preparation_links": [],
+  "word_counts": {
+    "PROJECT_MASTER_GUIDE.md": 13364,
+    "MEMBER_1_GUIDE.md": 1876,
+    "MEMBER_2_GUIDE.md": 1924,
+    "MEMBER_3_GUIDE.md": 2008,
+    "TONIGHT_REVISION.md": 1274,
+    "PRESENTATION_QA.md": 1302,
+    "CONSISTENCY_AUDIT.md": 1517,
+    "INSPECTION_AND_SUBMISSION_DECISION.md": 1041
+  },
+  "activity_counts": {
+    "fitting": 0,
+    "prediction": 0,
+    "optimization": 0,
+    "notebook_execution": 0,
+    "source_refits": 0,
+    "experiment_restarts": 0,
+    "competitor_execution": 0
+  },
+  "submission_ready": false,
+  "isolated_future_work_preservation_ready": true,
+  "overnight_discovery_started": false,
+  "remaining_concerns": [
+    "Final-method notebook absent",
+    "Existing deck/text are historical EXP-010, not Coordinate_RF",
+    "Notebook runtime data excluded",
+    "Full-pool/coordinate organizer permission not confirmed",
+    "Human rendering/email delivery incomplete",
+    "Seven background OneNote indexes make directory membership non-pristine; clean ZIP authoritative",
+    "Optional source-rebuild publication archive lacks minimal scaler module; tested inference/evidence replay unaffected"
+  ]
+}

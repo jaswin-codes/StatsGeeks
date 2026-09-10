@@ -1,0 +1,124 @@
+{
+  "scope": "Read-only static repository/documentation synchronization checks; no model imports, fitting, inference, notebook execution or metric recomputation",
+  "verdict": "PASS",
+  "baseline_files": 5441,
+  "unchanged_baseline_files": 5416,
+  "protected_scientific_files_verified": 4807,
+  "scientific_hash_files_verified_unchanged": 84,
+  "unexpected_changes": [],
+  "updated_existing_files": [
+    "README.md",
+    "archive/Open Notebook.onetoc2",
+    "deliverables/README.md",
+    "docs/MASTER_PLAN.md",
+    "docs/Open Notebook.onetoc2",
+    "docs/README.md",
+    "docs/judge/FAQ.md",
+    "docs/judge/PRESENTATION_OUTLINE.md",
+    "docs/judge/START_HERE.md",
+    "docs/judge/SUBMISSION_INVENTORY.md",
+    "docs/judge/WRITTEN_JUSTIFICATION.md",
+    "docs/reproducibility/REPRODUCIBILITY.md",
+    "FINAL_SUBMISSION/checksums.sha256",
+    "FINAL_SUBMISSION/manifest.json",
+    "FINAL_SUBMISSION/presentation.pdf",
+    "FINAL_SUBMISSION/presentation.pptx",
+    "FINAL_SUBMISSION/README.md",
+    "FINAL_SUBMISSION/written_explanation/written_justification.txt",
+    "presentation/README.md",
+    "reproducibility/release/companion_manifest.json",
+    "scripts/README.md"
+  ],
+  "deleted_files": [
+    "new/Coordinate_RF_Presentation_FINAL.pptx",
+    "new/Open Notebook.onetoc2",
+    "new/pixel_prophets_logo.png",
+    "new/Written_Justification_Revised.txt"
+  ],
+  "background_onenote_changes": [
+    "archive/Open Notebook.onetoc2",
+    "docs/Open Notebook.onetoc2"
+  ],
+  "approved_intake_verified": 4,
+  "new_folder_removed": true,
+  "pdf_supplied": false,
+  "pdf_export": "PowerPoint; ten pages; approved PPTX byte equality verified",
+  "pdf_visible_shape_text_per_slide": [
+    {
+      "slide": 1,
+      "missing_visible_text_tokens": {}
+    },
+    {
+      "slide": 2,
+      "missing_visible_text_tokens": {}
+    },
+    {
+      "slide": 3,
+      "missing_visible_text_tokens": {}
+    },
+    {
+      "slide": 4,
+      "missing_visible_text_tokens": {}
+    },
+    {
+      "slide": 5,
+      "missing_visible_text_tokens": {}
+    },
+    {
+      "slide": 6,
+      "missing_visible_text_tokens": {}
+    },
+    {
+      "slide": 7,
+      "missing_visible_text_tokens": {}
+    },
+    {
+      "slide": 8,
+      "missing_visible_text_tokens": {}
+    },
+    {
+      "slide": 9,
+      "missing_visible_text_tokens": {}
+    },
+    {
+      "slide": 10,
+      "missing_visible_text_tokens": {}
+    }
+  ],
+  "package_manifest_entries": 31,
+  "package_checksum_entries": 32,
+  "scientific_distribution_entries_unchanged": true,
+  "active_documents_checked": [
+    "README.md",
+    "FINAL_SUBMISSION/README.md",
+    "docs/README.md",
+    "docs/MASTER_PLAN.md",
+    "docs/judge/START_HERE.md",
+    "docs/judge/FAQ.md",
+    "docs/judge/SUBMISSION_INVENTORY.md",
+    "docs/judge/WRITTEN_JUSTIFICATION.md",
+    "docs/judge/PRESENTATION_OUTLINE.md",
+    "docs/reproducibility/REPRODUCIBILITY.md",
+    "presentation/README.md",
+    "deliverables/README.md",
+    "scripts/README.md",
+    "docs/presentation/PRESENTATION_GUIDE.md",
+    "archive/presentation_history/README.md",
+    "docs/release/FINAL_SYNC_REPORT.md"
+  ],
+  "local_link_targets_checked": 144,
+  "broken_active_links": [],
+  "link_scope": "Active local file/directory targets only; no remote URL checks; preserved historical documents/appendix links and historical receipts excluded",
+  "guide_sources_preserved": 13,
+  "legacy_guides": "Archived in place, not deleted; historical seals and paths untouched",
+  "justification_word_count_whitespace": 347,
+  "locked_model": "Coordinate-RF",
+  "locked_macro_f1": "0.749299 ± 0.005716",
+  "warnings": [
+    "No approved PDF supplied; exported PDF requires presentation-machine visual review",
+    "Approved wording tensions and 347-word justification need human/organizer review",
+    "Legacy guides physically retained for hash/path preservation",
+    "Pre-existing dirty Git tree and ignored scientific binaries require staging/upload review",
+    "Background OneNote sidecars changed outside scientific scope"
+  ]
+}

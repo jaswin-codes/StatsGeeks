@@ -1,0 +1,26 @@
+{
+  "configurations": {
+    "ASTRA_AGF": {},
+    "Forest_ensemble": {
+      "ensemble": true
+    },
+    "ExtraTrees": {
+      "kind": "extra",
+      "features": 0.5
+    },
+    "Coordinate_RF": {
+      "coord": true
+    }
+  },
+  "trials": 20,
+  "budgets": [
+    5,
+    25,
+    50,
+    100,
+    160
+  ],
+  "seed": 20260912,
+  "selection_rule": "160-shot gain >.002; >=70% paired wins; no budget >.005 worse; support-only geographic safeguard",
+  "caveat": "Repeated splits reuse the same 800 development labels, not independent samples. Balanced development validation differs from imbalanced full query F1."
+}

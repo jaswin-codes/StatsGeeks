@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/G4C-INFRA-CERT-002/code/offline_equivalence.py", line 107, in <module>
+    try:main()
+        ~~~~^^
+  File "/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/G4C-INFRA-CERT-002/code/offline_equivalence.py", line 88, in main
+    v.require(generated_sha==v.sha(saved_path),'NPZ byte divergence: '+e['episode_id'])
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/G4C-INFRA-CERT-002/code/e3_validator.py", line 40, in require
+    raise ValidationError(message)
+e3_validator.ValidationError: NPZ byte divergence: G4A-B005-T01

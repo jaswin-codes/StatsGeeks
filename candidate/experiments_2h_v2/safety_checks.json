@@ -1,0 +1,12 @@
+{
+  "pass": true,
+  "source_prob_max_abs_clean_refit_difference": 3.3306690738754696e-16,
+  "source_predictions_identical": true,
+  "query_row_permutation_equivariance": true,
+  "target_labels_only_support_API": "(S, y, Q)",
+  "true_label_anchoring": false,
+  "smoothed_probability_normalization": true,
+  "frozen_changed_files": [],
+  "query_labels_role": "evaluation and stratified sampling only; source fitting has no target labels",
+  "caveat": "audit-based configuration selection is not an untouched target holdout; pool statistics and spatial neighbours are transductive"
+}

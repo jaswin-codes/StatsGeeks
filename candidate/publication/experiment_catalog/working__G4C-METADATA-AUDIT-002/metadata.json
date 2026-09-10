@@ -1,0 +1,10 @@
+{
+  "paths": [
+    "working/G4C-METADATA-AUDIT-002/artifact_hash_manifest.json",
+    "working/G4C-METADATA-AUDIT-002/initial_metadata.json",
+    "working/G4C-METADATA-AUDIT-002/metadata_after_observation.json",
+    "working/G4C-METADATA-AUDIT-002/metadata_timeline.json",
+    "working/G4C-METADATA-AUDIT-002/observe_metadata.py"
+  ],
+  "status": "indexed"
+}

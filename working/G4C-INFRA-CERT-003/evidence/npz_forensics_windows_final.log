@@ -1,0 +1,22 @@
+{
+  "platform": "windows",
+  "archives": [
+    {
+      "path": "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\working\\G4C-E3-001\\predictions\\G4A-B005-T01.npz",
+      "bytes": 139993,
+      "sha256": "d3c7641cedf4fde41c6e709fc8ea9d214b710eaa09935ba4d31e96c73773d8b0"
+    },
+    {
+      "path": "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\working\\G4C-INFRA-CERT-003\\evidence\\reserialized_windows_1.npz",
+      "bytes": 139993,
+      "sha256": "d3c7641cedf4fde41c6e709fc8ea9d214b710eaa09935ba4d31e96c73773d8b0"
+    },
+    {
+      "path": "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\working\\G4C-INFRA-CERT-003\\evidence\\reserialized_windows_2.npz",
+      "bytes": 139993,
+      "sha256": "d3c7641cedf4fde41c6e709fc8ea9d214b710eaa09935ba4d31e96c73773d8b0"
+    }
+  ],
+  "changed_bytes": [],
+  "repeat_identical": true
+}

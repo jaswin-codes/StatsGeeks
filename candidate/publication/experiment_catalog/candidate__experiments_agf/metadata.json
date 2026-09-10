@@ -1,0 +1,9 @@
+{
+  "paths": [
+    "candidate/experiments_agf/environment_final.json",
+    "candidate/experiments_agf/FIGURE_MANIFEST.json",
+    "candidate/experiments_agf/INFERENCE_MANIFEST.json",
+    "candidate/experiments_agf/provenance.json"
+  ],
+  "status": "indexed"
+}

@@ -1,0 +1,33 @@
+{
+  "configurations": {
+    "Extra_sqrt": {
+      "kind": "extra"
+    },
+    "Extra_coordinates": {
+      "kind": "extra",
+      "features": 0.5,
+      "coord": true
+    },
+    "Forest_ensemble": {
+      "ensemble": true
+    },
+    "Coordinate_ensemble": {
+      "ensemble": true,
+      "coord": true
+    },
+    "RF600": {
+      "trees": 600
+    },
+    "Extra600": {
+      "kind": "extra",
+      "features": 0.5,
+      "trees": 600
+    },
+    "Extra_leaf2": {
+      "kind": "extra",
+      "features": 0.5,
+      "leaf": 2
+    }
+  },
+  "rationale": "ExtraTrees and coordinate RF had positive support-only gains; test diversity/variance reduction, not large grids."
+}

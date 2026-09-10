@@ -1,0 +1,20 @@
+{
+  "working/G4C-E2-007/artifact_hash_manifest.json": "6a6a49c6a384618ca6d8e8dce9fd7501214acd3965a22ae3384d579968172a7c",
+  "working/G4C-E2-007/EXECUTION_REPORT.md": "eece9a0703f0d120dd6cc050129ae43636b3b9c5aeb27b263a02af875f39b251",
+  "working/G4C-E2-007/checkpoint/contract.json": "81f5f2788728bf2afe9b4ae76308a3a4cc0f6f31316fc7b234e7409365f31ae9",
+  "working/G4C-E2-007/checkpoint/execution_authorization.json": "57dc9f01574be38fedd26307c93d519cc215df9fb235e687bb074400e44470f1",
+  "working/G4C-E2-007/coordinator/episode_worker.py": "b3cf5ab28ccbac2506c8ed7398a3b25254b24c86d8e58e5f1de742577660c350",
+  "working/G4C-E2-007/coordinator/execution_coordinator.py": "be45fc715524ee32d80a33d21982cbda6c3d111569ff6339e35b191270c860e7",
+  "working/G4C-E2-007/coordinator/g4c_boundary.py": "8f26bf3aac0c978d259e6461bb4b088f2309d12e824baeb181292d991c0a4483",
+  "working/G4C-E2-007/coordinator/g4c_linux_call.py": "4bf658a7553290479db175dbecb2f6423ffb49b7156956fc173504151293d711",
+  "working/G4C-E2-007/coordinator/gate4_lifecycle.py": "a27833bc2ab646dff29663dad7bf621fd0ec1b9e7201d875d9be5f8989718f8c",
+  "working/G4C-E2-007/coordinator/gate4_production_boundary.py": "7a3bf3357cc786590e4ccf868c7c52af7072c18db7b5ddd9f76edefe30b24d95",
+  "working/G4C-E2-007/coordinator/independent_verifier.py": "5d8753ef131c9e4ebcbae95a95016c8bff3a48f7681f31d54fe6f16859f0d3e6",
+  "working/G4C-E2-007/coordinator/preflight_worker.py": "213cc796d44ec90e27b6eae572ad57217dd37746557a10790e96de03a865724b",
+  "working/G4C-E2-007/coordinator/source_worker.py": "ad7c51d54f56c5038788553575adc45bfe98904735ec57d803b9472e3928e730",
+  "working/G4C-E2-007/evidence/preflight_1.input.json": "e921df37123efc69bae295d0529e4b4faabd83f2a51adb47415c410a242d5b13",
+  "working/G4C-E2-007/evidence/preflight_1.json": "c06f771e4ca6f4b157960e2e364c80c5ff006587b9e2c0bd4ebe4ee7ff6151e6",
+  "working/G4C-E2-007/evidence/preflight_1.transport.json": "7e9983eccf2cca1703e7131a66363b242a771d83efa2a5a619374bed6218864d",
+  "working/G4C-E2-007/results/execution.log": "d92a5d5e95b061628b176212a3e5316333967b982cdefbef977c3db46f3e367e",
+  "working/G4C-E2-007/results/EXECUTION_STOP_REASON.md": "b158ac0445b2e2774f88b8f65e09ae04108a0876697838a69032025ec09049dd"
+}

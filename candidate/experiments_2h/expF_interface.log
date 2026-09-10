@@ -1,0 +1,1 @@
+PASS: five clean feature-only query subprocesses reproduce full-query predictions exactly; query label key rejected.

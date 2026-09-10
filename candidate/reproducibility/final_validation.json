@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "protected_files_unchanged": 1622,
+  "new_exact_reference_arrays": 10,
+  "saved_confusion_arrays_verified": 4000,
+  "episodes_exclusion_checked": 1000,
+  "figure_sets": 32,
+  "formats": [
+    "PNG",
+    "SVG",
+    "PDF"
+  ],
+  "minimum_png_dpi": 350,
+  "active_links_valid": true,
+  "query_truth_not_supplied_to_inference": true,
+  "competitor_snapshot_quarantined": true,
+  "submission_allowlist_required": true,
+  "limitations": "Historical warnings and unmeasured diagnostics retained explicitly; source replay not rerun",
+  "isolated_distribution_test": "Passed on first sealed archive: five packaged reference arrays and all rebuilt CSVs byte-identical. Final archive retest receipt is external to the seal to avoid circularity."
+}

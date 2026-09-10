@@ -1,0 +1,9 @@
+{
+  "paths": [
+    "working/G4C-E3-002/checkpoint/runtime_preflight.stderr",
+    "working/G4C-E3-002/checkpoint/runtime_preflight_native.stderr",
+    "working/G4C-E3-002/results/execution.log",
+    "working/G4C-E3-002/validation/independent_validation.log"
+  ],
+  "status": "indexed"
+}

@@ -1,0 +1,16 @@
+{
+  "pass": true,
+  "reload_only": true,
+  "exact_episode_prediction_arrays": 10,
+  "invalid_support_cases_rejected": 5,
+  "probability_normalization": true,
+  "source_prior_reproduced_from_scratch": false,
+  "target_labels_in_fit_pool_signature": false,
+  "fit_pool_signature": "(source_features, source_labels, source_coords, target_features, target_coords, source_mean, source_scale, *, source_basis, local_leaf=2, aligned_source_model=None, aligned_model_pool_hash=None)",
+  "adapt_signature": "(pool_state, support_indices, support_labels, budget, return_proba=False)",
+  "forbidden_feature_names_absent": true,
+  "target_state_has_no_ground_truth_labels": true,
+  "artifact_sha256": "355473d3cab7f7d7c403e323ada92d1e182ef31c4c10da2e10546e9eaa792627",
+  "pool_hash": "186bdd8c7e7fc8dd6df7ddecf73a924751a0e47f7d74809bafba34df78962842",
+  "frozen_recipe_hashes_pass": true
+}

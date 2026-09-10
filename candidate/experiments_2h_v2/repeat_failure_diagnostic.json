@@ -1,0 +1,53 @@
+{
+  "different_prediction_arrays": [
+    [
+      "b25_t0_RF60",
+      1
+    ],
+    [
+      "b25_t0_blend_0.00",
+      1
+    ],
+    [
+      "b5_t1_RF60",
+      1
+    ],
+    [
+      "b5_t1_blend_0.00",
+      1
+    ],
+    [
+      "b25_t1_pool_RF60",
+      1
+    ],
+    [
+      "b25_t1_pool_blend_0.00",
+      1
+    ],
+    [
+      "b100_t2_RF60",
+      1
+    ],
+    [
+      "b100_t2_blend_0.00",
+      1
+    ],
+    [
+      "b50_t3_blend_0.25",
+      1
+    ],
+    [
+      "b25_t4_RF60",
+      1
+    ],
+    [
+      "b25_t4_blend_0.00",
+      1
+    ],
+    [
+      "b5_t9_blend_0.25",
+      1
+    ]
+  ],
+  "cause_under_investigation": "parallel RF probability summation may change exact argmax ties; do not claim PASS yet"
+}

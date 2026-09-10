@@ -1,0 +1,44 @@
+--- working/G4C-E3-001/coordinator/execution_coordinator.py
++++ prepared/execution_coordinator.py
+@@ -35,11 +35,13 @@
+  module=importlib.util.module_from_spec(spec);sys.modules['working']=package;sys.modules['working.minimal_standard_scaler']=module;setattr(package,'minimal_standard_scaler',module);before=list(sys.path);spec.loader.exec_module(module);assert list(sys.path)==before and module.StandardScaler.__module__=='working.minimal_standard_scaler'
+ def original_clean():
+  return not subprocess.check_output(['git','status','--short','--','original/'],cwd=ROOT) and not subprocess.check_output(['git','diff','--','original/'],cwd=ROOT)
++def signature_hex(path):
++ with pathlib.Path(path).open('rb') as stream:return stream.read(16).hex()
+ def preexisting_integrity():
+  cp=json.loads((ROOT/'working/G4C-PROVENANCE-CHECKPOINT-002/file_fingerprints.json').read_text())
+  bad=[];metadata=[]
+  for rel,v in cp.items():
+-  p=ROOT/rel;s=p.stat();cur={'sha256':sha(p),'bytes':s.st_size,'mtime_ns':s.st_mtime_ns,'file_id':s.st_ino,'attributes':s.st_file_attributes,'signature_hex':p.read_bytes()[:16].hex(),'regular':p.is_file(),'links':s.st_nlink}
++  p=ROOT/rel;s=p.stat();cur={'sha256':sha(p),'bytes':s.st_size,'mtime_ns':s.st_mtime_ns,'file_id':s.st_ino,'attributes':s.st_file_attributes,'signature_hex':signature_hex(p),'regular':p.is_file(),'links':s.st_nlink}
+   if cur!=v:
+    if rel=='working/Open Notebook.onetoc2' and all(cur[k]==v[k] for k in ('file_id','attributes','signature_hex','regular','links')) and cur['signature_hex']=='a12fff43d9ef764c9ee210ea5722765f':metadata.append({'before':v,'after':cur})
+    else:bad.append(rel)
+--- working/G4C-E2-008/coordinator/g4c_linux_call.py
++++ prepared/g4c_linux_call.py
+@@ -2,11 +2,22 @@
+ import argparse,json,traceback
+ from pathlib import Path
+ from g4c_boundary import run
++from immutable_io import RF_SHA256, stage_frozen_file
+ p=argparse.ArgumentParser();p.add_argument('packet',type=Path);p.add_argument('worker',type=Path);p.add_argument('role');p.add_argument('output',type=Path);p.add_argument('--rf',type=Path);a=p.parse_args()
+ assert not a.output.exists()
+ try:
+-    packet=json.loads(a.packet.read_text());raw,evidence=run(packet,a.worker.read_bytes(),a.role,rf_path=a.rf)
+-    result={'result':json.loads(raw),'boundary_evidence':evidence}
++    packet=json.loads(a.packet.read_text())
++    native_record=None
++    if a.rf is not None:
++        if a.role!='episode' or packet['parameters']['candidate'] not in ('E3','E5'):
++            raise RuntimeError('RF supplied to an unauthorized worker role')
++        config=json.loads(Path(__file__).with_name('native_cache.json').read_text())
++        if set(config)!={'directory','rf_sha256'} or config['rf_sha256']!=RF_SHA256:
++            raise RuntimeError('Invalid native cache configuration')
++        native_record=stage_frozen_file(a.rf,Path(config['directory']),RF_SHA256)
++        a.rf=Path(native_record['path'])
++    raw,evidence=run(packet,a.worker.read_bytes(),a.role,rf_path=a.rf)
++    result={'result':json.loads(raw),'boundary_evidence':evidence,'infrastructure_io':native_record}
+     with a.output.open('x') as f:json.dump(result,f,separators=(',',':'));f.write('\n')
+     print(json.dumps({'status':'PASS','role':a.role,'elapsed_seconds':evidence['elapsed_seconds']}))
+ except BaseException:

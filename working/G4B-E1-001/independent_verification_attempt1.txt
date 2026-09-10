@@ -1,0 +1,1 @@
+BLOCKED verification attempt (preserved): trusted preprocessing pickle reload failed before any prediction/score recomputation because repository root was absent from sys.path, so pickle could not import working.minimal_standard_scaler. Infrastructure-only repair: insert ROOT into sys.path before trusted pickle load. Candidate artifacts/results unchanged; no worker/model rerun.

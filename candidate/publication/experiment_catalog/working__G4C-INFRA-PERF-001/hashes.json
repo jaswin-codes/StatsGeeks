@@ -1,0 +1,22 @@
+{
+  "working/G4C-INFRA-PERF-001/artifact_hash_manifest.json": "32f9378c2242f7a1ec9c3d82a85938addf4f43cbdf929618a837721827acc6f2",
+  "working/G4C-INFRA-PERF-001/changes.patch": "062b92d702e65f0d38c0633c2a4c8bd4e9482ee44cb84b89cc25995a2e4bc9da",
+  "working/G4C-INFRA-PERF-001/INDEPENDENT_AUDIT.md": "09fec4062ed32d63e287ecf981cd23acea749894956c42a0616884e1cea51e9c",
+  "working/G4C-INFRA-PERF-001/REPORT.md": "7681d9d54abad98fc1b0eaa7566b8cc11a2ad64c5c3ab1670eb7ebf7a7cce0d6",
+  "working/G4C-INFRA-PERF-001/RESUME_PROTOCOL.md": "9d81748e96634d7407fdc4b440a7e10c6e7b4a353a008d3ff7f0f2eebde7236e",
+  "working/G4C-INFRA-PERF-001/code/audit_offline.py": "208f0be5b6fd3d5b289a05550dd821816638a191d1a30a3501a80dfd6d21c04f",
+  "working/G4C-INFRA-PERF-001/code/benchmark_coordinator.py": "bd7e767a56810a01e4b14b247efdb25f669fc231c81be4b04736c4f81c2424ce",
+  "working/G4C-INFRA-PERF-001/code/benchmark_io.py": "b389beeb10d4b683b52989a99f653b0a9c6928ad2fdc0a7771256a6adb6a55d8",
+  "working/G4C-INFRA-PERF-001/code/estimate_runtime.py": "276b488c177bf197a76605fa0578981777a90c20736866f5e1d3edb28440f0e5",
+  "working/G4C-INFRA-PERF-001/code/immutable_io.py": "7c21179b2e9c22712d7cdc658139dfa6f7f51e18c82ebc3bd13b775e2bc361e7",
+  "working/G4C-INFRA-PERF-001/code/prepare_assets.py": "e11a63ce95924a20343d5426ef4679ea35b05be4788c9c280a774f7cdccf67e6",
+  "working/G4C-INFRA-PERF-001/code/test_infrastructure.py": "6e20b1bbf26d2e01fd1a0c61b26de791862dd45abcd6896d595a5c29559c8f60",
+  "working/G4C-INFRA-PERF-001/evidence/coordinator_benchmark.json": "3b7aaeba1610f05e0dbc83192c3f7f968c6270958ae5032551233c547951c675",
+  "working/G4C-INFRA-PERF-001/evidence/independent_offline_audit.json": "e28325cdecd745ddf1c88c8680efdceba3bbe400bee4d530e8471c550e2c9f33",
+  "working/G4C-INFRA-PERF-001/evidence/native_io_benchmark.json": "cee7f498d3b692bd06c61cdb037129c150b36f49bf0e61e37608e3fa9aeb96d3",
+  "working/G4C-INFRA-PERF-001/evidence/prepared_asset_hashes.json": "fa800b7457c4450e226b7616f8ba60f6198954ac4256d4f3f347ded22a2e2d94",
+  "working/G4C-INFRA-PERF-001/evidence/provenance.json": "3f95f92eaa3c37752f3c6a430e2d9d309c39ed98361ccb8fc3f4ea4ce210b823",
+  "working/G4C-INFRA-PERF-001/evidence/runtime_estimates.json": "a4f8649d5c6921f0a4835dafad2c2aeb76ad2ab005b2650896c42d24338d7653",
+  "working/G4C-INFRA-PERF-001/evidence/tests_linux.log": "5a8d4b7eef1c2ef8084f5b2a2ab5192e74f63cc6bfc120250930c66ec10c6d44",
+  "working/G4C-INFRA-PERF-001/evidence/tests_linux_final.log": "7c5728a953a332d129ca941c26cd1e3efb54d2e5265ddc7fe5a7f965eaadfc63"
+}

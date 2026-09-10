@@ -1,0 +1,5 @@
+{
+  "pass": true,
+  "prediction_arrays_exact": 300,
+  "probability_fields_exact": 50
+}

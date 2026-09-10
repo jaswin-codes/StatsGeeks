@@ -1,0 +1,208 @@
+# Gate 4A — Episode and label-access verification
+
+**Audit ID:** G4A-VERIFY-001
+**Date:** 2026-09-08
+**Owner:** Member 3 / research-engineering agent
+**Scope:** Authorised deterministic sampler/contract diagnostics only. No Notebook 4 rerun, model fit, prototype prediction/scoring, RF inference, E1, tuning, or candidate performance calculation.
+
+## Decision
+
+**DECISION: GATE 4A BLOCKED. Do not create a passing episode manifest.**
+
+**FACT:** All 60 episodes are reproducibly reconstructible from the unchanged sampler, seed, ordered labels and input identity. Exact support/query arrays, class balance, disjointness, query order and per-episode RNG-state replay passed. Separate fresh-process verification reproduced every stored identity fingerprint and RNG state.
+
+**FACT:** Input-packet isolation is testable and passes, but **runtime/file access and cross-episode label isolation are not enforced in the current implementation**. The reference loads all target labels into the same kernel; target-label artifacts remain readable in that runtime. Future candidate execution/dispatch does not yet implement an enforced boundary.
+
+**FACT:** Across the 60 draws, support lists expose 11,388 distinct target labels by their known class-block ordering. Of these, 11,368 are query pixels in the first episode. For 59 of the 60 episodes, earlier episodes' support labels include current query pixels. Thus a candidate-readable full manifest or persistent adaptation state can violate the per-episode label budget even when each individual support/query intersection is empty.
+
+**DECISION:** Preserve the reference protocol. Do not silently create a new sampler, reorder class blocks, remove cross-episode overlaps, change seeds, hide this limitation as a pass, or implement an unreviewed production isolation system. Request a narrowly scoped evaluator/worker boundary task. Neither shared global arrays nor a manifest containing all episodes may be passed to candidate fitting.
+
+This finding does **not** invalidate the accepted reference scores: the inspected prototype function actually uses only its supplied support labels and query features. It shows that the stronger guarantee of **inaccessibility for future candidates** is absent, not that the reference was observed cheating.
+
+## Evidence and reproducibility
+
+- HEAD: `165fe11df8779eed514c75bd2852c2b9588a18a4`, dirty `main`; complete current working-tree status is recorded in the diagnostic JSON. No commit or cleanup performed.
+- Existing interpreter: Python 3.11.9 / NumPy 2.4.6. Installed SciPy/sklearn versions are recorded through package metadata; no model package inference or training is executed.
+- Harness: `working/verify_gate4a_episodes.py`.
+- Harness SHA256: `6ad66b3e0a8a287e1277c8e43c76759493f2fe9362cc5e685750c6ee30b51532`.
+- Diagnostic output: `working/gate4_episode_manifest_validation.json`.
+- Diagnostic SHA256: `4214973bee738306b6df4cacb9d3859398028dfcb42b8aee40692cc3be6979ca`.
+- Output status is **BLOCKED**, `artifact_type=diagnostic_failure_report_not_manifest`, `manifest_created=false`. This is failure/partial-verification evidence, not a candidate episode source of truth.
+- `working/gate4_episode_manifest.json` **was not created**.
+
+Command executed from repository root:
+
+```text
+C:\Users\jaswi\AppData\Local\Programs\Python\Python311\python.exe -B working/verify_gate4a_episodes.py --output working/gate4_episode_manifest_validation.json
+```
+
+`PYTHONDONTWRITEBYTECODE=1`, `OPENBLAS_NUM_THREADS=1`, `OMP_NUM_THREADS=1` were set. The harness uses exclusive creation and refuses to overwrite diagnostic evidence or write a file named `gate4_episode_manifest.json`. On the observed blocked contract it cannot emit a passing manifest. Re-executing the same command will refuse the existing output; future verification needs separately named evidence, not replacement of this diagnostic.
+
+Protected original/reference/preprocessing/frozen files were snapshotted before analysis. All baseline payload hashes match the accepted recovery manifest. The harness checks hashes again after diagnostics. Raw Parquets are only read for checksums, not loaded/reprocessed.
+
+### Source/input anchors
+
+| Item | SHA256 |
+|---|---|
+| Original Notebook 4 | `709fa081f33186253715e1cd525b5d2a7c8b7a05259855fc72f137c9233551ae` |
+| Prototype benchmark cell source (zero-based cell 24, UTF-8) | `7a339995d2b0c6160e9b1fc08a4d8580556120e061418003b95ab1a43f0961f1` |
+| Accepted preprocessing pickle | `51f11bc9025b5d4ffe2f9e03a8c76b70e4cfd0e91cb36876a9d021181e8ccdbe` |
+| Canonical ordered feature-name list | `02dc5044004e774d50ff70a55f8fdf34704863e3945cac8c4f404a6f1c8cb3a9` |
+| Recovery manifest | `01a6eb4b2e18f1eb99e06ddb84b6d2927d4992c0e999f7d9366f5af6ca26ff73` |
+
+Canonical list hash uses compact JSON with `separators=(',', ':')`, sorted dictionary keys, UTF-8; list order is retained. Array fingerprints include canonical `[dtype.str, shape]` followed by C-order bytes. Do not confuse this list hash with the entire `feature_schema.json` file hash. Both types and all protected file hashes are retained in the diagnostic JSON.
+
+## 1. Exact reference protocol — FACT
+
+Source inspected: `original/4-Modelling.ipynb`, particularly zero-based cells 4, 24, 27 and 29; unchanged working/executed notebook source; reference/capture runners; artifact helpers; accepted preprocessing source cells 14/17/19; recovery/schema metadata. No reference cell was executed by this verification.
+
+### Benchmark sampler (cell 24)
+
+1. `classes_ams = np.unique(y_amsterdam)` yields sorted classes `[1,2,3,4]`.
+2. `SHOTS_PER_CLASS = [5,10,25,50,100,200]` means **labelled samples per class**, not total samples.
+3. `N_TRIALS = 10` per budget.
+4. `rng = np.random.default_rng(42)` is instantiated **once before both loops**. Its observed bit generator is **PCG64**.
+5. Outer loop: budgets in the listed order. Inner loop: ten trials. Innermost loop: ascending class order.
+6. For each class: `cls_idx = np.where(y_amsterdam == cls)[0]` gives row indices in ascending input order. Select `rng.choice(cls_idx, min(n_shots,len(cls_idx)), replace=False)`.
+7. Append the chosen values without sorting. Support order is random within each class block, with C1 first, then C2/C3/C4.
+8. Build `query_mask = np.ones(len(y_amsterdam),dtype=bool)`; set selected support positions to `False`.
+9. Query features/labels are indexed by that mask, hence **ascending original row order**. Exact order, not only set membership, must match prediction arrays.
+10. The RNG advances across classes, trials **and budgets**. Do not reseed at each budget/trial or run 25-shot from a fresh RNG and call it the benchmark's 25-shot episode.
+
+All current class populations exceed 200: `[7568,8802,6745,2877]`. Thus `min` never reduces a requested budget in this dataset; the harness verifies exact budgets rather than silently accepting smaller samples.
+
+### What overlaps and what does not
+
+- Within each episode: support and query are disjoint, exhaustive and unique. No support row can also be a query row in that episode.
+- Across trials/budgets: query sets overlap heavily; support membership is resampled, not designed to be nested. A support pixel in one episode can be a query in another. This is reference behaviour and is not changed.
+- Measured query intersections across all 1,770 distinct episode pairs range from **24,410 to 25,952 pixels**. Repeated scores are not independent fresh-city evaluations.
+- Notebook 4 cells 27/29 reset separate RNGs for illustrative 25/100-shot figures/maps. They do not define the ten-trial benchmark episodes and must not be substituted for them.
+
+### Feature and row contract
+
+- Amsterdam X/y/IDs: `(25992,60)`, `(25992,)`, `(25992,2)`.
+- Pixel identity: `(Amsterdam,px_key,py_key)`; row identity is additionally bound to the accepted input hash and ordered ID array. Do not use raw pixel-year `pixel_id` as a geographic key.
+- Feature names exactly match the authoritative ordered schema; 60 unique finite features. `age_class` and `weighted_mean_year` are not predictive columns.
+- Accepted features are already Madrid-standardised. Notebook 4 does no additional scaling. The producer still has label-dependent raw construction; this task does not repair or certify label-free raw inference.
+
+## 2. Label-use contract and current enforcement
+
+**DECISION (required contract, not claimed implemented):** Treat support selection, source fitting, target support adaptation, query prediction and scoring as distinct trust domains. Labels used by the selector are not candidate-fitting inputs.
+
+| Stage | Allowed inputs | Forbidden inputs/use | Purpose and label access |
+|---|---|---|---|
+| Privileged support selector | Approved target labels, stable IDs/row order, budget, seed/RNG state | Features for performance-guided support choice; model outputs; tuning support draws | Stratify samples only. Full y is accessible here under the explicit balanced-sampling exception |
+| Privileged verifier/manifest owner | Labels/IDs, source sampler, hashes, selected indices | Model fitting or choosing favourable episodes from scores | Verify counts/disjointness/RNG fidelity; privileged label access for checks only |
+| Source training | Madrid X/y only, approved source folds/scaler/schema/config | Any Amsterdam labels, full target statistics or query-derived weights | Learn immutable source state; source labels allowed |
+| Target support fitting | Frozen source state, this episode's X_support/y_support, budget/config; controller-owned IDs if needed | Query labels; full target y/class pools; other episodes' support labels; full manifest; labelled baseline NPZ/pickle; full-target diagnostics as fit parameters | Adapt using only the declared support budget. Only current support labels allowed |
+| Query prediction | Adapted state and this episode's ordered X_query; opaque output row tokens as needed | Query labels; fitting on query distribution without separate permission; access to other episodes' labels/state | Produce predictions before scoring. Query features are not query-label permission |
+| Frozen RF comparator | Saved predictions indexed by controller to the same query IDs (or frozen model under separate inference approval) | Fitting/retraining using supports or query labels | Controller aligns the 0-label reference to the same population; support labels are unused by RF |
+| Scoring | Committed predictions, exact ordered query IDs, evaluator-owned y_query | Return labels or per-row errors to candidate fitting; change params after seeing query scores | Four-class macro F1 only after prediction is final; evaluator can access query labels |
+| Authorised diagnostics | Evaluator-owned completed results and labels, within explicit task scope | Reusing full-target labels/statistics for candidate transformations, feature selection, calibration, pseudo-labels or hyperparameters | Descriptive audit only; not a licence to tune candidates |
+
+### Necessary clarification: labels in support selection
+
+The request to test “absence of query labels from support construction” cannot literally mean the privileged selector never inspects labels of rows that end up in queries. `np.where(y==class)` necessarily uses the full label vector before supports and queries are defined. Removing that access changes the accepted balanced sampler.
+
+**FACT:** Labels of unselected rows are used only to define class pools in the reference sampler; query features/predictions are not used to pick supports. The valid test is that **only selected labels leave the privileged selector for the current episode's support-fitting interface**, not that stratification is label-blind. The project AGENTS explicitly allows this separation. If the lead instead requires label-blind support selection, the current reference cannot satisfy it without a separately authorised protocol change; none was made.
+
+### Current reference behaviour versus future isolation guarantee
+
+- **FACT:** The raw prototype function takes `(X_support,y_support,X_query)` and calculates means using `y_support` only. The caller accesses `y_amsterdam[query_mask]` for `f1_score` after prediction. No actual query-label use in this function's fitting arithmetic was found.
+- **FACT:** Cell 4 has already loaded `data['y_amsterdam']` into the same notebook namespace before any episode, and the input dictionary retains it. There is no enforced restriction preventing future code in that namespace from reading it.
+- **FACT:** `data/preprocessed/preprocessed_data.pkl` and `working/baseline_artifacts/amsterdam_zero_shot.npz` both expose full target labels to the current runtime. A new process with the same filesystem access is not by itself a security boundary.
+- **UNKNOWN:** No candidate worker/supervisor implementation or access-control configuration currently proves those paths inaccessible to fitting code. No actual candidate was run to test or violate the boundary.
+
+**DECISION:** Do not silently repair reference files, hide labels by renaming variables, or claim a whitelist/dictionary alone guarantees inaccessibility. Gate 4A remains blocked on this stronger requirement.
+
+## 3. Deterministic verification results — FACT
+
+For each of 60 episodes the harness compared exact ordered arrays using:
+
+1. A direct sampler copy traced to pinned notebook source.
+2. Full regeneration from seed 42.
+3. An independent implementation with precomputed ascending class pools and concatenated draws, using the same advancing stream.
+4. Replay from the recorded PCG64 state immediately before the episode, including all cached RNG state fields, then comparison of the resulting after-state.
+5. A second fresh interpreter process that reconstructs each episode and matches all support/query row-index and geographic-ID fingerprints and before/after states in the diagnostic JSON.
+
+| Shots/class | Trials | Support count | Query count | Support class counts C1–C4 | Query class counts C1–C4 |
+|---|---|---:|---:|---|---|
+| 5 | 1–10 | 20 | 25,972 | 5,5,5,5 | 7,563 / 8,797 / 6,740 / 2,872 |
+| 10 | 1–10 | 40 | 25,952 | 10,10,10,10 | 7,558 / 8,792 / 6,735 / 2,867 |
+| 25 | 1–10 | 100 | 25,892 | 25,25,25,25 | 7,543 / 8,777 / 6,720 / 2,852 |
+| 50 | 1–10 | 200 | 25,792 | 50,50,50,50 | 7,518 / 8,752 / 6,695 / 2,827 |
+| 100 | 1–10 | 400 | 25,592 | 100,100,100,100 | 7,468 / 8,702 / 6,645 / 2,777 |
+| 200 | 1–10 | 800 | 25,192 | 200,200,200,200 | 7,368 / 8,602 / 6,545 / 2,677 |
+
+All budgets and all ten trials pass:
+- Unique/in-range support and query rows, exhaustive union of 25,992 rows.
+- Zero support/query overlap and exact class counts.
+- Equal full regeneration and independent-implementation arrays.
+- Equal per-episode state replay and after-state.
+- Correct stable row-to-geographic-ID alignment and input/schema hashes.
+
+**UNKNOWN / NOT TESTED:** Historical episode arrays were not retained. The reconstructed identities follow the exact pinned algorithm/input/NumPy environment, but this task did not rerun raw prototype predictions or recalculate its trial scores. It therefore does not newly establish historical per-trial score equality. The accepted scalar baselines remain unchanged. Current authorisation restricted execution to minimum sampler/contract diagnostics; no model performance was calculated.
+
+## 4. Matched-comparator diagnostic — FACT and limits
+
+The harness builds the same five-field diagnostic packet for four named consumer roles:
+
+`support_ids, X_support, y_support, query_ids, X_query`.
+
+All five ordered field fingerprints match for `raw_prototype`, `frozen_rf`, `future_E1`, and `future_candidate` across all 60 episodes. This is **a common-packet routing simulation, not four implemented model adapters**. No candidate function, raw prototype predictor or forest is called. RF prediction-array length and saved IDs align with the same query index source; RF does not need or consume support labels.
+
+Negative/independence checks:
+- Replacing query labels with sentinel zero **after fixing the episode** leaves all five packet fields unchanged. Only an in-memory copy is modified; saved labels are untouched.
+- Reversing query order produces a different identity/feature fingerprint.
+- Removing one query row produces a different fingerprint.
+
+**INFERENCE:** A controller enforcing these identities can give P0/E1/future candidates exactly matched inputs and restrict the frozen RF to the same Q. This is feasible without changing sampling/evaluation or rerunning Notebook 4.
+
+**UNKNOWN:** Future candidate implementations have not been connected to an enforced controller. Packet equality does not prove that a candidate cannot inspect shared globals, files or earlier episodes. Do not promote the simulation's PASS into a production-isolation PASS.
+
+### Cross-episode label disclosure — concrete failure of a naive full-manifest design
+
+**FACT:** Ordered support lists consist of known class blocks of length b. Therefore class labels can be recovered from list positions even if a manifest omits an explicit `support_labels` field.
+
+- Distinct pixels labelled across all support lists: **11,388**.
+- First-episode query pixels whose labels appear in other support lists: **11,368**.
+- Episodes whose query pixels include earlier episodes' labelled supports: **59/60**.
+
+**INFERENCE:** Giving the entire manifest to fitting code, caching labels across trials, or reusing target-adapted state can exceed the declared budget and reveal query labels. This is a manifest/access-control design issue, not a reason to alter the reference's overlapping episode populations.
+
+**Required design:** Full manifest, class pools, query-label lookup, and all-episode verification metadata are evaluator-only. Candidate workers receive only one episode's allowed fields, fresh target-adaptation state, and no access to other episode manifests/labelled files. Predictions must be finalised before evaluator label access for scoring, and evaluation feedback must not feed fitting. Read-only files prevent writes, not label reads; removing explicit y_query keys alone is insufficient.
+
+## 5. Evaluation contract — DECISION / required controls
+
+- Keep four-class macro F1, labels 1–4, `zero_division=0`, ten trials and `std(ddof=0)`.
+- Keep full-target zero-shot **0.4433** as a distinct 0-label reference on all 25,992 pixels.
+- Future few-shot comparisons use the exact same Q for P0, E1 and other candidates. Restrict frozen RF predictions to that Q for a population-matched 0-label comparator.
+- Report same-budget candidate-minus-P0 paired deltas. Candidate-minus-same-Q-RF is a label-assisted comparison. A difference from full-target .4433 is contextual, not an equal-information comparison.
+- Do not resample for each method or choose favourable episode seeds. All trial/budget RNG advancement must remain fixed.
+- Candidate source fitting uses Madrid only; target adaptation resets per episode and consumes only selected supports. Query features may be transformed by frozen/support-learned state, not used for unapproved transductive fitting.
+- This is a development/reference-comparison benchmark, not an untouched final test. Prior full-target diagnostics remain disclosed; a genuinely independent final audit route still needs a lead decision.
+
+No candidate design/hyperparameters were modified based on target labels in this task. Counts, identity checks and cross-episode membership are sampler diagnostics only.
+
+## 6. Self-review as Team Lead
+
+| Question | Conservative answer |
+|---|---|
+| Can E1 now be fairly evaluated? | **Not yet as an approved isolated run.** Same-population routing is proven feasible, but production label isolation is not implemented/verified |
+| Are identities fixed? | Deterministic reconstructed arrays/fingerprints are verified; **no passing immutable episode manifest has been frozen** |
+| Are ten trials and six budgets reproducible? | **YES**, all 60 episodes, full regeneration and state replay, also independently in a fresh process |
+| Is query-label leakage prevented? | **NO enforceable guarantee yet.** Packet-level isolation passes; shared globals/files/full-manifest/cross-episode access remains unclosed |
+| Can all future methods share episodes? | **YES by the tested input contract**, conditional on using a reviewed enforcing controller; actual candidate adapters are untested |
+| Is the manifest sufficient? | **Not created** because the isolation requirement fails. Diagnostic fingerprints are not a production manifest |
+| Remaining invalidating ambiguity? | Enforcement/threat model, controller-only manifest access, worker state reset, prediction/score barrier, and historical episode score correspondence |
+| Another lead decision needed? | **YES:** authorise/approve evaluator-worker isolation and the permissible development/final-audit scope; do not authorise E1 yet |
+
+## 7. Safety and remaining action
+
+**FACT:** The verification harness does not import or execute NotebookClient/reference runners, does not unpickle or infer with the RF, does not call `.fit`, prototype prediction or `f1_score`, and does not create a production episode manifest. Existing target label files were inspected only by the authorised privileged verifier. No security services/processes or filesystem access controls were changed.
+
+**FACT — final preservation PASS (2026-09-08 13:57 +02:00):** All 32 files in the entry protected snapshot retain identical SHA256, including raw Parquets, accepted preprocessing, original/working reference notebooks, existing runners/helpers, both frozen-artifact directories and their OneNote indices. The new harness hash matches the diagnostic JSON and its validation hash remains unchanged. The passing manifest path does not exist.
+
+`git status --short -- original/` and `git diff --quiet -- original/` remained clean at t=0 and every second through t=10. Final `git diff -- original/` is empty. `attrib original/Open Notebook.onetoc2` remains `A R`. Entry-to-exit Git-status additions are only the new harness, diagnostic JSON and this report; the already-dirty Member 3 log was appended. No other existing file was intentionally modified, restored, staged or committed. Temporary snapshot/source-extraction files are outside the repository in the OS temp directory `statsgeeks_gate4a/`.
+
+**DECISION / exact next action:** Team Lead reviews this blocked Gate 4A report and authorises a narrow isolation implementation/test task: evaluator-only full manifest/labels, one-episode worker inputs, inaccessible labelled files/global state, no cross-episode adaptation memory, and an output identity/prediction-finalisation gate. Explicitly confirm the privileged label-aware selector exception. Preserve the exact sampler. After that boundary passes review, freeze the immutable manifest under a fresh verification approval. No E1, candidate training, or Notebook 4 rerun is authorised now.

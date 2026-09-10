@@ -1,0 +1,23 @@
+{
+  "paths": [
+    "candidate/autonomous_runs/20260909_1727/ablation.log",
+    "candidate/autonomous_runs/20260909_1727/benchmark.log",
+    "candidate/autonomous_runs/20260909_1727/clean_replay.log",
+    "candidate/autonomous_runs/20260909_1727/final.log",
+    "candidate/autonomous_runs/20260909_1727/finalize.log",
+    "candidate/autonomous_runs/20260909_1727/lock.log",
+    "candidate/autonomous_runs/20260909_1727/optimization.log",
+    "candidate/autonomous_runs/20260909_1727/packaged_interface_replay.log",
+    "candidate/autonomous_runs/20260909_1727/package_final.log",
+    "candidate/autonomous_runs/20260909_1727/prepare.log",
+    "candidate/autonomous_runs/20260909_1727/public_inference_test.log",
+    "candidate/autonomous_runs/20260909_1727/public_interface_replay.log",
+    "candidate/autonomous_runs/20260909_1727/refinement.log",
+    "candidate/autonomous_runs/20260909_1727/RUN_LOG.md",
+    "candidate/autonomous_runs/20260909_1727/seal_run.log",
+    "candidate/autonomous_runs/20260909_1727/spatial.log",
+    "candidate/autonomous_runs/20260909_1727/stability.log",
+    "candidate/autonomous_runs/20260909_1727/verify.log"
+  ],
+  "status": "indexed"
+}

@@ -1,0 +1,830 @@
+diff --git a/Open Notebook.onetoc2 b/Open Notebook.onetoc2
+index 6ac6ab4420de887845a00d2835e7407506162079..96680c6e30878394c19cfde3ce39ae43475a9bf1 100644
+GIT binary patch
+delta 1070
+zcmaKqdq`7p6vuz_Ztm{h&0Qa?iLY5cl5(!3lp4Nf<yt8QODS=hkJ2<vb14|RPzGv>
+z>x%e?2%;4!VQQF<GQmeeijYPH8mOpcphA$Pn4RC2WFQ^*+{-<`^E>xEzN>+?;fjWU
+zEzQRj<C*$dW+`s3(NGlHY$`ure71GsOZ3J$y8*Kzj7OQ11Ne&<rgY|Nm1nI2{bLhs
+z7JsemfaY1#ibQYwt;MBnzD1~TfEX>n1BRYg5%^pG=espCuBO9Gc9Hk_WJj+3CxP7M
+zGs~X#pWE!u?mSiNmNB&47%-1-a=9`mlPq{)G9z@FhaCucI<YMBN`eR2e8e$dKUKW8
+zME(BVIA0v)t+M+0aOM-nviJ%C;5R<QegUwbVcC0-Bj@-7`qz<OU0b)Rz(GputiM1%
+zTp$J;#OpeK?pfn;BaSjtr6%1pJ0=agJEVRRe0w?tXR-sbQ4UH)X($Wj<4a)RWhqET
+z*#J-g4N#Db2E+gbF*G0sB-VH&g*OB6(05nlh4WgBB~Y~+a_x3S+?ZU%1U*$BY|ThK
+z(W8kaXj7y+S1%9t2)ybsw%#L&sM_Ky+l`IhLb!>4k&2Sh4V28ilshxG=Az?b`_dvG
+z--+E!)R&HMmCnKT36+Cdy7xm&wLm}aRysODa-ni(u3s)=j`mGQ791uubwO`zvu75P
+zxdpk3DGK!M7se07JSq}27V5q_aLbPFCTJ0bt5C&BLPWtt1pZN|B7`7uTh?*%uqTEP
+z;bwPu;t3&cd56b9h;Z9GJXZ+PIudXrOP*YU#Dn`ALsS$JT!WLR>9XPNk}K>LYe`tD
+zPp$IEi+ngdRo<*z%)#Ni=}SG_uFT$DTA4HI>mCU;;XOBvqZeoAUT;eaFMV5Dut`fL
+z_$&w?*aF+yYI97AOPSh;DNDDREPfH&gloWa67eYt;w*F8A}CJjs342|&^oTY;}Fka
+zW6tGst3n2^!L-lsRcBYolD5QH=Q}vylP7{C?tl^*L2%dLX+W1?%lQ`hWq>CQPO-sk
+c|1UwPmj=Xu1h50700Us{SY$|h;T2i!H<t?n0ssI2
+
+delta 123
+zcmbQ?_`z6Vq5gm8oA1kf<~<U46|Phke@)0@`3~jTZcW-#T_xA{&YGy;z{oK%QJ-b+
+zwM@^6Qw$V8NHU;+XAk&nR_d8M?h{|Ltu=17nCQl*tJybi<k-$J*@01U5(~%X0>OK%
+UlUrryO)OxU{DECylf(x`0H*FO^Z)<=
+
+diff --git a/data/Open Notebook.onetoc2 b/data/Open Notebook.onetoc2
+index f7ee03a38f1172a3e64da3440d7c5fe91ca4f90f..71c1df1ade30352366ee5446a8253a4a21294a61 100644
+GIT binary patch
+delta 455
+zcmdm>KEXg?q5gm8oA1kf<~<U46|PhkZ=5ZE_SY_6rwRXA^fr|(R-LHez{ol=QC^_Z
+zepP*USdH)c%P;+Y2k{-AIKf0wK!O1U9Jf=>VP=c>*i<XR5&R&MoqyxgY<2-5pc)Y%
+zW(49C9WVFIfgBv1lUO)57YKf0Wd1L}Fga0Jzg_^O1O!+Z7`%5GHysu|)D7e{fP{cL
+z8@RyqHyH*MkU4PBz|1g3mO*Bx41-8EkQM++)K26$_~ia$$Ek;zgt<IVyMxqA0dWCC
+z5ko4N%x6djvWkH)l_3QvbL7kS`mY<S!j^!X3Q{ipqM<>@S7H-Ou&&SI6}#WEuK5uJ
+z5)b+%xqsiyTEBVa=k*h!&VB@motHSOQfz;h5yWO-P!wrsU{FZ_5<sv$DX6#N^(()w
+zNtc!-de{f38bHKBN;L!;8hU{0>UMw9-n~p)!K>luta*7Z;delijs^_9WlYRmKsKwc
+k2SaZq6X#?-VFi{NO@?2S<AlvN2e5o#npnUx`2)KE09L(%DF6Tf
+
+delta 140
+zcmbPWut8m6q5gm8oA1kf<~<U46|Phkzw6dR!#kRpp3QnnsWFkv-zO?KFtSWcloz-r
+zWU+jQ@@%&z?WwMkYkOx+oM583L6`vrd~7v;#<nclX~)~3hKhjsUECX=X0vZj<Y4EV
+i?7%2EiG^cxf#4^`$%c$Z6AM@-e_$8j0BUal836#{887kx
+
+diff --git a/docs/DECISION_REGISTER.md b/docs/DECISION_REGISTER.md
+index 5de75df..64d94ae 100644
+--- a/docs/DECISION_REGISTER.md
++++ b/docs/DECISION_REGISTER.md
+@@ -8,7 +8,7 @@ Status options: Proposed, Accepted, Blocked, Rejected, Superseded. Preserve hist
+ 
+ | Decision ID | Time | Owner | Decision | Reason | Evidence | Impact | Status |
+ |---|---|---|---|---|---|---|---|
+-| | | | | | | | |
++| DEC-001 | 2026-09-08 11:33 CEST | Member 1 / Team Lead | Accept Phase 1 preprocessing reference; authorise Member 3 to begin Notebook 4 reference execution only. | Working-copy preprocessing passed artifact, schema, finite-value, alignment, and fresh-process reload checks; organiser originals/raw data are clean. | `working/member2_preprocessing_execution.log`; `working/member2_baseline_handoff.md`; pickle SHA256 `51f11bc9025b5d4ffe2f9e03a8c76b70e4cfd0e91cb36876a9d021181e8ccdbe`; 10-second clean `original/` observation recorded in `docs/member1_log.md`. | Preserves a faithful preprocessing reference. Notebook 4 remains reference-only; no candidate modelling, tuning, or protocol changes are authorised. `original/Open Notebook.onetoc2` remains read-only as a reversible local mitigation for external writes. | Accepted |
+ | | | | | | | | |
+ | | | | | | | | |
+ | | | | | | | | |
+diff --git a/docs/MASTER_PLAN.md b/docs/MASTER_PLAN.md
+index bb4f4ed..2cfec66 100644
+--- a/docs/MASTER_PLAN.md
++++ b/docs/MASTER_PLAN.md
+@@ -4,7 +4,13 @@
+ 
+ Source: `Hackathon_Analysis_Report.md`. This plan summarises that audit; it does not represent a new repository inspection or completed implementation. Update status, owners, evidence, and organiser decisions as work progresses. Preserve the audit as the historical reference. Operational instructions for AI assistants are in `AGENTS.md`.
+ 
+-**Current phase:** Planning and context handover. Baseline reproduction and implementation are not yet recorded as completed.
++**Current phase:** Phase 1 preprocessing reference accepted; Notebook 4 reference modelling is the next authorised phase. Candidate implementation remains unapproved.
++
++## Phase 1 Acceptance — 2026-09-08 11:33 CEST
++
++**Status: ACCEPTED (preprocessing reference only).** Member 2's working-copy Notebook 3 completed and produced a reloadable baseline artifact at `data/preprocessed/preprocessed_data.pkl` (SHA256 `51f11bc9025b5d4ffe2f9e03a8c76b70e4cfd0e91cb36876a9d021181e8ccdbe`). Verified contract: Madrid `X (76263, 60)`, `y (76263,)`; Amsterdam `X (25992, 60)`, `y (25992,)`; finite matrices, four classes, ordered 60-feature schema, aligned pixel keys, and fresh-process reload. The working copy differs from organiser Notebook 3 only in documented cells 2, 4, and 19 (minimal local scaler import, portable data paths, output-parent creation).
++
++Windows Application Control blocks the SciPy DLL required for scikit-learn. The local minimal `StandardScaler` is an environment-compatibility workaround only, not an algorithmic improvement or modelling addition. The organiser `original/` directory was restored clean; `original/Open Notebook.onetoc2` is protected by a reversible file-local read-only attribute after an external OneNote-style rewrite was observed. No OneNote/OneDrive process was terminated. Notebook 4 has not been run. See `DEC-001`, `docs/member1_log.md`, `docs/member2_log.md`, and `working/member2_preprocessing_execution.log`.
+ 
+ ## Problem statement
+ 
+diff --git a/docs/Open Notebook.onetoc2 b/docs/Open Notebook.onetoc2
+index 2b8ac7e0cfed6bd63197162f3342c393c9acdc0d..4f28537fdf9e94ef05f83af7b986309e9bebc248 100644
+GIT binary patch
+delta 82
+zcmV-Y0ImP9C$J|Vp)dbK+3$8tp5hSdS0Z*_c{3-#2Ux>Tr+EdVcuVUNksx3Yc|WRu
+oi&lJ1uhZ#H`%(_Wk&r|Ybdi8)m2E0dfHc2Z56&ov4YB3R5(=**`2YX_
+
+delta 82
+zcmV-Y0ImP9C$J|Vp)dbK+3$8tp5hSdS0Z*_mt@eh#!k0Om<R13TKJ=!ksx3Y))F|U
+oxFefJf-99p8Lf?)k&r|YA>F%vyyaO$k_E2F{<;h~3$f+P5^_H$j{pDw
+
+diff --git a/docs/TEAM_LOG.md b/docs/TEAM_LOG.md
+index a5abdde..2616790 100644
+--- a/docs/TEAM_LOG.md
++++ b/docs/TEAM_LOG.md
+@@ -17,3 +17,11 @@ Next Action: [specific step, owner, checkpoint/dependency]
+ Evidence: [commit/PR, run ID, artifact path, review or organiser answer]
+ 
+ ## Chronological entries
++
++Time: 2026-09-08 11:33 CEST  
++Owner: Member 1 / Team Lead  
++Task: Phase 1 preprocessing-reference acceptance review  
++Result: ACCEPTED; validated 60-feature pickle/reload contract and documented working-copy deviations.  
++Decision: DEC-001  
++Next Action: Member 3 may begin Notebook 4 reference execution only; do not begin candidate modelling or alter the baseline.  
++Evidence: `working/member2_preprocessing_execution.log`; pickle SHA256 `51f11bc9025b5d4ffe2f9e03a8c76b70e4cfd0e91cb36876a9d021181e8ccdbe`; `docs/member1_log.md` 10-second original-preservation record.  
+diff --git a/docs/member1_log.md b/docs/member1_log.md
+index 20a07f0..9fd99f7 100644
+--- a/docs/member1_log.md
++++ b/docs/member1_log.md
+@@ -46,3 +46,30 @@ Own this log. Duplicate the daily section for Day 1, Day 2, and Thursday. Update
+ ### Reflection
+ 
+ - [What helped beginners or integration today? What should change next phase?]
++
++---
++
++## Phase 1 preservation blocker — 2026-09-08 11:31 CEST
++
++- **Diagnosis:** `ONENOTE.EXE` (PID 35804, Microsoft Office) and OneDrive processes are active. `original/Open Notebook.onetoc2` is clean immediately after `git restore`, then differs again within three seconds; its last observed write was 11:26:34. This is consistent with an external OneNote sync/write, but available inspection did not conclusively attribute a file handle to a specific process.
++- **Action:** Restored the file during diagnosis and repeated the status/diff check. Did not terminate OneNote or disable OneDrive because the interactive OneNote client may contain unsynchronised user work and its ownership of this exact write was not safely proven.
++- **Verification:** `git status --short -- original/` currently reports `M original/Open Notebook.onetoc2`; `git diff -- original/` reports a binary difference. The original-preservation gate remains blocked. No organiser notebook, raw data, Notebook 4, or ML/preprocessing code was changed.
++- **Next step:** User/owner must close or pause the relevant OneNote notebook/sync safely, then restore and observe a clean `original/` status for at least 10 seconds before Phase 1 re-review.
++
++---
++
++## Phase 1 preservation isolation — 2026-09-08 11:32 CEST
++
++- **Diagnosis/evidence:** The prior restore test established that `original/Open Notebook.onetoc2` was rewritten within about three seconds. `ONENOTE.EXE` PID 35804 and OneDrive processes were active; exact file-handle attribution remains unproven.
++- **Action:** Restored `original/Open Notebook.onetoc2` from Git, then applied Windows' reversible file-local read-only attribute (`attrib +R`). This changes no file contents and can be reversed with `attrib -R original\\Open Notebook.onetoc2`.
++- **Isolation safety:** The protection applies only to the externally rewritten OneNote table-of-contents file, not any organiser `.ipynb` notebook or raw dataset. No processes were terminated or services disabled.
++- **Verification:** Immediately after restoration/protection, `git status --short -- original/` was empty and `git diff --quiet -- original/` exited 0. The same status/diff checks remained clean once per second for 10 seconds; final `git diff -- original/` was empty.
++- **Result:** Original-preservation blocker is cleared. Phase 1 is ready for re-review only; Notebook 4 was not run or authorised by this action.
++
++---
++
++## Phase 1 accepted — 2026-09-08 11:33 CEST
++
++- **Decision:** ACCEPTED preprocessing reference under DEC-001. Evidence supports the reloadable 60-feature Madrid/Amsterdam pickle contract, documented cells 2/4/19 deviations only, and a preprocessing-only local scaler workaround.
++- **Preservation:** `original/` remained clean for the 10-second post-restore observation and `git diff -- original/` was empty. `original/Open Notebook.onetoc2` retains the reversible read-only mitigation; no OneNote/OneDrive process was terminated.
++- **Handoff:** Member 3 is green-lit to begin Notebook 4 **reference** execution. No Notebook 4 execution occurred during this review, and candidate modelling remains unauthorised.
+diff --git a/docs/member2_log.md b/docs/member2_log.md
+index da3485a..747c043 100644
+--- a/docs/member2_log.md
++++ b/docs/member2_log.md
+@@ -46,3 +46,118 @@ Own this log. Duplicate the daily section for Day 1, Day 2, and Thursday. Update
+ ### Reflection
+ 
+ - [What did I learn about the reference pipeline? Which limitation must not be mistaken for a completed submission?]
++
++
++---
++
++## Daily entry — Day 1 / 2026-09-08 10:27
++
++**Branch/base commit:** main / 165fe11  
++**Current status:** Blocked on execution environment after working-copy setup; preprocessing artifact not yet produced.
++
++### Daily Goals
++
++- [x] Create Notebook 3 working copy without modifying `original/`.
++- [x] Apply only minimum path/parent-directory fixes needed for execution.
++- [ ] Execute preprocessing and produce `data/preprocessed/preprocessed_data.pkl`.
++- [ ] Validate pickle feature/schema/labels/scaler/reload contents.
++
++### Completed Tasks
++
++- Created `working/3-Preprocessing_member2_baseline.ipynb` from `original/3-Preprocessing.ipynb`.
++- Edited working copy only for portable data path resolution and output directory creation.
++- Attempted notebook execution with `jupyter nbconvert`; failed because `jupyter` is not installed/on PATH.
++- Checked Python environments: default Python 3.14 lacks `pandas`, `pyarrow`, `sklearn`, `nbformat`, `nbclient`, `ipykernel`; Python 3.11 has `pandas` but lacks `pyarrow`, `sklearn`, and notebook execution packages; Python 3.13 lacks required packages.
++
++### Important Decisions
++
++- No algorithm, feature, QA, label, interpolation, scaling, model, metric, budget, or trial-count changes made.
++- Did not install packages without Team Lead approval.
++
++### Problems Encountered
++
++- Environment blocker: cannot execute Notebook 3 or read Parquet inputs in available environment because required packages/notebook tooling are missing.
++- Execution command and error: `jupyter nbconvert --to notebook --execute working/3-Preprocessing_member2_baseline.ipynb ...` -> `jupyter: command not found`.
++
++### AI Prompts Used (one-line summary only)
++
++- Baseline setup/run support: create working copy, apply path-only fixes, attempt execution, record blocker.
++
++### Files Modified
++
++- `working/3-Preprocessing_member2_baseline.ipynb`: working copy; path/output-directory fixes only.
++- `docs/member2_log.md`: this status/evidence entry.
++
++### Evidence Produced
++
++- Working-copy exists: `working/3-Preprocessing_member2_baseline.ipynb`.
++- Deviations from organiser Notebook 3:
++  1. `DATA_DIR` resolves to `data/` from repo root, falling back to `../data/`.
++  2. Output directory uses `DATA_DIR / 'preprocessed'`.
++  3. Output directory creation uses `mkdir(parents=True, exist_ok=True)`.
++- Artifact status: `data/preprocessed/preprocessed_data.pkl` not produced yet due environment blocker.
++
++### Next Steps
++
++- Ask Team Lead to approve/use an environment with `jupyter` or `nbclient`, `pandas`, `pyarrow`, `scikit-learn`, and `matplotlib`; then rerun the working-copy notebook unchanged.
++- After successful run, validate expected shapes `(76263, 60)` and `(25992, 60)`, four classes, finite matrices, scaler, pixel-key alignment, and clean pickle reload.
++
++### Reflection
++
++- The reference pipeline remains deliberately faithful; known limitations are documented but not fixed in this baseline reproduction.
++
++---
++
++## Daily entry — Day 1 / 2026-09-08 11:20
++
++**Branch/base commit:** main / 165fe11  
++**Current status:** Preprocessing completed successfully; Notebook 4 remains unrun.
++
++### Daily Goals
++
++- [x] Execute the Notebook 3 working copy and produce `data/preprocessed/preprocessed_data.pkl`.
++- [x] Validate the feature/schema/label/pixel/scaler contract and fresh-process pickle reload.
++
++### Completed Tasks
++
++- Ran every Notebook 3 code cell in `working/3-Preprocessing_member2_baseline.ipynb` in order with Python and Matplotlib's headless Agg backend.
++- Created `data/preprocessed/preprocessed_data.pkl` (50,721,695 bytes / 48.4 MiB).
++- Validated Madrid `X=(76263, 60)`, `y=(76263,)`; Amsterdam `X=(25992, 60)`, `y=(25992,)`; finite values; labels `{1,2,3,4}`; row-aligned pixel IDs; 60 unique ordered feature names; Madrid-fitted scaler behaviour; pickle reload; and fresh-process reload.
++
++### Important Decisions
++
++- Windows Application Control blocked the SciPy DLL needed to import scikit-learn. No policy bypass or package installation was attempted.
++- Used the documented minimal local `StandardScaler` replacement only in the Notebook 3 working copy. It implements `fit`, `transform`, and `fit_transform`, with population variance and zero-variance unit scale; it is an environment compatibility deviation, not an algorithmic improvement.
++
++### Problems Encountered
++
++- `sklearn`/SciPy remains unavailable in this Windows environment because Application Control blocks `_rigid_transform_cy`; this remains a blocker for Notebook 4 modelling, not for completed preprocessing.
++- Jupyter/nbconvert was unavailable, so the successful reproducible execution used `working/run_member2_preprocessing.py`; the headless plotting warning is recorded in the execution log.
++
++### AI Prompts Used (one-line summary only)
++
++- Baseline execution and artifact validation in the approved Notebook 3 working copy; no modelling logic or baseline algorithm changes.
++
++### Files Modified
++
++- `working/3-Preprocessing_member2_baseline.ipynb`: documented import, portable input-path, and output-parent-directory deviations only.
++- `working/minimal_standard_scaler.py`: local preprocessing-only compatibility module required to unpickle the artifact.
++- `working/run_member2_preprocessing.py`, `working/3-Preprocessing_member2_baseline_executed.ipynb`, `working/member2_preprocessing_execution.log`, `working/member2_baseline_handoff.md`: execution/reload evidence.
++- `data/preprocessed/preprocessed_data.pkl`: generated artifact; excluded from ordinary Git history.
++- `docs/member2_log.md`: this corrected completion record. Organiser notebooks and raw Parquets were not edited by Member 2.
++
++### Evidence Produced
++
++- Successful execution/validation: `working/member2_preprocessing_execution.log` (`VALIDATION PASSED`).
++- Handoff: `working/member2_baseline_handoff.md`.
++- Artifact: `data/preprocessed/preprocessed_data.pkl`; SHA256 is to be recorded by the lead/release process if required.
++- Original Notebook 3 SHA256 during run: `86136f0ab901a4fd15f45e7545c5107f98fb17ed271e9c46c12d0d614b261175` before/after execution.
++
++### Next Steps
++
++- Submit preprocessing handoff to the Team Lead for Phase 1 acceptance.
++- Do not run Notebook 4 until the Team Lead authorises it and an approved scikit-learn/SciPy environment is available.
++
++### Reflection
++
++- The accepted artifact is a faithful preprocessing reference with documented global scaling and label-dependent construction limitations. The local scaler substitutes blocked infrastructure only; it does not make the reference baseline fold-safe, label-free, or a genuine transfer method.
+diff --git a/docs/member3_log.md b/docs/member3_log.md
+index 60b3a05..7f634ff 100644
+--- a/docs/member3_log.md
++++ b/docs/member3_log.md
+@@ -7,42 +7,400 @@ Own this log. Duplicate the daily section for Day 1, Day 2, and Thursday. Update
+ 
+ ## Daily entry
+ 
+-**Day/date:** ____________________  
+-**Branch/base commit:** ____________________  
+-**Current status and lead authorisation:** ____________________
++**Day/date:** Day 1 / 2026-09-08  
++**Branch/base commit:** current workspace HEAD; commit pending Team Lead approval  
++**Current status and lead authorisation:** Morning downstream readiness only. No baseline optimisation and no Member 2 files modified.
+ 
+ ### Daily Goals
+ 
+-- [ ] [Scoped approved task, dependency, acceptance checkpoint]
++- [x] Inspect Notebook 4 and identify downstream inputs, training/evaluation locations, and artifact gaps.
++- [x] Prepare validation checks for `preprocessed_data.pkl` so modelling can start immediately after Member 2 handoff.
++- [x] Prepare minimal artifact helper utilities without changing baseline behaviour.
++- [ ] Wait for Member 2 pickle and Team Lead approval before executing/modifying modelling notebook.
+ 
+ ### Completed Tasks
+ 
+-- [Task and actual result; distinguish design, smoke test, and completed evaluation]
++- Inspected `original/4-Modelling.ipynb` code cells.
++- Documented modelling execution map, notebook dependency map, expected pickle keys/shapes, artifact saving plan, validation checks, and recommended commits in `docs/member3_modelling_readiness.md`.
++- Created `working/member3_artifact_helpers.py` with saving/validation helpers only; no model training or algorithm changes.
+ 
+ ### Important Decisions
+ 
+-- [DEC-ID; rationale, source-state/interface impact, approval status]
++- Pending Team Lead: artifact root path for baseline exports (`models/member3_baseline_exports/` suggested).
++- Pending Team Lead: whether helpers should be wired into a copy of Notebook 4 after Member 2 baseline pickle exists.
+ 
+ ### Problems Encountered
+ 
+-- [Failure/blocker, evidence, attempted fixes, leakage/resource risk, escalation owner]
++- `preprocessed_data.pkl` is not present yet; modelling execution remains blocked until Member 2 handoff.
++- Notebook 4 baseline saves no RF, metrics, figures, or episode indices; prepared export plan to close this reproducibility gap without changing algorithms.
+ 
+ ### AI Prompts Used (one-line summary only)
+ 
+-- [Prompt purpose; allowed files; short explanation of accepted AI change]
++- Used AI to inspect assigned docs/notebook and create downstream readiness notes plus artifact helper utilities.
+ 
+ ### Files Modified
+ 
+-- [Exact candidate/helper/document path; purpose; baseline/originals unchanged]
++- `docs/member3_log.md` — morning status update.
++- `docs/member3_modelling_readiness.md` — downstream execution/artifact/dependency/validation plan.
++- `working/member3_artifact_helpers.py` — helper functions for validation and artifact saving.
+ 
+ ### Evidence Produced
+ 
+-- [EXP/run ID, commit, feature/split versions, seeds/config, scores or failure, saved-state/reload/leakage checks, artifact paths]
++- Notebook 4 training locations identified: Madrid CV cell 7; final Madrid RF cell 14.
++- Notebook 4 evaluation locations identified: Madrid cells 7/8/11; Amsterdam zero-shot cells 19/20/22; Amsterdam prototypes cells 25/26/28/30.
++- Expected pickle contract documented: Madrid `(76263, 60)`, Amsterdam `(25992, 60)`, labels classes `[1,2,3,4]`, pixel IDs `(n,2)`, 60 ordered feature names.
+ 
+ ### Next Steps
+ 
+-- [Specific next action, required approval/dependency, handoff recipient]
++- Receive Member 2 pickle path/checksum and any accepted deviations from expected shape/schema.
++- Run `validate_preprocessed_data()` in a clean session before modelling.
++- With approval, connect helpers to a Team-Lead-approved Notebook 4 working copy/export script and save baseline artifacts.
+ 
+ ### Reflection
+ 
+-- [Can I explain what Madrid learning adaptation reuses? What did this result or failure actually establish?]
++- Baseline RF source state is `rf_final`, but baseline prototype adaptation does not reuse it. Any later transfer candidate must explicitly consume immutable Madrid-learned state and keep Amsterdam support/query separation.
++
++---
++
++## Daily entry — Day 1 / 2026-09-08 11:41 SAST
++
++**Branch/base commit:** current workspace HEAD; no commit made  
++**Current status and lead authorisation:** DEC-001 authorises Notebook 4 reference execution only. **BLOCKED before model execution** by Application Control.
++
++### Daily Goals
++
++- [x] Verify accepted Phase 1 pickle/input contract is available to Notebook 4.
++- [x] Verify a functional scikit-learn/SciPy environment before running the reference protocol.
++- [ ] Run Notebook 4 reference protocol — blocked; no workaround authorised or used.
++
++### Completed Tasks
++
++- Reloaded `data/preprocessed/preprocessed_data.pkl` using Python 3.11: Madrid `(76263, 60)`, Amsterdam `(25992, 60)`, classes `[1,2,3,4]`, 60 feature names.
++- Tested the exact required scikit-learn imports. `sklearn` itself imported, but `from sklearn.ensemble import RandomForestClassifier` failed because Windows Application Control blocked sklearn's compiled `_gradient_boosting` extension.
++- Stopped before any RF fit, CV, zero-shot prediction, prototype sampling, or Notebook 4 execution. No scores were produced.
++
++### Important Decisions
++
++- No deviation from Notebook 4 modelling protocol was made. Per task instruction, no alternate RF implementation, package workaround, or model/protocol substitution was attempted.
++
++### Problems Encountered
++
++- Environment blocker in `C:\Users\jaswi\AppData\Local\Programs\Python\Python311\python.exe` (Python 3.11.9; NumPy 2.4.6; SciPy 1.17.1; scikit-learn 1.9.0): `ImportError: DLL load failed while importing _gradient_boosting: An Application Control policy has blocked this file.`
++- Python 3.14 did not complete `import sklearn` within a 20-second bounded test; Python 3.13 lacks NumPy. No usable modelling environment was found.
++
++### AI Prompts Used (one-line summary only)
++
++- Reference-only Notebook 4 environment verification and faithful-baseline blocker recording; no model execution or optimisation.
++
++### Files Modified
++
++- `docs/member3_log.md` — factual execution blocker entry.
++- `working/member3_notebook4_environment_blocker.log` — environment command, failure, pickle reload, and preservation evidence.
++
++### Evidence Produced
++
++- Input pickle SHA256: `51f11bc9025b5d4ffe2f9e03a8c76b70e4cfd0e91cb36876a9d021181e8ccdbe`.
++- `working/member3_notebook4_environment_blocker.log` records failed required imports and successful pickle reload.
++- Original preservation: `git status --short -- original` clean; `original/4-Modelling.ipynb` SHA256 `709fa081f33186253715e1cd525b5d2a7c8b7a05259855fc72f137c9233551ae`; `original/Open Notebook.onetoc2` retains read-only attribute.
++
++### Next Steps
++
++- Team Lead/environment owner: provide an administrator-approved environment in which `RandomForestClassifier` and `RepeatedStratifiedKFold` import successfully.
++- Member 3: rerun this authorised reference-only task unchanged from the accepted pickle after that environment is available; do not start candidate modelling.
++
++### Reflection
++
++- The accepted pickle is ready, but a model result cannot be claimed unless the organiser RF executes through functional scikit-learn. The correct action is to remain blocked rather than approximate the baseline.
++
++---
++
++## Daily entry — Day 1 / 2026-09-08 11:45 SAST
++
++**Branch/base commit:** current workspace HEAD; no commit made  
++**Current status and lead authorisation:** Environment-route investigation only; no Notebook 4 execution.
++
++### Daily Goals
++
++- [x] Check authorised local documentation for an organiser idia/Ilifu or approved environment route.
++- [x] Check existing local interpreter/environment routes with lightweight required-import tests only.
++- [x] Record a safe execution recommendation without installing packages or changing security policy.
++
++### Completed Tasks
++
++- Searched the authorised documentation (`AGENTS.md`, `MASTER_PLAN.md`, `TEAM_OPERATING_SYSTEM.md`, Member 3 notes/log): no idia/Ilifu access/activation instruction, no Conda/venv route, and no project environment setup instruction is documented.
++- Checked active environment variables, `conda`/`mamba`/`micromamba` commands, and common local Conda/venv locations: none found.
++- Re-tested the existing Python 3.11 installation in fresh lightweight import commands. It passes `import scipy`, `from sklearn.model_selection import RepeatedStratifiedKFold`, and `from sklearn.ensemble import RandomForestClassifier`.
++- Verified existing Notebook execution tooling in this same interpreter: Jupyter/nbconvert, nbclient, nbformat, ipykernel, pandas, and matplotlib are installed.
++
++### Important Decisions
++
++- No packages were installed and no Windows/Application Control setting was changed.
++- The locally installed Python 3.11 is a technically functional Notebook 4 route, but its organiser/Team-Lead approval status is not documented. Require Team Lead confirmation before the expensive baseline run.
++- The earlier `_gradient_boosting` policy-block error conflicts with the later successful fresh-process RF import. Repeat the exact import preflight immediately before any full run and preserve its output; do not treat the issue as permanently resolved without that check.
++
++### Problems Encountered
++
++- No organiser-provided idia/Ilifu environment is available or documented in the files authorised for this investigation; do not infer remote hostnames, credentials, or activation commands.
++- The earlier application-control failure was transient or environment-state-dependent; cause is not established. The later required imports are factual evidence only.
++
++### AI Prompts Used (one-line summary only)
++
++- Safe environment-route discovery and lightweight sklearn/Jupyter import verification; no modelling, installation, or policy change.
++
++### Files Modified
++
++- `docs/member3_log.md` — environment diagnosis and recommended route only.
++
++### Evidence Produced
++
++Functional interpreter (no activation required):
++
++```text
++C:\Users\jaswi\AppData\Local\Programs\Python\Python311\python.exe
++Python 3.11.9; NumPy 2.4.6; SciPy 1.17.1; scikit-learn 1.9.0
++import scipy: PASS
++from sklearn.model_selection import RepeatedStratifiedKFold: PASS
++from sklearn.ensemble import RandomForestClassifier: PASS
++python.exe -m jupyter --version: Jupyter/nbconvert/nbclient/nbformat/ipykernel present
++```
++
++### Next Steps
++
++- Team Lead: confirm this existing Python 3.11 installation is approved for the baseline run, or provide the official idia/Ilifu access route.
++- Once confirmed, run a final import preflight then execute the authorised Notebook 4 reference baseline from a working copy using:
++  `C:\Users\jaswi\AppData\Local\Programs\Python\Python311\python.exe -m jupyter nbconvert --to notebook --execute <working-notebook-4> --output <executed-notebook-4>`.
++- Do not begin candidate modelling.
++
++### Reflection
++
++- The core organiser dependencies now import in an existing local interpreter, but environment approval and a fresh immediately-pre-run import check remain necessary before calling the baseline unblocked.
++
++---
++
++## Daily entry — Day 1 / 2026-09-08 12:05 SAST
++
++**Branch/base commit:** current workspace HEAD; no commit made  
++**Current status and lead authorisation:** Team Lead explicitly approved local Python 3.11 for formal Notebook 4 reference reproduction. **PASS — reproduced reference baseline only.**
++
++### Daily Goals
++
++- [x] Complete fresh required-import/input/original-preservation preflight.
++- [x] Execute the untouched Notebook 4 source from a working copy once.
++- [x] Capture actual baseline metrics and working artifacts; stop before any candidate work.
++
++### Completed Tasks
++
++- Preflight passed in `C:\Users\jaswi\AppData\Local\Programs\Python\Python311\python.exe`: Python 3.11.9; NumPy 2.4.6; SciPy 1.17.1; scikit-learn 1.9.0; `RandomForestClassifier` and `RepeatedStratifiedKFold` imports passed; Jupyter/nbconvert/nbclient/nbformat/ipykernel passed.
++- Reloaded accepted pickle before execution: Madrid `(76263, 60)`, Amsterdam `(25992, 60)`, classes `[1,2,3,4]`, finite matrices, 60 feature names.
++- Copied `original/4-Modelling.ipynb` byte-for-byte to `working/4-Modelling_member3_reference.ipynb`, SHA256 `709fa081f33186253715e1cd525b5d2a7c8b7a05259855fc72f137c9233551ae`.
++- Ran the exact notebook cells once in order. All 14 code cells executed; executed notebook contains no error output.
++
++### Important Decisions
++
++- Notebook modelling protocol had **no deviations**: 5 folds × 5 repeats, 500-tree balanced RF, seed 42, `n_jobs=-1`, final full-Madrid RF, zero-shot Amsterdam evaluation, and 10 trials at 5/10/25/50/100/200 prototype shots were unchanged.
++- Because no `python3` Jupyter kernelspec was installed, the execution wrapper launched the already-approved Python 3.11 `ipykernel` directly. This is execution infrastructure only: the working notebook source hash equals the organiser notebook hash, and no cell source/parameters/seed/order changed.
++- No model was separately saved because Notebook 4 does not save one; no export was added during faithful reproduction.
++
++### Problems Encountered
++
++- Kernel emitted a TCP-without-encryption warning and a normal parent-exited shutdown warning. Execution completed successfully; no notebook cell error was recorded.
++
++### AI Prompts Used (one-line summary only)
++
++- Authorised faithful Notebook 4 baseline execution from an unchanged working copy, capture actual metrics/artifact hashes, then stop.
++
++### Files Modified
++
++- `working/4-Modelling_member3_reference.ipynb` — byte-identical working copy of organiser Notebook 4.
++- `working/run_member3_notebook4_reference.py` — direct-kernel execution wrapper only; does not change notebook protocol.
++- `working/4-Modelling_member3_reference_executed.ipynb` — executed working-copy evidence.
++- `working/member3_notebook4_reference_execution.log` — command/environment/path/hash/runtime evidence.
++- `docs/member3_log.md` — this factual run entry.
++
++### Evidence Produced
++
++Execution command:
++
++```text
++C:\Users\jaswi\AppData\Local\Programs\Python\Python311\python.exe -u working/run_member3_notebook4_reference.py
++```
++
++Runtime: `1161.215` seconds. The wrapper launched:
++
++```text
++C:\Users\jaswi\AppData\Local\Programs\Python\Python311\python.exe -m ipykernel_launcher -f {connection_file}
++```
++
++Measured Madrid CV fold macro F1, fits 1–25:
++
++```text
++0.6277, 0.6363, 0.6295, 0.6235, 0.6231,
++0.6220, 0.6328, 0.6307, 0.6286, 0.6245,
++0.6235, 0.6351, 0.6272, 0.6346, 0.6239,
++0.6298, 0.6299, 0.6205, 0.6284, 0.6268,
++0.6319, 0.6292, 0.6334, 0.6267, 0.6237
++```
++
++Measured results:
++
++| Reference experiment | Actual measured result |
++|---|---:|
++| Madrid 5-fold × 5-repeat CV macro F1 | **0.6281 ± 0.0043** |
++| Final Madrid RF in-sample accuracy | 0.9999 |
++| Amsterdam RF zero-shot macro F1 | **0.4433** |
++| Amsterdam prototypes, 5/class | **0.5437 ± 0.0324** |
++| Amsterdam prototypes, 10/class | **0.5649 ± 0.0312** |
++| Amsterdam prototypes, 25/class | **0.5986 ± 0.0176** |
++| Amsterdam prototypes, 50/class | **0.6079 ± 0.0101** |
++| Amsterdam prototypes, 100/class | **0.6129 ± 0.0097** |
++| Amsterdam prototypes, 200/class | **0.6150 ± 0.0036** |
++
++Comparison only with saved organiser starter references: prototype values match the saved values at displayed precision; measured Madrid CV is `+0.0102` and zero-shot is `+0.1006` above their saved references. This is a factual comparison, not a methodological investigation or adjustment.
++
++Artifact hashes:
++
++```text
++working/4-Modelling_member3_reference.ipynb
++709fa081f33186253715e1cd525b5d2a7c8b7a05259855fc72f137c9233551ae
++working/4-Modelling_member3_reference_executed.ipynb
++37761873bc8d9ef57b13515b66ed636d400830b0b186cf25d55b41ccb3fc208e
++working/member3_notebook4_reference_execution.log
++f1ff1212206dc432b472268c72e2e164242fd646e5ca11e60c99019d5635ac21
++```
++
++Validation: executed notebook reload via `nbformat` passed; 14 code cells have execution counts; `ERROR_OUTPUTS []`. Input pickle SHA256 remains `51f11bc9025b5d4ffe2f9e03a8c76b70e4cfd0e91cb36876a9d021181e8ccdbe`.
++
++Original preservation after execution: `git status --short -- original` clean; `original/4-Modelling.ipynb` remains SHA256 `709fa081f33186253715e1cd525b5d2a7c8b7a05259855fc72f137c9233551ae`; `original/Open Notebook.onetoc2` remains read-only (`A R`).
++
++### Next Steps
++
++- Hand measured reference evidence to Team Lead for review/acceptance and discrepancy handling.
++- Do not begin candidate modelling, optimisation, or methodological interpretation until a new explicit Team Lead authorisation.
++
++### Reflection
++
++- This is a reproduced organiser reference baseline, not a corrected or submission-ready pipeline. The measured score difference from saved starter values must be reviewed and recorded by the Team Lead without changing this baseline run.
++
++## Notebook 4 discrepancy audit — 2026-09-08
++
++- Audit only; no fitting, prediction rerun, notebook modification, package change, or candidate work.
++- Evidence and qualifications: `docs/member3_baseline_discrepancy_audit.md`.
++- Original/working hashes match; all executed cell sources match original. Accepted pickle checksum, shapes/classes, ordering, RF/CV parameters and seed 42 confirmed.
++- Recommend accepting 0.6281 ± 0.0043 and 0.4433 as actual measured local reference-protocol results, not exact numerical replication of starter outputs. Exact discrepancy cause remains unknown: starter package versions/input checksum unavailable.
++- Correction: earlier assertion of no installed kernelspec was wrong. KernelManager resolves the user-share Python kernel; `kernel_cmd` is not a supported trait. Current command resolution and executed Python 3.11.9 metadata support the authorised interpreter, but the logged command was intended rather than captured at launch. No modelling-protocol deviation discovered.
++- Deterministic repeatability is unverified: no saved RF/prediction arrays, and re-reading printed results is not a rerun. No independent score recalculation claimed.
++- Original Git status remains clean and OneNote read-only remains set. Files changed for this audit: this log and the audit document only.
++- Next: Team Lead review/acceptance with qualifications; any repeatability investigation requires a separately scoped task. Candidate modelling is not authorised.
++
++## Baseline artifact freeze — 2026-09-08
++
++- Team Lead accepted the measured local reference results. Inspected existing executed notebook and process/runtime state before saving: the Notebook 4 kernel had exited; no live `ipykernel` process or connection file remained.
++- The executed notebook preserves only stream text plus figure images. It does **not** embed `rf_final`, CV/OOF arrays, Amsterdam prediction/probability arrays, prototype trial scores, support indices, or prototypes. Those objects cannot be saved now without rerunning; no rerun occurred.
++- Created recoverable-output freeze at `working/member3_baseline_frozen/` from `working/4-Modelling_member3_reference_executed.ipynb` only:
++  - `madrid_cv_results.json` — 25 printed fold F1 values and measured 0.6281 ± 0.0043.
++  - `amsterdam_zero_shot_results.json` — measured 0.4433 and saved classification-report text; explicitly no prediction arrays.
++  - `amsterdam_prototype_results.json` — all six printed mean/std summaries; explicitly no trial/episode arrays.
++  - `metadata.json` — source/input hashes, environment, RF/CV/prototype protocol, and unavailable-object declaration.
++  - `artifact_manifest.json` — hashes/byte sizes for the four recoverable payloads.
++- Added `working/freeze_member3_notebook4_outputs.py`, a no-fit/no-rerun parser of the executed notebook outputs. It writes only frozen evidence artifacts.
++- Reload validation passed: all manifest payload hashes match; 25 CV scores recompute to rounded 0.6281 ± 0.0043; zero-shot 0.4433 and all prototype summaries match; metadata confirms `rerun_performed: false`.
++- SHA256: CV `6cff27f7448522ede547a7df835fefc19487105d56be40d2da880dae8fba7b5e`; zero-shot `6b965f2a700c8d62eec9c79706d4950ef07dba78858e127edfe80f2835d3fa9a`; prototypes `8daf472e4a081dcd84344718436395746a19081b58b59ec83f0f047d5d530b6d`; metadata `5fb0bada0c7bfd00f0c9c5a9274f8249640d538aa9cd12786ef23ee237c3c319`; manifest `c8541c570a702f7c2a616113d9c74269a83522af4b1ac6877f25d2b7dc51f435`.
++- `original/` remains Git-clean; `original/Open Notebook.onetoc2` remains read-only (`A R`). No candidate work started.
++- Next: Team Lead reviews frozen evidence and decides whether a separately authorised unchanged-protocol rerun is warranted for model/prediction artifact-level repeatability. Candidate modelling remains unauthorised.
++
++## Baseline artifact capture gate — 2026-09-08
++
++- Gate 1 passed before rerun: accepted frozen JSON hashes matched their manifest; current Python 3.11.9/NumPy 2.4.6/SciPy 1.17.1/sklearn 1.9.0 and required imports matched; original/working Notebook 4 hashes and input pickle SHA256 remained unchanged; no live Notebook 4 kernel/model existed; `original/` was Git-clean and OneNote remained read-only.
++- A single capture-only execution was judged worthwhile because the accepted baseline lacked `rf_final`, OOF arrays, zero-shot arrays, and prototype trial scores. `working/run_member3_notebook4_artifact_capture.py` executes untouched organiser cells and then uses a terminal sidecar solely to serialize their in-memory variables. It does not alter source cells, RF/CV settings, seeds, inputs, or metrics.
++- **STOPPED: capture run failed in the sidecar after the organiser cells completed.** The terminal capture cell omitted `import sys`, raising `NameError: name 'sys' is not defined` while assembling metadata. Per the explicit stop rule, no repair, retry, rerun comparison, artifact reload, or candidate experiment was performed.
++- Partial, unmanifested files were written before failure under `working/baseline_artifacts/`: `rf_final.pkl` (1,336,382,673 bytes; SHA256 `5ffdd11f300532a14b3c2957a1ac77b748aa91c0a4d1a88f1ff0a3735dc75870`), `madrid_cv_oof.npz` (3,716,888 bytes; `a52a7d721e505f3983fc470e1ef1785fac8ce7e6e4d59e0e09e663c425e2cbc5`), `amsterdam_zero_shot.npz` (225,424 bytes; `e1d13830cc0d8d0f820aa0cc93a923b32117101b6ae1cea2c19c28ecb532523c`), `prototype_trial_scores.npz` (1,661 bytes; `637631d7df4cf0d9f315424e9a3411744b26aeeea91b5c152da41ab7788c29ab`), and `feature_schema.json` (2,761 bytes; `bea946aaf7d96e12370af5800f4e719bafe0f7b30fee4354278f7ef36e1f107a`). No metadata/manifest exists; these partial artifacts are not validated, accepted, or to be used until Team Lead decides recovery scope.
++- `working/baseline_artifacts/Open Notebook.onetoc2` appeared as an external OneNote-style file; it was not created or modified by the capture script and is excluded from model-artifact interpretation.
++- Source preservation after failure: original and working Notebook 4 SHA256 `709fa081f33186253715e1cd525b5d2a7c8b7a05259855fc72f137c9233551ae`; input pickle SHA256 `51f11bc9025b5d4ffe2f9e03a8c76b70e4cfd0e91cb36876a9d021181e8ccdbe`; `git status --short -- original` clean; OneNote `A R` remains set.
++- Files created/changed in this gate: `working/run_member3_notebook4_artifact_capture.py`, partial `working/baseline_artifacts/`, and this log. No original/data/preprocessing/notebook source changes; no candidate experiment log created because Gate 4 was not reached.
++- Next: Team Lead must decide whether a narrowly authorised capture-sidecar repair/retry is permitted. Candidate modelling remains **not authorised**.
++
++## Narrow sidecar repair and existing-file recovery — 2026-09-08
++
++- Team Lead authorised repair/recovery only, explicitly prohibiting a Notebook 4 rerun. Added the single missing `import sys` inside `CAPTURE_SOURCE` in `working/run_member3_notebook4_artifact_capture.py`. This one-line repair is reversible. **The runner was not executed.**
++- Recovered all five existing payloads from `working/baseline_artifacts/` without changing their bytes: fitted 500-tree RF, Madrid CV scores/OOF predictions/probabilities/indices/labels, Amsterdam zero-shot predictions/probabilities/labels/IDs, all 60 prototype trial scores, and feature schema.
++- All pickle/NPZ/JSON payloads reload successfully. RF classes/features/parameters match the reference; model reload inference on accepted Amsterdam features exactly equals the saved prediction vector. No fit or modelling cell was executed.
++- Recomputed each of the 25 CV scores from stored OOF arrays, checked label/ID alignment and five OOF occurrences per Madrid row. Saved prototype trial scores recompute to accepted summaries; episode-level scores cannot be independently recomputed without unavailable query predictions/indices.
++- Recovered full precision: Madrid mean `0.6281315050690548`, SD `0.004265247306708275`; Amsterdam macro F1 `0.443273608786401`. These and every prototype mean/SD match the accepted baseline **at its recorded four-decimal precision**. Full-precision equality to the first execution is not claimed because its saved scores were rounded.
++- Payload SHA256 values remain exactly those recorded in the failed-capture entry above. Created only new recovery documents, using exclusive creation rather than overwriting: `working/baseline_artifacts/recovery_validation.json` (SHA256 `f58c4ad5c99a0031eb5c2673905c53802484247a70874170e10f796fa15706f9`) and `working/baseline_artifacts/recovery_manifest.json` (SHA256 `01a6eb4b2e18f1eb99e06ddb84b6d2927d4992c0e999f7d9366f5af6ca26ff73`). Both reload and every manifest hash validates. Environment metadata is labelled validation-process evidence, not recovered kernel telemetry.
++- Frozen accepted JSON payload hashes still match the original frozen manifest; none overwritten. `original/` remains Git-clean and original OneNote remains read-only (`A R`). External `Open Notebook.onetoc2` is excluded from the recovery manifest.
++- Remaining gaps: saved final Madrid in-sample predictions, prototype episode indices/prototypes/query predictions, individual CV forests, and the capture rerun's executed notebook/kernel-specific metadata are unavailable. No attempt was made to recreate them.
++- Changed files: the one-line sidecar repair, the two new recovery JSON documents, and this log. No candidate modelling, no Notebook 4 rerun, and no partial payload deletion or overwrite.
++- Next authorised action: hand recovered artifacts and validation evidence to Team Lead for review. Any further capture or candidate work requires a new scoped instruction; do not run the full capture runner under this repair authorisation.
++
++## Gate 4 readiness and experiment-design audit — 2026-09-08
++
++- **Scope / AI prompt:** G4-AUDIT-001; authorised read-only analysis of frozen baseline artifacts and hypothesis design, explicitly no candidate execution or Notebook 4 rerun. HEAD `165fe11df8779eed514c75bd2852c2b9588a18a4`, dirty `main` at entry; no commit made.
++- **Evidence:** Manifest hashes matched; reloaded NPZs/preprocessing/RF state without estimator inference or fitting. All 25 fold F1s recomputed from saved OOF predictions; labels/IDs align and each Madrid pixel has five OOF appearances. Measured current baselines remain Madrid `.6281 ± .0043`, Amsterdam zero-shot `.4433`, and the accepted six prototype summaries.
++- **Findings:** Amsterdam class 3 recall `.1870` versus Madrid OOF `.5885`; target class 2 predicted share `56.90%` versus true `33.86%`. Of 59 nonconstant features, 45 shift by >.5 Madrid SD and 24 by >1 SD. Conditional-mean shifts and correlated features support metric/target-centroid hypotheses, not a proven causal explanation or candidate improvement.
++- **Proposals:** Rank 1 supervised shrinkage Mahalanobis metric + target support prototypes; backups diagonal Fisher weighting and support-only translation for the frozen RF. Also specified compact discriminant embedding and RF leaf-space prototypes. All fixed configurations are proposed, not fitted/tuned/scored. Full-target `.4433` and same-query/same-budget comparators are explicitly distinguished.
++- **Readiness:** BLOCKED for candidate execution pending lead decisions on target-label development/final-audit scope, exact matched episode verification, candidate inference/fold-local safety, run IDs and integration. Existing artifact gaps are documented, not a reason to rerun Notebook 4.
++- **Files created:** `working/gate4_baseline_error_analysis.md`, `working/gate4_candidate_experiment_plan.md`, `working/gate4_readiness_audit.md`. This log appended only; accepted shared baseline records left untouched. Temporary diagnostic scripts/text/JSON remain outside the repository in the OS temp directory `statsgeeks_gate4_audit/`.
++- **Next authorised action:** Team Lead reviews the plan and approves narrowly scoped prerequisites before any single candidate experiment. No candidate model, metric, source-state adaptation, support sampler, or reference rerun was executed in this audit. Final preservation evidence is recorded in `working/gate4_readiness_audit.md`.
++
++## Gate 4A episode and label-access verification — 2026-09-08
++
++- **Scope / AI prompt:** Authorised minimum deterministic sampler/contract checks only (G4A-VERIFY-001); no candidate or reference model execution. Existing seed 42 / PCG64 / advancing budget-major, trial-major, class-major order preserved.
++- **Sampler evidence:** All 60 episodes across 5/10/25/50/100/200 shots per class and ten trials passed exact ordered support/query regeneration, independent-implementation agreement, per-episode RNG-state replay, class balance, budgets, disjointness, exhaustive query complement and feature/ID alignment. A separate fresh process reproduced all 60 identity fingerprints and before/after RNG states.
++- **Contract evidence:** The common-packet simulation gives four named consumer roles identical support/query identities/features and selected support labels; changing only query labels after fixing IDs leaves packets unchanged. No actual model adapter or prediction was run, and this packet-only test is not a production isolation guarantee.
++- **Blocker:** Current reference/shared-runtime access exposes full target labels. Class-block-ordered supports across all episodes expose 11,388 distinct labels, including 11,368 first-episode query labels; 59 later episodes contain queries labelled in earlier supports. Full-manifest access and persistent target-adaptation state therefore require evaluator-only access/reset enforcement. No reference cheating is inferred; the existing prototype arithmetic uses support labels only.
++- **Decision:** Gate 4A **BLOCKED** on enforceable query-label/cross-episode isolation. `working/gate4_episode_manifest.json` was NOT created. Do not change the sampler or rerun Notebook 4 to fix this access-boundary issue.
++- **Files:** New `working/verify_gate4a_episodes.py`, `working/gate4_episode_verification.md`, and failure diagnostic `working/gate4_episode_manifest_validation.json`; this log appended. Validation JSON SHA256 `4214973bee738306b6df4cacb9d3859398028dfcb42b8aee40692cc3be6979ca`; status BLOCKED, not a passing manifest. Protected-file verification is recorded in the report.
++- **Next authorised action:** Lead reviews/authorises a narrow evaluator-worker isolation task (privileged stratified selector, evaluator-only full manifest/labels, one-episode packets, fresh adaptation state, blocked labelled-file access, prediction-before-scoring barrier). Only after verified isolation should a passing manifest be frozen; E1 remains separately unauthorised. No scores, candidate fitting, or Notebook 4 rerun occurred.
++
++## Gate 4A isolation-only repair — 2026-09-08
++
++- **Authorisation / outcome:** One narrow isolation-and-freeze task; **BLOCKED, partial boundary prototype only**. No sampler redesign and no passing manifest. Full report: `working/gate4_isolation_repair.md`.
++- **Sampler verification: PASS.** Unchanged verifier ran in a fresh approved Python process; all 60 ordered episode fingerprints, support/query IDs, budgets, trial numbers, RNG before/after states, seed/policy and schema match the previous diagnostic exactly. Disjointness, deterministic replay and matched packet routing pass. Raw prototypes/frozen RF/future E1 remain identity-compatible, not executed.
++- **Isolation verification: PARTIAL, NOT CERTIFIED.** WSL2/Bubblewrap prototype uses fresh explicit user/PID/network/IPC namespaces, read-only runtime, private tmpfs, no project/data mounts, one synthetic JSON packet and post-exit integer-only output. Two fresh verifier processes reproduced successful synthetic namespace/file/state and malformed-output rejection checks. No actual target data entered a sandbox.
++- **Blocking results:** The sandbox cannot import NumPy; no approved numerical/source-state runtime is mounted. Immutable staging, bounded output and timeout whole-process-tree teardown remain unverified. `run_episode` therefore always raises BLOCKED; the diagnostic interface rejects real episode packets. No packages installed or host security policies changed.
++- **Corrected preliminary suspicions:** Accessible Linux user keyrings did not yield cross-process sentinel recovery with explicit fresh user namespaces. GC name matches were interned strings, not labelled arrays. Neither is reported as an observed label leak. Limits and initial launcher corrections are retained in the report.
++- **Manifest status:** `working/gate4_episode_manifest.json` NOT created. Prior blocked validation/report preserved unchanged. New failure diagnostic `working/gate4_isolation_repair_validation.json` SHA256 `a57077095aede63c5db7fdd0c21e1861b9175a4ec2c78f60827622dec3b2b4a3`; new sampler diagnostic `working/gate4_isolation_sampler_reverification.json` SHA256 `f82fd3824c8a8906363c88e816198806c45c0b2ded0d0fd85cae656c6bb4e3bf`.
++- **Files created:** `working/gate4_isolation.py`, `working/gate4_isolated_worker.py`, `working/verify_gate4_isolation_repair.py`, the two diagnostic JSON files above, and `working/gate4_isolation_repair.md`. Only this existing log appended. All 33 prior protected hashes match; original/ remains Git-clean; baseline/RF/preprocessing/raw Parquets unchanged. No staging/commit.
++- **Candidate modelling status: NO. Notebook 4 rerun: NO.** No E1, fitting, inference, tuning, candidate performance or comparator scoring. Synthetic access-test integers are not model predictions.
++- **Independent self-review:** Exact identities and common routing remain verified; tested normal-exit synthetic isolation works, but production runtime and all state/termination guarantees are not certified. **E1 cannot yet be fairly evaluated under the enforced contract.**
++- **Exact next authorised action:** STOP and hand the blocked package to Team Lead. Request a narrow continuation for a pinned label-free numerical runtime, immutable staging, bounded output and whole-process-tree teardown verification; then fresh-process isolation/replay verification and conditional freeze only. No candidate or Notebook 4 execution.
++
++## Gate 4A completion authorisation — runtime preflight failure, 2026-09-08 12:21 UTC
++
++- **Scope / prompt:** Complete only the numerical runtime, immutable transport, real-episode isolation and teardown infrastructure; conditionally freeze unchanged identities. Strictly no E1/candidate modelling/metrics or Notebook 4 rerun. Read only the assigned documents/scripts; no repository-wide re-audit.
++- **Outcome: BLOCKED; stopped at numerical-runtime staging.** Created `working/provision_gate4_runtime.py`. Exact Linux wheels for NumPy 2.4.6, SciPy 1.17.1, scikit-learn 1.9.0, joblib 1.5.3 and threadpoolctl 3.6.0 downloaded with verified SHA256. Dependency-closure preflight failed with `libquadmath-828275a7.so.0.0.0 => not found`.
++- **Diagnosis / accountability:** The bundled library is present in scipy.libs. The new provisioner mishandles wheel-local dependency resolution and recopies already-staged absolute paths into nested image paths. This is a provisioner implementation defect, not evidence that numerical computation is impossible. No fix/retry followed the failed preflight under the strict stop rule. No runtime lock created. Partial label-free image remains outside Git at `/home/jaswin/.local/share/gate4a/runtime_v2`; never use it as an approved runtime.
++- **Sampler verification:** Not rerun in this attempt after the runtime failure. All prior 60 stored identity/RNG records retained unchanged; accepted sampler source unchanged. Prior matched-routing feasibility remains historical evidence only.
++- **Isolation verification:** Real-episode, new teardown and bounded-transport tests NOT RUN. Existing prototype remains disabled. No real target labels were routed to worker code.
++- **Manifest status:** No `working/gate4_episode_manifest.json`; integrity reload NOT RUN. Updated `working/gate4_episode_manifest_validation.json` with blocked completion evidence and prepended the latest outcome to `working/gate4_episode_verification.md`, retaining prior records.
++- **Failure evidence:** `working/gate4_completion_failure.json`, SHA256 `60591050a77d1a872507a0e1191b3cfaa8149e6469d7c306bd06448484491fc0`. Entry snapshot: `working/gate4a_completion_entry.json`. Prior validation/report/isolation/worker files backed up as `.pre_completion`; old isolation scripts themselves unchanged.
++- **Preservation:** All 33 protected hashes match before/after; original/ Git-clean; raw Parquets, preprocessing, RF and all frozen baseline artifacts unchanged. No system package changes, unrelated edits, staging or commits.
++- **Candidate modelling: NO. Candidate metrics: NO. Notebook 4 rerun: NO.** E1 cannot yet be fairly evaluated under the enforced contract.
++- **Exact next action:** STOP for Team Lead review; request narrow wheel-dependency staging correction and renewed infrastructure verification before any freeze. No E1 or candidate execution.
++
++## Gate 4A pinned dependency staging repair — 2026-09-08 12:32 UTC
++
++- **Scope / prompt:** Repair only the already-pinned wheel dependency staging, then conditionally continue infrastructure verification. No package/version changes, host fallback, modelling, E1, metrics or Notebook 4 rerun.
++- **libquadmath repair: PASS.** Modified `working/provision_gate4_runtime.py` to use only the existing hash-pinned cached wheels, declare wheel-local loader paths, reuse already-staged DSOs instead of recursively prefixing their paths, and preserve ELF-interpreter execute permission. The failed v2 staging and old provisioner bytes remain preserved; no network/install operation occurred.
++- **Byte reproducibility: PASS.** Fresh v3 image contains 4,188 pinned files; a separate WSL verifier independently reconstructed the complete byte tree and matched it exactly. `working/gate4_runtime_lock.json` records wheel filenames/hashes, interpreter/native-library sources, all loader decisions and environment. Tree SHA256 `4a8db6867aca47681f6694a0f32b5d97c2e8c605d144935422f297a04fee1958`. This is staging evidence, not runtime approval.
++- **Runtime import: FAIL; STOPPED.** Isolated imports reached `/numeric/sklearn/utils/validation.py`, which imports `narwhals.stable.v2`; `ModuleNotFoundError: No module named 'narwhals'`. The unchanged scikit-learn 1.9.0 wheel declares `Requires-Dist: narwhals>=2.0.1`, absent from the approved wheel set. No exact replacement version/hash was invented or fetched, and no retry followed the failed runtime test. Full-stack arithmetic and final native-map checks were not reached.
++- **Isolation/sampler status:** No real-episode, cross-episode, fresh-state, new prediction-boundary or teardown tests followed the failure. No new sampler replay/routing run. All previous 60 stored identity/RNG records and accepted sampler source remain unchanged. Existing real-episode entry point stays disabled; no target data entered the numerical sandbox.
++- **Manifest status: NOT CREATED.** `working/gate4_episode_manifest_validation.json` and `working/gate4_episode_verification.md` now record the current blocker, retaining old evidence. Detailed failure: `working/gate4_dependency_repair_validation.json`, SHA256 `b2d0105b24b82de8b4bda0cf7c247798ed596939269788798f0f570356752e3f`. Raw runtime failure: `working/gate4_runtime_validation.json`.
++- **Files:** Modified provisioner, validation JSON, verification Markdown and this log. Created `working/verify_gate4_runtime.py`, `working/gate4_dependency_repair_entry.json`, `working/gate4_runtime_provision_attempt3.log`, `working/gate4_runtime_lock.json`, the two failure-validation JSON files above, and `.pre_dependency_repair` archives of the provisioner/previous validation/report. Label-free v3 runtime remains outside Git under `/home/jaswin/.local/share/gate4a/runtime_v3`.
++- **Preservation:** All 33 protected hashes match before/after; original/ Git-clean; frozen baseline/RF/preprocessing/raw Parquets unchanged. No staging/commit, unrelated edits or host security-policy changes.
++- **Candidate modelling: NO. Candidate metrics: NO. Notebook 4 rerun: NO. E1 fairly evaluable: NO.**
++- **Exact next authorised action:** STOP for Team Lead review; request approval of an exact Narwhals version and wheel hash required by the unchanged scikit-learn, then a narrow runtime-staging continuation. Resume infrastructure verification only after the complete runtime passes. No E1.
++
++## Gate 4B E1 — G4B-E1-001
++
++- **Authorization:** Exactly fixed E1 plus matched P0/U0/saved-RF controls after Gate4A PASS; no E2–E5, tuning, pseudo-labels, calibration, RF fitting, full-target alignment, or Notebook 4 rerun.
++- **Preflight/isolation:** PASS twice with actual approved worker boundary before source fit. Frozen evaluator manifest was never mounted/supplied. Source worker received Madrid X/y only. Each of 60 fresh episode workers received frozen source state plus current support X/y/IDs and query X/IDs. All outputs finalized/reaped before evaluator scoring; no feedback entered later workers.
++- **Execution:** 60/60 frozen episodes completed. Primary 25-shot E1 `.59008±.03214`; raw `.59860±.01764`; U0 `.58362±.03425`; same-Q frozen RF `.44327±.00031`. E1−raw `−.00852`, positive 4/10; E1−U0 `+.00646`; E1−RF `+.14681`.
++- **Decision:** **FALSIFIED** under fixed rule. Mean gain, 8/10 positivity, and class-harm safeguards failed (C1 −.02187, C3 −.03379 versus raw). No tuning or backups run.
++- **Independent verification:** PASS. Independent source refit and all 60 predictions/scores/confusions reproduced exactly; all 60 raw scores exactly match frozen historical prototype trials. Two verifier-only failures preserved and repaired without rerunning/changing candidates.
++- **Safety:** Frozen manifest SHA256 `9d493d99f60098cb22fd781c51e2d2907d6831df72cb2524700293aa1a1bbf32`; all 33 protected hashes unchanged; original/ clean/read-only; Notebook4 not rerun.
++- **Evidence:** `working/G4B-E1-001/REPORT.md`, `summary.json`, `per_episode_results.json`, `independent_verification.json`, predictions/evidence directories and artifact hash manifest.
++- **Next:** Stop for Team Lead review. Do not tune E1 or automatically run E2–E5.
++
++
++
+diff --git a/docs/member4_log.md b/docs/member4_log.md
+index 05107a5..015eaaa 100644
+--- a/docs/member4_log.md
++++ b/docs/member4_log.md
+@@ -7,42 +7,62 @@ Own this log. Duplicate the daily section for Day 1, Day 2, and Thursday. Update
+ 
+ ## Daily entry
+ 
+-**Day/date:** ____________________  
+-**Branch/base commit:** ____________________  
+-**Current status:** ____________________
++**Day/date:** 2026-09-08 — Phase 1 / before-lunch scaffold  
++**Branch/base commit:** not recorded by Member 4  
++**Current status:** Presentation, judging, evidence, and Q&A scaffolds created. No ML code written. No final results invented.
+ 
+ ### Daily Goals
+ 
+-- [ ] [Assigned evidence, documentation, research, or presentation goal and checkpoint]
++- [x] Read assigned docs: `docs/Hackathon_Analysis_Report.md`, `docs/MASTER_PLAN.md`, `docs/member4_mission.md`.
++- [x] Extract organiser deliverables and judging criteria into a checklist.
++- [x] Draft presentation structure and beginner-friendly pipeline explanation.
++- [x] Create evidence placeholders and result-status rules.
++- [x] Record assumptions, organiser questions, and likely judge Q&A.
++- [ ] Receive verified baseline/candidate evidence from Team Lead/run owners.
+ 
+ ### Completed Tasks
+ 
+-- [Actual output, review result, time; unfinished drafts clearly labelled]
++- Created `docs/member4_phase1_judging_pack.md` containing organiser requirements, judging checklist, presentation structure, pipeline story, beginner explanations, assumptions, evidence checklist, judge questions, speaking roles, and missing-evidence requests.
++- Created `docs/member4_evidence_inventory.md` with claim/artifact status tracking and placeholder rows.
++- Created `docs/member4_presentation_outline.md` as a slide-by-slide deck scaffold with metric placeholders.
++- Marked starter notebook scores as starter reference only, not reproduced team results.
+ 
+ ### Important Decisions
+ 
+-- [DEC-ID; clarification/narrative/evidence decision and approval status]
++- Provisional rule: support all five budgets 5, 25, 50, 100, 200 labels/class until organisers clarify.
++- Provisional rule: keep written justification ≤300 words pending 300 vs 500-word clarification.
++- Presentation must not claim transfer benefit unless source-learned state reuse and comparison evidence are verified.
+ 
+ ### Problems Encountered
+ 
+-- [Missing evidence, rule ambiguity, failed replay, timing issue; owner/escalation]
++- Several organiser details remain ambiguous: budget list, word limit, submission format/interface, hidden evaluation protocol, class-boundary confirmation, target-data permissions, and coverage/coordinate test availability.
++- No verified team-run metrics or final candidate evidence available yet.
+ 
+ ### AI Prompts Used (one-line summary only)
+ 
+-- [Prompt purpose; scope; short explanation of any accepted AI-generated code/document change]
++- Used AI assistance to transform assigned planning docs into presentation/evidence scaffolds; no modelling code or metrics generated.
+ 
+ ### Files Modified
+ 
+-- [Exact documentation/slide/figure path; purpose; model notebooks not edited]
++- `docs/member4_log.md` — Phase 1 activity log.
++- `docs/member4_phase1_judging_pack.md` — judging and presentation pack.
++- `docs/member4_evidence_inventory.md` — evidence tracker template.
++- `docs/member4_presentation_outline.md` — slide skeleton.
+ 
+ ### Evidence Produced
+ 
+-- [Verified run/figure/commit references, source citations, rubric/word-count checks, independent reload or rehearsal record]
++- Documentation-derived requirements and rubric checklist from assigned docs.
++- Draft abstract placeholder with word count 124 and clear draft label.
++- Evidence-status framework: placeholder / starter reference / smoke-development / reproduced reference / final audited.
++- Speaking-role plan for all four members.
+ 
+ ### Next Steps
+ 
+-- [Specific action, needed input/owner, handoff recipient, next checkpoint]
++- Ask Team Lead to review scaffold and approve paths/use in shared logs.
++- Request verified baseline evidence from Member 2 and candidate/artifact evidence from Member 3.
++- Update slides only when metrics and artifacts are handed off as verified.
++- Prepare final deck/PDF once authorised method and results are available.
+ 
+ ### Reflection
+ 
+-- [Does the story cover model design, transfer strategy, and F1 interpretation honestly? Can all four members explain their contribution?]
++- Current story scaffolding covers model design, transfer strategy, and F1 interpretation, but content remains placeholder until technical evidence is verified. All four members have planned speaking roles.
+diff --git a/models/Open Notebook.onetoc2 b/models/Open Notebook.onetoc2
+index 0849196c633221ba8448b91893d010e598ac58b8..efe78899d056e83e8f9d333de5caf289f1c32a12 100644
+GIT binary patch
+delta 82
+zcmV-Y0ImP9C$J|Vp)dbK+3$8tp5hSdS0Z*_jzeaD;>{00hQ&OsID_3|ksx3Yc|WRu
+oi&lJ1uhZ#H`%(_Wk&r|YBK@entIQ@ugu`9XwR#_N4YB3R5^jSiC;$Ke
+
+delta 82
+zcmV-Y0ImP9C$J|Vp)dbK+3$8tp5hSdS0Z*_PQyO3nn8>~hHMRV3~}3*ksx3Y))F|U
+oxFefJf-99p8Lf?)k&r|Y`%?k8X;Yv?za(aQLa0kJ3$f+P68(xK82|tP
+
+diff --git a/presentation/Open Notebook.onetoc2 b/presentation/Open Notebook.onetoc2
+index 2539f5ef1f9141f24af83d1f88e607c0472ee013..347ca85e2757e0f68527f1ccb8bc7bd09383e163 100644
+GIT binary patch
+delta 82
+zcmV-Y0ImP9C$J|Vp)dbK+3$8tp5hSdS0Z*_H?TY`uW4RIx<gR|3x7l&ksx3Yc|WRu
+oi&lJ1uhZ#H`%(_Wk&r|Y_M2$6JuMSRmA?W$s;FnZ4YB3R64x>$Z~y=R
+
+delta 82
+zcmV-Y0ImP9C$J|Vp)dbK+3$8tp5hSdS0Z*_Mzv2Je=(O&y}Ykd`^40=ksx3Y))F|U
+oxFefJf-99p8Lf?)k&r|Yss9oG4kJfQkZ>*j<o_|G3$f+P5?Xa9TmS$7
+
+diff --git a/submission/Open Notebook.onetoc2 b/submission/Open Notebook.onetoc2
+index 3b2b2d71ed0ce0d66c574c44f9882c5a63f264c5..d227e9317fbb291751b8d1e01ee6fd38d9ed57a8 100644
+GIT binary patch
+delta 82
+zcmV-Y0ImP9C$J|Vp)dbK+3$8tp5hSdS0Z*_edA77QNCqFsf1DeUR8<6ksx3Yc|WRu
+oi&lJ1uhZ#H`%(_Wk&r|Y*uEPK6fNFNsKzQ{lL(ph4YB3R5@*yWGXMYp
+
+delta 82
+zcmV-Y0ImP9C$J|Vp)dbK+3$8tp5hSdS0Z*_HZVB}L?ezxfeEnqB&zz>ksx3Y))F|U
+oxFefJf-99p8Lf?)k&r|Y)JoJ<cT$K+x*I8VNB^{>3$f+P66BsF;{X5v
+
+diff --git a/working/Open Notebook.onetoc2 b/working/Open Notebook.onetoc2
+index b5013052a1f9c94f897041e42b4be1f5bd24505c..ab30b2eee78a4c814ab6b3afde9a7a095f75a1d4 100644
+GIT binary patch
+literal 7776
+zcmeHLc~BEq7=L7uk%&&L!81bZAob?fX+0nurUU~RQLD5C1%r%44&xDYU<aiP4N(MX
+z1zW5N?bHK2s??}hg;u7WX|?Lq7O@^9QfC+s4#%U=@7wIdL{`WCS!Tb?+kM~hzWu)6
+zd+*z~+2z$8^2fb3bINbZ?k*g&CT?nNQ|M~n{vn@F``Jl<qj?E=fdZS#WTUorgjb#)
+zwzajP>dGk4+cs+64TOCu74UZ|r($E^-fYu?4VvnUe@8ym4yu!$Iaq}@NSsZ7tL1WM
+zxI6Nr;BK|B+Qhr@a{d-^SXWZ*yH!~^tG=mg^!imJc=>^{>nC?7dWKb)k^<H-f#dB*
+z*>k$i!gp<(y;kHz1o{R7_3e*34rMN=kn!pCPa!3fB_2vuY08iz2Q=GL{TE;Ma<6g#
+zwPQTX3d#Eh5MmZ00(~3-+jnM!#V@DM^{k2Rd)(j`OC-_AOP~#ghB9nP`DGg9QT_%m
+zL-~w^YkQE#cRca|E942t%XvO=l3Im4zMeThY5Ss)pTP4nmrGNS_vd-@hKeHOgLuBN
+zx#c19YM#$6{`xd@MG_GZ5fBj&5fBj&5fBmhUm!rgv+x{+<noe_DVc(l%$0apjr!<S
+z=p0J%!Sf!HJniKlo1<D-c9@=(Wt>_bx+8jYWLM+eS$Mt_BA*>2+dF49Iau{?$yt_o
+z0Q6|8e&ihI@I%Awyj1NwZ4H&GaWa-I0G-Q$vb=(^ZoxG{`{eO$POdm~@_WR*TH-)Y
+zx^SM|lt>C}6G4wi)r-7Ymf9)6Ww(s5oaVJJGCV*dITAw8>A<llf?#;>oeJV%mo>|f
+zZKH|exPr)6z#UKW&(`G@tGtuvY*}$a*RXd+0oo6T76-pHVk8M<3AE*887Bb+v7HCB
+zMyzL7NH({(-Vd#`%uJt<?W9M!5dP+@s^KYtf>_s_Oh_xeF;$(Hc4OFu#>-t}0VMFk
+zeHKvMznaE8Z2WO`q$R+$_;%tVXMBv(o0!)~7%BAo;T#wx&J^31&B2E8<O$-Ak#FxX
+zKHgUSw(^rs%|Mk~w<o$3%4WK5<g)d`k^7bek8>GvKB~<B&u0UZMr3&gStG}fA#_Kh
+zPtNb$l4CGN9G`dWS=#0q6*T%m3?l_wE_w;$@?WB#(q<kI;a;lza?DVJ<WRdCx)jRj
+z+%;`=R`2LBLQ8|A;_BQj>hj$W<_CxVm1&DR_R%F0_R*e!Ml;Hey)brs)25K>s?&xc
+z59V->$N3n{I7-2e%gB`(fZ18y2=58o`6xW?x4SslGwA5XRLkQNS5k1CV3t19WyQTS
+z0&C*_PtL*oW$96S4tLLU|6VbU&IjxjyZLw&px4&7Cq<S7wU{bv7w^PJVe}Irda&i9
+ze-onThrP~fnz(;b)zc~EVYzX)w9$3b4CqoQBe(082itl_j}clXMa<J2&5x|O@R>69
+z%H92RJ`i`z1YKeu33WK8A2d2AIz`M{hmU1Z><8wN*WNt!gl6T%^pk=emz6&w#SBsP
+zs;mgPPyZMPYuh^0yN-PH&HF#)F4z%lx)r9b`Nc6Cmx?zuJyZ@oSqj$-;s-TkDb$ly
+zz@?C6vXZMRI?$w&Oz5w~aPU6_7I(81cdTLPi%XiTYn+Z-QK+L(a3%uv%~W(Ixm<77
+z6va11Wwu`Bpz{Rd-f=8}I1CV#j;nYEh_Z(S{7#PuIzp27DnD(`2=u&D<b~6KepT>a
+zg_2Ar(L_t4NGO?4LP!h=hkhhTz2WD>yM+<fJRuj{Ezk2sU)-eH<;&TC%7I|sIORPg
+z5Z}-+(-HM;WB7OHYIZs2G-ROt7-%%U7!n3?Y9YcXvalyMU$C&P?}$9Dlv&NccC~Ky
+zRu!(DnVf#}828c>TJJIDZ#znRuWj%|<TH)2iDy65?ANB(-l^Z&NOz_a=x{O8HC%YB
+z?tGxnZ<@T@t(R)r@_W|sIatGB%dO#B=C$iQK3XIZ0TF>05wJa;zPi50-g_9b(Qq&P
+r3;pkY6YsYq;FcW<4eLoTRJJgvYxeaGEbQwW)GmAjJ+E`<gOGm#vAp1I
+
+delta 136
+zcmaE0vq4>9q5gm8oA1kf<~<U46|Phkzt_F--1YOH{hC-E-mMckx@e+;10&1CM0tU0
+zLKe$+D9?6l(w^!nxwd!K#0e&f8-y89z{J3`Lu+kw{HApUJ+S@uXASqpr`hbAH*##}
+gnC!rqIEjU0bAjL|#>t1Ij3ySaOnx9M!UEC`08}G1H~;_u
+

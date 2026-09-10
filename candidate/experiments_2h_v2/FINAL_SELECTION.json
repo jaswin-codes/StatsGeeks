@@ -1,0 +1,21 @@
+{
+  "method": "ASTRA-AGF",
+  "source_basis": "physical",
+  "local_leaf": 1,
+  "source_leaf": 2,
+  "trees": 200,
+  "source_conditional_rounds": 1,
+  "local_rho": "min(1,60/(4*n))",
+  "source_alpha": "20/(20+4*n)",
+  "kernel": "Gaussian exp(-d^2/2), self+8 nearest",
+  "seed": 42,
+  "locked_at": "2026-09-09T15:55:15.647273+02:00",
+  "final_episode_seed": 104729,
+  "final_episodes_per_budget": 100,
+  "files_sha256": {
+    "candidate_predict.py": "8fc75074861db89f2f664cd6c3b2ba0b0983eac35e7aa0eab883c3201a088ee6",
+    "stage2_models.py": "026dffe2ca577cd181657040631fae2fda5db696e168ccb5aa9a8ebe5d7e029e",
+    "models.py": "0ee3089472219e257a258f3e2dd7d0ed906e19102b9d447d8279fe0b4be7a7ee",
+    "FINAL_SELECTION.md": "e37fed4bd7f43a5d72ef240ab0117f519ce4259ed13d230201588545fd82784e"
+  }
+}

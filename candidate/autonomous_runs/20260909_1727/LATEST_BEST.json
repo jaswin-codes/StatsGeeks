@@ -1,0 +1,48 @@
+{
+  "BEST_CANDIDATE": "Coordinate_RF",
+  "BEST_SCORE": 0.749298885788045,
+  "score_type": "locked evaluation macro F1 at 200 shots/class; not selection metric",
+  "BEST_CONFIG": {
+    "coord": true
+  },
+  "BEST_RESULTS": "FINAL_RESULTS.json",
+  "BEST_ARTIFACT": "pool_state.pkl",
+  "historical_incumbent": "ASTRA_AGF 0.735239; different audit population",
+  "status": "verified development-selected candidate; historical ASTRA incumbent retained",
+  "selection_support_score": 0.7793381428820944,
+  "population_sd": 0.0057160562254621175,
+  "reproducibility": "fresh source rebuild and 4000 exact prediction arrays",
+  "spatial": {
+    "directions": [
+      {
+        "axis": 0,
+        "support_side": 0,
+        "mean": 0.7198359743041735,
+        "population_sd": 0.007907791245448978
+      },
+      {
+        "axis": 0,
+        "support_side": 1,
+        "mean": 0.6448164115799047,
+        "population_sd": 0.01520402782824432
+      },
+      {
+        "axis": 1,
+        "support_side": 0,
+        "mean": 0.6691596301123343,
+        "population_sd": 0.009800731132056725
+      },
+      {
+        "axis": 1,
+        "support_side": 1,
+        "mean": 0.7430515122138005,
+        "population_sd": 0.010872124222126559
+      }
+    ],
+    "x_half": 0.682326192942039,
+    "y_half": 0.7061055711630674,
+    "worst_direction": 0.6448164115799047,
+    "mean": 0.6942158820525532
+  },
+  "official_promotion": false
+}

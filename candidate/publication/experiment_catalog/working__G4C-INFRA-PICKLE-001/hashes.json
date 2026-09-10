@@ -1,0 +1,8 @@
+{
+  "working/G4C-INFRA-PICKLE-001/artifact_hash_manifest.json": "0c2ae198299c454809947ddb4329c09a4e63708c9ffd1dea7a6fab8059b8e22f",
+  "working/G4C-INFRA-PICKLE-001/deserialization_receipt.json": "2867890f9e207b2c2c1c7722d91d1d621b046fecf18699e83567295e974f68aa",
+  "working/G4C-INFRA-PICKLE-001/integrity_after.json": "d803b72df54898eb3f0851e98296c4e7a139775ccaba3dcebda44266944a0927",
+  "working/G4C-INFRA-PICKLE-001/isolated_pickle_loader.py": "bc4b26e17909642985dab8d6dd1a60f5e6f09982680a09daa74b496c923ff488",
+  "working/G4C-INFRA-PICKLE-001/loader.log": "e17c6ebab1004e2010ab2433cf97beb08d49c9a8064f77b35f59b73fd789e7cd",
+  "working/G4C-INFRA-PICKLE-001/REPORT.md": "5515973f09ebce6e599e8cfe4b8516a870f4505efa6bf6658ba67492e6fe3f24"
+}

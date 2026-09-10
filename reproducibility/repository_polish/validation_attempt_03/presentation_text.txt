@@ -1,0 +1,140 @@
+StatsGeeks | Coordinate-RF
+
+Building-age classification: Madrid  Amsterdam
+Final selected incumbent; reproducible full-pool few-shot inference.
+200-shot macro-F1: 0.749299 � 0.005716.
+Existing locked audit, not a new independent test.
+Problem and task
+
+Four building-age classes; 60 ordered spectral features.
+Labelled Madrid source; small balanced Amsterdam support.
+Budgets: 5 / 25 / 50 / 100 / 200 labels per class.
+Macro-F1 gives equal weight to each class.
+Organizer data needed for raw training; pool-bound inference artifact supplied.
+Starting point and experimental journey
+
+EXP-010: source-selected weighted prototypes.
+EXP-F: covariance-aware metric adaptation.
+ASTRA: source prior, adaptive whitening, forest, graph.
+Coordinate-RF: append standardized coordinates to local inputs.
+Overnight discovery uses development support only; no query-driven selection.
+Challenges and failed approaches
+
+Domain shift, scarce labels, noisy mixed-pixel age classes.
+Historical support-only alternatives: ExtraTrees, boosted trees, covariance blends, wider
+graphs and ensembles.
+They did not replace the development-locked Coordinate-RF under the documented
+gates.
+Overnight results are exploratory, not new headline evidence.
+Transfer-learning insight
+
+Source information survives as an aligned probability prior.
+120 contextual source features; covariance transport.
+One pseudo-class refinement uses predictions, never target truth.
+Two source RF200/leaf2 models; blend decreases as support grows.
+Final method
+
+Unlabelled-pool covariance  budget-adaptive diagonal shrinkage.
+Whiten 60 inputs; append standardized lattice x/y.
+Fit balanced RF200, leaf1, sqrt features, seed42 on support only.
+Blend source prior: alpha=20/(20+4b).
+Gaussian smoothing: 9 neighbours, sigma1, one step.
+Why it works -- and assumptions
+
+Spectral covariance adapts to target distribution.
+Coordinates help interpolate local geography.
+Source prior matters most when labels are scarce.
+This is transductive/full-unlabelled-target inference.
+Coordinates, pool membership and extra development supervision require organizer
+eligibility confirmation.
+Locked learning curve
+
+5: 0.650253 � 0.011246
+25: 0.687664 � 0.012145
+50: 0.708436 � 0.011277
+100: 0.729839 � 0.008802
+200: 0.749299 � 0.005716
+Matched comparisons at 200 shots
+
+Coordinate-RF 0.749299; 200 episodes.
+Gain vs ASTRA +0.016262; 200/200 wins.
+Gain vs EXP-F +0.091697.
+Gain vs EXP-010 +0.126459.
+Inductive controls have different information
+access.
+Five-shot advantage over ASTRA is
+negligible.
+Paired gains and uncertainty
+
+Matched support episodes on one fixed city.
+Error bars/intervals quantify support
+sampling only.
+Repeated query pixels imply correlated
+episodes.
+No independent-city or organizer-test claim.
+Class-level performance
+
+Saved locked predictions/confusion
+matrices.
+Macro-F1 is the mean of four class F1 values.
+Pooled confusion is descriptive; not mean
+episode F1.
+Spatial stress: all directions
+
+200/class; opposite half; 10-key-unit buffer.
+x-low .719836; x-high .644816.
+y-low .669160; y-high .743052.
+Mean .694216; worst .644816.
+ASTRA mean .696672; worst .658183.
+Coordinates improve interpolation, not all
+extrapolation.
+Reproducibility
+
+Existing clean source refit: 4000 exact prediction arrays / 1000 episodes.
+Overnight fresh source refit: eight exact state arrays and five-budget replay.
+Current package: clean-process five-budget cached replay.
+Notebook executed sequentially in a fresh Python process.
+Hashes, feature order, config, seeds and provenance included.
+Query truth is absent from inference inputs.
+Limitations and conclusion
+
+0.80 not achieved on the locked audit.
+No fresh untouched population exists locally for promotion.
+Historical ASTRA audit exposure is disclosed.
+Extra 800 research-development labels are beyond episode budgets.
+Retain Coordinate-RF; do not force an unverified winner.
+Competition eligibility remains conditional on organizer rules.
+Written explanation (1/2)
+
+Coordinate-RF predicts four building-age classes for Amsterdam using labelled Madrid source data and a small class-
+balanced Amsterdam support set. The target is macro-F1, which weights each class equally. We evaluate 5, 25, 50, 100
+and 200 support pixels per class.
+
+Our source branch augments 60 spectral inputs with local 3-by-3 lattice averages, aligns source and unlabelled target
+covariance, and refines class-conditional alignment using source-model pseudo-labels, never query truth. Two source
+Random Forests produce a target probability prior. The local branch adaptively whitens 60 inputs using full unlabelled
+target covariance with budget-dependent diagonal shrinkage, appends two standardized lattice coordinates, and fits a
+200-tree, balanced Random Forest to support labels only. Its probabilities are blended with the source prior using
+weight 20/(20+4b), then smoothed over nine spatial neighbours with Gaussian weights.
+
+The locked random-pixel results, each from 200 paired episodes, are 0.650253, 0.687664, 0.708436, 0.729839 and
+0.749299 macro-F1 across the five budgets. At 200 shots the population SD is 0.005716. Matched gains are 0.016262
+over ASTRA, 0.091697 over EXP-F and 0.126459 over EXP-010. All 200 paired episodes beat ASTRA at that budget. The
+five-shot advantage is negligible.
+Written explanation (2/2)
+
+This is transductive, full-pool, coordinate-aware inference, not an inductive unseen-city claim. The packaged artifact is
+bound to the supplied ordered Amsterdam pool. Rebuilding for another pool requires organizer feature data, feature
+order, source-fitted scaling and matching lattice coordinates. The final query population excludes the designated 800-
+label development bank and current support. Development labels are additional research supervision beyond each
+episode budget; repeated episodes are correlated. The inherited ASTRA recipe has historical audit exposure. No
+independent organizer-held-out validation is claimed, and protocol eligibility must be confirmed against organizer
+rules.
+
+Geographic extrapolation remains a limitation: the four-direction spatial mean is 0.694216 and the worst direction is
+0.644816, versus ASTRA's 0.696672 and 0.658183. Coordinate-RF is therefore selected for the stated random-
+pixel/full-pool use case, not universal superiority. Frozen configurations, hashes, label-free prediction replay,
+support/query separation and saved confusion matrices support reproducibility. No competitor code, data or
+predictions are included. No overnight exploratory candidate replaces the incumbent without fresh-population
+validation.
+

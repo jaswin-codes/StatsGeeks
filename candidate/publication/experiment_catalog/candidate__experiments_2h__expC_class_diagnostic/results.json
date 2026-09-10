@@ -1,0 +1,9 @@
+{
+  "paths": [
+    "candidate/experiments_2h/expC_class_diagnostic/predictions.npz",
+    "candidate/experiments_2h/expC_class_diagnostic/predictions_repeat.npz",
+    "candidate/experiments_2h/expC_class_diagnostic/results.json",
+    "candidate/experiments_2h/expC_class_diagnostic/results_repeat.json"
+  ],
+  "status": "indexed"
+}

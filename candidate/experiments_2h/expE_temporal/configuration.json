@@ -1,0 +1,57 @@
+{
+  "branch": "E",
+  "seed": 31337,
+  "trials": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "budgets": [
+    5,
+    25,
+    200
+  ],
+  "protocol": "EXP010 nested support / complement query",
+  "spatial": null,
+  "data_sha256": "51f11bc9025b5d4ffe2f9e03a8c76b70e4cfd0e91cb36876a9d021181e8ccdbe",
+  "artifact_sha256": "2f4dc0f7a84ea54e967d7a96573b349331e1777ddb0a4a46e4925cad7bd6d266",
+  "script_sha256": "1f5c6db190ad3badf6c713f7a88d59c7880d4d95dd2a0efc9c935845d4d45095",
+  "plan_sha256": "9cea48c262dbcf429ea216324b19e8e384fa2ec5b4503fdb06f9f94cd19ce788",
+  "python": "3.14.6",
+  "numpy": "2.5.3",
+  "sklearn": "1.9.0",
+  "population_sd_ddof": 0,
+  "selection": "NONE; all arms predeclared; audit reused for evaluation only",
+  "configurations": {
+    "5": {
+      "temporal3": {
+        "k": 30,
+        "lam": 0.6,
+        "temporal": true
+      }
+    },
+    "25": {
+      "temporal3": {
+        "k": 45,
+        "lam": 0.0,
+        "temporal": true
+      }
+    },
+    "200": {
+      "temporal3": {
+        "k": 45,
+        "lam": 0.0,
+        "temporal": true
+      }
+    }
+  },
+  "feature_representation": "Madrid-standardized 60 features, sqrt RF importance weighted, compact Madrid ranking",
+  "baseline": "frozen artifact interface; exact schedule"
+}

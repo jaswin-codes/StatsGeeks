@@ -1,0 +1,15 @@
+{
+  "paths": [
+    "candidate/experiments_2h_v2/competitor_protocol.json",
+    "candidate/experiments_2h_v2/competitor_protocol.npz",
+    "candidate/experiments_2h_v2/final_competitor_protocol.json",
+    "candidate/experiments_2h_v2/final_competitor_protocol.log",
+    "candidate/experiments_2h_v2/final_competitor_protocol.npz",
+    "candidate/experiments_2h_v2/final_competitor_protocol.py",
+    "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+    "candidate/experiments_2h_v2/final_competitor_protocol_repeat.log",
+    "candidate/experiments_2h_v2/final_competitor_protocol_repeat.npz",
+    "candidate/experiments_2h_v2/final_competitor_protocol_reproducibility.json"
+  ],
+  "reason": "Own historical forensic-comparison drivers/results; preserved in frozen provenance tree; excluded from final submission allowlist"
+}

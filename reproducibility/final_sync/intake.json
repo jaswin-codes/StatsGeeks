@@ -1,0 +1,32 @@
+{
+  "files": [
+    {
+      "source": "new/Coordinate_RF_Presentation_FINAL.pptx",
+      "destination": "FINAL_SUBMISSION/presentation.pptx",
+      "sha256": "0e4e6ce813c99cfe8429e8e0929fbde831e6fe614b0fea069b338f271141d904",
+      "bytes": 433087
+    },
+    {
+      "source": "new/Written_Justification_Revised.txt",
+      "destination": "FINAL_SUBMISSION/written_explanation/written_justification.txt",
+      "sha256": "56124db9d6c495e0ee5a5bbfc0493bce010131c2da2f5eeffb449933cbdd9fa2",
+      "bytes": 2607
+    },
+    {
+      "source": "new/pixel_prophets_logo.png",
+      "destination": "FINAL_SUBMISSION/assets/pixel_prophets_logo.png",
+      "sha256": "e116d4e24482ef44f10abea825156786da643d3d94f4ea9e4fb59d290c71962f",
+      "bytes": 48441
+    },
+    {
+      "source": "new/Open Notebook.onetoc2",
+      "destination": "archive/presentation_history/approved_intake/Open_Notebook_onetoc2.bin",
+      "sha256": "f1c63b1f8301cdcfba11974d3992eb749495bc1f4f02c2e82e8ffc439e6f9ba4",
+      "bytes": 5040
+    }
+  ],
+  "pdf_supplied": false,
+  "pdf": "FINAL_SUBMISSION/presentation.pdf",
+  "pdf_method": "Desktop PowerPoint read-only PPTX open, SaveAs PDF; original PPTX not saved",
+  "onenote_note": "Background OneNote modifies index files; unique current intake and archived-index bytes preserved as inert .bin copies before deleting verified intake."
+}

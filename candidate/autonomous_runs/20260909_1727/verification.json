@@ -1,0 +1,11 @@
+{
+  "pass_": true,
+  "clean_process": true,
+  "artifact_reload": true,
+  "exact_prediction_arrays": 5,
+  "protected_files_unchanged": true,
+  "feature_order_validated": true,
+  "bad_support_checks": 2,
+  "query_truth_not_passed_to_model": true,
+  "pool_sha256": "b975db430b4a00d1c90d59d10a76ef11a6c3727be42e22f41bec49a6f6c28007"
+}

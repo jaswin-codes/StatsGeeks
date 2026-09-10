@@ -1,0 +1,12 @@
+{
+  "candidate/experiments_2h/expD_spatial/configuration.json": "a07edb470c3daf4b9f0c1126a5dad15068ff612e89130196c85c72c899e1dac9",
+  "candidate/experiments_2h/expD_spatial/configuration_repeat.json": "a07edb470c3daf4b9f0c1126a5dad15068ff612e89130196c85c72c899e1dac9",
+  "candidate/experiments_2h/expD_spatial/FINDINGS.md": "0585c2afd61820d314f6f34500d3fa15d301168e170a903f61d17302786de3b2",
+  "candidate/experiments_2h/expD_spatial/predictions.npz": "00db9959053b52e85db6f0c245c8d0eeeffd517ba129b4137f6e4faf1b4a1fa9",
+  "candidate/experiments_2h/expD_spatial/predictions_repeat.npz": "00db9959053b52e85db6f0c245c8d0eeeffd517ba129b4137f6e4faf1b4a1fa9",
+  "candidate/experiments_2h/expD_spatial/README.md": "8a5db6c0c35860d62158d1d63231021f5d0ed64079c3cb4a2f9f83ade2eabae3",
+  "candidate/experiments_2h/expD_spatial/reproducibility.json": "19ff835cd14b7b14843a36699389dd8c62b57df4d94e83b838cb5325d952aa69",
+  "candidate/experiments_2h/expD_spatial/results.json": "e5e1b58e97475ba3b4ce8c90d637402a0995fbb450528b7471e3cf435dce356f",
+  "candidate/experiments_2h/expD_spatial/results_repeat.json": "d6f9930f782db1ef456a6e03c13447bfc61d14b74325f26a4c211fa2ead55883",
+  "candidate/experiments_2h/expD_spatial/script.py": "4ea7488aedb719157e33030c3d054574101887478a72dda789e4f247acec3ff9"
+}

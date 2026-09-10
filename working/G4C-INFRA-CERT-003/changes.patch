@@ -1,0 +1,542 @@
+--- working/G4C-INFRA-CERT-002/code/offline_equivalence.py
++++ working/G4C-INFRA-CERT-003/code/offline_equivalence.py
+@@ -27,6 +27,7 @@
+ import numpy as np
+ import sklearn
+ import e3_validator as v
++from prediction_equivalence import Artifact, compare_artifacts
+ sys.path.insert(0,str(ROOT/'working/G4C-INFRA-PERF-001/code'))
+ from immutable_io import stage_frozen_file
+ 
+@@ -85,18 +86,29 @@
+                 # Preserve the producer's archive member order and serializer.
+                 buffer=io.BytesIO();np.savez_compressed(buffer,**{key:arrays[key] for key in saved.files})
+             generated_sha=hashlib.sha256(buffer.getvalue()).hexdigest()
+-            v.require(generated_sha==v.sha(saved_path),'NPZ byte divergence: '+e['episode_id'])
++            generated_path=CERT/'evidence/reconstructed'/name/(e['episode_id']+'.npz')
++            generated_path.parent.mkdir(parents=True,exist_ok=True)
++            with generated_path.open('xb') as stream:stream.write(buffer.getvalue())
++            frozen_inventory=v.load(archive/'artifact_hash_manifest.json')['files']
++            expected_sha=frozen_inventory[saved_path.relative_to(ROOT).as_posix()]['sha256']
++            reference=Artifact(archive,saved_path.relative_to(archive).as_posix(),e['episode_id'],expected_sha)
++            generated=Artifact(CERT,generated_path.relative_to(CERT).as_posix(),e['episode_id'],generated_sha)
++            payload_check=compare_artifacts(reference,generated,reference_owner=archive,candidate_owner=CERT,episode_id=e['episode_id'])
++            # Full-archive byte identity is checked by producer_byte_replay.py
++            # on the unchanged ORIGINAL WINDOWS coordinator serializer.
+             metric_hash=v.digest({key:v.score(y[q],value) for key,value in pred.items()})
+             out.append({'episode_id':e['episode_id'],'budget':e['budget'],'query_rows':len(q),'compute_seconds':compute_seconds,
+                 'prediction_npz_sha256':generated_sha,'metric_sha256':metric_hash,'packet_sha256':v.digest(packet),
++                'reference_npz_sha256':expected_sha,'certification_artifact':generated_path.relative_to(CERT).as_posix(),
++                'payload_check':payload_check,
+                 'array_hashes':{key:v.array_hash(value) for key,value in arrays.items()},
+                 'prototypes_sha256':v.array_hash(centers),'translation_sha256':v.array_hash(delta),
+                 'rng_before':e['rng_before'],'rng_after':e['rng_after']})
+         record['runs'][name]={'rf_hash_seconds':hash_seconds,'rf_load_seconds':load_seconds,'episodes':out}
+         del forest;gc.collect()
+     for old,new in zip(record['runs']['original']['episodes'],record['runs']['optimized_native']['episodes']):
+-        v.require({k:a for k,a in old.items() if k!='compute_seconds'}=={k:a for k,a in new.items() if k!='compute_seconds'},'Original/native verification divergence')
+-    record['status']='OFFLINE_PREDICTION_EQUIVALENCE_PASS';record['total_seconds']=time.perf_counter()-start
++        v.require({k:a for k,a in old.items() if k not in ('compute_seconds','certification_artifact')}=={k:a for k,a in new.items() if k not in ('compute_seconds','certification_artifact')},'Original/native verification divergence')
++    record['status']='OFFLINE_PAYLOAD_EQUIVALENCE_PASS_PENDING_PRODUCER_BYTE_REPLAY';record['total_seconds']=time.perf_counter()-start
+     record['limits']=['No sandbox transport or candidate process launched; isolation code identity only.',
+         'Three archived episodes, not full 60-episode experimental evaluation.','No E3 scientific verdict generated.']
+     with (CERT/'evidence/offline_equivalence.json').open('x',encoding='utf8') as f:json.dump(record,f,indent=2);f.write('\n')
+--- /dev/null
++++ working/G4C-INFRA-CERT-003/code/prediction_equivalence.py
+@@ -0,0 +1,113 @@
++"""Strict E3 NPZ scientific-payload identity PLUS explicit artifact provenance.
++
++No tolerant comparison, pickle loading, prediction generation, or scoring changes.
++Complete archive SHA256 checks remain mandatory against each artifact's own bound
++record. Cross-implementation ZIP identity is an additional, separately reported
++check; producer-side replay in this certification must also satisfy it.
++"""
++from dataclasses import dataclass
++import hashlib
++import io
++from pathlib import Path
++import zipfile
++import numpy as np
++
++NAMES = ('query_indices', 'query_ids', 'raw_prototype', 'rf_reproduced', 'candidate', 'frozen_rf')
++MEMBERS = tuple(name+'.npy' for name in NAMES)
++
++
++class EquivalenceError(RuntimeError):
++    pass
++
++
++def need(condition, message):
++    if not condition:
++        raise EquivalenceError(message)
++
++
++def sha(raw):
++    return hashlib.sha256(raw).hexdigest()
++
++
++@dataclass(frozen=True)
++class Artifact:
++    owner_root: Path
++    relative_path: str
++    episode_id: str
++    sha256: str
++
++
++def artifact_bytes(artifact, expected_owner, episode_id):
++    root = Path(artifact.owner_root).absolute()
++    need(root == Path(expected_owner).absolute(), 'Cross-run owner reference')
++    need(root.resolve() == root and not root.is_symlink(), 'Noncanonical owner root')
++    need(artifact.episode_id == episode_id, 'Wrong bound episode identity')
++    relative = Path(artifact.relative_path)
++    need(not relative.is_absolute() and '..' not in relative.parts and ':' not in artifact.relative_path,
++         'Unsafe artifact reference')
++    path = root
++    for part in relative.parts:
++        path = path/part
++        need(not path.is_symlink(), 'Symlink artifact forbidden')
++    need(path.resolve().is_relative_to(root) and path.name == episode_id+'.npz', 'Wrong bound prediction path')
++    raw = path.read_bytes()
++    need(sha(raw) == artifact.sha256, 'Artifact/provenance SHA256 mismatch')
++    return raw
++
++
++def payload(raw):
++    with zipfile.ZipFile(io.BytesIO(raw)) as archive:
++        members = archive.infolist()
++        need(tuple(m.filename for m in members) == MEMBERS, 'Missing/extra/reordered/duplicate NPZ members')
++        arrays, serialized = {}, {}
++        for name, member in zip(NAMES, members):
++            need(not member.is_dir() and not member.flag_bits & 1, 'Invalid encrypted/directory member')
++            data = archive.read(member)  # ZIP CRC is checked on read.
++            stream = io.BytesIO(data)
++            array = np.load(stream, allow_pickle=False)
++            need(isinstance(array, np.ndarray) and not array.dtype.hasobject, 'Unsafe NPY payload')
++            need(stream.tell() == len(data), 'Trailing data in NPY member')
++            required_dtype = '<i4' if name == 'query_ids' else '<i8'
++            need(array.dtype.str == required_dtype, 'Changed/non-protocol dtype: '+name)
++            arrays[name], serialized[name] = array, data
++    count = len(arrays['query_indices'])
++    need(arrays['query_indices'].shape == (count,), 'Invalid query-index shape')
++    need(arrays['query_ids'].shape == (count, 2), 'Invalid identifier shape')
++    need(len(np.unique(arrays['query_indices'])) == count, 'Duplicate example row')
++    need(len(np.unique(arrays['query_ids'], axis=0)) == count, 'Duplicate example identifier')
++    for name in NAMES[2:]:
++        need(arrays[name].shape == (count,), 'Changed prediction shape: '+name)
++        need(np.isin(arrays[name], [1,2,3,4]).all(), 'Invalid class label: '+name)
++    return arrays, serialized
++
++
++def compare_bytes(reference_raw, candidate_raw):
++    """Exact value/dtype/shape/order AND decompressed NPY-byte comparisons."""
++    reference, ref_npy = payload(reference_raw)
++    candidate, cand_npy = payload(candidate_raw)
++    details = {}
++    for name in NAMES:
++        a, b = reference[name], candidate[name]
++        need(a.dtype.str == b.dtype.str, 'Dtype disagreement: '+name)
++        need(a.shape == b.shape, 'Shape disagreement: '+name)
++        need(np.array_equal(a, b), 'Exact value/example-order disagreement: '+name)
++        need(a.tobytes(order='C') == b.tobytes(order='C'), 'Array byte disagreement: '+name)
++        need(ref_npy[name] == cand_npy[name], 'Serialized NPY metadata/order disagreement: '+name)
++        details[name] = {'dtype': a.dtype.str, 'shape': list(a.shape), 'values_compared': int(a.size),
++                         'mismatches': 0, 'maximum_absolute_difference': 0,
++                         'dtype_equal': True, 'shape_equal': True, 'order_equal': True,
++                         'serialized_npy_sha256': sha(ref_npy[name]),
++                         'array_bytes_sha256': sha(a.tobytes(order='C'))}
++    return {'payload_status': 'EXACT_MATCH', 'archive_bytes_equal': reference_raw == candidate_raw,
++            'reference_archive_sha256': sha(reference_raw), 'candidate_archive_sha256': sha(candidate_raw),
++            'member_order_equal': True, 'identifiers_equal': True, 'class_labels_equal': True,
++            'prediction_elements_compared': sum(reference[n].size for n in NAMES[2:]),
++            'candidate_predictions_compared': int(reference['candidate'].size), 'arrays': details}
++
++
++def compare_artifacts(reference, candidate, *, reference_owner, candidate_owner, episode_id):
++    a = artifact_bytes(reference, reference_owner, episode_id)
++    b = artifact_bytes(candidate, candidate_owner, episode_id)
++    result = compare_bytes(a, b)
++    result.update(episode_id=episode_id, provenance_status='BOUND_HASHES_AND_OWNERS_VERIFIED')
++    return result
+--- /dev/null
++++ working/G4C-INFRA-CERT-003/code/producer_byte_replay.py
+@@ -0,0 +1,64 @@
++"""Replay ONLY serialization on the original Windows coordinator environment.
++
++Consumes certification reconstruction artifacts; does not load a model or launch
++workers. Retains the complete historical NPZ SHA256 equality assertion in addition
++to strict decompressed-payload identity and each artifact's provenance hashes.
++"""
++import hashlib
++import json
++from pathlib import Path
++import sys
++import zipfile
++import zlib
++import numpy as np
++import e3_validator as v
++from prediction_equivalence import Artifact, NAMES, compare_artifacts
++
++ROOT=Path(__file__).resolve().parents[3]
++CERT=Path(__file__).resolve().parents[1]
++ARCHIVE=ROOT/'working/G4C-E3-001'
++
++
++def main():
++    v.require(sys.platform=='win32','Byte-replay gate requires original Windows producer platform')
++    profile=v.load(CERT/'evidence/npz_forensics_windows.json')
++    v.require(np.__version__==profile['numpy'] and zlib.ZLIB_RUNTIME_VERSION==profile['zlib_runtime'], 'Producer serializer profile changed')
++    v.require(v.sha(np.lib._npyio_impl.__file__)==profile['numpy_writer_source_sha256'] and
++              v.sha(zipfile.__file__)==profile['zipfile_source_sha256'],'Producer serializer source changed')
++    records=v.load(CERT/'evidence/offline_equivalence.json')
++    v.require(records['status']=='OFFLINE_PAYLOAD_EQUIVALENCE_PASS_PENDING_PRODUCER_BYTE_REPLAY','Payload gate not passed')
++    inventory=v.load(ARCHIVE/'artifact_hash_manifest.json')['files'];results=[]
++    for mode,data in records['runs'].items():
++        for episode in data['episodes']:
++            eid=episode['episode_id'];source=CERT/episode['certification_artifact'];archived=ARCHIVE/'predictions'/(eid+'.npz')
++            expected=inventory[archived.relative_to(ROOT).as_posix()]['sha256']
++            reference=Artifact(ARCHIVE,'predictions/'+eid+'.npz',eid,expected)
++            generated=Artifact(CERT,episode['certification_artifact'],eid,episode['prediction_npz_sha256'])
++            compare_artifacts(reference,generated,reference_owner=ARCHIVE,candidate_owner=CERT,episode_id=eid)
++            with np.load(source,allow_pickle=False) as saved:
++                arrays={key:saved[key].copy(order='K') for key in NAMES}
++            replays=[]
++            for repeat in (1,2):
++                target=CERT/'evidence/producer_replay'/mode/str(repeat)/(eid+'.npz');target.parent.mkdir(parents=True,exist_ok=True)
++                with target.open('xb') as stream:np.savez_compressed(stream,**arrays)
++                actual=v.sha(target)
++                v.require(actual==expected,'FULL_ARCHIVE_BYTE_IDENTITY_FAILED: '+eid+'/'+mode)
++                replay=Artifact(CERT,target.relative_to(CERT).as_posix(),eid,actual)
++                check=compare_artifacts(reference,replay,reference_owner=ARCHIVE,candidate_owner=CERT,episode_id=eid)
++                v.require(check['archive_bytes_equal'],'NPZ SHA equality without actual byte equality')
++                replays.append({'path':target.relative_to(CERT).as_posix(),'bytes':target.stat().st_size,'sha256':actual})
++            v.require(replays[0]['sha256']==replays[1]['sha256'],'Repeat serializer nondeterminism')
++            results.append({'mode':mode,'episode_id':eid,'replays':replays,'reference_sha256':expected,
++                            'file_byte_identity':True,'payload_identity':True})
++    for eid in {r['episode_id'] for r in results}:
++        same=[r['reference_sha256'] for r in results if r['episode_id']==eid]
++        v.require(len(same)==2 and len(set(same))==1,'Original/optimized archive mismatch')
++    record={'status':'BYTE_AND_PAYLOAD_EQUIVALENCE_PASS','python':sys.version,'numpy':np.__version__,
++            'zlib':zlib.ZLIB_RUNTIME_VERSION,'episodes':3,'inference_paths':2,'serialization_replays':len(results)*2,
++            'results':results,'workers_launched':0,'models_loaded':0,'production_writer_modified':False}
++    with (CERT/'evidence/producer_byte_equivalence.json').open('x',encoding='utf8') as stream:
++        json.dump(record,stream,indent=2);stream.write('\n')
++    print(json.dumps(record,indent=2))
++
++
++if __name__=='__main__':main()
+--- /dev/null
++++ working/G4C-INFRA-CERT-003/code/inspect_npz.py
+@@ -0,0 +1,84 @@
++"""NPZ serialization forensics from saved arrays only. No prediction generation."""
++import hashlib
++import io
++import json
++from pathlib import Path
++import platform
++import struct
++import sys
++import zipfile
++import zlib
++
++ROOT=Path(__file__).resolve().parents[3]
++CERT=Path(__file__).resolve().parents[1]
++if sys.platform=='linux':
++    lock=json.loads((ROOT/'working/gate4_runtime_narwhals_lock.json').read_text())
++    sys.path.insert(0,lock['image_path']+'/numeric')
++import numpy as np
++
++
++def digest(raw):return hashlib.sha256(raw).hexdigest()
++
++
++def describe(path):
++    raw=Path(path).read_bytes();members=[]
++    with zipfile.ZipFile(io.BytesIO(raw)) as archive:
++        for item in archive.infolist():
++            payload=archive.read(item)
++            stream=io.BytesIO(payload)
++            version=np.lib.format.read_magic(stream)
++            if version == (1, 0):
++                shape,fortran,dtype=np.lib.format.read_array_header_1_0(stream)
++            elif version == (2, 0):
++                shape,fortran,dtype=np.lib.format.read_array_header_2_0(stream)
++            else:
++                raise ValueError('Unsupported NPY format: '+repr(version))
++            offset=stream.tell();array_raw=stream.read()
++            array=np.load(io.BytesIO(payload),allow_pickle=False)
++            header=raw[item.header_offset:item.header_offset+30]
++            name_len,extra_len=struct.unpack_from('<HH',header,26)
++            data_start=item.header_offset+30+name_len+extra_len
++            compressed=raw[data_start:data_start+item.compress_size]
++            members.append({'name':item.filename,'npy_sha256':digest(payload),'npy_header_hex':payload[:offset].hex(),
++                'npy_version':version,'fortran_order':fortran,'dtype':dtype.str,'shape':shape,
++                'array_data_sha256':digest(array_raw),'array_data_bytes':len(array_raw),
++                'array_c_order_sha256':digest(array.tobytes(order='C')),
++                'zip':{key:getattr(item,key) for key in ['date_time','compress_type','compress_size','file_size','CRC','create_system',
++                    'create_version','extract_version','reserved','flag_bits','volume','internal_attr','external_attr','header_offset']},
++                'zip_extra_hex':item.extra.hex(),'zip_comment_hex':item.comment.hex(),
++                'compressed_data_sha256':digest(compressed),'compressed_data_offset':data_start})
++        comment=archive.comment.hex()
++    return {'path':str(path),'bytes':len(raw),'sha256':digest(raw),'member_order':[m['name'] for m in members],
++            'zip_comment_hex':comment,'members':members}
++
++
++def main():
++    original=ROOT/'working/G4C-E3-001/predictions/G4A-B005-T01.npz'
++    platform_name='linux' if sys.platform=='linux' else 'windows'
++    with np.load(original,allow_pickle=False) as saved:
++        arrays={key:saved[key].copy(order='K') for key in saved.files}
++    paths=[]
++    for i in (1,2):
++        target=CERT/'evidence'/f'reserialized_{platform_name}_{i}.npz'
++        if not target.exists():
++            with target.open('xb') as stream:np.savez_compressed(stream,**arrays)
++        paths.append(target)
++    descriptions=[describe(original)]+[describe(p) for p in paths]
++    reference=original.read_bytes();repacked=paths[0].read_bytes()
++    offsets=[i for i,(a,b) in enumerate(zip(reference,repacked)) if a!=b]
++    record={'platform':platform.platform(),'python':sys.version,'numpy':np.__version__,
++            'zlib_compile':zlib.ZLIB_VERSION,'zlib_runtime':zlib.ZLIB_RUNTIME_VERSION,
++            'writer':'np.savez_compressed(file_object, **ordered_arrays)',
++            'numpy_writer_source_sha256':digest(Path(np.lib._npyio_impl.__file__).read_bytes()),
++            'zipfile_source_sha256':digest(Path(zipfile.__file__).read_bytes()),
++            'descriptions':descriptions,'length_difference':len(repacked)-len(reference),
++            'byte_differences':[{'offset':i,'original':reference[i],'reserialized':repacked[i]} for i in offsets],
++            'repeat_byte_identity':paths[0].read_bytes()==paths[1].read_bytes(),
++            'models_loaded':0,'workers_launched':0,'predictions_computed':0}
++    with (CERT/'evidence'/f'npz_forensics_{platform_name}.json').open('x',encoding='utf8') as f:
++        json.dump(record,f,indent=2);f.write('\n')
++    print(json.dumps({'platform':platform_name,'archives':[{k:d[k] for k in ('path','bytes','sha256')} for d in descriptions],
++                      'changed_bytes':record['byte_differences'],'repeat_identical':record['repeat_byte_identity']},indent=2))
++
++
++if __name__=='__main__':main()
+--- /dev/null
++++ working/G4C-INFRA-CERT-003/code/compression_proof.py
+@@ -0,0 +1,34 @@
++"""Prove the DEFLATE stream origin independently from NumPy array writing."""
++import hashlib
++import inspect
++import io
++import json
++from pathlib import Path
++import struct
++import sys
++import zipfile
++import zlib
++
++CERT=Path(__file__).resolve().parents[1]
++platform='windows' if sys.platform=='win32' else 'linux'
++path=CERT/'evidence'/f'reserialized_{platform}_1.npz'
++raw=path.read_bytes();results=[]
++with zipfile.ZipFile(io.BytesIO(raw)) as archive:
++    for member in archive.infolist():
++        payload=archive.read(member)
++        compressor=zlib.compressobj(zlib.Z_DEFAULT_COMPRESSION,zlib.DEFLATED,-15)
++        independently_compressed=compressor.compress(payload)+compressor.flush()
++        n,e=struct.unpack_from('<HH',raw,member.header_offset+26)
++        start=member.header_offset+30+n+e
++        recorded=raw[start:start+member.compress_size]
++        results.append({'member':member.filename,'npy_sha256':hashlib.sha256(payload).hexdigest(),
++            'raw_deflate_sha256':hashlib.sha256(recorded).hexdigest(),
++            'independent_compression_sha256':hashlib.sha256(independently_compressed).hexdigest(),
++            'exact_stream_match':recorded==independently_compressed})
++assert all(r['exact_stream_match'] for r in results),'Compression settings require further diagnosis'
++record={'platform':platform,'zlib_compile':zlib.ZLIB_VERSION,'zlib_runtime':zlib.ZLIB_RUNTIME_VERSION,
++        'compression_level':zlib.Z_DEFAULT_COMPRESSION,'method':zlib.DEFLATED,'wbits':-15,
++        'zipfile_default_compressor_source':inspect.getsource(zipfile._get_compressor),
++        'members':results,'status':'EXACT_DEFLATE_STREAM_REPRODUCTION_PASS'}
++with (CERT/'evidence'/f'compression_proof_{platform}.json').open('x',encoding='utf8') as f:json.dump(record,f,indent=2);f.write('\n')
++print(platform,record['status'],len(results),'members',zlib.ZLIB_RUNTIME_VERSION)
+--- /dev/null
++++ working/G4C-INFRA-CERT-003/code/test_prediction_equivalence.py
+@@ -0,0 +1,101 @@
++"""Exact payload/provenance negative controls; saved arrays only, no inference."""
++import hashlib
++import io
++from pathlib import Path
++import tempfile
++import unittest
++import warnings
++import zipfile
++import numpy as np
++from prediction_equivalence import Artifact, EquivalenceError, MEMBERS, NAMES, compare_artifacts, compare_bytes
++
++ROOT=Path(__file__).resolve().parents[3]
++EP='G4A-B005-T01'
++
++
++def pack(arrays):
++    stream=io.BytesIO();np.savez_compressed(stream,**arrays);return stream.getvalue()
++
++
++class PayloadTests(unittest.TestCase):
++    @classmethod
++    def setUpClass(cls):
++        cls.reference=(ROOT/f'working/G4C-E3-001/predictions/{EP}.npz').read_bytes()
++        with np.load(io.BytesIO(cls.reference),allow_pickle=False) as saved:
++            cls.original={k:saved[k].copy() for k in saved.files}
++    def arrays(self):return {k:a.copy() for k,a in self.original.items()}
++    def rejects(self,arrays):
++        with self.assertRaises((EquivalenceError,ValueError)):
++            compare_bytes(self.reference,pack(arrays))
++    def test_valid_exact_payload(self):
++        r=compare_bytes(self.reference,pack(self.arrays()));self.assertEqual(r['payload_status'],'EXACT_MATCH')
++    def test_change_prediction_value(self):
++        a=self.arrays();a['candidate'][0]=a['candidate'][0]%4+1;self.rejects(a)
++    def test_change_class_label(self):
++        a=self.arrays();a['candidate'][0]=5;self.rejects(a)
++    def test_class_mapping_permutation(self):
++        a=self.arrays();a['candidate']=5-a['candidate'];self.rejects(a)
++    def test_prediction_order(self):
++        a=self.arrays();b=a['candidate'];i=int(np.flatnonzero(b!=b[0])[0]);b[0],b[i]=b[i],b[0];self.rejects(a)
++    def test_example_identifier(self):
++        a=self.arrays();a['query_ids'][0,0]+=1;self.rejects(a)
++    def test_remove_array(self):
++        a=self.arrays();del a['raw_prototype'];self.rejects(a)
++    def test_extra_array(self):
++        a=self.arrays();a['extra']=np.array([1]);self.rejects(a)
++    def test_dtype(self):
++        a=self.arrays();a['candidate']=a['candidate'].astype(np.int32);self.rejects(a)
++    def test_endianness(self):
++        a=self.arrays();a['candidate']=a['candidate'].astype('>i8');self.rejects(a)
++    def test_shape(self):
++        a=self.arrays();a['candidate']=a['candidate'][:,None];self.rejects(a)
++    def test_all_example_order(self):
++        self.rejects({k:a[::-1].copy() for k,a in self.arrays().items()})
++    def test_member_order(self):
++        a=self.arrays();self.rejects(dict(reversed(list(a.items()))))
++    def test_npy_storage_order(self):
++        a=self.arrays();a['query_ids']=np.asfortranarray(a['query_ids']);self.rejects(a)
++    def test_nan(self):
++        a=self.arrays();a['candidate']=a['candidate'].astype(float);a['candidate'][0]=np.nan;self.rejects(a)
++    def test_inf(self):
++        a=self.arrays();a['candidate']=a['candidate'].astype(float);a['candidate'][0]=np.inf;self.rejects(a)
++    def test_pickle_object_array(self):
++        a=self.arrays();a['candidate']=a['candidate'].astype(object);self.rejects(a)
++    def test_duplicate_zip_member(self):
++        target=io.BytesIO()
++        with zipfile.ZipFile(io.BytesIO(self.reference)) as source,zipfile.ZipFile(target,'w',compression=zipfile.ZIP_DEFLATED) as out:
++            for name in source.namelist():out.writestr(name,source.read(name))
++            with warnings.catch_warnings():
++                warnings.simplefilter('ignore');out.writestr(MEMBERS[0],source.read(MEMBERS[0]))
++        with self.assertRaises(EquivalenceError):compare_bytes(self.reference,target.getvalue())
++    def test_container_metadata_does_not_fake_file_identity(self):
++        target=io.BytesIO()
++        with zipfile.ZipFile(io.BytesIO(self.reference)) as source,zipfile.ZipFile(target,'w',compression=zipfile.ZIP_DEFLATED) as out:
++            for name in source.namelist():
++                info=zipfile.ZipInfo(name,date_time=(2001,2,3,4,5,6));info.compress_type=zipfile.ZIP_DEFLATED
++                out.writestr(info,source.read(name))
++        r=compare_bytes(self.reference,target.getvalue());self.assertFalse(r['archive_bytes_equal']);self.assertEqual(r['payload_status'],'EXACT_MATCH')
++    def test_repeat_serialization_deterministic(self):
++        self.assertEqual(pack(self.arrays()),pack(self.arrays()))
++    def test_cross_run_substitution_even_identical_bytes(self):
++        with tempfile.TemporaryDirectory() as temp:
++            root=Path(temp).resolve();ref=root/'reference';expected=root/'current';other=root/'other'
++            for p in (ref,expected,other):p.mkdir();(p/(EP+'.npz')).write_bytes(self.reference)
++            h=hashlib.sha256(self.reference).hexdigest()
++            a=Artifact(ref,EP+'.npz',EP,h);b=Artifact(other,EP+'.npz',EP,h)
++            with self.assertRaises(EquivalenceError):
++                compare_artifacts(a,b,reference_owner=ref,candidate_owner=expected,episode_id=EP)
++    def test_artifact_hash_remains_required(self):
++        with tempfile.TemporaryDirectory() as temp:
++            root=Path(temp).resolve();(root/(EP+'.npz')).write_bytes(self.reference)
++            a=Artifact(root,EP+'.npz',EP,hashlib.sha256(self.reference).hexdigest());bad=Artifact(root,EP+'.npz',EP,'0'*64)
++            with self.assertRaises(EquivalenceError):
++                compare_artifacts(a,bad,reference_owner=root,candidate_owner=root,episode_id=EP)
++    def test_bound_episode_identity(self):
++        with tempfile.TemporaryDirectory() as temp:
++            root=Path(temp).resolve();(root/(EP+'.npz')).write_bytes(self.reference)
++            h=hashlib.sha256(self.reference).hexdigest();a=Artifact(root,EP+'.npz',EP,h);b=Artifact(root,EP+'.npz','G4A-B005-T02',h)
++            with self.assertRaises(EquivalenceError):compare_artifacts(a,b,reference_owner=root,candidate_owner=root,episode_id=EP)
++
++
++if __name__=='__main__':unittest.main(verbosity=2)
+--- /dev/null
++++ working/G4C-INFRA-CERT-003/code/independent_audit.py
+@@ -0,0 +1,85 @@
++"""Separate audit implementation; no production or equivalence-helper imports.
++
++Read-only ZIP/NPY/hash/metric checks on the selected archived/certification files.
++No model deserialization, prediction calculation, or worker launch.
++"""
++import hashlib
++import io
++import json
++from pathlib import Path
++import zipfile
++import numpy as np
++
++ROOT=Path(__file__).resolve().parents[3]
++CERT=Path(__file__).resolve().parents[1]
++
++
++def hash_bytes(raw):return hashlib.sha256(raw).hexdigest()
++
++def canonical(value):return json.dumps(value,sort_keys=True,separators=(',',':'),allow_nan=False).encode()
++
++def metrics(y,p):
++    cm=np.bincount(4*(y-1)+p-1,minlength=16).reshape(4,4)
++    tp=cm.diagonal();d=cm.sum(0)+cm.sum(1)
++    f=np.divide(2*tp,d,out=np.zeros(4),where=d!=0)
++    return {'macro_f1':float(f.mean()),'per_class_f1':f.tolist(),
++        'precision':np.divide(tp,cm.sum(0),out=np.zeros(4),where=cm.sum(0)!=0).tolist(),
++        'recall':np.divide(tp,cm.sum(1),out=np.zeros(4),where=cm.sum(1)!=0).tolist(),
++        'accuracy':float(tp.sum()/cm.sum()),'confusion':cm.tolist()}
++
++
++def main():
++    offline=json.loads((CERT/'evidence/offline_equivalence.json').read_text())
++    producer=json.loads((CERT/'evidence/producer_byte_equivalence.json').read_text())
++    manifest=json.loads((ROOT/'working/gate4_episode_manifest.json').read_text())
++    inventory=json.loads((ROOT/'working/G4C-E3-001/artifact_hash_manifest.json').read_text())['files']
++    with np.load(ROOT/'working/baseline_artifacts/amsterdam_zero_shot.npz',allow_pickle=False) as b:
++        y=b['y_amsterdam'].copy();ids=b['pixel_ids_amsterdam'].copy()
++    rng=np.random.default_rng(42)
++    for e in manifest['episodes']:
++        assert rng.bit_generator.state==e['rng_before']
++        s=np.concatenate([rng.choice(np.where(y==c)[0],e['budget'],replace=False) for c in (1,2,3,4)])
++        assert s.tolist()==e['support_row_indices'] and rng.bit_generator.state==e['rng_after']
++    comparisons=[]
++    for index in (0,20,50):
++        e=manifest['episodes'][index];eid=e['episode_id']
++        archived=ROOT/'working/G4C-E3-001/predictions'/(eid+'.npz');raw=archived.read_bytes()
++        assert hash_bytes(raw)==inventory[archived.relative_to(ROOT).as_posix()]['sha256']
++        with np.load(io.BytesIO(raw),allow_pickle=False) as a:
++            query=np.setdiff1d(np.arange(len(y)),e['support_row_indices'])
++            assert np.array_equal(a['query_indices'],query) and np.array_equal(a['query_ids'],ids[query])
++            metric={name:metrics(y[query],a[name]) for name in ('candidate','raw_prototype','rf_reproduced','frozen_rf')}
++        for mode in ('original','optimized_native'):
++            record=next(r for r in offline['runs'][mode]['episodes'] if r['episode_id']==eid)
++            generated=CERT/record['certification_artifact'];candidate=generated.read_bytes()
++            assert hash_bytes(candidate)==record['prediction_npz_sha256']
++            assert hash_bytes(canonical(metric))==record['metric_sha256']
++            with zipfile.ZipFile(io.BytesIO(raw)) as a,zipfile.ZipFile(io.BytesIO(candidate)) as b:
++                assert a.namelist()==b.namelist() and len(a.namelist())==len(set(a.namelist()))==6
++                for name in a.namelist():
++                    left,right=a.read(name),b.read(name)
++                    assert left==right,('Decompressed NPY byte disagreement',name)
++                    la=np.load(io.BytesIO(left),allow_pickle=False);ra=np.load(io.BytesIO(right),allow_pickle=False)
++                    assert la.dtype.str==ra.dtype.str and la.shape==ra.shape and np.array_equal(la,ra)
++            replay_record=next(r for r in producer['results'] if r['mode']==mode and r['episode_id']==eid)
++            for replay in replay_record['replays']:
++                rep=(CERT/replay['path']).read_bytes()
++                assert rep==raw and hash_bytes(rep)==replay['sha256']
++            comparisons.append({'episode_id':eid,'mode':mode,'query_rows':len(query),
++                                'npy_members_exact':6,'producer_replays_exact':2,'metrics_exact':True})
++    before=json.loads((CERT/'evidence/protected_before.json').read_text());changed=[]
++    for path,expected in before['files'].items():
++        p=ROOT/path
++        with p.open('rb') as f:actual=hashlib.file_digest(f,'sha256').hexdigest()
++        if actual!=expected['sha256'] or p.stat().st_size!=expected['bytes']:changed.append(path)
++    assert not changed,changed
++    result={'status':'INDEPENDENT_BYTE_PAYLOAD_METRIC_AUDIT_PASS','comparisons':comparisons,
++            'unique_episode_query_predictions':sum(r['query_rows'] for r in comparisons if r['mode']=='original'),
++            'historical_files_verified':len(before['files']),'historical_changes':changed,
++            'rng_replays':60,'new_worker_launches':0,'new_model_loads':0,
++            'scope':'Separate implementation/process; not independent human review; runtime not certified'}
++    with (CERT/'evidence/independent_audit.json').open('x',encoding='utf8') as f:json.dump(result,f,indent=2);f.write('\n')
++    print(json.dumps(result,indent=2))
++
++
++if __name__=='__main__':main()

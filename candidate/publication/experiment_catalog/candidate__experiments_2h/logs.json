@@ -1,0 +1,21 @@
+{
+  "paths": [
+    "candidate/experiments_2h/expA_repeat.log",
+    "candidate/experiments_2h/expA_run.log",
+    "candidate/experiments_2h/expB_repeat.log",
+    "candidate/experiments_2h/expB_run.log",
+    "candidate/experiments_2h/expC_repeat.log",
+    "candidate/experiments_2h/expC_run.log",
+    "candidate/experiments_2h/expD_repeat.log",
+    "candidate/experiments_2h/expD_run.log",
+    "candidate/experiments_2h/expE_repeat.log",
+    "candidate/experiments_2h/expE_run.log",
+    "candidate/experiments_2h/expF_interface.log",
+    "candidate/experiments_2h/expF_repeat.log",
+    "candidate/experiments_2h/expF_run.log",
+    "candidate/experiments_2h/expF_spatial.log",
+    "candidate/experiments_2h/expF_spatial_repeat.log",
+    "candidate/experiments_2h/summary.log"
+  ],
+  "status": "indexed"
+}

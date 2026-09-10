@@ -1,0 +1,16 @@
+{
+  "paths": [
+    "candidate/autonomous_runs/20260909_1727/ablation_complete.json",
+    "candidate/autonomous_runs/20260909_1727/benchmark_complete.json",
+    "candidate/autonomous_runs/20260909_1727/final_complete.json",
+    "candidate/autonomous_runs/20260909_1727/FINAL_RESULTS.json",
+    "candidate/autonomous_runs/20260909_1727/optimization_complete.json",
+    "candidate/autonomous_runs/20260909_1727/refinement_complete.json",
+    "candidate/autonomous_runs/20260909_1727/spatial_complete.json",
+    "candidate/autonomous_runs/20260909_1727/stability_complete.json",
+    "candidate/autonomous_runs/20260909_1727/figures/07_prediction_maps.png",
+    "candidate/autonomous_runs/20260909_1727/figures/07_prediction_maps.svg",
+    "candidate/autonomous_runs/20260909_1727/public_inference_test/predictions.npz"
+  ],
+  "status": "indexed"
+}

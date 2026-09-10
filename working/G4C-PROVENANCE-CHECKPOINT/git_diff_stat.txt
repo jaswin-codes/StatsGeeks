@@ -1,0 +1,15 @@
+ Open Notebook.onetoc2              | Bin 6640 -> 8344 bytes
+ data/Open Notebook.onetoc2         | Bin 5040 -> 6160 bytes
+ docs/DECISION_REGISTER.md          |   2 +-
+ docs/MASTER_PLAN.md                |   8 +-
+ docs/Open Notebook.onetoc2         | Bin 5040 -> 5040 bytes
+ docs/TEAM_LOG.md                   |   8 +
+ docs/member1_log.md                |  27 +++
+ docs/member2_log.md                | 115 +++++++++++
+ docs/member3_log.md                | 382 +++++++++++++++++++++++++++++++++++--
+ docs/member4_log.md                |  44 +++--
+ models/Open Notebook.onetoc2       | Bin 5040 -> 5040 bytes
+ presentation/Open Notebook.onetoc2 | Bin 5040 -> 5040 bytes
+ submission/Open Notebook.onetoc2   | Bin 5040 -> 5040 bytes
+ working/Open Notebook.onetoc2      | Bin 5040 -> 7912 bytes
+ 14 files changed, 560 insertions(+), 26 deletions(-)

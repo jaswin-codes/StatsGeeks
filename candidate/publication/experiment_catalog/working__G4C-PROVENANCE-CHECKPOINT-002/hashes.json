@@ -1,0 +1,16 @@
+{
+  "working/G4C-PROVENANCE-CHECKPOINT-002/artifact_hash_manifest.json": "1406deaab5b2781845f4e3ce05dbc7495a5d55fd323b6029ea827fddd223bfc5",
+  "working/G4C-PROVENANCE-CHECKPOINT-002/authorization.md": "e7a1ade9f75c96b1f269a8b44f4ce845e97aebba2c979909c3d9481b4ce77439",
+  "working/G4C-PROVENANCE-CHECKPOINT-002/checkpoint.json": "d126152d6c65d83ac75babb401870d796de299f9d0a33e4bbc147e5d1c82162d",
+  "working/G4C-PROVENANCE-CHECKPOINT-002/file_fingerprints.json": "e1e1d8bda427d15f41ee06ed1ff5e391d6210ab2637b950cd4ac5158f9fd1a2a",
+  "working/G4C-PROVENANCE-CHECKPOINT-002/frozen_preconditions.json": "a4767cc46b8ab6ff5d71cf17459565488ab1156d2bc81705897dddbb4cfb513d",
+  "working/G4C-PROVENANCE-CHECKPOINT-002/git_diff.binary.patch": "fc586d6ff5c210d17858830fb9fa7209bd979e80bc3c223fd57b73e9dee34ece",
+  "working/G4C-PROVENANCE-CHECKPOINT-002/git_diff_cached.binary.patch": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "working/G4C-PROVENANCE-CHECKPOINT-002/git_diff_stat.txt": "9a9e5a1c67c1ef831b8e595d6d01b62ec684f752a31b4625bdc49e78fc341d9c",
+  "working/G4C-PROVENANCE-CHECKPOINT-002/git_HEAD.txt": "7cafb64b14a561dcbddd826506737f15f0e2efb03aa9b7c2d3340320f4cb2af7",
+  "working/G4C-PROVENANCE-CHECKPOINT-002/git_index.txt": "8e2c19fdde09b42f252de1802c165eff6533c734ac863a6dab2d165ecf638394",
+  "working/G4C-PROVENANCE-CHECKPOINT-002/git_status.txt": "f46f420ea693edc015a9a4968b1ae5a7b840bf0fbb0eedeb981487d5a39aa953",
+  "working/G4C-PROVENANCE-CHECKPOINT-002/metadata_exception_policy.json": "b27e361b4287ddd73bacbbe61571817caa20ac557fee3c36450b2c4f0da735e3",
+  "working/G4C-PROVENANCE-CHECKPOINT-002/REPORT.md": "212ad71107b7b94f25492cc82971fd5a32ca9b3191af3ad6227d44d71bd5a42d",
+  "working/G4C-PROVENANCE-CHECKPOINT-002/runtime_verification_before.json": "baecd50d16855e4665773ac07cd6fa257331dfcaf44d25338a8e693828211979"
+}

@@ -1,0 +1,34 @@
+# Written Justification
+
+**StatsGeeks — Madrid → Amsterdam few-shot building-age transfer**  
+**Scientific freeze: EXP-010 is the primary result.**
+
+## Model design
+
+Stage 1 is a fixed 500-tree, class-balanced Random Forest trained on Madrid. Its importances rank and weight the organiser’s 60 spectral-trajectory features; the forest is not refitted on Amsterdam. EXP-010 retains 30 features at five labels per class and 45 features at larger budgets. The target-only control retains all 60 features with no shrinkage.
+
+The frozen transfer state is portable: `exp010_stage1_madrid.pkl` stores Madrid-learned weights, the top-30 and top-45 indices, Madrid class offsets, and the fixed budget schedule. The older `stage1_madrid.pkl` is retained for provenance but represents only the earlier top-30 method.
+
+## Transfer strategy
+
+Madrid supplies supervised feature ranking and class geometry. Amsterdam support labels estimate target-side class prototypes; query labels are evaluation-only. With only five support examples per class, target prototypes have high estimation variance, so EXP-010 shrinks them toward Madrid class offsets after re-centring on the Amsterdam support mean. This transfers geometry without importing Madrid’s absolute feature-space location.
+
+The selected schedule is `k=30, lambda=0.6` at five shots and `k=45, lambda=0` at 25, 50, 100, and 200 shots. Thus shrinkage is useful only in the scarcest regime, while dimensionality reduction remains useful as labels increase.
+
+## F1 interpretation
+
+On ten seed-31337 audit episodes, tuned versus target-only control macro F1 was:
+
+| shots | tuned | control | gain | wins |
+|---:|---:|---:|---:|---:|
+| 5 | 0.552428 ± 0.059539 | 0.515220 ± 0.070198 | +0.037208 | 7/10 |
+| 25 | 0.612174 ± 0.013057 | 0.608872 ± 0.014539 | +0.003302 | 8/10 |
+| 50 | 0.617273 ± 0.007839 | 0.613500 ± 0.008332 | +0.003773 | 10/10 |
+| 100 | 0.619513 ± 0.004770 | 0.614502 ± 0.004810 | +0.005011 | 10/10 |
+| 200 | 0.623982 ± 0.003646 | 0.618943 ± 0.003824 | +0.005040 | 10/10 |
+
+The safe headline is **45/50 paired wins**. Deviations are episode spreads, not confidence intervals. We do not use the provenance-limited “47/50” or “9.7%” comparison.
+
+EXP-008 supports the feature-transfer premise on fresh episodes; EXP-009 established the shrinkage foundation. EXP-004’s whitening reversal supports an estimation-error mechanism, while EXP-007 found that 94 expanded features did not improve the original representation.
+
+The evidence is specific to Madrid→Amsterdam and does not establish universal superiority or global generalisation. EXP-010 has not been independently replicated. The unchanged local baseline also differs from organiser-saved RF outputs (`0.6281/0.4433` locally versus `0.6179/0.3427` saved); incomplete package/input provenance leaves the cause unidentified.

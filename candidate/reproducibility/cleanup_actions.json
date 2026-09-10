@@ -1,0 +1,32 @@
+[
+  {
+    "source": "core_diff.txt",
+    "destination": "archive/publication_cleanup/core_diff.txt",
+    "reason": "Scratch output archived; timestamps preserved"
+  },
+  {
+    "source": "integration_diff.txt",
+    "destination": "archive/publication_cleanup/integration_diff.txt",
+    "reason": "Scratch output archived; timestamps preserved"
+  },
+  {
+    "source": "member2_vs_integration.txt",
+    "destination": "archive/publication_cleanup/member2_vs_integration.txt",
+    "reason": "Scratch output archived; timestamps preserved"
+  },
+  {
+    "source": "nul",
+    "destination": "archive/publication_cleanup/windows_reserved_nul.txt",
+    "reason": "Reserved Windows filename normalized using Git Bash"
+  },
+  {
+    "source": "candidate/competitor_forensics",
+    "destination": "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy - excluded_forensics_20260909_201729",
+    "reason": "External quarantine, not submission material"
+  },
+  {
+    "source": "candidate/publication/submission_bundle.zip (initial verified export)",
+    "destination": "archive/publication_cleanup/exports/submission_bundle_pre_final_audit.zip",
+    "reason": "Preserved initial tested export before final documentation/ignore-rule audit; one canonical current ZIP"
+  }
+]

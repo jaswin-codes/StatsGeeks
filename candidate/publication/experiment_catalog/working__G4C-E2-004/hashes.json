@@ -1,0 +1,22 @@
+{
+  "working/G4C-E2-004/artifact_hash_manifest.json": "df81100c96e51704012bbae90cb846357e163c69937803f13fbb47cf14e30859",
+  "working/G4C-E2-004/EXECUTION_REPORT.md": "b460a5d19b23d7da41c48e394c78c286ed6e7b8089c1cfecc81bb124f37b75c8",
+  "working/G4C-E2-004/candidate_state/source_state.json": "d907134deeac091c888a5764c673e6d5b4af0e7fc52b783208f16329be3a07f5",
+  "working/G4C-E2-004/checkpoint/execution_authorization.json": "71307dc719468bb15b64f5aa38137065085c2c4bc7d0b06fbb576a3780e3f84f",
+  "working/G4C-E2-004/coordinator/execution_coordinator.py": "c1b7a0ab2f48cbf4dec88c106bb5e834ee524acaa9d902bc177a79e3b522af58",
+  "working/G4C-E2-004/coordinator/independent_verifier.py": "0111ecce173b90d2b815ca3a96db236eb296d6d6b92c30085b90459e3436fa83",
+  "working/G4C-E2-004/evidence/preflight_1.json": "ca80376006d5ba90e8d7de4e9f9ebf6fc3fa9977590ba8ed1e776702481a7d2a",
+  "working/G4C-E2-004/evidence/preflight_1.transport.json": "685893160b572cd41db5aa3e7bf4981ac2c1ef1939276500549c37d5d200a5e5",
+  "working/G4C-E2-004/evidence/preflight_2.json": "d071d87a74e818e649301189da11ab611e4e3d6b1f359c59e3c18500ea9f053d",
+  "working/G4C-E2-004/evidence/preflight_2.transport.json": "7974ded53c565caeab37708a615dbb23629f61a5d4f3ee0f12dac121fefaf27a",
+  "working/G4C-E2-004/evidence/source_worker.json": "2e1c419aacde3799704b13dbf395051f16753cdab246830c5027cdd7ffcc6823",
+  "working/G4C-E2-004/evidence/source_worker.transport.json": "4333f49b34135774b16beb2666505f0349001c494b87a422f24d5bed93cf4ff9",
+  "working/G4C-E2-004/evidence/worker_01.input.json": "38bb075db109379aa4c0e938e772bdbde4d130c75a15eb3fac22d2995d699f9c",
+  "working/G4C-E2-004/evidence/worker_01.json": "b471b0e075430d6eaab8da71b078cecf394702bb98e12e6ab1e62cdac631b8f3",
+  "working/G4C-E2-004/evidence/worker_01.transport.json": "063fab363a321be44e9c4c94520cefb93c7b258fe262907977c9597b6a9fa905",
+  "working/G4C-E2-004/results/execution.log": "f791bf74f774dda52a2f556087ce248c64d82fc1a252ea03f0c656fb9ca24ee8",
+  "working/G4C-E2-004/results/EXECUTION_STOP_REASON.md": "de5a4052aa14eeb1625b308e00291ad17761bc98c4b65ab09b176dfe554d7b6e",
+  "working/G4C-E2-004/results/stop_audit_attempt1_failure.json": "18064710f40748a36f5380504fc36b1f05098d3d8ce3d444690fcc718dc2d6c1",
+  "working/G4C-E2-004/results/stop_audit_attempt2_failure.json": "486367ef092b5369132e634c61dcf432bd42f4dcef450d05e9c31c67bd1cf491",
+  "working/G4C-E2-004/results/summary.json": "2873aee35589b11e31e32e9d832c580d1a3796dd840a11a15c43ca921086d48d"
+}

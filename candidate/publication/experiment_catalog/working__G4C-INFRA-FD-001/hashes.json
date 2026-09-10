@@ -1,0 +1,14 @@
+{
+  "working/G4C-INFRA-FD-001/artifact_hash_manifest.json": "32b6cd7f916e967586f4f7a67c3c5c9a593775afcce207a7dfbb1e152863d27a",
+  "working/G4C-INFRA-FD-001/REPORT.md": "8d8ca112c8b838d78ec710d7dafb1c7a4543e5d081ce08e17af2a02d45688ded",
+  "working/G4C-INFRA-FD-001/validation_summary.json": "2c7f0f2c4e419c927aecd00a1013ab42a0348d65bd7f88ef56d337284a05a8d4",
+  "working/G4C-INFRA-FD-001/code/diagnostic_preflight_worker.py": "a47ede30c109c2670dfc2b113218c735f6a2d2d80b0949b2c83015a9af113374",
+  "working/G4C-INFRA-FD-001/code/infra_boundary.py": "8ccd8735a3d556e0f60a4f5dd9927d61944f269255de08c2c92992576bdd5a73",
+  "working/G4C-INFRA-FD-001/code/infra_call.py": "26d555af2074b81b48d38b0f4ca580410d4e25dee8b3f3f5da63d0a9bef043ff",
+  "working/G4C-INFRA-FD-001/code/validation_worker.py": "f953b96c51a6b130d46215d23b2f558468fe884daf3d16d17a7d71f86d9d0b4c",
+  "working/G4C-INFRA-FD-001/evidence/diagnostic_packet.json": "faf034a2e909f5ef962d542b5dea23d5faeba5af57a9a82debd9cc9bc52e09d0",
+  "working/G4C-INFRA-FD-001/evidence/diagnostic_result.json": "34308aceeb3868ee63e7a099ff4574620e5d25d86bde8fa557619ec90bbf0c7f",
+  "working/G4C-INFRA-FD-001/evidence/launcher_attempt1_failure.json": "643fa85109ace49ce8d66dd8ea97ed721b154239bfcea68c835cf75ce96c4afb",
+  "working/G4C-INFRA-FD-001/evidence/validation_packet.json": "f5cff5ff0c4be559b44df87fa39b5ffeba5c10c5b25e0da014f6124fcbc20392",
+  "working/G4C-INFRA-FD-001/evidence/validation_result.json": "839fb33436d6b1f2aba76ba287a1308ac293208104de3b8c6676a27ff0a64ecd"
+}

@@ -1,0 +1,64 @@
+{
+  "configurations": {
+    "A": {
+      "pool": false,
+      "spatial": false,
+      "adaptive": false,
+      "prior": 0.0
+    },
+    "A+B": {
+      "pool": true,
+      "spatial": false,
+      "adaptive": false,
+      "prior": 0.0
+    },
+    "A+C": {
+      "pool": false,
+      "spatial": true,
+      "adaptive": false,
+      "prior": 0.0
+    },
+    "A+D": {
+      "pool": false,
+      "spatial": false,
+      "adaptive": true,
+      "prior": 0.0
+    },
+    "A+B+C": {
+      "pool": true,
+      "spatial": true,
+      "adaptive": false,
+      "prior": 0.0
+    },
+    "A+B+D": {
+      "pool": true,
+      "spatial": false,
+      "adaptive": true,
+      "prior": 0.0
+    },
+    "A+C+D": {
+      "pool": false,
+      "spatial": true,
+      "adaptive": true,
+      "prior": 0.0
+    },
+    "A+B+C+D": {
+      "pool": true,
+      "spatial": true,
+      "adaptive": true,
+      "prior": 0.0
+    },
+    "ASTRA_AGF": {}
+  },
+  "folds": 5,
+  "training_shots": 160,
+  "validation_shots": 40,
+  "selection_metric": "support-only held-out macro F1",
+  "axes": {
+    "A": "RF200 classifier",
+    "B": "full unlabelled target covariance",
+    "C": "Gaussian coordinate graph",
+    "D": "budget/sample-ratio covariance shrinkage; uses support covariance without B"
+  },
+  "note": "Factorial source prior OFF. Full ASTRA separately restores contextual source prior; D depends on B for its original operational definition."
+}

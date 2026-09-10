@@ -1,0 +1,11 @@
+{
+  "candidate/experiments_2h/expE_temporal/configuration.json": "57dae84d9e597705471c2f26eaffce39f83333b41bc3ac26d2a6aa2ffb25eb1d",
+  "candidate/experiments_2h/expE_temporal/configuration_repeat.json": "57dae84d9e597705471c2f26eaffce39f83333b41bc3ac26d2a6aa2ffb25eb1d",
+  "candidate/experiments_2h/expE_temporal/predictions.npz": "b660a87add50a58d9da4fecada12fa856c40e23a07a33653a36b50eb671a8591",
+  "candidate/experiments_2h/expE_temporal/predictions_repeat.npz": "b660a87add50a58d9da4fecada12fa856c40e23a07a33653a36b50eb671a8591",
+  "candidate/experiments_2h/expE_temporal/README.md": "fabc57776d3355e1d889e058a86f979c34f3758d6e320648092a6fb5adaca23e",
+  "candidate/experiments_2h/expE_temporal/reproducibility.json": "610048cde3c83a940b7be5b6a8332ee38337219bc815f5015ae30f1248fa159f",
+  "candidate/experiments_2h/expE_temporal/results.json": "e23a7d68c4e54305ed1c15138c9b07da30d7079bd22b557cfdad8dfd50f45f07",
+  "candidate/experiments_2h/expE_temporal/results_repeat.json": "f1ef5ef0356aabc216456f2bf571af31019e6c42a506568921d764e19e080353",
+  "candidate/experiments_2h/expE_temporal/script.py": "658be3a87fc2a85c34570b43f5a8862314602506067ab597a74b4109b5e4782e"
+}

@@ -1,0 +1,24 @@
+{
+  "executed": [
+    "python -B candidate/publication/prepare_package.py (partial failure on reserved nul; recovered without rerunning preparation)",
+    "Git Bash: mv nul archive/publication_cleanup/windows_reserved_nul.txt",
+    "python -B candidate/publication/verify_evidence.py",
+    "python -B candidate/publication/build_publication.py",
+    "python -B candidate/publication/audit_and_seal.py",
+    "python -B candidate/publication/validate_package.py",
+    "python -B candidate/publication/export_submission.py",
+    "python -B candidate/publication/test_distribution.py (isolated ZIP validation, five packaged references, evidence rebuild; all CSVs byte-identical)"
+  ],
+  "replay_order": [
+    "Install requirements-repro.txt",
+    "Validate received hashes before rebuilding",
+    "Run reproduce_best.py --verify --out a_new_directory",
+    "Optional evidence build from saved verification outputs"
+  ],
+  "not_executed": [
+    "optimization",
+    "full source refit",
+    "full 1000-episode model refit replay"
+  ],
+  "failure_recovery": "Reserved nul filename moved with Git Bash; completed preparation copy/log metadata recovered. No scientific stage restarted."
+}

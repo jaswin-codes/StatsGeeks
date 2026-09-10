@@ -1,0 +1,29 @@
+Traceback (most recent call last):
+  File "C:\Users\jaswi\Downloads\Hackathon3_StatsGeeks - Copy\working\G4C-INFRA-CERT-002\code\test_validator.py", line 184, in <module>
+    if __name__=='__main__':unittest.main(verbosity=2)
+                            ~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\unittest\main.py", line 104, in __init__
+    self.runTests()
+    ~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\unittest\main.py", line 270, in runTests
+    self.result = testRunner.run(self.test)
+                  ~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Python314\Lib\unittest\runner.py", line 257, in run
+    test(result)
+    ~~~~^^^^^^^^
+  File "C:\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+           ~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\unittest\suite.py", line 122, in run
+    test(result)
+    ~~~~^^^^^^^^
+  File "C:\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+           ~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\unittest\suite.py", line 122, in run
+    test(result)
+    ~~~~^^^^^^^^
+  File "C:\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+           ~~~~~~~~^^^^^^^^^^^^^^^
+TypeError: 'WindowsPath' object is not callable

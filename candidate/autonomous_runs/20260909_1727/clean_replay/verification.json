@@ -1,0 +1,25 @@
+{
+  "pass_": true,
+  "source_refitted_from_scratch": true,
+  "exact_state_arrays": [
+    "raw",
+    "standard",
+    "coords",
+    "prior",
+    "cov",
+    "nn",
+    "dist",
+    "classes"
+  ],
+  "exact_prediction_arrays": 4000,
+  "episodes": 1000,
+  "trials_per_budget": 200,
+  "seed_regenerated_exactly": 20260910,
+  "support_query_disjoint": true,
+  "development_query_disjoint": true,
+  "query_labels_used_for_scoring_or_selection": false,
+  "frozen_files_unchanged": true,
+  "seconds": 2150.631590604782,
+  "model_sha256": "26b2299ad50dcf935fb8bc1a89d4e79f82cf2c68881619a6eaf1330f813a7533",
+  "rebuilt_pool_sha256": "b975db430b4a00d1c90d59d10a76ef11a6c3727be42e22f41bec49a6f6c28007"
+}
