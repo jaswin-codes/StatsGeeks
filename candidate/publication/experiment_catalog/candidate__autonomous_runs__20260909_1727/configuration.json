@@ -1,0 +1,11 @@
+{
+  "paths": [
+    "candidate/autonomous_runs/20260909_1727/ablation_plan.json",
+    "candidate/autonomous_runs/20260909_1727/configuration.json",
+    "candidate/autonomous_runs/20260909_1727/optimization_plan.json",
+    "candidate/autonomous_runs/20260909_1727/refinement_plan.json",
+    "candidate/autonomous_runs/20260909_1727/SELECTION_LOCK.json",
+    "candidate/autonomous_runs/20260909_1727/stability_plan.json"
+  ],
+  "status": "indexed"
+}

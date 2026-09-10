@@ -1,0 +1,19 @@
+{
+  "pass": true,
+  "branches": {
+    "expA_source_local": true,
+    "expB_dim_shrink": true,
+    "expC_class_diagnostic": true,
+    "expD_spatial": true,
+    "expE_temporal": true,
+    "expF_covariance": true,
+    "expF_covariance\\spatial": true
+  },
+  "method_budget_summaries_checked": 131,
+  "class_f1_recomputed_from_confusions": true,
+  "executed_script_hashes_match": true,
+  "non_sprint_git_status_unchanged": true,
+  "protected_files_unchanged": 1579,
+  "clean_feature_only_cli": true,
+  "configuration_selection": "none; only descriptive audit ranking, no adoption"
+}

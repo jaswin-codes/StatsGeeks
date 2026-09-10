@@ -1,0 +1,6 @@
+stage,macro_f1,budget,trial,protocol
+Source only,0.6262359338096946,200,0,same query; observational internal ASTRA stages; not separately tuned controls
+Target only (pre-blend),0.6849639513792476,200,0,same query; observational internal ASTRA stages; not separately tuned controls
+Blended (pre-graph),0.6869590177227796,200,0,same query; observational internal ASTRA stages; not separately tuned controls
+ASTRA,0.729926066695272,200,0,fixed-reference final predictions
+Coordinate_RF,0.7467805106093222,200,0,fixed-reference final predictions

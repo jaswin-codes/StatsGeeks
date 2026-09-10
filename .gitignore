@@ -40,3 +40,6 @@ archive/publication_cleanup/exports/*.zip
 /reproducibility/release/slide_render/
 /reproducibility/release/contact_sheet.png
 # Existing notebook checkpoint and bytecode rules remain unchanged.
+
+# Overnight search artifacts
+candidate/autonomous_ml_overnight/

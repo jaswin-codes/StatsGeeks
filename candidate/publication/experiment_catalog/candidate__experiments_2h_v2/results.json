@@ -1,0 +1,9 @@
+{
+  "paths": [
+    "candidate/experiments_2h_v2/ALL_RESULTS.csv",
+    "candidate/experiments_2h_v2/complete_manifest.log",
+    "candidate/experiments_2h_v2/complete_manifest.py",
+    "candidate/experiments_2h_v2/locked_clean_replay/predictions.npz"
+  ],
+  "status": "indexed"
+}

@@ -1,0 +1,7 @@
+{
+  "paths": [
+    "candidate/experiments_2h/expE_temporal/configuration.json",
+    "candidate/experiments_2h/expE_temporal/configuration_repeat.json"
+  ],
+  "status": "indexed"
+}

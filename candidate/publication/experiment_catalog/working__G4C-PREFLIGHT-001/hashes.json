@@ -1,0 +1,6 @@
+{
+  "working/G4C-PREFLIGHT-001/artifact_hash_manifest.json": "81a93868d28850086e0cb4c9ee914f4ea3a16c7a84a9239546ebca0e84c388f1",
+  "working/G4C-PREFLIGHT-001/git_diff.binary.patch": "7cc8b799245406d0f6f9dcf2c040c2f253b6733b35e1f8d9cfc0a8580543a2e9",
+  "working/G4C-PREFLIGHT-001/git_status.txt": "b5d868cf5b5e263db5561392a9eb9896a655686bf9c1882cdfff26187c2d55f7",
+  "working/G4C-PREFLIGHT-001/preflight.json": "058568c5c0b5015fb9db749e036507247a5df006476f9b0ee6a911a81fec3806"
+}

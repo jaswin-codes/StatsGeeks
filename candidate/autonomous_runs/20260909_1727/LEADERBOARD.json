@@ -1,0 +1,1827 @@
+[
+  {
+    "candidate": "ASTRA_AGF",
+    "development_support_cv": {
+      "mean": 0.7662817435871073,
+      "population_sd": 0.0250710676744723,
+      "episodes": 5,
+      "class_f1": [
+        0.7998985510613418,
+        0.6795825161109554,
+        0.771974808816914,
+        0.8136710983592181
+      ],
+      "seconds": 5.460980415344238,
+      "paired": {
+        "ASTRA_AGF": {
+          "gain": 0.0,
+          "wins": 0,
+          "losses": 0,
+          "delta_sd": 0.0
+        }
+      }
+    },
+    "config": {},
+    "information_regime": "transductive",
+    "query_label_usage": false,
+    "status": "incumbent",
+    "reproducibility": "fresh source + 1000 episodes exact replay",
+    "stability_by_budget": {
+      "5": {
+        "mean": 0.6873310710674415,
+        "population_sd": 0.012927688254100105,
+        "episodes": 20,
+        "class_f1": [
+          0.6917841875082392,
+          0.5583801108380017,
+          0.7203192853745998,
+          0.7788407005489252
+        ],
+        "seconds": 14.510316848754883,
+        "paired": {
+          "ASTRA_AGF": {
+            "gain": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "delta_sd": 0.0
+          }
+        }
+      },
+      "25": {
+        "mean": 0.715442792078678,
+        "population_sd": 0.013933855553502869,
+        "episodes": 20,
+        "class_f1": [
+          0.7527268181633344,
+          0.6010634960600841,
+          0.7274434410199783,
+          0.7805374130713154
+        ],
+        "seconds": 16.369360208511353,
+        "paired": {
+          "ASTRA_AGF": {
+            "gain": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "delta_sd": 0.0
+          }
+        }
+      },
+      "50": {
+        "mean": 0.7289037976271316,
+        "population_sd": 0.015034987058147516,
+        "episodes": 20,
+        "class_f1": [
+          0.7728824029169663,
+          0.6244098734599313,
+          0.7306476447055144,
+          0.7876752694261149
+        ],
+        "seconds": 17.857131719589233,
+        "paired": {
+          "ASTRA_AGF": {
+            "gain": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "delta_sd": 0.0
+          }
+        }
+      },
+      "100": {
+        "mean": 0.7469900122375904,
+        "population_sd": 0.017210127648155698,
+        "episodes": 20,
+        "class_f1": [
+          0.7916453693051004,
+          0.6517427629651698,
+          0.7421871681136681,
+          0.8023847485664234
+        ],
+        "seconds": 20.379985332489014,
+        "paired": {
+          "ASTRA_AGF": {
+            "gain": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "delta_sd": 0.0
+          }
+        }
+      },
+      "160": {
+        "mean": 0.7713037148152365,
+        "population_sd": 0.02297749930613516,
+        "episodes": 20,
+        "class_f1": [
+          0.8156301833590966,
+          0.6939274412408256,
+          0.7575175056954059,
+          0.818139728965618
+        ],
+        "seconds": 21.81147575378418,
+        "paired": {
+          "ASTRA_AGF": {
+            "gain": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "delta_sd": 0.0
+          }
+        }
+      }
+    },
+    "score_by_budget": {
+      "5": {
+        "mean": 0.6499640512181283,
+        "population_sd": 0.011031285916009827,
+        "episodes": 200,
+        "class_f1": [
+          0.7015543230970361,
+          0.613013520492377,
+          0.6780774338994324,
+          0.6072109273836669
+        ],
+        "seconds": 138.30660223960876,
+        "paired": {
+          "EXP010": {
+            "gain": 0.07796871338412308,
+            "wins": 200,
+            "losses": 0,
+            "delta_sd": 0.03260747995224013
+          },
+          "EXPF": {
+            "gain": 0.09734479672509629,
+            "wins": 200,
+            "losses": 0,
+            "delta_sd": 0.04077844874640861
+          },
+          "ASTRA_AGF": {
+            "gain": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "delta_sd": 0.0
+          }
+        }
+      },
+      "25": {
+        "mean": 0.6826195927412568,
+        "population_sd": 0.011669533069716038,
+        "episodes": 200,
+        "class_f1": [
+          0.7307109808825362,
+          0.642866463263305,
+          0.715156269827505,
+          0.6417446569916812
+        ],
+        "seconds": 161.7992594242096,
+        "paired": {
+          "EXP010": {
+            "gain": 0.07266403341137934,
+            "wins": 200,
+            "losses": 0,
+            "delta_sd": 0.016455198097687935
+          },
+          "EXPF": {
+            "gain": 0.0459056002342489,
+            "wins": 199,
+            "losses": 1,
+            "delta_sd": 0.015035507937090395
+          },
+          "ASTRA_AGF": {
+            "gain": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "delta_sd": 0.0
+          }
+        }
+      },
+      "50": {
+        "mean": 0.6992227952950131,
+        "population_sd": 0.01038086472233017,
+        "episodes": 200,
+        "class_f1": [
+          0.7524835531703334,
+          0.6647115205673754,
+          0.7199274672694422,
+          0.6597686401729013
+        ],
+        "seconds": 172.9575719833374,
+        "paired": {
+          "EXP010": {
+            "gain": 0.08140463004375324,
+            "wins": 200,
+            "losses": 0,
+            "delta_sd": 0.011641632509008588
+          },
+          "EXPF": {
+            "gain": 0.05049187272568405,
+            "wins": 200,
+            "losses": 0,
+            "delta_sd": 0.011043891741969512
+          },
+          "ASTRA_AGF": {
+            "gain": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "delta_sd": 0.0
+          }
+        }
+      },
+      "100": {
+        "mean": 0.7160355496679435,
+        "population_sd": 0.008313093143519794,
+        "episodes": 200,
+        "class_f1": [
+          0.7693899626098076,
+          0.6889769637009262,
+          0.7289781751171651,
+          0.6767970972438743
+        ],
+        "seconds": 186.1990044116974,
+        "paired": {
+          "EXP010": {
+            "gain": 0.0947149422227232,
+            "wins": 200,
+            "losses": 0,
+            "delta_sd": 0.009853611863209169
+          },
+          "EXPF": {
+            "gain": 0.061610843122020906,
+            "wins": 200,
+            "losses": 0,
+            "delta_sd": 0.00879127549269433
+          },
+          "ASTRA_AGF": {
+            "gain": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "delta_sd": 0.0
+          }
+        }
+      },
+      "200": {
+        "mean": 0.733037076091751,
+        "population_sd": 0.00610553935848456,
+        "episodes": 200,
+        "class_f1": [
+          0.7845632452330301,
+          0.7125542104304425,
+          0.7413138265563335,
+          0.693717022147198
+        ],
+        "seconds": 224.5833158493042,
+        "paired": {
+          "EXP010": {
+            "gain": 0.11019685051649461,
+            "wins": 200,
+            "losses": 0,
+            "delta_sd": 0.006618226870724174
+          },
+          "EXPF": {
+            "gain": 0.07543491884303234,
+            "wins": 200,
+            "losses": 0,
+            "delta_sd": 0.006270131961314713
+          },
+          "ASTRA_AGF": {
+            "gain": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "delta_sd": 0.0
+          }
+        }
+      }
+    },
+    "query_labels_used_for_selection": false,
+    "query_labels_used_for_evaluation": true,
+    "spatial": {
+      "directions": [
+        {
+          "axis": 0,
+          "support_side": 0,
+          "mean": 0.7005482502446406,
+          "population_sd": 0.00797861492474734
+        },
+        {
+          "axis": 0,
+          "support_side": 1,
+          "mean": 0.6734859480432085,
+          "population_sd": 0.01188769425583293
+        },
+        {
+          "axis": 1,
+          "support_side": 0,
+          "mean": 0.6581826076405064,
+          "population_sd": 0.01188082752585608
+        },
+        {
+          "axis": 1,
+          "support_side": 1,
+          "mean": 0.7544696426056804,
+          "population_sd": 0.008239973462069288
+        }
+      ],
+      "x_half": 0.6870170991439246,
+      "y_half": 0.7063261251230935,
+      "worst_direction": 0.6581826076405064,
+      "mean": 0.696671612133509
+    }
+  },
+  {
+    "candidate": "Bilateral_graph",
+    "development_support_cv": {
+      "mean": 0.7624042359439253,
+      "population_sd": 0.030237185010718405,
+      "episodes": 5,
+      "class_f1": [
+        0.8018041286419042,
+        0.6649202384450694,
+        0.77158301344118,
+        0.8113095632475478
+      ],
+      "seconds": 6.223689079284668,
+      "paired": {
+        "ASTRA_AGF": {
+          "gain": -0.0038775076431819986,
+          "wins": 1,
+          "losses": 3,
+          "delta_sd": 0.007720485047488865
+        }
+      }
+    },
+    "config": {
+      "bilateral": true
+    },
+    "information_regime": "transductive",
+    "query_label_usage": false,
+    "status": "rejected",
+    "reproducibility": "not separately replayed",
+    "score_by_budget": {},
+    "query_labels_used_for_selection": false,
+    "query_labels_used_for_evaluation": false
+  },
+  {
+    "candidate": "BoostedTrees",
+    "development_support_cv": {
+      "mean": 0.7473167330393957,
+      "population_sd": 0.02928332151623903,
+      "episodes": 5,
+      "class_f1": [
+        0.8078252330196817,
+        0.6530801687763712,
+        0.7347901017901018,
+        0.7935714285714287
+      ],
+      "seconds": 31.564425706863403,
+      "paired": {
+        "ASTRA_AGF": {
+          "gain": -0.018965010547711512,
+          "wins": 0,
+          "losses": 5,
+          "delta_sd": 0.011400746087868363
+        }
+      }
+    },
+    "config": {
+      "kind": "hist"
+    },
+    "information_regime": "transductive",
+    "query_label_usage": false,
+    "status": "rejected",
+    "reproducibility": "not separately replayed",
+    "score_by_budget": {},
+    "query_labels_used_for_selection": false,
+    "query_labels_used_for_evaluation": false
+  },
+  {
+    "candidate": "Confidence_prior",
+    "development_support_cv": {
+      "mean": 0.7650153714355408,
+      "population_sd": 0.03311461611703148,
+      "episodes": 5,
+      "class_f1": [
+        0.8101771646075443,
+        0.6726570237589926,
+        0.7692004703568825,
+        0.8080268270187441
+      ],
+      "seconds": 5.362043380737305,
+      "paired": {
+        "ASTRA_AGF": {
+          "gain": -0.0012663721515664417,
+          "wins": 3,
+          "losses": 2,
+          "delta_sd": 0.00909244191141734
+        }
+      }
+    },
+    "config": {
+      "prior": 60.0
+    },
+    "information_regime": "transductive",
+    "query_label_usage": false,
+    "status": "rejected",
+    "reproducibility": "not separately replayed",
+    "score_by_budget": {},
+    "query_labels_used_for_selection": false,
+    "query_labels_used_for_evaluation": false
+  },
+  {
+    "candidate": "Coordinate_RF",
+    "development_support_cv": {
+      "mean": 0.7697983014977485,
+      "population_sd": 0.016355896216551744,
+      "episodes": 5,
+      "class_f1": [
+        0.8266619193073852,
+        0.6953115538481394,
+        0.7502818492278605,
+        0.8069378836076094
+      ],
+      "seconds": 5.366480112075806,
+      "paired": {
+        "ASTRA_AGF": {
+          "gain": 0.003516557910641316,
+          "wins": 3,
+          "losses": 2,
+          "delta_sd": 0.013577237293125256
+        }
+      }
+    },
+    "config": {
+      "coord": true
+    },
+    "information_regime": "transductive",
+    "query_label_usage": false,
+    "status": "development_selected",
+    "reproducibility": "fresh source + 1000 episodes exact replay",
+    "stability_by_budget": {
+      "5": {
+        "mean": 0.6865278694667596,
+        "population_sd": 0.011193613286046176,
+        "episodes": 20,
+        "class_f1": [
+          0.6934714734417089,
+          0.5595212319628529,
+          0.7165983271215072,
+          0.7765204453409696
+        ],
+        "seconds": 14.984986543655396,
+        "paired": {
+          "ASTRA_AGF": {
+            "gain": -0.0008032016006819798,
+            "wins": 8,
+            "losses": 12,
+            "delta_sd": 0.005007502459993522
+          }
+        }
+      },
+      "25": {
+        "mean": 0.7205024771564903,
+        "population_sd": 0.012957974915279918,
+        "episodes": 20,
+        "class_f1": [
+          0.7657460747731363,
+          0.608522160226042,
+          0.727675499965782,
+          0.7800661736610013
+        ],
+        "seconds": 16.470601081848145,
+        "paired": {
+          "ASTRA_AGF": {
+            "gain": 0.00505968507781232,
+            "wins": 16,
+            "losses": 4,
+            "delta_sd": 0.006447300673196691
+          }
+        }
+      },
+      "50": {
+        "mean": 0.737939441343877,
+        "population_sd": 0.014113389602232853,
+        "episodes": 20,
+        "class_f1": [
+          0.7900734578153438,
+          0.645353057208015,
+          0.7300248322017645,
+          0.7863064181503845
+        ],
+        "seconds": 18.78857970237732,
+        "paired": {
+          "ASTRA_AGF": {
+            "gain": 0.009035643716745229,
+            "wins": 17,
+            "losses": 3,
+            "delta_sd": 0.008696749510181831
+          }
+        }
+      },
+      "100": {
+        "mean": 0.7592770496884649,
+        "population_sd": 0.01769212111819347,
+        "episodes": 20,
+        "class_f1": [
+          0.8101908058655234,
+          0.6793960475113037,
+          0.7467079637798572,
+          0.8008133815971752
+        ],
+        "seconds": 19.738593578338623,
+        "paired": {
+          "ASTRA_AGF": {
+            "gain": 0.012287037450874394,
+            "wins": 17,
+            "losses": 3,
+            "delta_sd": 0.011355825114133588
+          }
+        }
+      },
+      "160": {
+        "mean": 0.7793381428820944,
+        "population_sd": 0.026992107923619762,
+        "episodes": 20,
+        "class_f1": [
+          0.8322378707223826,
+          0.7179677104447852,
+          0.7522164460322003,
+          0.8149305443290096
+        ],
+        "seconds": 21.43577265739441,
+        "paired": {
+          "ASTRA_AGF": {
+            "gain": 0.008034428066857946,
+            "wins": 15,
+            "losses": 5,
+            "delta_sd": 0.01505741238989888
+          }
+        }
+      }
+    },
+    "score_by_budget": {
+      "5": {
+        "mean": 0.6502534825973215,
+        "population_sd": 0.011246453376513501,
+        "episodes": 200,
+        "class_f1": [
+          0.7029683066651755,
+          0.6123399198366486,
+          0.6784645190919086,
+          0.6072411847955536
+        ],
+        "seconds": 140.3677372932434,
+        "paired": {
+          "EXP010": {
+            "gain": 0.07825814476331644,
+            "wins": 200,
+            "losses": 0,
+            "delta_sd": 0.03257183762916964
+          },
+          "EXPF": {
+            "gain": 0.09763422810428964,
+            "wins": 200,
+            "losses": 0,
+            "delta_sd": 0.04078030849390597
+          },
+          "ASTRA_AGF": {
+            "gain": 0.00028943137919336224,
+            "wins": 106,
+            "losses": 94,
+            "delta_sd": 0.002648800955647897
+          }
+        }
+      },
+      "25": {
+        "mean": 0.6876642885265578,
+        "population_sd": 0.012145300945520266,
+        "episodes": 200,
+        "class_f1": [
+          0.7401666645991852,
+          0.652774084602418,
+          0.7151036020957743,
+          0.642612802808854
+        ],
+        "seconds": 163.60192680358887,
+        "paired": {
+          "EXP010": {
+            "gain": 0.0777087291966803,
+            "wins": 200,
+            "losses": 0,
+            "delta_sd": 0.016981525572613995
+          },
+          "EXPF": {
+            "gain": 0.05095029601954985,
+            "wins": 200,
+            "losses": 0,
+            "delta_sd": 0.015165824610857023
+          },
+          "ASTRA_AGF": {
+            "gain": 0.005044695785300948,
+            "wins": 171,
+            "losses": 29,
+            "delta_sd": 0.004879964684967711
+          }
+        }
+      },
+      "50": {
+        "mean": 0.7084361253407687,
+        "population_sd": 0.011277069075341525,
+        "episodes": 200,
+        "class_f1": [
+          0.7691689089722771,
+          0.6839810849413658,
+          0.7200904963483913,
+          0.6605040111010406
+        ],
+        "seconds": 173.40358328819275,
+        "paired": {
+          "EXP010": {
+            "gain": 0.09061796008950893,
+            "wins": 200,
+            "losses": 0,
+            "delta_sd": 0.012395387302756
+          },
+          "EXPF": {
+            "gain": 0.05970520277143974,
+            "wins": 200,
+            "losses": 0,
+            "delta_sd": 0.011624282355666206
+          },
+          "ASTRA_AGF": {
+            "gain": 0.009213330045755695,
+            "wins": 193,
+            "losses": 7,
+            "delta_sd": 0.004866484365818318
+          }
+        }
+      },
+      "100": {
+        "mean": 0.7298386193797975,
+        "population_sd": 0.008801623471861354,
+        "episodes": 200,
+        "class_f1": [
+          0.7939317158526845,
+          0.7184429881473633,
+          0.7297252253407148,
+          0.6772545481784271
+        ],
+        "seconds": 186.84108710289001,
+        "paired": {
+          "EXP010": {
+            "gain": 0.10851801193457743,
+            "wins": 200,
+            "losses": 0,
+            "delta_sd": 0.010088702502132951
+          },
+          "EXPF": {
+            "gain": 0.07541391283387515,
+            "wins": 200,
+            "losses": 0,
+            "delta_sd": 0.009251544191463157
+          },
+          "ASTRA_AGF": {
+            "gain": 0.013803069711854249,
+            "wins": 200,
+            "losses": 0,
+            "delta_sd": 0.0041338475904967335
+          }
+        }
+      },
+      "200": {
+        "mean": 0.749298885788045,
+        "population_sd": 0.0057160562254621175,
+        "episodes": 200,
+        "class_f1": [
+          0.8132616542513048,
+          0.7460131079405471,
+          0.7427734518082341,
+          0.695147329152094
+        ],
+        "seconds": 222.31678462028503,
+        "paired": {
+          "EXP010": {
+            "gain": 0.12645866021278857,
+            "wins": 200,
+            "losses": 0,
+            "delta_sd": 0.006448448630316586
+          },
+          "EXPF": {
+            "gain": 0.09169672853932631,
+            "wins": 200,
+            "losses": 0,
+            "delta_sd": 0.006135273921642545
+          },
+          "ASTRA_AGF": {
+            "gain": 0.01626180969629398,
+            "wins": 200,
+            "losses": 0,
+            "delta_sd": 0.0028958864704243152
+          }
+        }
+      }
+    },
+    "query_labels_used_for_selection": false,
+    "query_labels_used_for_evaluation": true,
+    "spatial": {
+      "directions": [
+        {
+          "axis": 0,
+          "support_side": 0,
+          "mean": 0.7198359743041735,
+          "population_sd": 0.007907791245448978
+        },
+        {
+          "axis": 0,
+          "support_side": 1,
+          "mean": 0.6448164115799047,
+          "population_sd": 0.01520402782824432
+        },
+        {
+          "axis": 1,
+          "support_side": 0,
+          "mean": 0.6691596301123343,
+          "population_sd": 0.009800731132056725
+        },
+        {
+          "axis": 1,
+          "support_side": 1,
+          "mean": 0.7430515122138005,
+          "population_sd": 0.010872124222126559
+        }
+      ],
+      "x_half": 0.682326192942039,
+      "y_half": 0.7061055711630674,
+      "worst_direction": 0.6448164115799047,
+      "mean": 0.6942158820525532
+    }
+  },
+  {
+    "candidate": "Covariance_blend",
+    "development_support_cv": {
+      "mean": 0.7662407106248178,
+      "population_sd": 0.023875692007237777,
+      "episodes": 5,
+      "class_f1": [
+        0.8030287541915448,
+        0.6811693834160171,
+        0.769855875119033,
+        0.8109088297726768
+      ],
+      "seconds": 5.982917070388794,
+      "paired": {
+        "ASTRA_AGF": {
+          "gain": -4.103296228943343e-05,
+          "wins": 1,
+          "losses": 1,
+          "delta_sd": 0.003794383241216431
+        }
+      }
+    },
+    "config": {
+      "covblend": 0.15
+    },
+    "information_regime": "transductive",
+    "query_label_usage": false,
+    "status": "rejected",
+    "reproducibility": "not separately replayed",
+    "score_by_budget": {},
+    "query_labels_used_for_selection": false,
+    "query_labels_used_for_evaluation": false
+  },
+  {
+    "candidate": "ExtraTrees",
+    "development_support_cv": {
+      "mean": 0.7701554911846529,
+      "population_sd": 0.026212066313168535,
+      "episodes": 5,
+      "class_f1": [
+        0.8130942431703378,
+        0.6863385403790928,
+        0.7596181596181596,
+        0.8215710215710216
+      ],
+      "seconds": 5.581115961074829,
+      "paired": {
+        "ASTRA_AGF": {
+          "gain": 0.0038737475975456183,
+          "wins": 4,
+          "losses": 1,
+          "delta_sd": 0.006659678612010809
+        }
+      }
+    },
+    "config": {
+      "kind": "extra",
+      "features": 0.5
+    },
+    "information_regime": "transductive",
+    "query_label_usage": false,
+    "status": "rejected",
+    "reproducibility": "not separately replayed",
+    "stability_by_budget": {
+      "5": {
+        "mean": 0.6848523352071714,
+        "population_sd": 0.016494466306965057,
+        "episodes": 20,
+        "class_f1": [
+          0.6908374029616006,
+          0.5575719358587394,
+          0.717310326225052,
+          0.7736896757832933
+        ],
+        "seconds": 13.305615901947021,
+        "paired": {
+          "ASTRA_AGF": {
+            "gain": -0.002478735860270298,
+            "wins": 8,
+            "losses": 12,
+            "delta_sd": 0.010488770619364743
+          }
+        }
+      },
+      "25": {
+        "mean": 0.7155219429765703,
+        "population_sd": 0.017929929514080293,
+        "episodes": 20,
+        "class_f1": [
+          0.7594796151514526,
+          0.599842553656053,
+          0.7247828736268145,
+          0.7779827294719616
+        ],
+        "seconds": 16.12018585205078,
+        "paired": {
+          "ASTRA_AGF": {
+            "gain": 7.915089789234942e-05,
+            "wins": 11,
+            "losses": 9,
+            "delta_sd": 0.009187429462162803
+          }
+        }
+      },
+      "50": {
+        "mean": 0.731605262846224,
+        "population_sd": 0.013584022785461192,
+        "episodes": 20,
+        "class_f1": [
+          0.7808039325375238,
+          0.6287414663318545,
+          0.7306579033228107,
+          0.7862177491927071
+        ],
+        "seconds": 18.783379793167114,
+        "paired": {
+          "ASTRA_AGF": {
+            "gain": 0.0027014652190923416,
+            "wins": 11,
+            "losses": 9,
+            "delta_sd": 0.010534357401885363
+          }
+        }
+      },
+      "100": {
+        "mean": 0.7540431620888226,
+        "population_sd": 0.018724956134935074,
+        "episodes": 20,
+        "class_f1": [
+          0.7971692824095583,
+          0.6653527965482037,
+          0.7451573055971685,
+          0.8084932638003604
+        ],
+        "seconds": 20.245153188705444,
+        "paired": {
+          "ASTRA_AGF": {
+            "gain": 0.007053149851232249,
+            "wins": 17,
+            "losses": 3,
+            "delta_sd": 0.008296505479388717
+          }
+        }
+      },
+      "160": {
+        "mean": 0.7756760057321187,
+        "population_sd": 0.025580341138568184,
+        "episodes": 20,
+        "class_f1": [
+          0.8153180675120867,
+          0.7018557465532449,
+          0.7656155037712008,
+          0.8199147050919429
+        ],
+        "seconds": 22.374993085861206,
+        "paired": {
+          "ASTRA_AGF": {
+            "gain": 0.004372290916882326,
+            "wins": 15,
+            "losses": 5,
+            "delta_sd": 0.011538386132716762
+          }
+        }
+      }
+    },
+    "score_by_budget": {},
+    "query_labels_used_for_selection": false,
+    "query_labels_used_for_evaluation": false
+  },
+  {
+    "candidate": "Less_diagonal",
+    "development_support_cv": {
+      "mean": 0.760010952832817,
+      "population_sd": 0.009459552745935998,
+      "episodes": 5,
+      "class_f1": [
+        0.7974116708529426,
+        0.6755635301026285,
+        0.7568849568713698,
+        0.8101836535043272
+      ],
+      "seconds": 5.359306812286377,
+      "paired": {
+        "ASTRA_AGF": {
+          "gain": -0.00627079075429029,
+          "wins": 2,
+          "losses": 3,
+          "delta_sd": 0.01980208204062246
+        }
+      }
+    },
+    "config": {
+      "rho_factor": 0.5
+    },
+    "information_regime": "transductive",
+    "query_label_usage": false,
+    "status": "rejected",
+    "reproducibility": "not separately replayed",
+    "score_by_budget": {},
+    "query_labels_used_for_selection": false,
+    "query_labels_used_for_evaluation": false
+  },
+  {
+    "candidate": "No_source_prior",
+    "development_support_cv": {
+      "mean": 0.7608881349196162,
+      "population_sd": 0.026659916408882142,
+      "episodes": 5,
+      "class_f1": [
+        0.7907293868921776,
+        0.6746190863672555,
+        0.7654541657173236,
+        0.812749900701708
+      ],
+      "seconds": 5.332717418670654,
+      "paired": {
+        "ASTRA_AGF": {
+          "gain": -0.00539360866749119,
+          "wins": 0,
+          "losses": 4,
+          "delta_sd": 0.007718316036848674
+        }
+      }
+    },
+    "config": {
+      "prior": 0.0
+    },
+    "information_regime": "transductive",
+    "query_label_usage": false,
+    "status": "rejected",
+    "reproducibility": "not separately replayed",
+    "score_by_budget": {},
+    "query_labels_used_for_selection": false,
+    "query_labels_used_for_evaluation": false
+  },
+  {
+    "candidate": "RF_half_features",
+    "development_support_cv": {
+      "mean": 0.754910939049825,
+      "population_sd": 0.014937897456196947,
+      "episodes": 5,
+      "class_f1": [
+        0.799576511516519,
+        0.672614480438648,
+        0.7456433751851081,
+        0.801809389059024
+      ],
+      "seconds": 7.010240077972412,
+      "paired": {
+        "ASTRA_AGF": {
+          "gain": -0.011370804537282453,
+          "wins": 1,
+          "losses": 4,
+          "delta_sd": 0.013762321505027654
+        }
+      }
+    },
+    "config": {
+      "features": 0.5
+    },
+    "information_regime": "transductive",
+    "query_label_usage": false,
+    "status": "rejected",
+    "reproducibility": "not separately replayed",
+    "score_by_budget": {},
+    "query_labels_used_for_selection": false,
+    "query_labels_used_for_evaluation": false
+  },
+  {
+    "candidate": "Stronger_diagonal",
+    "development_support_cv": {
+      "mean": 0.7581018112774165,
+      "population_sd": 0.022765574601347885,
+      "episodes": 5,
+      "class_f1": [
+        0.8017217479752036,
+        0.6599128919860627,
+        0.7553225968584618,
+        0.8154500082899382
+      ],
+      "seconds": 5.190747261047363,
+      "paired": {
+        "ASTRA_AGF": {
+          "gain": -0.008179932309690741,
+          "wins": 1,
+          "losses": 4,
+          "delta_sd": 0.010027446811273764
+        }
+      }
+    },
+    "config": {
+      "rho_factor": 2.0
+    },
+    "information_regime": "transductive",
+    "query_label_usage": false,
+    "status": "rejected",
+    "reproducibility": "not separately replayed",
+    "score_by_budget": {},
+    "query_labels_used_for_selection": false,
+    "query_labels_used_for_evaluation": false
+  },
+  {
+    "candidate": "Two_step_graph",
+    "development_support_cv": {
+      "mean": 0.7667362624229234,
+      "population_sd": 0.025006409240067532,
+      "episodes": 5,
+      "class_f1": [
+        0.807175701491491,
+        0.6742880464949228,
+        0.7830849338454973,
+        0.8023963678597825
+      ],
+      "seconds": 5.66503643989563,
+      "paired": {
+        "ASTRA_AGF": {
+          "gain": 0.00045451883581604235,
+          "wins": 2,
+          "losses": 3,
+          "delta_sd": 0.015852679992241565
+        }
+      }
+    },
+    "config": {
+      "steps": 2
+    },
+    "information_regime": "transductive",
+    "query_label_usage": false,
+    "status": "rejected",
+    "reproducibility": "not separately replayed",
+    "score_by_budget": {},
+    "query_labels_used_for_selection": false,
+    "query_labels_used_for_evaluation": false
+  },
+  {
+    "candidate": "Wide_graph",
+    "development_support_cv": {
+      "mean": 0.7634236785723484,
+      "population_sd": 0.02082303005335914,
+      "episodes": 5,
+      "class_f1": [
+        0.8057610225057228,
+        0.6716887354073,
+        0.7740054952657692,
+        0.8022394611106012
+      ],
+      "seconds": 5.7686991691589355,
+      "paired": {
+        "ASTRA_AGF": {
+          "gain": -0.002858065014758937,
+          "wins": 3,
+          "losses": 2,
+          "delta_sd": 0.026373239371034893
+        }
+      }
+    },
+    "config": {
+      "neighbours": 25,
+      "sigma": 2.0
+    },
+    "information_regime": "transductive",
+    "query_label_usage": false,
+    "status": "rejected",
+    "reproducibility": "not separately replayed",
+    "score_by_budget": {},
+    "query_labels_used_for_selection": false,
+    "query_labels_used_for_evaluation": false
+  },
+  {
+    "candidate": "Coordinate_ensemble",
+    "development_support_cv": {
+      "mean": 0.765967927724729,
+      "population_sd": 0.016590035619839443,
+      "episodes": 5,
+      "class_f1": [
+        0.8147555476207671,
+        0.6929508277010481,
+        0.7501620795738443,
+        0.8060032560032561
+      ],
+      "seconds": 11.22978162765503,
+      "paired": {
+        "ASTRA_AGF": {
+          "gain": -0.0003138158623784193,
+          "wins": 3,
+          "losses": 2,
+          "delta_sd": 0.013388862859325768
+        }
+      }
+    },
+    "config": {
+      "ensemble": true,
+      "coord": true
+    },
+    "query_label_usage": false,
+    "information_regime": "transductive",
+    "status": "rejected",
+    "reproducibility": "not separately replayed",
+    "score_by_budget": {},
+    "query_labels_used_for_selection": false,
+    "query_labels_used_for_evaluation": false
+  },
+  {
+    "candidate": "Extra600",
+    "development_support_cv": {
+      "mean": 0.7651770099885948,
+      "population_sd": 0.01639898433737396,
+      "episodes": 5,
+      "class_f1": [
+        0.8072577996715926,
+        0.6810680773698965,
+        0.761697666686225,
+        0.8106844962266649
+      ],
+      "seconds": 15.908015489578247,
+      "paired": {
+        "ASTRA_AGF": {
+          "gain": -0.0011047335985125083,
+          "wins": 3,
+          "losses": 2,
+          "delta_sd": 0.011304379464540017
+        }
+      }
+    },
+    "config": {
+      "kind": "extra",
+      "features": 0.5,
+      "trees": 600
+    },
+    "query_label_usage": false,
+    "information_regime": "transductive",
+    "status": "rejected",
+    "reproducibility": "not separately replayed",
+    "score_by_budget": {},
+    "query_labels_used_for_selection": false,
+    "query_labels_used_for_evaluation": false
+  },
+  {
+    "candidate": "Extra_coordinates",
+    "development_support_cv": {
+      "mean": 0.7696103595394992,
+      "population_sd": 0.017258030031839143,
+      "episodes": 5,
+      "class_f1": [
+        0.8108818735027847,
+        0.7000788817501159,
+        0.7588581586199217,
+        0.808622524285175
+      ],
+      "seconds": 5.676473379135132,
+      "paired": {
+        "ASTRA_AGF": {
+          "gain": 0.0033286159523919557,
+          "wins": 4,
+          "losses": 1,
+          "delta_sd": 0.011563710752731207
+        }
+      }
+    },
+    "config": {
+      "kind": "extra",
+      "features": 0.5,
+      "coord": true
+    },
+    "query_label_usage": false,
+    "information_regime": "transductive",
+    "status": "rejected",
+    "reproducibility": "not separately replayed",
+    "score_by_budget": {},
+    "query_labels_used_for_selection": false,
+    "query_labels_used_for_evaluation": false
+  },
+  {
+    "candidate": "Extra_leaf2",
+    "development_support_cv": {
+      "mean": 0.756281340306918,
+      "population_sd": 0.024568928087664723,
+      "episodes": 5,
+      "class_f1": [
+        0.8024910055455479,
+        0.6728279003036268,
+        0.7456498876342588,
+        0.8041565677442385
+      ],
+      "seconds": 5.673447132110596,
+      "paired": {
+        "ASTRA_AGF": {
+          "gain": -0.01000040328018934,
+          "wins": 0,
+          "losses": 5,
+          "delta_sd": 0.006437845715183367
+        }
+      }
+    },
+    "config": {
+      "kind": "extra",
+      "features": 0.5,
+      "leaf": 2
+    },
+    "query_label_usage": false,
+    "information_regime": "transductive",
+    "status": "rejected",
+    "reproducibility": "not separately replayed",
+    "score_by_budget": {},
+    "query_labels_used_for_selection": false,
+    "query_labels_used_for_evaluation": false
+  },
+  {
+    "candidate": "Extra_sqrt",
+    "development_support_cv": {
+      "mean": 0.7603798292185822,
+      "population_sd": 0.01849938885799893,
+      "episodes": 5,
+      "class_f1": [
+        0.8026890432216407,
+        0.6812646172393008,
+        0.7641011619958988,
+        0.7934644944174882
+      ],
+      "seconds": 5.758970260620117,
+      "paired": {
+        "ASTRA_AGF": {
+          "gain": -0.005901914368525163,
+          "wins": 2,
+          "losses": 3,
+          "delta_sd": 0.014196243586283835
+        }
+      }
+    },
+    "config": {
+      "kind": "extra"
+    },
+    "query_label_usage": false,
+    "information_regime": "transductive",
+    "status": "rejected",
+    "reproducibility": "not separately replayed",
+    "score_by_budget": {},
+    "query_labels_used_for_selection": false,
+    "query_labels_used_for_evaluation": false
+  },
+  {
+    "candidate": "Forest_ensemble",
+    "development_support_cv": {
+      "mean": 0.7702855477625963,
+      "population_sd": 0.02698559852261722,
+      "episodes": 5,
+      "class_f1": [
+        0.8077826715291746,
+        0.6857948343170724,
+        0.7682300591774276,
+        0.8193346260267109
+      ],
+      "seconds": 11.284264326095581,
+      "paired": {
+        "ASTRA_AGF": {
+          "gain": 0.004003804175489045,
+          "wins": 4,
+          "losses": 1,
+          "delta_sd": 0.00631571098975757
+        }
+      }
+    },
+    "config": {
+      "ensemble": true
+    },
+    "query_label_usage": false,
+    "information_regime": "transductive",
+    "status": "rejected",
+    "reproducibility": "not separately replayed",
+    "stability_by_budget": {
+      "5": {
+        "mean": 0.6869190867046324,
+        "population_sd": 0.01475701286551093,
+        "episodes": 20,
+        "class_f1": [
+          0.6925938100296324,
+          0.5588862625003372,
+          0.7199552049173579,
+          0.7762410693712021
+        ],
+        "seconds": 25.72895359992981,
+        "paired": {
+          "ASTRA_AGF": {
+            "gain": -0.00041198436280925346,
+            "wins": 9,
+            "losses": 11,
+            "delta_sd": 0.007169700448626606
+          }
+        }
+      },
+      "25": {
+        "mean": 0.7174333202709923,
+        "population_sd": 0.017282764366997827,
+        "episodes": 20,
+        "class_f1": [
+          0.7581217996325174,
+          0.6023300440340148,
+          0.7286585780948861,
+          0.7806228593225507
+        ],
+        "seconds": 30.272061109542847,
+        "paired": {
+          "ASTRA_AGF": {
+            "gain": 0.0019905281923142115,
+            "wins": 12,
+            "losses": 8,
+            "delta_sd": 0.007319486037236472
+          }
+        }
+      },
+      "50": {
+        "mean": 0.7323686407385825,
+        "population_sd": 0.013931534306026056,
+        "episodes": 20,
+        "class_f1": [
+          0.7787931538112606,
+          0.6300679846404431,
+          0.7324798176276363,
+          0.7881336068749909
+        ],
+        "seconds": 35.16997790336609,
+        "paired": {
+          "ASTRA_AGF": {
+            "gain": 0.0034648431114510324,
+            "wins": 13,
+            "losses": 7,
+            "delta_sd": 0.008564434440498212
+          }
+        }
+      },
+      "100": {
+        "mean": 0.7533041272547518,
+        "population_sd": 0.015725812716162732,
+        "episodes": 20,
+        "class_f1": [
+          0.7942602956912634,
+          0.6616692446698988,
+          0.7491076497857168,
+          0.8081793188721283
+        ],
+        "seconds": 38.036399126052856,
+        "paired": {
+          "ASTRA_AGF": {
+            "gain": 0.006314115017161365,
+            "wins": 16,
+            "losses": 4,
+            "delta_sd": 0.00614255528109183
+          }
+        }
+      },
+      "160": {
+        "mean": 0.7754045102335472,
+        "population_sd": 0.02392010935067038,
+        "episodes": 20,
+        "class_f1": [
+          0.8142551199511671,
+          0.6990548772534101,
+          0.7635271689350946,
+          0.8247808747945171
+        ],
+        "seconds": 42.748393058776855,
+        "paired": {
+          "ASTRA_AGF": {
+            "gain": 0.0041007954183107705,
+            "wins": 12,
+            "losses": 8,
+            "delta_sd": 0.011156317204016362
+          }
+        }
+      }
+    },
+    "score_by_budget": {},
+    "query_labels_used_for_selection": false,
+    "query_labels_used_for_evaluation": false
+  },
+  {
+    "candidate": "RF600",
+    "development_support_cv": {
+      "mean": 0.760121588427977,
+      "population_sd": 0.02392580678887268,
+      "episodes": 5,
+      "class_f1": [
+        0.801780484862868,
+        0.6627922077922077,
+        0.7614893964483006,
+        0.8144242646085311
+      ],
+      "seconds": 15.353571891784668,
+      "paired": {
+        "ASTRA_AGF": {
+          "gain": -0.006160155159130443,
+          "wins": 1,
+          "losses": 4,
+          "delta_sd": 0.007157452519846422
+        }
+      }
+    },
+    "config": {
+      "trees": 600
+    },
+    "query_label_usage": false,
+    "information_regime": "transductive",
+    "status": "rejected",
+    "reproducibility": "not separately replayed",
+    "score_by_budget": {},
+    "query_labels_used_for_selection": false,
+    "query_labels_used_for_evaluation": false
+  },
+  {
+    "candidate": "ablation:A",
+    "development_support_cv": {
+      "mean": 0.7221945713063025,
+      "population_sd": 0.021714543379944967,
+      "episodes": 5,
+      "class_f1": [
+        0.7678524486266421,
+        0.6169508106742253,
+        0.7229397738047532,
+        0.7810352521195896
+      ],
+      "seconds": 4.981166839599609,
+      "paired": {
+        "EXPF": {
+          "gain": 0.037873110409122515,
+          "wins": 5,
+          "losses": 0,
+          "delta_sd": 0.020860181589895166
+        },
+        "ASTRA_AGF": {
+          "gain": -0.04408717228080481,
+          "wins": 0,
+          "losses": 5,
+          "delta_sd": 0.02291315990901273
+        }
+      }
+    },
+    "config": {
+      "pool": false,
+      "spatial": false,
+      "adaptive": false,
+      "prior": 0.0
+    },
+    "status": "diagnostic",
+    "query_label_usage": false,
+    "query_labels_used_for_selection": false,
+    "query_labels_used_for_evaluation": false,
+    "information_regime": "inductive",
+    "reproducibility": "not separately replayed"
+  },
+  {
+    "candidate": "ablation:A+B",
+    "development_support_cv": {
+      "mean": 0.7307523192039099,
+      "population_sd": 0.04237461549813168,
+      "episodes": 5,
+      "class_f1": [
+        0.7668660228379262,
+        0.6254826369456927,
+        0.7384193487671749,
+        0.7922412682648461
+      ],
+      "seconds": 4.768598556518555,
+      "paired": {
+        "EXPF": {
+          "gain": 0.046430858306729904,
+          "wins": 4,
+          "losses": 1,
+          "delta_sd": 0.03083345612815373
+        },
+        "ASTRA_AGF": {
+          "gain": -0.035529424383197415,
+          "wins": 0,
+          "losses": 5,
+          "delta_sd": 0.022284619219610124
+        }
+      }
+    },
+    "config": {
+      "pool": true,
+      "spatial": false,
+      "adaptive": false,
+      "prior": 0.0
+    },
+    "status": "diagnostic",
+    "query_label_usage": false,
+    "query_labels_used_for_selection": false,
+    "query_labels_used_for_evaluation": false,
+    "information_regime": "transductive",
+    "reproducibility": "not separately replayed"
+  },
+  {
+    "candidate": "ablation:A+B+C",
+    "development_support_cv": {
+      "mean": 0.7454998805969926,
+      "population_sd": 0.03491333376642827,
+      "episodes": 5,
+      "class_f1": [
+        0.7870984956456253,
+        0.6387651014454535,
+        0.7607096762886236,
+        0.7954262490082672
+      ],
+      "seconds": 5.245058298110962,
+      "paired": {
+        "EXPF": {
+          "gain": 0.061178419699812414,
+          "wins": 5,
+          "losses": 0,
+          "delta_sd": 0.02788569706431107
+        },
+        "ASTRA_AGF": {
+          "gain": -0.02078186299011491,
+          "wins": 0,
+          "losses": 5,
+          "delta_sd": 0.014739996343162198
+        }
+      }
+    },
+    "config": {
+      "pool": true,
+      "spatial": true,
+      "adaptive": false,
+      "prior": 0.0
+    },
+    "status": "diagnostic",
+    "query_label_usage": false,
+    "query_labels_used_for_selection": false,
+    "query_labels_used_for_evaluation": false,
+    "information_regime": "transductive",
+    "reproducibility": "not separately replayed"
+  },
+  {
+    "candidate": "ablation:A+B+C+D",
+    "development_support_cv": {
+      "mean": 0.7608881349196162,
+      "population_sd": 0.026659916408882142,
+      "episodes": 5,
+      "class_f1": [
+        0.7907293868921776,
+        0.6746190863672555,
+        0.7654541657173236,
+        0.812749900701708
+      ],
+      "seconds": 5.446470022201538,
+      "paired": {
+        "EXPF": {
+          "gain": 0.07656667402243614,
+          "wins": 5,
+          "losses": 0,
+          "delta_sd": 0.011970676099992118
+        },
+        "ASTRA_AGF": {
+          "gain": -0.00539360866749119,
+          "wins": 0,
+          "losses": 4,
+          "delta_sd": 0.007718316036848674
+        }
+      }
+    },
+    "config": {
+      "pool": true,
+      "spatial": true,
+      "adaptive": true,
+      "prior": 0.0
+    },
+    "status": "diagnostic",
+    "query_label_usage": false,
+    "query_labels_used_for_selection": false,
+    "query_labels_used_for_evaluation": false,
+    "information_regime": "transductive",
+    "reproducibility": "not separately replayed"
+  },
+  {
+    "candidate": "ablation:A+B+D",
+    "development_support_cv": {
+      "mean": 0.7319722912268285,
+      "population_sd": 0.0375895890758035,
+      "episodes": 5,
+      "class_f1": [
+        0.7637473599006388,
+        0.6389794226590191,
+        0.7379445116287221,
+        0.7872178707189337
+      ],
+      "seconds": 4.8552539348602295,
+      "paired": {
+        "EXPF": {
+          "gain": 0.047650830329648494,
+          "wins": 5,
+          "losses": 0,
+          "delta_sd": 0.017629939373056402
+        },
+        "ASTRA_AGF": {
+          "gain": -0.034309452360278825,
+          "wins": 0,
+          "losses": 5,
+          "delta_sd": 0.01594987027948583
+        }
+      }
+    },
+    "config": {
+      "pool": true,
+      "spatial": false,
+      "adaptive": true,
+      "prior": 0.0
+    },
+    "status": "diagnostic",
+    "query_label_usage": false,
+    "query_labels_used_for_selection": false,
+    "query_labels_used_for_evaluation": false,
+    "information_regime": "transductive",
+    "reproducibility": "not separately replayed"
+  },
+  {
+    "candidate": "ablation:A+C",
+    "development_support_cv": {
+      "mean": 0.738429885338076,
+      "population_sd": 0.018284883998124005,
+      "episodes": 5,
+      "class_f1": [
+        0.7947619820404631,
+        0.6312775586953315,
+        0.7419050082207976,
+        0.7857749923957117
+      ],
+      "seconds": 5.395707130432129,
+      "paired": {
+        "EXPF": {
+          "gain": 0.05410842444089596,
+          "wins": 5,
+          "losses": 0,
+          "delta_sd": 0.022612446329438433
+        },
+        "ASTRA_AGF": {
+          "gain": -0.027851858249031358,
+          "wins": 0,
+          "losses": 5,
+          "delta_sd": 0.011297327196969933
+        }
+      }
+    },
+    "config": {
+      "pool": false,
+      "spatial": true,
+      "adaptive": false,
+      "prior": 0.0
+    },
+    "status": "diagnostic",
+    "query_label_usage": false,
+    "query_labels_used_for_selection": false,
+    "query_labels_used_for_evaluation": false,
+    "information_regime": "transductive",
+    "reproducibility": "not separately replayed"
+  },
+  {
+    "candidate": "ablation:A+C+D",
+    "development_support_cv": {
+      "mean": 0.7558918750936438,
+      "population_sd": 0.026482966588255365,
+      "episodes": 5,
+      "class_f1": [
+        0.7982280469428572,
+        0.6750241844190594,
+        0.7459419475941216,
+        0.8043733214185368
+      ],
+      "seconds": 5.3328070640563965,
+      "paired": {
+        "EXPF": {
+          "gain": 0.07157041419646375,
+          "wins": 5,
+          "losses": 0,
+          "delta_sd": 0.030053650563035477
+        },
+        "ASTRA_AGF": {
+          "gain": -0.010389868493463572,
+          "wins": 1,
+          "losses": 4,
+          "delta_sd": 0.013428261077106674
+        }
+      }
+    },
+    "config": {
+      "pool": false,
+      "spatial": true,
+      "adaptive": true,
+      "prior": 0.0
+    },
+    "status": "diagnostic",
+    "query_label_usage": false,
+    "query_labels_used_for_selection": false,
+    "query_labels_used_for_evaluation": false,
+    "information_regime": "transductive",
+    "reproducibility": "not separately replayed"
+  },
+  {
+    "candidate": "ablation:A+D",
+    "development_support_cv": {
+      "mean": 0.7268623026790951,
+      "population_sd": 0.02308335664837406,
+      "episodes": 5,
+      "class_f1": [
+        0.7734618402877647,
+        0.6519867871320741,
+        0.709873769161695,
+        0.7721268141348463
+      ],
+      "seconds": 4.886858701705933,
+      "paired": {
+        "EXPF": {
+          "gain": 0.042540841781914994,
+          "wins": 5,
+          "losses": 0,
+          "delta_sd": 0.01960963736758138
+        },
+        "ASTRA_AGF": {
+          "gain": -0.039419440908012325,
+          "wins": 0,
+          "losses": 5,
+          "delta_sd": 0.005943165392542889
+        }
+      }
+    },
+    "config": {
+      "pool": false,
+      "spatial": false,
+      "adaptive": true,
+      "prior": 0.0
+    },
+    "status": "diagnostic",
+    "query_label_usage": false,
+    "query_labels_used_for_selection": false,
+    "query_labels_used_for_evaluation": false,
+    "information_regime": "inductive",
+    "reproducibility": "not separately replayed"
+  },
+  {
+    "candidate": "ablation:EXPF",
+    "development_support_cv": {
+      "mean": 0.6843214608971799,
+      "population_sd": 0.025614261987940753,
+      "episodes": 5,
+      "class_f1": [
+        0.7148825383685824,
+        0.5734027928131401,
+        0.7021234918457666,
+        0.7468770205612311
+      ],
+      "seconds": 0.02797079086303711,
+      "paired": {
+        "EXPF": {
+          "gain": 0.0,
+          "wins": 0,
+          "losses": 0,
+          "delta_sd": 0.0
+        },
+        "ASTRA_AGF": {
+          "gain": -0.08196028268992732,
+          "wins": 0,
+          "losses": 5,
+          "delta_sd": 0.01792644187078993
+        }
+      }
+    },
+    "config": null,
+    "status": "diagnostic",
+    "query_label_usage": false,
+    "query_labels_used_for_selection": false,
+    "query_labels_used_for_evaluation": false,
+    "information_regime": "inductive",
+    "reproducibility": "not separately replayed"
+  }
+]

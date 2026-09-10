@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "C:\Users\jaswi\Downloads\Hackathon3_StatsGeeks - Copy\working\G4C-INFRA-CERT-004\code\runtime_benchmark.py", line 150, in <module>
+    try:main()
+        ~~~~^^
+  File "C:\Users\jaswi\Downloads\Hackathon3_StatsGeeks - Copy\working\G4C-INFRA-CERT-004\code\runtime_benchmark.py", line 71, in main
+    start=time.perf_counter(); c.preexisting_integrity(); record["phases"]["coordinator_startup_integrity_seconds"]=time.perf_counter()-start
+                               ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\jaswi\Downloads\Hackathon3_StatsGeeks - Copy\working\G4C-INFRA-CERT-004\benchmark_run\coordinator\execution_coordinator.py", line 50, in preexisting_integrity
+    assert all(sha(ROOT/p)==h for p,h in entry['protected_hashes'].items());assert sha(MANIFEST)==MH;assert sha(ROOT/'working/baseline_artifacts/rf_final.pkl')==RFH;assert original_clean()
+                                                                                   ~~~^^^^^^^^^^
+  File "C:\Users\jaswi\Downloads\Hackathon3_StatsGeeks - Copy\working\G4C-INFRA-CERT-004\benchmark_run\coordinator\execution_coordinator.py", line 18, in sha
+    with pathlib.Path(p).open('rb') as f:return hashlib.file_digest(f,'sha256').hexdigest()
+         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python314\Lib\pathlib\__init__.py", line 771, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\working\\working\\gate4_episode_manifest.json'

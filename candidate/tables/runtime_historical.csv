@@ -1,0 +1,21 @@
+method,budget,episodes,mean_wall_seconds,population_sd,episodes_per_second,scope
+ASTRA_AGF,5,200,0.6915330111980438,0.0390749634421555,1.4460625650647592,historical combined per-call fit/predict; cached source; no CPU or RSS instrumentation
+ASTRA_AGF,25,200,0.8089962971210479,0.042309778750920485,1.2360996008988812,historical combined per-call fit/predict; cached source; no CPU or RSS instrumentation
+ASTRA_AGF,50,200,0.864787859916687,0.049480116854755805,1.1563529581651844,historical combined per-call fit/predict; cached source; no CPU or RSS instrumentation
+ASTRA_AGF,100,200,0.9309950220584869,0.05551637923394527,1.0741195992530002,historical combined per-call fit/predict; cached source; no CPU or RSS instrumentation
+ASTRA_AGF,200,200,1.122916579246521,0.052672627271035076,0.8905381027244266,historical combined per-call fit/predict; cached source; no CPU or RSS instrumentation
+Coordinate_RF,5,200,0.701838686466217,0.038307091798580994,1.4248288378559408,historical combined per-call fit/predict; cached source; no CPU or RSS instrumentation
+Coordinate_RF,25,200,0.8180096340179444,0.04311180709374678,1.2224794897440823,historical combined per-call fit/predict; cached source; no CPU or RSS instrumentation
+Coordinate_RF,50,200,0.8670179164409637,0.06603753640136463,1.1533787030663871,historical combined per-call fit/predict; cached source; no CPU or RSS instrumentation
+Coordinate_RF,100,200,0.9342054355144501,0.04841079355337607,1.070428368305648,historical combined per-call fit/predict; cached source; no CPU or RSS instrumentation
+Coordinate_RF,200,200,1.111583923101425,0.044322899487728856,0.8996171851873358,historical combined per-call fit/predict; cached source; no CPU or RSS instrumentation
+EXP010,5,200,0.022078797817230225,0.0065913465086408635,45.29232108913118,historical combined per-call fit/predict; cached source; no CPU or RSS instrumentation
+EXP010,25,200,0.028952890634536745,0.008334370572840685,34.53886565672099,historical combined per-call fit/predict; cached source; no CPU or RSS instrumentation
+EXP010,50,200,0.02750840187072754,0.005671720294912796,36.3525298452226,historical combined per-call fit/predict; cached source; no CPU or RSS instrumentation
+EXP010,100,200,0.02809244632720947,0.0062840566704189275,35.59675751810304,historical combined per-call fit/predict; cached source; no CPU or RSS instrumentation
+EXP010,200,200,0.027863736152648925,0.006313691036845814,35.8889416165008,historical combined per-call fit/predict; cached source; no CPU or RSS instrumentation
+EXPF,5,200,0.05387370944023132,0.013277672676298207,18.56192956435313,historical combined per-call fit/predict; cached source; no CPU or RSS instrumentation
+EXPF,25,200,0.08293232321739197,0.015001048316046215,12.058024678492151,historical combined per-call fit/predict; cached source; no CPU or RSS instrumentation
+EXPF,50,200,0.08072400689125062,0.013079993287857415,12.387888541597983,historical combined per-call fit/predict; cached source; no CPU or RSS instrumentation
+EXPF,100,200,0.08085888504981995,0.01205454803594686,12.36722469502103,historical combined per-call fit/predict; cached source; no CPU or RSS instrumentation
+EXPF,200,200,0.08334508895874024,0.014672992927288887,11.998307428708216,historical combined per-call fit/predict; cached source; no CPU or RSS instrumentation

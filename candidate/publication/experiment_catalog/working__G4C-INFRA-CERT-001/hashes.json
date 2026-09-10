@@ -1,0 +1,7 @@
+{
+  "working/G4C-INFRA-CERT-001/artifact_hash_manifest.json": "cab72591cb11b62e1377c63616b18b5f91c53e44990c173a7488ccbebcca3ced",
+  "working/G4C-INFRA-CERT-001/certification.json": "8fd2f59178477d472fc1bc991248cf19e755cd53f6f5035d8351e7d3aab9e8a6",
+  "working/G4C-INFRA-CERT-001/CERTIFICATION_REPORT.md": "70084eb3173af04fc29237b5e50172a2d513315aac81dc3e4935724af815433b",
+  "working/G4C-INFRA-CERT-001/certify_preflight.py": "78ba671a15abe19a2f96df3f83d71ec302be38994115b255badb424c0ad62e1d",
+  "working/G4C-INFRA-CERT-001/preflight.log": "8fd2f59178477d472fc1bc991248cf19e755cd53f6f5035d8351e7d3aab9e8a6"
+}

@@ -1,0 +1,9 @@
+{
+  "paths": [
+    "candidate/experiments_2h/expF_covariance/configuration.json",
+    "candidate/experiments_2h/expF_covariance/configuration_repeat.json",
+    "candidate/experiments_2h/expF_covariance/spatial/configuration.json",
+    "candidate/experiments_2h/expF_covariance/spatial/configuration_repeat.json"
+  ],
+  "status": "indexed"
+}

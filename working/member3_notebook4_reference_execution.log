@@ -1,0 +1,9 @@
+STATUS: PASS
+SOURCE: C:\Users\jaswi\Downloads\Hackathon3_StatsGeeks - Copy\working\4-Modelling_member3_reference.ipynb
+SOURCE_SHA256: 709fa081f33186253715e1cd525b5d2a7c8b7a05259855fc72f137c9233551ae
+OUTPUT: C:\Users\jaswi\Downloads\Hackathon3_StatsGeeks - Copy\working\4-Modelling_member3_reference_executed.ipynb
+OUTPUT_SHA256: 37761873bc8d9ef57b13515b66ed636d400830b0b186cf25d55b41ccb3fc208e
+PYTHON: C:\Users\jaswi\AppData\Local\Programs\Python\Python311\python.exe
+KERNEL_COMMAND: ['C:\\Users\\jaswi\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', '-m', 'ipykernel_launcher', '-f', '{connection_file}']
+CWD: C:\Users\jaswi\Downloads\Hackathon3_StatsGeeks - Copy\working
+ELAPSED_SECONDS: 1161.215

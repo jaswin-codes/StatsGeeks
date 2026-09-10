@@ -1,0 +1,14 @@
+{
+  "paths": [
+    "working/G4C-INFRA-CERT-003/evidence/independent_audit.log",
+    "working/G4C-INFRA-CERT-003/evidence/npz_forensics_linux.log",
+    "working/G4C-INFRA-CERT-003/evidence/npz_forensics_linux_final.log",
+    "working/G4C-INFRA-CERT-003/evidence/npz_forensics_windows.log",
+    "working/G4C-INFRA-CERT-003/evidence/npz_forensics_windows_final.log",
+    "working/G4C-INFRA-CERT-003/evidence/offline_equivalence.log",
+    "working/G4C-INFRA-CERT-003/evidence/payload_tests.log",
+    "working/G4C-INFRA-CERT-003/evidence/producer_byte_replay.log",
+    "working/G4C-INFRA-CERT-003/evidence/validator_19_tests.log"
+  ],
+  "status": "indexed"
+}

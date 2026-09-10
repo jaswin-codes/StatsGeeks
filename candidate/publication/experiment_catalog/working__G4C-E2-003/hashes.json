@@ -1,0 +1,15 @@
+{
+  "working/G4C-E2-003/artifact_hash_manifest.json": "bb88bb5093e33da774023d8e31b280e4e67ea399d6556d03c3d642fd1f3e2d7f",
+  "working/G4C-E2-003/E2_EXECUTION_REPORT.md": "792a3f841576e339dd0a09446eb40f4b104f2831b0575bf335e69f216e37a375",
+  "working/G4C-E2-003/PREPARATION_REPORT.md": "c54c485e0e06a16af74b705b73db3b30775bac5d0a3c4c281d8e7e2ab8cae7a7",
+  "working/G4C-E2-003/checkpoint/execution_authorization.json": "7d2ed2fc78b9c999658131a995064d59ff32e00a30ae5a670922759b7291ab33",
+  "working/G4C-E2-003/checkpoint/preflight.json": "ac7ddaa0b7d2391a57d6767c82942132e0cd74b1f877aebb4de8aa3ab83e9b51",
+  "working/G4C-E2-003/coordinator/contract.json": "5bb05d2ffa8d4343bc1832291b30f274cd7a0c7718a3a99bb56b5862e415da9e",
+  "working/G4C-E2-003/coordinator/coordinator.py": "22d4487cf8c6caa457945d2ced175e39ed146f7d0c67b04884769fbef0d9c4d1",
+  "working/G4C-E2-003/coordinator/execution_coordinator.py": "36a5f6ecb08419a1dfde61eab61c03645e9013ae00a31ae8e06da21580dfe78c",
+  "working/G4C-E2-003/coordinator/independent_verifier.py": "c67bf77ba6ca0f0d72062573bb4b1b6ac6dc02b8036ea250c0ffa17adb8f27e2",
+  "working/G4C-E2-003/coordinator/integrity_policy.py": "f1c5c75eed9cb7b631a4320aefcf7b751aad7ef0e09e91cef4f203ba3f4f639a",
+  "working/G4C-E2-003/results/execution.log": "f321d468cac9091accde203c39a2369713f10857dc8785c6de806cf413088c1e",
+  "working/G4C-E2-003/results/EXECUTION_STOP_REASON.md": "1ce7f9750f57c241506d6139358114973fa615f549be137a71a8d53bdb99f2bf",
+  "working/G4C-E2-003/results/independent_stop_audit.json": "44ee6b7908f41e686d43234268bda29409b5ad6a43b3441e2e1dd72dbc33acd2"
+}

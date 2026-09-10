@@ -1,0 +1,52 @@
+budget 5
+budget 25
+budget 50
+budget 100
+budget 200
+{
+  "5": {
+    "mean": 0.6567892694394957,
+    "sd": 0.008917530364020685,
+    "delta_vs_EXP010": 0.07223270546669212,
+    "delta_vs_competitor": -0.005935464120905459,
+    "paired_competitor_wins": 4,
+    "paired_competitor_losses": 16,
+    "paired_competitor_ties": 0
+  },
+  "25": {
+    "mean": 0.6798575328400946,
+    "sd": 0.014316532164035826,
+    "delta_vs_EXP010": 0.07395325962026496,
+    "delta_vs_competitor": 0.002998867555000434,
+    "paired_competitor_wins": 9,
+    "paired_competitor_losses": 11,
+    "paired_competitor_ties": 0
+  },
+  "50": {
+    "mean": 0.6951487859326322,
+    "sd": 0.0077162462835892,
+    "delta_vs_EXP010": 0.0806349677786968,
+    "delta_vs_competitor": -0.006755107799208682,
+    "paired_competitor_wins": 1,
+    "paired_competitor_losses": 19,
+    "paired_competitor_ties": 0
+  },
+  "100": {
+    "mean": 0.7125677606689875,
+    "sd": 0.010724082510420901,
+    "delta_vs_EXP010": 0.08719345132388716,
+    "delta_vs_competitor": -0.007619670251576343,
+    "paired_competitor_wins": 2,
+    "paired_competitor_losses": 18,
+    "paired_competitor_ties": 0
+  },
+  "200": {
+    "mean": 0.7373876751115922,
+    "sd": 0.006338533871037164,
+    "delta_vs_EXP010": 0.11217752378984817,
+    "delta_vs_competitor": 0.0009951962140822446,
+    "paired_competitor_wins": 13,
+    "paired_competitor_losses": 7,
+    "paired_competitor_ties": 0
+  }
+}

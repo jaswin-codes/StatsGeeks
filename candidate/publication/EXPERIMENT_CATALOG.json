@@ -1,0 +1,312 @@
+[
+  {
+    "path": "candidate/autonomous_runs/20260909_1727",
+    "sidecar": "candidate/publication/experiment_catalog/candidate__autonomous_runs__20260909_1727",
+    "files": 1223,
+    "missing_roles": []
+  },
+  {
+    "path": "candidate/experiments_agf",
+    "sidecar": "candidate/publication/experiment_catalog/candidate__experiments_agf",
+    "files": 39,
+    "missing_roles": [
+      "logs"
+    ]
+  },
+  {
+    "path": "candidate/experiments_2h",
+    "sidecar": "candidate/publication/experiment_catalog/candidate__experiments_2h",
+    "files": 123,
+    "missing_roles": []
+  },
+  {
+    "path": "candidate/experiments_2h_v2",
+    "sidecar": "candidate/publication/experiment_catalog/candidate__experiments_2h_v2",
+    "files": 208,
+    "missing_roles": []
+  },
+  {
+    "path": "candidate/experiments_2h/expA_source_local",
+    "sidecar": "candidate/publication/experiment_catalog/candidate__experiments_2h__expA_source_local",
+    "files": 10,
+    "missing_roles": [
+      "logs",
+      "metadata"
+    ]
+  },
+  {
+    "path": "candidate/experiments_2h/expB_dim_shrink",
+    "sidecar": "candidate/publication/experiment_catalog/candidate__experiments_2h__expB_dim_shrink",
+    "files": 11,
+    "missing_roles": [
+      "logs",
+      "metadata"
+    ]
+  },
+  {
+    "path": "candidate/experiments_2h/expC_class_diagnostic",
+    "sidecar": "candidate/publication/experiment_catalog/candidate__experiments_2h__expC_class_diagnostic",
+    "files": 11,
+    "missing_roles": [
+      "logs",
+      "metadata"
+    ]
+  },
+  {
+    "path": "candidate/experiments_2h/expD_spatial",
+    "sidecar": "candidate/publication/experiment_catalog/candidate__experiments_2h__expD_spatial",
+    "files": 10,
+    "missing_roles": [
+      "logs",
+      "metadata"
+    ]
+  },
+  {
+    "path": "candidate/experiments_2h/expE_temporal",
+    "sidecar": "candidate/publication/experiment_catalog/candidate__experiments_2h__expE_temporal",
+    "files": 9,
+    "missing_roles": [
+      "logs",
+      "metadata"
+    ]
+  },
+  {
+    "path": "candidate/experiments_2h/expF_covariance",
+    "sidecar": "candidate/publication/experiment_catalog/candidate__experiments_2h__expF_covariance",
+    "files": 38,
+    "missing_roles": [
+      "logs",
+      "metadata"
+    ]
+  },
+  {
+    "path": "candidate/experiments_2h/expG_transductive",
+    "sidecar": "candidate/publication/experiment_catalog/candidate__experiments_2h__expG_transductive",
+    "files": 1,
+    "missing_roles": [
+      "configuration",
+      "results",
+      "logs",
+      "metadata"
+    ]
+  },
+  {
+    "path": "working/G4A-PRODUCTION-001",
+    "sidecar": "candidate/publication/experiment_catalog/working__G4A-PRODUCTION-001",
+    "files": 17,
+    "missing_roles": [
+      "configuration",
+      "results",
+      "logs"
+    ]
+  },
+  {
+    "path": "working/G4A-TEARDOWN-002",
+    "sidecar": "candidate/publication/experiment_catalog/working__G4A-TEARDOWN-002",
+    "files": 55,
+    "missing_roles": [
+      "configuration",
+      "results",
+      "logs"
+    ]
+  },
+  {
+    "path": "working/G4B-E1-001",
+    "sidecar": "candidate/publication/experiment_catalog/working__G4B-E1-001",
+    "files": 146,
+    "missing_roles": [
+      "configuration"
+    ]
+  },
+  {
+    "path": "working/G4C-E2-001",
+    "sidecar": "candidate/publication/experiment_catalog/working__G4C-E2-001",
+    "files": 7,
+    "missing_roles": [
+      "configuration",
+      "results",
+      "logs"
+    ]
+  },
+  {
+    "path": "working/G4C-E2-002",
+    "sidecar": "candidate/publication/experiment_catalog/working__G4C-E2-002",
+    "files": 9,
+    "missing_roles": [
+      "configuration",
+      "results",
+      "logs"
+    ]
+  },
+  {
+    "path": "working/G4C-E2-003",
+    "sidecar": "candidate/publication/experiment_catalog/working__G4C-E2-003",
+    "files": 13,
+    "missing_roles": [
+      "configuration",
+      "results"
+    ]
+  },
+  {
+    "path": "working/G4C-E2-004",
+    "sidecar": "candidate/publication/experiment_catalog/working__G4C-E2-004",
+    "files": 20,
+    "missing_roles": [
+      "configuration",
+      "results"
+    ]
+  },
+  {
+    "path": "working/G4C-E2-005",
+    "sidecar": "candidate/publication/experiment_catalog/working__G4C-E2-005",
+    "files": 18,
+    "missing_roles": [
+      "configuration",
+      "results"
+    ]
+  },
+  {
+    "path": "working/G4C-E2-006",
+    "sidecar": "candidate/publication/experiment_catalog/working__G4C-E2-006",
+    "files": 88,
+    "missing_roles": [
+      "configuration",
+      "results"
+    ]
+  },
+  {
+    "path": "working/G4C-E2-007",
+    "sidecar": "candidate/publication/experiment_catalog/working__G4C-E2-007",
+    "files": 18,
+    "missing_roles": [
+      "configuration",
+      "results"
+    ]
+  },
+  {
+    "path": "working/G4C-E2-008",
+    "sidecar": "candidate/publication/experiment_catalog/working__G4C-E2-008",
+    "files": 210,
+    "missing_roles": [
+      "configuration"
+    ]
+  },
+  {
+    "path": "working/G4C-E3-001",
+    "sidecar": "candidate/publication/experiment_catalog/working__G4C-E3-001",
+    "files": 178,
+    "missing_roles": [
+      "configuration",
+      "results"
+    ]
+  },
+  {
+    "path": "working/G4C-E3-002",
+    "sidecar": "candidate/publication/experiment_catalog/working__G4C-E3-002",
+    "files": 235,
+    "missing_roles": [
+      "configuration"
+    ]
+  },
+  {
+    "path": "working/G4C-INFRA-CERT-001",
+    "sidecar": "candidate/publication/experiment_catalog/working__G4C-INFRA-CERT-001",
+    "files": 5,
+    "missing_roles": [
+      "configuration",
+      "results"
+    ]
+  },
+  {
+    "path": "working/G4C-INFRA-CERT-002",
+    "sidecar": "candidate/publication/experiment_catalog/working__G4C-INFRA-CERT-002",
+    "files": 14,
+    "missing_roles": [
+      "configuration",
+      "results"
+    ]
+  },
+  {
+    "path": "working/G4C-INFRA-CERT-003",
+    "sidecar": "candidate/publication/experiment_catalog/working__G4C-INFRA-CERT-003",
+    "files": 55,
+    "missing_roles": [
+      "configuration"
+    ]
+  },
+  {
+    "path": "working/G4C-INFRA-CERT-004",
+    "sidecar": "candidate/publication/experiment_catalog/working__G4C-INFRA-CERT-004",
+    "files": 63,
+    "missing_roles": [
+      "configuration",
+      "results"
+    ]
+  },
+  {
+    "path": "working/G4C-INFRA-FD-001",
+    "sidecar": "candidate/publication/experiment_catalog/working__G4C-INFRA-FD-001",
+    "files": 12,
+    "missing_roles": [
+      "configuration",
+      "logs"
+    ]
+  },
+  {
+    "path": "working/G4C-INFRA-PERF-001",
+    "sidecar": "candidate/publication/experiment_catalog/working__G4C-INFRA-PERF-001",
+    "files": 20,
+    "missing_roles": [
+      "configuration",
+      "results"
+    ]
+  },
+  {
+    "path": "working/G4C-INFRA-PICKLE-001",
+    "sidecar": "candidate/publication/experiment_catalog/working__G4C-INFRA-PICKLE-001",
+    "files": 6,
+    "missing_roles": [
+      "configuration",
+      "results"
+    ]
+  },
+  {
+    "path": "working/G4C-METADATA-AUDIT-002",
+    "sidecar": "candidate/publication/experiment_catalog/working__G4C-METADATA-AUDIT-002",
+    "files": 23,
+    "missing_roles": [
+      "configuration",
+      "logs"
+    ]
+  },
+  {
+    "path": "working/G4C-PREFLIGHT-001",
+    "sidecar": "candidate/publication/experiment_catalog/working__G4C-PREFLIGHT-001",
+    "files": 4,
+    "missing_roles": [
+      "configuration",
+      "results",
+      "logs"
+    ]
+  },
+  {
+    "path": "working/G4C-PROVENANCE-CHECKPOINT",
+    "sidecar": "candidate/publication/experiment_catalog/working__G4C-PROVENANCE-CHECKPOINT",
+    "files": 13,
+    "missing_roles": [
+      "configuration",
+      "results",
+      "logs"
+    ]
+  },
+  {
+    "path": "working/G4C-PROVENANCE-CHECKPOINT-002",
+    "sidecar": "candidate/publication/experiment_catalog/working__G4C-PROVENANCE-CHECKPOINT-002",
+    "files": 14,
+    "missing_roles": [
+      "configuration",
+      "results",
+      "logs"
+    ]
+  }
+]

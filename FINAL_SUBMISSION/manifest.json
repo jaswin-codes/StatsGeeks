@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "model_display_name": "Coordinate-RF",
+  "frozen_model_id": "Coordinate_RF",
+  "source_package": "candidate/final_submission",
+  "training_executed": false,
+  "scope": "Every package file except manifest.json and checksums.sha256. Checksums cover manifest; self excluded.",
+  "notebook_derivation": "Dependency prefixes evidence/ and tables/ moved under model/; Markdown references updated only. Outputs and metadata unchanged.",
+  "historical_receipts": "model/evidence receipts and SHA256SUMS describe the original package, not this relocation.",
+  "files": {
+    "model/agf_model.py": {
+      "sha256": "26b2299ad50dcf935fb8bc1a89d4e79f82cf2c68881619a6eaf1330f813a7533",
+      "bytes": 5531,
+      "source": "candidate/final_submission/model/agf_model.py"
+    },
+    "model/configuration.json": {
+      "sha256": "634bb266e1b4853966184d2802351dedad5f2d57747e5edff82217d9d9db4709",
+      "bytes": 792,
+      "source": "candidate/final_submission/model/configuration.json"
+    },
+    "model/evidence/final_complete.json": {
+      "sha256": "d672e9319d794b00101821d1382a2a6543580d513d3eecf35dbc0c0a9bd65166",
+      "bytes": 5308777,
+      "source": "candidate/final_submission/evidence/final_complete.json"
+    },
+    "model/evidence/PREFLIGHT.json": {
+      "sha256": "679e1427be06ee79a83fcd7f5b8b6315918f7e71bc769941b751442c92a5714c",
+      "bytes": 1068,
+      "source": "candidate/final_submission/evidence/PREFLIGHT.json"
+    },
+    "model/evidence/SHA256SUMS.txt": {
+      "sha256": "e00b60e6e474d1519c0a138524f9259fff7e599c971cdabe45a3400528675f2b",
+      "bytes": 17095,
+      "source": "candidate/final_submission/evidence/SHA256SUMS.txt"
+    },
+    "model/evidence/SOURCE_REFIT.json": {
+      "sha256": "cb1141ada57ed0c75ecc5e4a0c3c59491957d30d0ee36072b34c9c3edd7daffd",
+      "bytes": 2056,
+      "source": "candidate/final_submission/evidence/SOURCE_REFIT.json"
+    },
+    "model/INFERENCE_MANIFEST.json": {
+      "sha256": "5c087def9eb510a56bb45642907894467a355cd164fdc75df3c8e0b890433e66",
+      "bytes": 1691,
+      "source": "candidate/final_submission/model/INFERENCE_MANIFEST.json"
+    },
+    "model/pool_state.pkl": {
+      "sha256": "b975db430b4a00d1c90d59d10a76ef11a6c3727be42e22f41bec49a6f6c28007",
+      "bytes": 36419098,
+      "source": "candidate/final_submission/model/pool_state.pkl"
+    },
+    "model/provenance.json": {
+      "sha256": "11fbe5f50cef2559374d706981ed592d7f834faea40613bdf74783861cb59745",
+      "bytes": 1913,
+      "source": "candidate/final_submission/model/provenance.json"
+    },
+    "model/reports/METHODS.md": {
+      "sha256": "e712cceda0e4513f2109544e7f08dd5f4b45db16c5b293cc926df5e5d6c416c6",
+      "bytes": 2325,
+      "source": "candidate/final_submission/reports/METHODS.md"
+    },
+    "model/reproduce_best.py": {
+      "sha256": "97b0cb16cda8cac2364de1f8387dfa4513279ef4f279b2d7f241234407736c0c",
+      "bytes": 3467,
+      "source": "candidate/final_submission/model/reproduce_best.py"
+    },
+    "model/requirements-repro.txt": {
+      "sha256": "1098f01fa97cf703e90adada1fedee9c631a8095d9f0ee60161e70c43a3bcbc9",
+      "bytes": 72,
+      "source": "candidate/final_submission/model/requirements-repro.txt"
+    },
+    "model/SELECTION_LOCK.json": {
+      "sha256": "ad3e9d6805a58563a9ddadff1b9be81ff90491c7dd160425e441877bcc8029f4",
+      "bytes": 1508,
+      "source": "candidate/final_submission/model/SELECTION_LOCK.json"
+    },
+    "model/tables/spatial.csv": {
+      "sha256": "cb418c30eb286e0a1ccc75130e940a2a63b9b15b0cf01ab11d507234b75cf318",
+      "bytes": 3828,
+      "source": "candidate/final_submission/tables/spatial.csv"
+    },
+    "model/verification_inputs/b100.npz": {
+      "sha256": "f36aad23b15a17e95fd1f482c9f62af5a63215a41129e2a8880368629229344c",
+      "bytes": 44560,
+      "source": "candidate/final_submission/model/verification_inputs/b100.npz"
+    },
+    "model/verification_inputs/b200.npz": {
+      "sha256": "9a056273efc1f98a190e861cb1eb53051d9c09628d509e91f1cf4758871db824",
+      "bytes": 44899,
+      "source": "candidate/final_submission/model/verification_inputs/b200.npz"
+    },
+    "model/verification_inputs/b25.npz": {
+      "sha256": "1b8d61b81a049670a37858bb4bdfd8179631ce2f1dc44debd148dcb183dcdc06",
+      "bytes": 44695,
+      "source": "candidate/final_submission/model/verification_inputs/b25.npz"
+    },
+    "model/verification_inputs/b5.npz": {
+      "sha256": "00e219070396704b4bad0516482e773579e5a8e5599f109ea80cb9388469e8d9",
+      "bytes": 44699,
+      "source": "candidate/final_submission/model/verification_inputs/b5.npz"
+    },
+    "model/verification_inputs/b50.npz": {
+      "sha256": "a6f760df442cb435dca608ae0c9b4c31d3e06231ae498065fa04e47db5fdf6e8",
+      "bytes": 44562,
+      "source": "candidate/final_submission/model/verification_inputs/b50.npz"
+    },
+    "presentation.pdf": {
+      "sha256": "7f4cde9bcb65d0df28d2a937104ca6880606c30143ced58934f0b993def89be7",
+      "bytes": 653617,
+      "source": "PowerPoint PDF export from approved presentation.pptx; no PDF supplied in intake"
+    },
+    "presentation.pptx": {
+      "sha256": "0e4e6ce813c99cfe8429e8e0929fbde831e6fe614b0fea069b338f271141d904",
+      "bytes": 433087,
+      "source": "Approved intake: Coordinate_RF_Presentation_FINAL.pptx; unchanged bytes"
+    },
+    "README.md": {
+      "sha256": "26fabfef126485ec28cc335345fc6b358c5fd4345f4f97ece8c645eae959b2ca",
+      "bytes": 6489,
+      "source": "Final synchronization navigation documentation"
+    },
+    "reproduce.py": {
+      "sha256": "05a442eb9f936e4ee5e372ea8d48db1fce871e65e89fdf0b491cf0b659524b93",
+      "bytes": 531,
+      "source": "new documentation, wrapper, requirements or path-only notebook derivative"
+    },
+    "requirements.txt": {
+      "sha256": "761e0a7604222e2b1704bc1fd584fde198cdc67250e6fb4192d218ba4b096bb5",
+      "bytes": 397,
+      "source": "new documentation, wrapper, requirements or path-only notebook derivative"
+    },
+    "results_summary/leaderboard.csv": {
+      "sha256": "901b2121839fab6d5c53a3c058638d7b6938882079d9f9cada74d8cf4547aa33",
+      "bytes": 723,
+      "source": "candidate/final_submission/tables/leaderboard.csv"
+    },
+    "results_summary/learning_curve.csv": {
+      "sha256": "52eb8c1e7f743b343e850d793165f04d6d0d411e544fe5e6d6e4fe255b120594",
+      "bytes": 3209,
+      "source": "candidate/final_submission/tables/learning_curve.csv"
+    },
+    "results_summary/LOCKED_REPORT.md": {
+      "sha256": "1544ae735a36ffc74fa047f62f89513ddb47771785b6064cb8c7d32108995df7",
+      "bytes": 3603,
+      "source": "candidate/final_submission/reports/FINAL_REPORT.md"
+    },
+    "results_summary/README.md": {
+      "sha256": "90232758be4a22c8fdb7ea9f9c84b3f818d053c2acc383802d6dcf446a0ead7b",
+      "bytes": 1060,
+      "source": "new documentation, wrapper, requirements or path-only notebook derivative"
+    },
+    "solution_notebook.ipynb": {
+      "sha256": "4a6cada153c8fe8a45e7f0ab5baf5688036f535a40aa7595bfeca1f69844a897",
+      "bytes": 17772,
+      "source": "new documentation, wrapper, requirements or path-only notebook derivative"
+    },
+    "written_explanation/written_justification.txt": {
+      "sha256": "56124db9d6c495e0ee5a5bbfc0493bce010131c2da2f5eeffb449933cbdd9fa2",
+      "bytes": 2607,
+      "source": "Approved intake: Written_Justification_Revised.txt; unchanged bytes"
+    },
+    "assets/pixel_prophets_logo.png": {
+      "sha256": "e116d4e24482ef44f10abea825156786da643d3d94f4ea9e4fb59d290c71962f",
+      "bytes": 48441,
+      "source": "Approved intake: pixel_prophets_logo.png; unchanged bytes"
+    }
+  }
+}

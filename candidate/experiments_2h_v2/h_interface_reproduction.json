@@ -1,0 +1,6 @@
+{
+  "pass": true,
+  "exact_episode_arrays": 30,
+  "inductive_query_batch_invariance_checks": 20,
+  "target_pool_statistics": false
+}

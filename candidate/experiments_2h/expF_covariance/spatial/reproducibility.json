@@ -1,0 +1,7 @@
+{
+  "pass": true,
+  "exact_prediction_arrays_checked": 300,
+  "episodes_equal": true,
+  "command": "python -I -B candidate/experiments_2h/spatial_f.py --repeat",
+  "runtime_seconds": 8.01845179999873
+}

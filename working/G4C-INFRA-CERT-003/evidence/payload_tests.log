@@ -1,0 +1,28 @@
+test_all_example_order (__main__.PayloadTests.test_all_example_order) ... ok
+test_artifact_hash_remains_required (__main__.PayloadTests.test_artifact_hash_remains_required) ... ok
+test_bound_episode_identity (__main__.PayloadTests.test_bound_episode_identity) ... ok
+test_change_class_label (__main__.PayloadTests.test_change_class_label) ... ok
+test_change_prediction_value (__main__.PayloadTests.test_change_prediction_value) ... ok
+test_class_mapping_permutation (__main__.PayloadTests.test_class_mapping_permutation) ... ok
+test_container_metadata_does_not_fake_file_identity (__main__.PayloadTests.test_container_metadata_does_not_fake_file_identity) ... ok
+test_cross_run_substitution_even_identical_bytes (__main__.PayloadTests.test_cross_run_substitution_even_identical_bytes) ... ok
+test_dtype (__main__.PayloadTests.test_dtype) ... ok
+test_duplicate_zip_member (__main__.PayloadTests.test_duplicate_zip_member) ... ok
+test_endianness (__main__.PayloadTests.test_endianness) ... ok
+test_example_identifier (__main__.PayloadTests.test_example_identifier) ... ok
+test_extra_array (__main__.PayloadTests.test_extra_array) ... ok
+test_inf (__main__.PayloadTests.test_inf) ... ok
+test_member_order (__main__.PayloadTests.test_member_order) ... ok
+test_nan (__main__.PayloadTests.test_nan) ... ok
+test_npy_storage_order (__main__.PayloadTests.test_npy_storage_order) ... ok
+test_pickle_object_array (__main__.PayloadTests.test_pickle_object_array) ... ok
+test_prediction_order (__main__.PayloadTests.test_prediction_order) ... ok
+test_remove_array (__main__.PayloadTests.test_remove_array) ... ok
+test_repeat_serialization_deterministic (__main__.PayloadTests.test_repeat_serialization_deterministic) ... ok
+test_shape (__main__.PayloadTests.test_shape) ... ok
+test_valid_exact_payload (__main__.PayloadTests.test_valid_exact_payload) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 1.717s
+
+OK

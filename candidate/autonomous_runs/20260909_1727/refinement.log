@@ -1,0 +1,7 @@
+17:41:44 refinement Extra_sqrt: support CV 0.760380
+17:41:50 refinement Extra_coordinates: support CV 0.769610
+17:42:01 refinement Forest_ensemble: support CV 0.770286
+17:42:12 refinement Coordinate_ensemble: support CV 0.765968
+17:42:28 refinement RF600: support CV 0.760122
+17:42:44 refinement Extra600: support CV 0.765177
+17:42:49 refinement Extra_leaf2: support CV 0.756281

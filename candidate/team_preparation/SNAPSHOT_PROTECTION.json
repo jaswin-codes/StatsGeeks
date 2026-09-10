@@ -1,0 +1,18 @@
+{
+  "acl_returncode": 0,
+  "acl_stdout": "processed file: C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\candidate\\SUBMISSION_SAFETY_SNAPSHOT\nSuccessfully processed 1 files; Failed processing 0 files\n",
+  "acl_stderr": "",
+  "extra_files_after_seal": [
+    "Open Notebook.onetoc2",
+    "deliverables_20260909T190850Z/Open Notebook.onetoc2",
+    "deliverables_20260909T190850Z/code/Open Notebook.onetoc2",
+    "deliverables_20260909T190850Z/justification/Open Notebook.onetoc2",
+    "deliverables_20260909T190850Z/model/Open Notebook.onetoc2",
+    "deliverables_20260909T190850Z/presentation/Open Notebook.onetoc2",
+    "deliverables_20260909T190850Z/working/Open Notebook.onetoc2"
+  ],
+  "extra_files_removed": false,
+  "reason": "Background OneNote metadata appeared after seal; payload unchanged, clean ZIP remains authoritative. No snapshot file content touched.",
+  "protection": "Inherited current-user deny data/append/attributes/delete, without generic-write synchronize denial; readable. Owner/admin may reverse ACL.",
+  "recovery_note": "Initial generic W,D denied directory access; replaced only ACL metadata with granular rights. No snapshot content changed."
+}

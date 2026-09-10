@@ -1,0 +1,20 @@
+Exit code: 2
+STDOUT
+docs/SUBMISSION_INVENTORY.md:3: trailing whitespace.
++**Primary scientific result:** EXP-010  
+docs/SUBMISSION_INVENTORY.md:4: trailing whitespace.
++**Safe headline:** 45/50 paired wins  
+docs/WRITTEN_JUSTIFICATION.md:3: trailing whitespace.
++**StatsGeeks â€” Madrid â†’ Amsterdam few-shot building-age transfer**  
+docs/member4_phase1_judging_pack.md:3: trailing whitespace.
++**Frozen headline:** EXP-010, 45/50 paired wins.  
+docs/member4_presentation_outline.md:3: trailing whitespace.
++**Primary result:** EXP-010. **Safe headline:** 45/50 paired wins.  
+
+STDERR
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/PROJECT_SUMMARY.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/SUBMISSION_INVENTORY.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/WRITTEN_JUSTIFICATION.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/member4_phase1_judging_pack.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/member4_presentation_outline.md', LF will be replaced by CRLF the next time Git touches it

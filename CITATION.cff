@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite this repository and the Git commit recorded in its reproducibility bundle."
+title: "StatsGeeks: Frozen Coordinate_RF building-age transfer learning"
+type: software
+authors:
+  - family-names: "StatsGeeks team"
+repository-code: "https://github.com/jaswin-codes/StatsGeeks"
+abstract: "Publication evidence and frozen-model reproducibility for Madrid-to-Amsterdam building-age classification."

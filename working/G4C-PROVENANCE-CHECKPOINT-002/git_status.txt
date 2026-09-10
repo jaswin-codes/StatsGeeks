@@ -1,0 +1,111 @@
+ M "Open Notebook.onetoc2"
+ M "data/Open Notebook.onetoc2"
+ M docs/DECISION_REGISTER.md
+ M docs/MASTER_PLAN.md
+ M "docs/Open Notebook.onetoc2"
+ M docs/TEAM_LOG.md
+ M docs/member1_log.md
+ M docs/member2_log.md
+ M docs/member3_log.md
+ M docs/member4_log.md
+ M "models/Open Notebook.onetoc2"
+ M "presentation/Open Notebook.onetoc2"
+ M "submission/Open Notebook.onetoc2"
+ M "working/Open Notebook.onetoc2"
+?? docs/member3_baseline_discrepancy_audit.md
+?? docs/member3_modelling_readiness.md
+?? docs/member4_evidence_inventory.md
+?? docs/member4_phase1_judging_pack.md
+?? docs/member4_presentation_outline.md
+?? nul
+?? working/3-Preprocessing_member2_baseline.ipynb
+?? working/3-Preprocessing_member2_baseline_executed.ipynb
+?? working/4-Modelling_member3_reference.ipynb
+?? working/4-Modelling_member3_reference_executed.ipynb
+?? working/G4A-PRODUCTION-001/
+?? working/G4A-TEARDOWN-002/
+?? working/G4B-E1-001/
+?? working/G4C-E2-001/
+?? working/G4C-E2-execution.log
+?? working/G4C-FINAL-REPORT.md
+?? working/G4C-METADATA-AUDIT-002/
+?? working/G4C-PREFLIGHT-001/
+?? working/G4C-PROVENANCE-CHECKPOINT-002/
+?? working/G4C-PROVENANCE-CHECKPOINT/
+?? working/STOP_REASON.md
+?? working/audit_gate4b_e1_final.py
+?? working/baseline_artifacts/
+?? working/certify_gate4_manifest.py
+?? working/diagnose_gate4_teardown.py
+?? working/freeze_member3_notebook4_outputs.py
+?? working/g4c_boundary.py
+?? working/g4c_episode_worker.py
+?? working/g4c_linux_call.py
+?? working/g4c_source_worker.py
+?? working/gate4_approved_runtime_checkpoint.json
+?? working/gate4_approved_runtime_report.md
+?? working/gate4_approved_runtime_tree_validation.json
+?? working/gate4_approved_runtime_validation.json
+?? working/gate4_autonomous_runtime_rebuild_001.json
+?? working/gate4_autonomous_sampler_001.json
+?? working/gate4_baseline_error_analysis.md
+?? working/gate4_candidate_experiment_plan.md
+?? working/gate4_completion_failure.json
+?? working/gate4_dependency_repair_entry.json
+?? working/gate4_dependency_repair_validation.json
+?? working/gate4_episode_manifest.json
+?? working/gate4_episode_manifest_validation.json
+?? working/gate4_episode_manifest_validation.json.pre_completion
+?? working/gate4_episode_manifest_validation.json.pre_dependency_repair
+?? working/gate4_episode_verification.md
+?? working/gate4_episode_verification.md.pre_completion
+?? working/gate4_episode_verification.md.pre_dependency_repair
+?? working/gate4_isolated_worker.py
+?? working/gate4_isolated_worker.py.pre_completion
+?? working/gate4_isolation.py
+?? working/gate4_isolation.py.pre_completion
+?? working/gate4_isolation_repair.md
+?? working/gate4_isolation_repair_validation.json
+?? working/gate4_isolation_sampler_reverification.json
+?? working/gate4_lifecycle.py
+?? working/gate4_narwhals_provenance.json
+?? working/gate4_narwhals_provenance.md
+?? working/gate4_production_boundary.py
+?? working/gate4_production_probe.py
+?? working/gate4_readiness_audit.md
+?? working/gate4_runtime_lock.json
+?? working/gate4_runtime_narwhals_lock.json
+?? working/gate4_runtime_provision_attempt3.log
+?? working/gate4_runtime_validation.json
+?? working/gate4_teardown_runtime_rebuild_002.json
+?? working/gate4_teardown_sampler_002.json
+?? working/gate4a_completion_entry.json
+?? working/gate4b_boundary.py
+?? working/gate4b_episode_worker.py
+?? working/gate4b_linux_call.py
+?? working/gate4b_preflight_worker.py
+?? working/gate4b_source_worker.py
+?? working/independently_verify_gate4_manifest.py
+?? working/member2_baseline_handoff.md
+?? working/member2_preprocessing_execution.log
+?? working/member3_artifact_helpers.py
+?? working/member3_baseline_frozen/
+?? working/member3_notebook4_environment_blocker.log
+?? working/member3_notebook4_reference_execution.log
+?? working/minimal_standard_scaler.py
+?? working/provision_gate4_runtime.py
+?? working/provision_gate4_runtime.py.pre_dependency_repair
+?? working/run_g4c_candidate.py
+?? working/run_gate4_production_probe.py
+?? working/run_gate4b_e1.py
+?? working/run_member2_preprocessing.py
+?? working/run_member3_notebook4_artifact_capture.py
+?? working/run_member3_notebook4_reference.py
+?? working/stage_gate4_approved_narwhals.py
+?? working/verify_g4c_candidate.py
+?? working/verify_gate4_approved_runtime_tree.py
+?? working/verify_gate4_isolation_repair.py
+?? working/verify_gate4_production_suite.py
+?? working/verify_gate4_runtime.py
+?? working/verify_gate4a_episodes.py
+?? working/verify_gate4b_e1.py

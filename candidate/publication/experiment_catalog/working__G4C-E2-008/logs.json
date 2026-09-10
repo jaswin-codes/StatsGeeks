@@ -1,0 +1,8 @@
+{
+  "paths": [
+    "working/G4C-E2-008/results/execution.log",
+    "working/G4C-E2-008/results/verification.log",
+    "working/G4C-E2-008/results/verification_v2.log"
+  ],
+  "status": "indexed"
+}

@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "archive_sha256": "5da7ed1203095c4e030510b992f8b33ea43586350cb5cac24e58ef14796d3ef9",
+  "extracted_outside_repository": true,
+  "original_repository_dependencies_used": false,
+  "git_directory_absent": true,
+  "packaged_coordinate_reference_arrays": 5,
+  "all_rebuilt_csv_byte_identical": true,
+  "csv_comparisons": {
+    "ablation.csv": true,
+    "calibration.csv": true,
+    "confusion.csv": true,
+    "coordinate_influence.csv": true,
+    "covariance_eigenvalues.csv": true,
+    "episode_manifest.csv": true,
+    "episode_scores.csv": true,
+    "feature_importance.csv": true,
+    "leaderboard.csv": true,
+    "learning_curve.csv": true,
+    "paired_gains.csv": true,
+    "per_class.csv": true,
+    "prediction_summary.csv": true,
+    "runtime.csv": true,
+    "runtime_historical.csv": true,
+    "significance.csv": true,
+    "spatial.csv": true,
+    "spatial_matched_control.csv": true,
+    "transfer.csv": true
+  },
+  "commands": [
+    {
+      "command": "python -B candidate/publication/validate_package.py",
+      "returncode": 0,
+      "stdout": "{\n  \"passed\": true,\n  \"files_checked\": 1285,\n  \"figure_sets\": 32,\n  \"export_scope\": true,\n  \"errors\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": "python -I -B reproduce_best.py --verify --out isolated_replay",
+      "returncode": 0,
+      "stdout": "{\n  \"candidate\": \"Coordinate_RF\",\n  \"config\": {\n    \"coord\": true\n  },\n  \"pool_sha256\": \"b975db430b4a00d1c90d59d10a76ef11a6c3727be42e22f41bec49a6f6c28007\",\n  \"classes\": [\n    1,\n    2,\n    3,\n    4\n  ],\n  \"feature_names\": [\n    \"Blue_mean\",\n    \"Green_mean\",\n    \"Red_mean\",\n    \"NIR_mean\",\n    \"SWIR1_mean\",\n    \"SWIR2_mean\",\n    \"Blue_std\",\n    \"Green_std\",\n    \"Red_std\",\n    \"NIR_std\",\n    \"SWIR1_std\",\n    \"SWIR2_std\",\n    \"NDVI_mean\",\n    \"NDBI_mean\",\n    \"UI_mean\",\n    \"MNDWI_mean\",\n    \"BSI_mean\",\n    \"NDVI_std\",\n    \"NDBI_std\",\n    \"UI_std\",\n    \"MNDWI_std\",\n    \"BSI_std\",\n    \"Blue_early_mean\",\n    \"Green_early_mean\",\n    \"Red_early_mean\",\n    \"NIR_early_mean\",\n    \"SWIR1_early_mean\",\n    \"SWIR2_early_mean\",\n    \"Blue_early_std\",\n    \"Green_early_std\",\n    \"Red_early_std\",\n    \"NIR_early_std\",\n    \"SWIR1_early_std\",\n    \"SWIR2_early_std\",\n    \"Blue_late_mean\",\n    \"Green_late_mean\",\n    \"Red_late_mean\",\n    \"NIR_late_mean\",\n    \"SWIR1_late_mean\",\n    \"SWIR2_late_mean\",\n    \"Blue_late_std\",\n    \"Green_late_std\",\n    \"Red_late_std\",\n    \"NIR_late_std\",\n    \"SWIR1_late_std\",\n    \"SWIR2_late_std\",\n    \"d_Blue_mean\",\n    \"d_Green_mean\",\n    \"d_Red_mean\",\n    \"d_NIR_mean\",\n    \"d_SWIR1_mean\",\n    \"d_SWIR2_mean\",\n    \"d_Blue_std\",\n    \"d_Green_std\",\n    \"d_Red_std\",\n    \"d_NIR_std\",\n    \"d_SWIR1_std\",\n    \"d_SWIR2_std\",\n    \"has_early_data\",\n    \"has_late_data\"\n  ],\n  \"query_labels_used\": false,\n  \"target_features_used\": true,\n  \"coordinates_used\": true,\n  \"support_labels_used\": true,\n  \"exact_verification_arrays\": 5,\n  \"seconds\": 5.347717761993408\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": "python -B candidate/publication/build_publication.py",
+      "returncode": 0,
+      "stdout": "Built 32 figure sets; validated 4000 prediction arrays\n",
+      "stderr": ""
+    }
+  ],
+  "scope": "archive integrity plus five inference references plus complete evidence-only rebuild; no source refit or optimization"
+}

@@ -1,0 +1,9 @@
+{
+  "working/G4C-E2-001/artifact_hash_manifest.json": "46cdbabcd98754f9b879250090359d29a8a64861b32887ae8e7b24b423007436",
+  "working/G4C-E2-001/independent_stop_audit.json": "dd6e70f050a98ebe68f1f3ea99b090419b8fb2245981884abc3e383afe03382f",
+  "working/G4C-E2-001/REPORT.md": "8379ea2f3e0bcd7b2643e4a2dcc99751de6812729d1f8dfdb62851171177e1ec",
+  "working/G4C-E2-001/STOP_REASON.md": "85a98c50fbbc9c260a3064868202ee922e5caa007c003e45505ca7743fba5465",
+  "working/G4C-E2-001/summary.json": "da15af3a7e5e3e66fa5da46cab07ef2c243a6bb2b2c51b8b29ee9712f5ed88b7",
+  "working/G4C-E2-001/evidence/changed_file_1.bin": "e0a91560faa8fb0413d34cf1e7d982a000bf61297f8c61bb8fb4fc69b6ff66d1",
+  "working/G4C-E2-001/evidence/git_status_at_stop.txt": "149bedad734d3df5ae0a52f6eaf8cefb36011e6df5579d635b10002737a1269a"
+}

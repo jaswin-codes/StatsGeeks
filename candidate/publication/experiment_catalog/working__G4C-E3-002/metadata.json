@@ -1,0 +1,9 @@
+{
+  "paths": [
+    "working/G4C-E3-002/artifact_hash_manifest.json",
+    "working/G4C-E3-002/final_artifact_hash_manifest.json",
+    "working/G4C-E3-002/final_artifact_hash_manifest.sha256",
+    "working/G4C-E3-002/checkpoint/episode_manifest.json"
+  ],
+  "status": "indexed"
+}

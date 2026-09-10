@@ -1,0 +1,11 @@
+{
+  "working/G4C-E2-002/PREPARATION_REPORT.md": "17bfea8511d735aa67d5f305b1f8981a180984ce5264a1809ebf2e54630291f4",
+  "working/G4C-E2-002/checkpoint/artifact_hash_manifest.json": "72d5a082443b5f5e6e4eb7879d9e17c860163079b62f0af2ebd2eee959b9e302",
+  "working/G4C-E2-002/checkpoint/final_integrity.json": "db224b8a6a139fa697b9aaa8fbfcfda1d5c446a1e4f123d01b97fe62d43118b3",
+  "working/G4C-E2-002/checkpoint/independent_anchor_verification.json": "189cc41f62aa3bd8757e9dfbcdb5b214b57050c4e8ee80b011337bbd17dfdd1e",
+  "working/G4C-E2-002/checkpoint/preflight_attempt_1_failure.json": "9a088d174ab2420b658ad3b99b91426a9c570d5962455cbc3aa8650249395022",
+  "working/G4C-E2-002/checkpoint/static_source_review.json": "37e3052f9c53f05fb5467b6b49940f63182a24b3ab9ba11204fada697d339c90",
+  "working/G4C-E2-002/coordinator/contract.json": "40972708221a343faff85e8c29b2b3497438c5abfb197f7e698e55f648ef9224",
+  "working/G4C-E2-002/coordinator/coordinator.py": "0c4f6719ccc776cd726a2e9672a44bdd071d6b91f907fdde160cfc858304927d",
+  "working/G4C-E2-002/coordinator/integrity_policy.py": "580d2ae8f716783b3702e636749075d220da15c7390ce011f1c8b051039802f2"
+}

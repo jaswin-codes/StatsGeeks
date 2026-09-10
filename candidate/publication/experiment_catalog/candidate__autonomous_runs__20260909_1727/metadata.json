@@ -1,0 +1,12 @@
+{
+  "paths": [
+    "candidate/autonomous_runs/20260909_1727/environment_final.json",
+    "candidate/autonomous_runs/20260909_1727/FIGURE_MANIFEST.json",
+    "candidate/autonomous_runs/20260909_1727/INFERENCE_MANIFEST.json",
+    "candidate/autonomous_runs/20260909_1727/provenance.json",
+    "candidate/autonomous_runs/20260909_1727/packaged_interface_replay/metadata.json",
+    "candidate/autonomous_runs/20260909_1727/public_inference_test/metadata.json",
+    "candidate/autonomous_runs/20260909_1727/public_interface_replay/metadata.json"
+  ],
+  "status": "indexed"
+}

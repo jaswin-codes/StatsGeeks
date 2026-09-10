@@ -1,0 +1,7 @@
+{
+  "paths": [
+    "candidate/experiments_2h/expB_dim_shrink/configuration.json",
+    "candidate/experiments_2h/expB_dim_shrink/configuration_repeat.json"
+  ],
+  "status": "indexed"
+}

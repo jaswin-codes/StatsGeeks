@@ -1,0 +1,9 @@
+{
+  "paths": [
+    "candidate/experiments_2h/expB_dim_shrink/predictions.npz",
+    "candidate/experiments_2h/expB_dim_shrink/predictions_repeat.npz",
+    "candidate/experiments_2h/expB_dim_shrink/results.json",
+    "candidate/experiments_2h/expB_dim_shrink/results_repeat.json"
+  ],
+  "status": "indexed"
+}

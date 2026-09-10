@@ -1,0 +1,5 @@
+path=/home/jaswin/.local/share/statsgeeks/frozen_rf/5ffdd11f300532a14b3c2957a1ac77b748aa91c0a4d1a88f1ff0a3735dc75870.pkl
+5ffdd11f300532a14b3c2957a1ac77b748aa91c0a4d1a88f1ff0a3735dc75870  /home/jaswin/.local/share/statsgeeks/frozen_rf/5ffdd11f300532a14b3c2957a1ac77b748aa91c0a4d1a88f1ff0a3735dc75870.pkl
+bytes=1336382673 mode=444 device=2096 inode=59222
+/ /dev/sdd ext4 rw,relatime,discard,errors=remount-ro,data=ordered
+WINDOWS_BACKED=false

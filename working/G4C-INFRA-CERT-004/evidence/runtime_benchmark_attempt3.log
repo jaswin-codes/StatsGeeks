@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "C:\Users\jaswi\Downloads\Hackathon3_StatsGeeks - Copy\working\G4C-INFRA-CERT-004\code\runtime_benchmark.py", line 151, in <module>
+    try:main()
+        ~~~~^^
+  File "C:\Users\jaswi\Downloads\Hackathon3_StatsGeeks - Copy\working\G4C-INFRA-CERT-004\code\runtime_benchmark.py", line 94, in main
+    before=len(scans);start=time.perf_counter();z=c.call(probe,'preflight',f'benchmark_preflight_{n}')
+                                                  ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jaswi\Downloads\Hackathon3_StatsGeeks - Copy\working\G4C-INFRA-CERT-004\benchmark_run\coordinator\execution_coordinator.py", line 64, in call
+    if proc.returncode:raise RuntimeError(label+' transport failed '+proc.stderr)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: benchmark_preflight_1 transport failed Traceback (most recent call last):
+  File "/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/G4C-INFRA-CERT-004/benchmark_run/coordinator/g4c_linux_call.py", line 19, in <module>
+    raw,evidence=run(packet,a.worker.read_bytes(),a.role,rf_path=a.rf)
+                 ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/G4C-INFRA-CERT-004/benchmark_run/coordinator/g4c_boundary.py", line 18, in run
+    payload=canonical(packet); lock=runtime_check()
+                                    ~~~~~~~~~~~~~^^
+  File "/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/G4C-INFRA-CERT-004/benchmark_run/coordinator/gate4_production_boundary.py", line 34, in runtime_check
+    assert sha(LOCK_PATH) == LOCK_HASH
+           ~~~^^^^^^^^^^^
+  File "/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/G4C-INFRA-CERT-004/benchmark_run/coordinator/gate4_production_boundary.py", line 25, in sha
+    with Path(p).open('rb') as f:
+         ~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/python3.14/pathlib/__init__.py", line 772, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/working/gate4_runtime_narwhals_lock.json'
+

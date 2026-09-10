@@ -1,0 +1,133 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "budget": 5,
+      "trial": 0,
+      "pass": true,
+      "query_labels_present": false,
+      "query_rows": 25972,
+      "exact_prediction_equality": true,
+      "prediction_sha256": "4d169388f11abd9d2c2b5b82707a0a4515689708aabaa874b723e1b0049eee41",
+      "command": [
+        "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\.venv_baseline\\Scripts\\python.exe",
+        "-I",
+        "-B",
+        "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\candidate\\experiments_2h\\expF_covariance\\candidate_predict.py",
+        "--artifact",
+        "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\candidate\\artifacts\\exp010_stage1_madrid.pkl",
+        "--support",
+        "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\candidate\\experiments_2h\\expF_covariance\\interface_test\\support_5.npz",
+        "--query",
+        "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\candidate\\experiments_2h\\expF_covariance\\interface_test\\query_5.npz",
+        "--shots",
+        "5",
+        "--output",
+        "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\candidate\\experiments_2h\\expF_covariance\\interface_test\\predictions_5.npy"
+      ]
+    },
+    {
+      "budget": 25,
+      "trial": 0,
+      "pass": true,
+      "query_labels_present": false,
+      "query_rows": 25892,
+      "exact_prediction_equality": true,
+      "prediction_sha256": "4e2e7240e53e6afc923db1a28556a2c6af915b0101861398af04e3c1802119ea",
+      "command": [
+        "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\.venv_baseline\\Scripts\\python.exe",
+        "-I",
+        "-B",
+        "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\candidate\\experiments_2h\\expF_covariance\\candidate_predict.py",
+        "--artifact",
+        "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\candidate\\artifacts\\exp010_stage1_madrid.pkl",
+        "--support",
+        "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\candidate\\experiments_2h\\expF_covariance\\interface_test\\support_25.npz",
+        "--query",
+        "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\candidate\\experiments_2h\\expF_covariance\\interface_test\\query_25.npz",
+        "--shots",
+        "25",
+        "--output",
+        "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\candidate\\experiments_2h\\expF_covariance\\interface_test\\predictions_25.npy"
+      ]
+    },
+    {
+      "budget": 50,
+      "trial": 0,
+      "pass": true,
+      "query_labels_present": false,
+      "query_rows": 25792,
+      "exact_prediction_equality": true,
+      "prediction_sha256": "521e46f693f7e1db83c4e3b1ea300fcbbe650180f05c9ffaa67379c878c21473",
+      "command": [
+        "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\.venv_baseline\\Scripts\\python.exe",
+        "-I",
+        "-B",
+        "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\candidate\\experiments_2h\\expF_covariance\\candidate_predict.py",
+        "--artifact",
+        "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\candidate\\artifacts\\exp010_stage1_madrid.pkl",
+        "--support",
+        "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\candidate\\experiments_2h\\expF_covariance\\interface_test\\support_50.npz",
+        "--query",
+        "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\candidate\\experiments_2h\\expF_covariance\\interface_test\\query_50.npz",
+        "--shots",
+        "50",
+        "--output",
+        "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\candidate\\experiments_2h\\expF_covariance\\interface_test\\predictions_50.npy"
+      ]
+    },
+    {
+      "budget": 100,
+      "trial": 0,
+      "pass": true,
+      "query_labels_present": false,
+      "query_rows": 25592,
+      "exact_prediction_equality": true,
+      "prediction_sha256": "e09377a85da67e6b564b8deace041523761868df824cc55098f9b44923803414",
+      "command": [
+        "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\.venv_baseline\\Scripts\\python.exe",
+        "-I",
+        "-B",
+        "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\candidate\\experiments_2h\\expF_covariance\\candidate_predict.py",
+        "--artifact",
+        "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\candidate\\artifacts\\exp010_stage1_madrid.pkl",
+        "--support",
+        "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\candidate\\experiments_2h\\expF_covariance\\interface_test\\support_100.npz",
+        "--query",
+        "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\candidate\\experiments_2h\\expF_covariance\\interface_test\\query_100.npz",
+        "--shots",
+        "100",
+        "--output",
+        "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\candidate\\experiments_2h\\expF_covariance\\interface_test\\predictions_100.npy"
+      ]
+    },
+    {
+      "budget": 200,
+      "trial": 0,
+      "pass": true,
+      "query_labels_present": false,
+      "query_rows": 25192,
+      "exact_prediction_equality": true,
+      "prediction_sha256": "7bc3a4996c610b0d200668e250be81f3f8cece0b6cff5e3c2a044aa6c03ebabf",
+      "command": [
+        "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\.venv_baseline\\Scripts\\python.exe",
+        "-I",
+        "-B",
+        "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\candidate\\experiments_2h\\expF_covariance\\candidate_predict.py",
+        "--artifact",
+        "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\candidate\\artifacts\\exp010_stage1_madrid.pkl",
+        "--support",
+        "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\candidate\\experiments_2h\\expF_covariance\\interface_test\\support_200.npz",
+        "--query",
+        "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\candidate\\experiments_2h\\expF_covariance\\interface_test\\invalid_query_labels.npz",
+        "--shots",
+        "200",
+        "--output",
+        "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\candidate\\experiments_2h\\expF_covariance\\interface_test\\must_not_exist.npy"
+      ]
+    }
+  ],
+  "query_label_key_rejected": true,
+  "runtime_seconds": 6.9136353000030795,
+  "candidate_code_sha256": "d8a06acfd1ffd09d45cfa80c4bfb17515f6d0be1485fb710f62c735cbcd438d7"
+}

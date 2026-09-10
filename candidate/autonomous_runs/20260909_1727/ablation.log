@@ -1,0 +1,9 @@
+17:37:11 ablation A: support CV 0.722195
+17:37:16 ablation A+B: support CV 0.730752
+17:37:21 ablation A+C: support CV 0.738430
+17:37:26 ablation A+D: support CV 0.726862
+17:37:31 ablation A+B+C: support CV 0.745500
+17:37:36 ablation A+B+D: support CV 0.731972
+17:37:42 ablation A+C+D: support CV 0.755892
+17:37:47 ablation A+B+C+D: support CV 0.760888
+17:37:53 ablation ASTRA_AGF: support CV 0.766282

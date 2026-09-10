@@ -1,0 +1,11 @@
+{
+  "paths": [
+    "candidate/experiments_2h_v2/ADAPTIVE_LOCAL_PLAN.md",
+    "candidate/experiments_2h_v2/PLAN.md",
+    "candidate/experiments_2h_v2/SMOOTHING_PLAN.md",
+    "candidate/experiments_2h_v2/SOURCE_BASIS_PLAN.md",
+    "candidate/experiments_2h_v2/SOURCE_CONTEXT_PLAN.md",
+    "candidate/experiments_2h_v2/STAGE2_PLAN.md"
+  ],
+  "status": "indexed"
+}

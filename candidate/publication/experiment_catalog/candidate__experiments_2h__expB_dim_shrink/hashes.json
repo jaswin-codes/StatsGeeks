@@ -1,0 +1,13 @@
+{
+  "candidate/experiments_2h/expB_dim_shrink/configuration.json": "33880cddbc3b25d7024a6ccc0b49b11b2e5bb6fec8761ccd91775701fb3553cb",
+  "candidate/experiments_2h/expB_dim_shrink/configuration_repeat.json": "33880cddbc3b25d7024a6ccc0b49b11b2e5bb6fec8761ccd91775701fb3553cb",
+  "candidate/experiments_2h/expB_dim_shrink/factorial_effects.json": "423776cdd2624c071b760db46b3f2cc566cb094583f05aea48aa5497c50b2b6b",
+  "candidate/experiments_2h/expB_dim_shrink/FINDINGS.md": "7321eb4c412da0a23a2789cc28bc66322cf75c45c746104ab5b8f629c6a00d25",
+  "candidate/experiments_2h/expB_dim_shrink/predictions.npz": "0098d2f9e0dc70aedb638466c958b576e482171c58f4da8ddc58d545c6533e01",
+  "candidate/experiments_2h/expB_dim_shrink/predictions_repeat.npz": "0098d2f9e0dc70aedb638466c958b576e482171c58f4da8ddc58d545c6533e01",
+  "candidate/experiments_2h/expB_dim_shrink/README.md": "267cd183d4b10105cbacacff304d9258dcc79cc1b700b4cc0d9ab2cc5c701818",
+  "candidate/experiments_2h/expB_dim_shrink/reproducibility.json": "a8e28bdeb449a174c95ee508d508959ebea5fe84bc082d9d81c8548ae8c8a5c4",
+  "candidate/experiments_2h/expB_dim_shrink/results.json": "8a335980215c1da01368f14760c1e33c8a652f32bb3c7a80459c6023279dd36c",
+  "candidate/experiments_2h/expB_dim_shrink/results_repeat.json": "87892f3cee0d840b3d08f7caf847a98c6a82aa245c22f506d297c4e952e17afc",
+  "candidate/experiments_2h/expB_dim_shrink/script.py": "a202c89d1963892d7758d59bed91348a414f30f056574a0e8d5c1a06deb853e7"
+}

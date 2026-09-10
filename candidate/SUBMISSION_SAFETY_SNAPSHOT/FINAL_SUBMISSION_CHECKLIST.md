@@ -1,0 +1,17 @@
+# Final submission checklist — immutable fallback
+
+Organizer destination: `uctstatsgeekssociety@uct.ac.za`. **Integrity ready; final-method notebook requirement unresolved.**
+
+| Organizer requirement | Required file | Present? | Exact filename | SHA256 | Validated? | Notes / remaining concern |
+|---|---|---|---|---|---|---|
+| Presentation including approach explanation | StatsGeeks_BuildingAge.pptx | Yes (existing version) | `deliverables_20260909T190850Z/presentation/StatsGeeks_BuildingAge.pptx` | `d2bfd6e1eeb5f1348cfd75f4e5a657501c75ed55c1b5b7b57317fd38b80a1697` | Hash and structural checks; historical execution where recorded | 17-slide EXP-010 historical fallback; no Coordinate_RF deck |
+| Portable presentation viewing copy | StatsGeeks_BuildingAge.pdf | Yes (existing version) | `deliverables_20260909T190850Z/presentation/StatsGeeks_BuildingAge.pdf` | `bb4813a6399e4fe216b49efed897b3750a662173999ed827517e8039439a34e4` | Hash and structural checks; historical execution where recorded | Existing PDF container; no fresh rendering certification |
+| Written explanation | written_justification.txt | Yes (existing version) | `deliverables_20260909T190850Z/justification/written_justification.txt` | `a98bcea0c44af07257ec8bfef13187373e96d62fa02643721a9ef7ae42427399` | Hash and structural checks; historical execution where recorded | Existing EXP-010 explanation; also described in slides |
+| Notebook preprocessing solution | 3-Preprocessing_member2_baseline_executed.ipynb | Yes (existing version) | `deliverables_20260909T190850Z/working/3-Preprocessing_member2_baseline_executed.ipynb` | `c6f7a50463f2785f10ff78a732fb655a29b282d89692b51d5baf4dbeb3fa3368` | Hash and structural checks; historical execution where recorded | Reference only; organizer data excluded; scaler shim required |
+| Notebook modelling solution | 4-Modelling_member3_reference_executed.ipynb | Yes (existing version) | `deliverables_20260909T190850Z/working/4-Modelling_member3_reference_executed.ipynb` | `37761873bc8d9ef57b13515b66ed636d400830b0b186cf25d55b41ccb3fc208e` | Hash and structural checks; historical execution where recorded | Reference only; NOT a final EXP-010/Coordinate_RF notebook |
+| Current/frozen-method final notebook | No valid existing final notebook located | **NO** | — | — | **NOT SATISFIED** | Do not substitute a baseline notebook without disclosure |
+| Supporting frozen EXP-010 inference | Python interface + source-only state | Yes | See MANIFEST.json | See MANIFEST.json | Byte-identical to protected originals | CLI is not a notebook |
+| Notebook runtime data | Authorized organizer data / derived preprocessing | External prerequisite | Not included | Input hashes in team inspection | Not rerun | Intentional exclusion of label-containing data; not self-contained execution |
+| Email submission | Presentation + explanation + final notebooks | Not sent | — | — | Not performed | Deadline, size limits and final-method notebook gap remain |
+
+PPTX is ZIP/XML-checked; notebooks pass JSON structure and code-AST checks with no stored error outputs. Full nbformat schema validation was unavailable: an existing environment metadata file caused a UTF-8 import error; no environment repair was attempted. No fitting or inference ran. PDF has valid header/end marker; visual fidelity across viewers remains a human check. Source provenance and full per-file hashes are in MANIFEST.json.

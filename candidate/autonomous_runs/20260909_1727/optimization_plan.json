@@ -1,0 +1,54 @@
+{
+  "configurations": {
+    "ASTRA_AGF": {},
+    "RF_half_features": {
+      "features": 0.5
+    },
+    "ExtraTrees": {
+      "kind": "extra",
+      "features": 0.5
+    },
+    "BoostedTrees": {
+      "kind": "hist"
+    },
+    "Coordinate_RF": {
+      "coord": true
+    },
+    "Stronger_diagonal": {
+      "rho_factor": 2.0
+    },
+    "Less_diagonal": {
+      "rho_factor": 0.5
+    },
+    "Covariance_blend": {
+      "covblend": 0.15
+    },
+    "No_source_prior": {
+      "prior": 0.0
+    },
+    "Confidence_prior": {
+      "prior": 60.0
+    },
+    "Wide_graph": {
+      "neighbours": 25,
+      "sigma": 2.0
+    },
+    "Bilateral_graph": {
+      "bilateral": true
+    },
+    "Two_step_graph": {
+      "steps": 2
+    }
+  },
+  "folds": 5,
+  "training_shots": 160,
+  "validation_shots": 40,
+  "selection_metric": "support-only held-out macro F1",
+  "axes": {
+    "A": "RF200 classifier",
+    "B": "full unlabelled target covariance",
+    "C": "Gaussian coordinate graph",
+    "D": "budget/sample-ratio covariance shrinkage; uses support covariance without B"
+  },
+  "note": "Factorial source prior OFF. Full ASTRA separately restores contextual source prior; D depends on B for its original operational definition."
+}

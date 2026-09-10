@@ -1,0 +1,70 @@
+[
+  {
+    "slide": 1,
+    "text": "STATSGEEKS  ·  BUILDING-AGE TRANSFER LEARNING\nTransfer that actually transfers\nBuilding age drives urban retrofit and energy policy, but records are incomplete. We classify the construction era of buildings within 30-metre Landsat pixels into four classes, training on Madrid and adapting to Amsterdam with as few as five labelled examples per class.\n\nThe organiser baseline showed substantial source-target mismatch, motivating a representation-based transfer strategy. Madrid learns feature ranking and class geometry; Amsterdam support labels estimate target prototypes. At five shots we shrink noisy prototypes toward re-centred Madrid geometry. At larger budgets shrinkage switches off while dimensionality reduction remains useful. In frozen EXP-010 audit episodes, tuned macro F1 improves over the matched full-feature, target-only control at every budget, with 45 of 50 paired wins. The largest mean gain occurs at five shots per class—only 20 labelled Amsterdam samples total—where prototype estimation is hardest.\nAbstract · ≤150 words"
+  },
+  {
+    "slide": 2,
+    "text": "THE PROBLEM\nHow old are these buildings?\nFour construction eras, per 30 m Landsat pixel\nTrain on Madrid  →  adapt to Amsterdam\nAs few as five labelled examples per class\nMetric: four-class macro F1\n76k\nMadrid pixels\n26k\nAmsterdam pixels\n42\nyears of imagery\n5\nlabels, worst case"
+  },
+  {
+    "slide": 3,
+    "text": "THE DATA\nConstruction leaves a spectral fingerprint\nSix spectral bands · once a year · 1984–2025\nA field becomes a roof.  Concrete weathers.\n42-year trajectory  →  60 summary features\nLabels are area-weighted averages — noisy by construction\nOne pixel can hold a 1950s block and a 2010s block — and gets a label describing neither.\nThere is a ceiling below 1.0. Nobody knows where it is."
+  },
+  {
+    "slide": 4,
+    "text": "BASELINE CONTEXT\nSource-target mismatch motivates transfer\nOrganiser reference path\nMadrid-fitted scaling\nAmsterdam-only prototypes\nThe reference path establishes a matched target-only control\nIt motivated reuse of supervised Madrid state\nOur comparison holds episodes and classifier form fixed\nProvenance limitation: local RF outputs differ from organiser-saved outputs. Incomplete package/input provenance means the cause remains unidentified."
+  },
+  {
+    "slide": 5,
+    "text": "OUR METHOD\nFreeze Madrid knowledge; adapt prototypes\nMadrid\nlabelled data\n→\nFrozen RF\nranking + geometry\n→\nTop-k\nfeature selection\n→\nAmsterdam\nsupport set\n→\nAdapt\nprototypes\n→\nPredict\nquery labels\n5 shots/class  →  k=30, λ=0.6\nShrink toward Madrid geometry\n25–200 shots/class  →  k=45, λ=0.0\nShrinkage switches off\nQuery labels are evaluation-only."
+  },
+  {
+    "slide": 6,
+    "text": "FROZEN EXP-010 AUDIT\nFive shots is the practical anchor\nshots/class\nEXP-010\ncontrol\ngain\nwins\n5\n0.552 ± 0.060\n0.515 ± 0.070\n+0.037\n7/10\n25\n0.612 ± 0.013\n0.609 ± 0.015\n+0.003\n8/10\n50\n0.617 ± 0.008\n0.614 ± 0.008\n+0.004\n10/10\n100\n0.620 ± 0.005\n0.615 ± 0.005\n+0.005\n10/10\n200\n0.624 ± 0.004\n0.619 ± 0.004\n+0.005\n10/10\n+0.0372\n5-shot macro F1 gain\n45 / 50\npaired audit wins\n± population SD across 10 audit episodes — not confidence intervals\nSCIENTIFIC HEADLINE  ·  5/class = 20 labels total\n0.552 ± 0.060 vs 0.515 ± 0.070 · 7/10 wins\nOFFICIAL 25-SHOT RESULT\n+0.0033 macro F1 · 8/10 paired wins"
+  },
+  {
+    "slide": 7,
+    "text": "REQUIRED LEARNING CURVE\nTransfer helps most in the lowest-data regime\n5 shots/class\nHigh episode spread\n25+ shots/class\nPrototypes stabilise\nEmpirical takeaway:\nTransfer helps most when target prototypes are hardest to estimate.\nSource-domain CV (documented local protocol):\nMadrid 0.6281 ± 0.0043 macro F1"
+  },
+  {
+    "slide": 8,
+    "text": "EMPIRICAL INTERPRETATION\nMore labels reduce prototype estimation error\nshots\nfeatures (k)\nshrinkage (λ)\n5\n30\n0.6\n25\n45\n0.0\n50\n45\n0.0\n100\n45\n0.0\n200\n45\n0.0\nλ — how much we trust Madrid over Amsterdam\nk — how many features we keep\nLess data → lean on Madrid, use fewer features\nMore data → trust Amsterdam, afford more features\nIn these experiments, the selected schedule\nswitches shrinkage off once labels increase."
+  },
+  {
+    "slide": 9,
+    "text": "WHAT WE LEARNED\nNegative results clarify the mechanism\nEXP-004 · WHITENING REVERSAL\nWithin-class whitening changed from harmful at low shot count to beneficial at high shot count. The same transform gave opposite outcomes as support grew.\nEXP-007 · MORE FEATURES DID NOT HELP\nThe expanded 94-feature seasonal/coverage representation did not outperform the original 60 features. Extra dimensions can dilute few-shot prototype estimates.\nTogether, these outcomes support—without proving—the prototype estimation-error interpretation."
+  },
+  {
+    "slide": 10,
+    "text": "HONESTY\nWhat we are not claiming\nGains beyond five shots are small in absolute macro F1\nError bars are spreads, not confidence intervals\nConfusion diagonals are recall, not F1\nAccuracy would have flattered us — we report macro F1\nWe do not claim exact reproduction of organiser RF outputs\nWhy not?\nSource-domain Madrid CV is 0.6281 ± 0.0043 under the documented local protocol; local zero-shot is 0.4433, versus organiser-saved 0.6179 and 0.3427. Package/input provenance is incomplete, so the cause remains unidentified and exact reproduction is not claimed."
+  },
+  {
+    "slide": 11,
+    "text": "STATED, NOT HIDDEN\nLimitations\n1.   Features still built label-dependently — no hidden-test path yet\n2.   Scaling fitted before cross-validation — not fold-safe\n3.   λ schedule: five values from five selection trials — overfit risk\n4.   Optimal k moves once (30→45) — weak evidence for a trend\n5.   EXP-010 has not been independently replicated\nNo claims of worldwide portability. No claims of calibrated confidence."
+  },
+  {
+    "slide": 12,
+    "text": "CONTROLS AND PROVENANCE\nReproducible by design, limited by evidence\nEVALUATION CONTROLS\nExact episode manifests + RNG binding\nSupport/query isolation\nFrozen EXP-010 state\nMatched episodes for tuned and control\nPopulation SD over 10 audit episodes\nEVIDENCE BOUNDARY\nMadrid → Amsterdam only\nNo hidden-test claim\nNo independent EXP-010 replication\nLocal baseline provenance is incomplete\nControls support validity, not superiority"
+  },
+  {
+    "slide": 13,
+    "text": "CONCLUSION\nMadrid learns feature ranking and class geometry.\nAmsterdam support labels estimate target prototypes.\nEXP-010: positive mean gains, 45/50 paired wins.\nA number without a mechanism is not a finding."
+  },
+  {
+    "slide": 14,
+    "text": "BACKUP\nReproducibility\nrequirements.txt pins the exact stack\nRaw data + feature cache SHA256 recorded\nEpisode indices stored, not regenerated from a seed\nEXP-010 package stores weights, k=30/45 offsets and schedule\nFrozen artifacts include recorded SHA256 checksums\nCold-start reproduction: ~35 minutes"
+  },
+  {
+    "slide": 15,
+    "text": "BACKUP\nWhy our baseline differs from the organiser's\nAll six prototype budgets match them to 4 decimal places\nBoth Random-Forest results differ: +0.0102 and +0.1006\nThe prototype path does not consume fitted forest predictions\nDeterminism check: 0 of 25,992 predictions differed across two refits\nExact cause remains unidentified; no causal explanation is claimed"
+  },
+  {
+    "slide": 16,
+    "text": "BACKUP\nA 70-day seasonal offset between the cities\nMadrid median day 175 · Amsterdam day 105\nJune–August: 48.3% vs 20.5%\nPart of the domain shift is phenology, not architecture\nWe rebuilt features to control for it\nIt did not help — dilution outweighed the correction\nReported as a measured finding with a negative test"
+  },
+  {
+    "slide": 17,
+    "text": "BACKUP\nThe episode protocol\nOne permutation per class per trial; budgets read prefixes\nSo budgets are nested: support(5) ⊂ support(25) ⊂ …\nSupport and query disjoint, verified in code every episode\nSelection and audit sets never overlap\nFour independent seeds used across the project\nQuery set shrinks unevenly as budget grows — a stated limitation"
+  }
+]

@@ -1,0 +1,24 @@
+test_A_valid_complete_layout (__main__.ValidatorTests.test_A_valid_complete_layout) ... ok
+test_B_wrong_run_id (__main__.ValidatorTests.test_B_wrong_run_id) ... ok
+test_C_historical_path_substitution (__main__.ValidatorTests.test_C_historical_path_substitution) ... ok
+test_D_missing_prediction (__main__.ValidatorTests.test_D_missing_prediction) ... ok
+test_E_modified_prediction_even_rehashed (__main__.ValidatorTests.test_E_modified_prediction_even_rehashed) ... ok
+test_F_wrong_manifest (__main__.ValidatorTests.test_F_wrong_manifest) ... ok
+test_G_duplicate_episode (__main__.ValidatorTests.test_G_duplicate_episode) ... ok
+test_H_wrong_episode_identity (__main__.ValidatorTests.test_H_wrong_episode_identity) ... ok
+test_I_missing_evidence (__main__.ValidatorTests.test_I_missing_evidence) ... ok
+test_J_cross_run_evidence_reference (__main__.ValidatorTests.test_J_cross_run_evidence_reference) ... ok
+test_K_corrupt_report_even_rehashed (__main__.ValidatorTests.test_K_corrupt_report_even_rehashed) ... ok
+test_L_inspect_real_closed_history_without_PASS (__main__.ValidatorTests.test_L_inspect_real_closed_history_without_PASS) ... ok
+test_M_fake_fixture_cannot_receive_production_PASS (__main__.ValidatorTests.test_M_fake_fixture_cannot_receive_production_PASS) ... ok
+test_N_traversal (__main__.ValidatorTests.test_N_traversal) ... ok
+test_O_wrong_metric_even_rehashed (__main__.ValidatorTests.test_O_wrong_metric_even_rehashed) ... ok
+test_P_failed_teardown_even_rehashed (__main__.ValidatorTests.test_P_failed_teardown_even_rehashed) ... ok
+test_Q_wrong_summary_verdict_even_rehashed (__main__.ValidatorTests.test_Q_wrong_summary_verdict_even_rehashed) ... ok
+test_R_closed_run_binding_refused (__main__.ValidatorTests.test_R_closed_run_binding_refused) ... ok
+test_S_known_metric_case (__main__.ValidatorTests.test_S_known_metric_case) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 55.826s
+
+OK

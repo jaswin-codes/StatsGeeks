@@ -1,0 +1,5 @@
+method,budget,episodes,mean,population_sd,bootstrap_mean_ci_low,bootstrap_mean_ci_high,protocol
+Coordinate_RF,200,200,0.749298885788045,0.0057160562254621175,0.7485021321925531,0.7500790459055305,locked random-pixel; fixed target; development bank excluded
+ASTRA_AGF,200,200,0.733037076091751,0.00610553935848456,0.732189392656389,0.7338967233326139,locked random-pixel; fixed target; development bank excluded
+EXPF,200,200,0.6576021572487187,0.0050998146089158095,0.656905452848923,0.6582994990918706,locked random-pixel; fixed target; development bank excluded
+EXP010,200,200,0.6228402255752564,0.0037405927303990473,0.6223179350199679,0.6233554367462111,locked random-pixel; fixed target; development bank excluded

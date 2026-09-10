@@ -1,0 +1,16 @@
+{
+  "pass_": true,
+  "frozen_EXP010_unchanged": true,
+  "model_matches_pre_audit_lock": true,
+  "package_contains_no_query_truth": true,
+  "pool_contains_no_target_labels": true,
+  "source_refit_exact": true,
+  "all_4000_predictions_exact": true,
+  "packaged_interface_arrays_exact": 5,
+  "direct_inference_exact": true,
+  "figures_png": 7,
+  "figures_svg": 7,
+  "official_promotion": false,
+  "incumbent": "ASTRA_AGF historical",
+  "development_selected": "Coordinate_RF"
+}

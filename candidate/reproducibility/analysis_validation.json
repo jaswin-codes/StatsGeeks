@@ -1,0 +1,8 @@
+{
+  "prediction_arrays_checked": 4000,
+  "support_query_disjoint": true,
+  "development_query_disjoint": true,
+  "confusion_and_macro_f1_agree": true,
+  "pair_keys_unique": true,
+  "query_labels_used_only_for_evaluation": true
+}

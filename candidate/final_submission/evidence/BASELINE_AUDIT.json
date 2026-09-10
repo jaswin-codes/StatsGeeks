@@ -1,0 +1,89 @@
+{
+  "pass_": true,
+  "utc": "2026-09-09T20:01:10.434656+00:00",
+  "confusion_records_verified": 4000,
+  "selection_lock": {
+    "candidate": "Coordinate_RF",
+    "config": {
+      "coord": true
+    },
+    "support_cv": {
+      "mean": 0.7793381428820944,
+      "population_sd": 0.026992107923619762,
+      "episodes": 20,
+      "class_f1": [
+        0.8322378707223826,
+        0.7179677104447852,
+        0.7522164460322003,
+        0.8149305443290096
+      ],
+      "seconds": 21.43577265739441,
+      "paired": {
+        "ASTRA_AGF": {
+          "gain": 0.008034428066857946,
+          "wins": 15,
+          "losses": 5,
+          "delta_sd": 0.01505741238989888
+        }
+      }
+    },
+    "incumbent_support_cv": {
+      "mean": 0.7713037148152365,
+      "population_sd": 0.02297749930613516,
+      "episodes": 20,
+      "class_f1": [
+        0.8156301833590966,
+        0.6939274412408256,
+        0.7575175056954059,
+        0.818139728965618
+      ],
+      "seconds": 21.81147575378418,
+      "paired": {
+        "ASTRA_AGF": {
+          "gain": 0.0,
+          "wins": 0,
+          "losses": 0,
+          "delta_sd": 0.0
+        }
+      }
+    },
+    "selection": "support-only 20 repeated holdouts per budget plus support-only spatial safeguards; no query truth",
+    "rule": "160-shot mean gain > .002; >=70% paired wins; no other budget mean worse than -.005; geographic mean no worse than -.005 and worst no worse than -.01; top two only",
+    "time": "2026-09-09 17:50:37",
+    "model_sha256": "26b2299ad50dcf935fb8bc1a89d4e79f82cf2c68881619a6eaf1330f813a7533",
+    "ranked": [
+      "Coordinate_RF",
+      "ExtraTrees"
+    ],
+    "final_audit_is_not_selection": true
+  },
+  "existing_replay": {
+    "pass_": true,
+    "source_refitted_from_scratch": true,
+    "exact_state_arrays": [
+      "raw",
+      "standard",
+      "coords",
+      "prior",
+      "cov",
+      "nn",
+      "dist",
+      "classes"
+    ],
+    "exact_prediction_arrays": 4000,
+    "episodes": 1000,
+    "trials_per_budget": 200,
+    "seed_regenerated_exactly": 20260910,
+    "support_query_disjoint": true,
+    "development_query_disjoint": true,
+    "query_labels_used_for_scoring_or_selection": false,
+    "frozen_files_unchanged": true,
+    "seconds": 2150.631590604782,
+    "model_sha256": "26b2299ad50dcf935fb8bc1a89d4e79f82cf2c68881619a6eaf1330f813a7533",
+    "rebuilt_pool_sha256": "b975db430b4a00d1c90d59d10a76ef11a6c3727be42e22f41bec49a6f6c28007"
+  },
+  "snapshot_payload_hashes_match": true,
+  "inference_hashes_match": true,
+  "protected_files": 1289,
+  "independent_organizer_validation": false
+}

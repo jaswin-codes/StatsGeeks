@@ -1,0 +1,143 @@
+ M .gitignore
+ M "Open Notebook.onetoc2"
+ M README.md
+ M candidate/README.md
+ M "data/Open Notebook.onetoc2"
+ M docs/DECISION_REGISTER.md
+ M docs/EXPERIMENT_LOG.md
+ M "docs/Open Notebook.onetoc2"
+ M docs/PROJECT_SUMMARY.md
+ M docs/SUBMISSION_INVENTORY.md
+ M docs/TEAM_LOG.md
+ M docs/WRITTEN_JUSTIFICATION.md
+ M docs/member2_log.md
+ M docs/member4_phase1_judging_pack.md
+ M docs/member4_presentation_outline.md
+ M "models/Open Notebook.onetoc2"
+ M "presentation/Open Notebook.onetoc2"
+ M presentation/StatsGeeks_BuildingAge.pptx
+ M presentation/build_deck.py
+ M "submission/Open Notebook.onetoc2"
+ M "working/Open Notebook.onetoc2"
+?? CITATION.cff
+?? SHA256SUMS.json
+?? archive/
+?? candidate/SUBMISSION_SAFETY_SNAPSHOT.zip
+?? candidate/SUBMISSION_SAFETY_SNAPSHOT/
+?? candidate/artifacts/SHA256SUMS.txt
+?? candidate/artifacts/exp010_stage1_madrid.pkl
+?? candidate/autonomous_ml_overnight/
+?? candidate/autonomous_runs/
+?? candidate/best_model/
+?? candidate/exp010_predict.py
+?? candidate/experiments_2h/
+?? candidate/experiments_2h_v2/
+?? candidate/experiments_agf/
+?? candidate/figures/publication/
+?? candidate/final_submission.zip
+?? candidate/final_submission/
+?? candidate/presentation/
+?? candidate/publication/
+?? candidate/reload_exp010_artifact.py
+?? candidate/reports/
+?? candidate/reproducibility/
+?? candidate/tables/
+?? candidate/team_preparation/
+?? candidate/test_exp010_interface.py
+?? candidate/verify_frozen_results.py
+?? presentation/StatsGeeks_BuildingAge.pdf
+?? presentation/exp010_f1_log2.png
+?? reproduce_best.py
+?? reproducibility/
+?? requirements-repro.txt
+?? scripts/repository_polish_audit.py
+?? submission_dry_run/
+?? working/3-Preprocessing_member2_baseline.ipynb
+?? working/3-Preprocessing_member2_baseline_executed.ipynb
+?? working/4-Modelling_member3_reference.ipynb
+?? working/4-Modelling_member3_reference_executed.ipynb
+?? working/G4B-E1-001/execution.log
+?? working/G4B-E1-001/independent_verification_attempt1.txt
+?? working/G4B-E1-001/independent_verification_attempt2.txt
+?? working/G4B-E1-001/predictions/
+?? working/G4C-E2-001/evidence/
+?? working/G4C-E2-003/results/execution.log
+?? working/G4C-E2-004/results/execution.log
+?? working/G4C-E2-005/results/execution.log
+?? working/G4C-E2-006/predictions/
+?? working/G4C-E2-006/results/execution.log
+?? working/G4C-E2-007/results/execution.log
+?? working/G4C-E2-008/predictions/
+?? working/G4C-E2-008/results/execution.log
+?? working/G4C-E2-008/results/verification.log
+?? working/G4C-E2-008/results/verification_v2.log
+?? working/G4C-E2-execution.log
+?? working/G4C-E3-001/predictions/
+?? working/G4C-E3-001/results/execution.log
+?? working/G4C-E3-002/checkpoint/runtime_preflight.stderr
+?? working/G4C-E3-002/checkpoint/runtime_preflight_native.stderr
+?? working/G4C-E3-002/final_artifact_hash_manifest.sha256
+?? working/G4C-E3-002/predictions/
+?? working/G4C-E3-002/results/execution.log
+?? working/G4C-E3-002/validation/independent_validation.log
+?? working/G4C-INFRA-CERT-001/preflight.log
+?? working/G4C-INFRA-CERT-002/evidence/offline_equivalence.log
+?? working/G4C-INFRA-CERT-002/evidence/validator_tests_attempt1.log
+?? working/G4C-INFRA-CERT-002/evidence/validator_tests_attempt2.log
+?? working/G4C-INFRA-CERT-003/changes.patch
+?? working/G4C-INFRA-CERT-003/evidence/independent_audit.log
+?? working/G4C-INFRA-CERT-003/evidence/npz_forensics_linux.log
+?? working/G4C-INFRA-CERT-003/evidence/npz_forensics_linux_final.log
+?? working/G4C-INFRA-CERT-003/evidence/npz_forensics_windows.log
+?? working/G4C-INFRA-CERT-003/evidence/npz_forensics_windows_final.log
+?? working/G4C-INFRA-CERT-003/evidence/offline_equivalence.log
+?? working/G4C-INFRA-CERT-003/evidence/payload_tests.log
+?? working/G4C-INFRA-CERT-003/evidence/producer_byte_replay.log
+?? working/G4C-INFRA-CERT-003/evidence/producer_replay/
+?? working/G4C-INFRA-CERT-003/evidence/reconstructed/
+?? working/G4C-INFRA-CERT-003/evidence/reserialized_linux_1.npz
+?? working/G4C-INFRA-CERT-003/evidence/reserialized_linux_2.npz
+?? working/G4C-INFRA-CERT-003/evidence/reserialized_windows_1.npz
+?? working/G4C-INFRA-CERT-003/evidence/reserialized_windows_2.npz
+?? working/G4C-INFRA-CERT-003/evidence/validator_19_tests.log
+?? working/G4C-INFRA-CERT-004/NON_SCIENTIFIC_RUNTIME_ONLY.txt
+?? working/G4C-INFRA-CERT-004/benchmark_run/NON_SCIENTIFIC_RUNTIME_ONLY.txt
+?? working/G4C-INFRA-CERT-004/changes.patch
+?? working/G4C-INFRA-CERT-004/evidence/native_rf_path_verification.txt
+?? working/G4C-INFRA-CERT-004/evidence/runtime_benchmark.log
+?? working/G4C-INFRA-CERT-004/evidence/runtime_benchmark_attempt2.log
+?? working/G4C-INFRA-CERT-004/evidence/runtime_benchmark_attempt3.log
+?? working/G4C-INFRA-CERT-004/evidence/runtime_benchmark_attempt4.log
+?? working/G4C-INFRA-CERT-004/predictions/
+?? working/G4C-INFRA-PERF-001/changes.patch
+?? working/G4C-INFRA-PERF-001/evidence/tests_linux.log
+?? working/G4C-INFRA-PERF-001/evidence/tests_linux_final.log
+?? working/G4C-INFRA-PICKLE-001/loader.log
+?? working/G4C-PREFLIGHT-001/git_diff.binary.patch
+?? working/G4C-PREFLIGHT-001/git_status.txt
+?? working/G4C-PROVENANCE-CHECKPOINT-002/git_HEAD.txt
+?? working/G4C-PROVENANCE-CHECKPOINT-002/git_diff.binary.patch
+?? working/G4C-PROVENANCE-CHECKPOINT-002/git_diff_cached.binary.patch
+?? working/G4C-PROVENANCE-CHECKPOINT-002/git_diff_stat.txt
+?? working/G4C-PROVENANCE-CHECKPOINT-002/git_index.txt
+?? working/G4C-PROVENANCE-CHECKPOINT-002/git_status.txt
+?? working/G4C-PROVENANCE-CHECKPOINT/git_HEAD.txt
+?? working/G4C-PROVENANCE-CHECKPOINT/git_diff.binary.patch
+?? working/G4C-PROVENANCE-CHECKPOINT/git_diff_cached.binary.patch
+?? working/G4C-PROVENANCE-CHECKPOINT/git_diff_stat.txt
+?? working/G4C-PROVENANCE-CHECKPOINT/git_ls_files_stage.txt
+?? working/G4C-PROVENANCE-CHECKPOINT/git_status.txt
+?? working/baseline_artifacts/amsterdam_zero_shot.npz
+?? working/baseline_artifacts/madrid_cv_oof.npz
+?? working/baseline_artifacts/prototype_trial_scores.npz
+?? working/gate4_episode_manifest_validation.json.pre_completion
+?? working/gate4_episode_manifest_validation.json.pre_dependency_repair
+?? working/gate4_episode_verification.md.pre_completion
+?? working/gate4_episode_verification.md.pre_dependency_repair
+?? working/gate4_isolated_worker.py.pre_completion
+?? working/gate4_isolation.py.pre_completion
+?? working/gate4_runtime_provision_attempt3.log
+?? working/member2_preprocessing_execution.log
+?? working/member3_notebook4_environment_blocker.log
+?? working/member3_notebook4_reference_execution.log
+?? working/provision_gate4_runtime.py.pre_dependency_repair

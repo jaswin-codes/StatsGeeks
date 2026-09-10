@@ -1,0 +1,25 @@
+{
+  "start": {
+    "unix_time": 1788957544.2821367,
+    "local_time": "2026-09-09 14:39:04"
+  },
+  "completed_local_time": "2026-09-09 14:53:23",
+  "elapsed_minutes_since_protection_snapshot": 14.325922322273254,
+  "note": "Finished early after completing all bounded grids and clean repeats. No extra tuning to consume the nominal two-hour ceiling. Preliminary inspection preceded snapshot.",
+  "run_seconds": {
+    "expA_source_local/results.json": 18.550058299999364,
+    "expA_source_local/results_repeat.json": 17.72767609999937,
+    "expB_dim_shrink/results.json": 13.883358800001588,
+    "expB_dim_shrink/results_repeat.json": 15.223277100001724,
+    "expC_class_diagnostic/results.json": 8.516343000002962,
+    "expC_class_diagnostic/results_repeat.json": 7.907677400002285,
+    "expD_spatial/results.json": 3.4840154999983497,
+    "expD_spatial/results_repeat.json": 3.744590899998002,
+    "expE_temporal/results.json": 3.655370299999049,
+    "expE_temporal/results_repeat.json": 3.5740660000010394,
+    "expF_covariance/results.json": 15.598163499998918,
+    "expF_covariance/results_repeat.json": 15.230591400002595,
+    "expF_covariance/spatial/results.json": 8.283759199999622,
+    "expF_covariance/spatial/results_repeat.json": 8.01845179999873
+  }
+}

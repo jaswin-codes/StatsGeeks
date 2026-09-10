@@ -1,0 +1,11 @@
+{
+  "paths": [
+    "working/G4A-TEARDOWN-002/artifact_hash_manifest.json",
+    "working/G4A-TEARDOWN-002/manifest_frozen_verification.json",
+    "working/G4A-TEARDOWN-002/manifest_independent_verification.json",
+    "working/G4A-TEARDOWN-002/pre_manifest_validation.json",
+    "working/G4A-TEARDOWN-002/certified_code/certify_gate4_manifest.py",
+    "working/G4A-TEARDOWN-002/certified_code/independently_verify_gate4_manifest.py"
+  ],
+  "status": "indexed"
+}
