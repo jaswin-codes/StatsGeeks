@@ -1,0 +1,14 @@
+{
+  "authorization.md": "36e07e37ac6b702798992b09d1af4a71d359353d031b28ace38b30d3fb828297",
+  "checkpoint_report.md": "55339b120faf87794f8c79314a54868181afa22cbca10fd02b9fcec20308a01f",
+  "frozen_precondition_checks.json": "d030e8ccdf279c93a35db391d50f44ee2ff50039f7de32761e1c0e1447441358",
+  "git_diff.binary.patch": "36293bbba9caa488eeb585ccea9b01668c2c5134ec6f0729c64bc58092a59745",
+  "git_diff_cached.binary.patch": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "git_diff_stat.txt": "06c3fd9e0200b67c12c9c7a2c454c2dfe8060f7104a87fe32b86f3fe4ec5f68c",
+  "git_HEAD.txt": "7cafb64b14a561dcbddd826506737f15f0e2efb03aa9b7c2d3340320f4cb2af7",
+  "git_ls_files_stage.txt": "8e2c19fdde09b42f252de1802c165eff6533c734ac863a6dab2d165ecf638394",
+  "git_status.txt": "1316e3aeac92a227686f40299c87c2a9f9971d101794f7abba5706ffcc56b5cc",
+  "input_artifact_hashes.json": "beb3c77691816b7e0236d203f70fc3cacb123650904742fa68ffe0e29749d6b4",
+  "Open Notebook.onetoc2": "1632b7209696d6b67479854928a473692cb425dbbc0c814d60c5ae1bef22204b",
+  "runtime_verification.json": "ad6b935a61c3bc2dd11e41629854d4fae9720274b4b07723d479003f1ae2fb1d"
+}

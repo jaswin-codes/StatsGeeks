@@ -1,0 +1,392 @@
+{
+  "method": "Passive read-only samples every 5 seconds for 180 seconds; no write/rename/attribute/process termination operations on target. Resource users queried by Windows Restart Manager without shutdown/restart.",
+  "started_utc": "2026-09-08T18:33:06.423545+00:00",
+  "ended_utc": "2026-09-08T18:36:06.421817+00:00",
+  "elapsed_seconds": 181.125,
+  "samples": [
+    {
+      "utc": "2026-09-08T18:33:06.423545+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:33:11.425930+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:33:16.427141+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:33:21.411879+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:33:26.413654+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:33:31.414293+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:33:36.414988+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:33:41.415931+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:33:46.416832+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:33:51.417635+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:33:56.418846+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:34:01.419635+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:34:06.420476+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:34:11.413707+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:34:16.415105+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:34:21.417322+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:34:26.418680+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:34:31.419768+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:34:36.421034+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:34:41.421698+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:34:46.423290+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:34:51.424651+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:34:56.425377+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:35:01.428033+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:35:06.412963+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:35:11.417573+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:35:16.419600+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:35:21.443915+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:35:26.413633+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:35:31.414778+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:35:36.415867+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:35:41.416612+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:35:46.417659+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:35:51.418363+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:35:56.420413+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:36:01.421026+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    },
+    {
+      "utc": "2026-09-08T18:36:06.421817+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_ns": 1788892325673875700,
+      "creation_time_ns": 1788855157455043900,
+      "attributes": 32,
+      "stable_during_read": true
+    }
+  ],
+  "resource_users": [
+    {
+      "utc": "2026-09-08T18:33:06.453621+00:00",
+      "owners": [],
+      "note": "No reported registered resource users; not proof of no transient writer."
+    },
+    {
+      "utc": "2026-09-08T18:34:06.443713+00:00",
+      "owners": [],
+      "note": "No reported registered resource users; not proof of no transient writer."
+    },
+    {
+      "utc": "2026-09-08T18:35:06.446317+00:00",
+      "owners": [],
+      "note": "No reported registered resource users; not proof of no transient writer."
+    },
+    {
+      "utc": "2026-09-08T18:36:06.446342+00:00",
+      "owners": [],
+      "note": "No reported registered resource users; not proof of no transient writer."
+    }
+  ],
+  "process_snapshots": [
+    {
+      "utc": "2026-09-08T18:33:08.001227+00:00",
+      "returncode": 0,
+      "stdout": "[\n    {\n        \"Name\":  \"wslservice.exe\",\n        \"ProcessId\":  6784,\n        \"ParentProcessId\":  1764,\n        \"ExecutablePath\":  null,\n        \"CommandLine\":  null,\n        \"CreationDate\":  \"\\/Date(1788372677214)\\/\"\n    },\n    {\n        \"Name\":  \"ONENOTE.EXE\",\n        \"ProcessId\":  35804,\n        \"ParentProcessId\":  34952,\n        \"ExecutablePath\":  \"C:\\\\Program Files\\\\Microsoft Office\\\\root\\\\Office16\\\\ONENOTE.EXE\",\n        \"CommandLine\":  \"\\\"C:\\\\Program Files\\\\Microsoft Office\\\\root\\\\Office16\\\\ONENOTE.EXE\\\" /memoryWindow autoRestore\",\n        \"CreationDate\":  \"\\/Date(1788373193876)\\/\"\n    },\n    {\n        \"Name\":  \"OneDrive.exe\",\n        \"ProcessId\":  3148,\n        \"ParentProcessId\":  34660,\n        \"ExecutablePath\":  \"C:\\\\Program Files\\\\Microsoft OneDrive\\\\OneDrive.exe\",\n        \"CommandLine\":  \" /updateInstalled /background\",\n        \"CreationDate\":  \"\\/Date(1788759723697)\\/\"\n    },\n    {\n        \"Name\":  \"OneDrive.exe\",\n        \"ProcessId\":  43684,\n        \"ParentProcessId\":  3148,\n        \"ExecutablePath\":  \"C:\\\\Program Files\\\\Microsoft OneDrive\\\\OneDrive.exe\",\n        \"CommandLine\":  \"\\\"C:\\\\Program Files\\\\Microsoft OneDrive\\\\OneDrive.exe\\\" /client=Personal /background\",\n        \"CreationDate\":  \"\\/Date(1788759728980)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  51628,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788855187733)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  32904,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788855187778)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  23696,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788855187822)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  35432,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788855187856)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  19152,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788855200967)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  16844,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788855432350)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  33176,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788855434143)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  39860,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788855434887)\\/\"\n    },\n    {\n        \"Name\":  \"python.exe\",\n        \"ProcessId\":  49476,\n        \"ParentProcessId\":  24252,\n        \"ExecutablePath\":  \"C:\\\\Python314\\\\python.exe\",\n        \"CommandLine\":  \"C:\\\\Python314\\\\python.exe c:\\\\Users\\\\jaswi\\\\.vscode\\\\extensions\\\\ms-python.black-formatter-2026.6.0\\\\bundled\\\\tool\\\\lsp_server.py\",\n        \"CreationDate\":  \"\\/Date(1788857124150)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  48400,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788868839833)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  24684,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788872053304)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  22288,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788890743493)\\/\"\n    },\n    {\n        \"Name\":  \"python.exe\",\n        \"ProcessId\":  46352,\n        \"ParentProcessId\":  51344,\n        \"ExecutablePath\":  \"C:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe\",\n        \"CommandLine\":  \"C:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe -B working/G4C-METADATA-AUDIT-002/observe_metadata.py\",\n        \"CreationDate\":  \"\\/Date(1788892386071)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  50712,\n        \"ParentProcessId\":  46352,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"powershell.exe -NoProfile -NonInteractive -Command \\\"$ErrorActionPreference=\\u0027Stop\\u0027; Get-CimInstance Win32_Process | Where-Object { $_.Name -match \\u0027^(ONENOTE|OneDrive|python.*|pythonw.*|wsl.*|bwrap|WindowsTerminal|powershell)\\\\.exe$\\u0027 } | Select-Object Name,ProcessId,ParentProcessId,ExecutablePath,CommandLine,CreationDate | ConvertTo-Json -Depth 3\\\"\",\n        \"CreationDate\":  \"\\/Date(1788892386460)\\/\"\n    }\n]\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-08T18:34:07.584884+00:00",
+      "returncode": 0,
+      "stdout": "[\n    {\n        \"Name\":  \"wslservice.exe\",\n        \"ProcessId\":  6784,\n        \"ParentProcessId\":  1764,\n        \"ExecutablePath\":  null,\n        \"CommandLine\":  null,\n        \"CreationDate\":  \"\\/Date(1788372677214)\\/\"\n    },\n    {\n        \"Name\":  \"ONENOTE.EXE\",\n        \"ProcessId\":  35804,\n        \"ParentProcessId\":  34952,\n        \"ExecutablePath\":  \"C:\\\\Program Files\\\\Microsoft Office\\\\root\\\\Office16\\\\ONENOTE.EXE\",\n        \"CommandLine\":  \"\\\"C:\\\\Program Files\\\\Microsoft Office\\\\root\\\\Office16\\\\ONENOTE.EXE\\\" /memoryWindow autoRestore\",\n        \"CreationDate\":  \"\\/Date(1788373193876)\\/\"\n    },\n    {\n        \"Name\":  \"OneDrive.exe\",\n        \"ProcessId\":  3148,\n        \"ParentProcessId\":  34660,\n        \"ExecutablePath\":  \"C:\\\\Program Files\\\\Microsoft OneDrive\\\\OneDrive.exe\",\n        \"CommandLine\":  \" /updateInstalled /background\",\n        \"CreationDate\":  \"\\/Date(1788759723697)\\/\"\n    },\n    {\n        \"Name\":  \"OneDrive.exe\",\n        \"ProcessId\":  43684,\n        \"ParentProcessId\":  3148,\n        \"ExecutablePath\":  \"C:\\\\Program Files\\\\Microsoft OneDrive\\\\OneDrive.exe\",\n        \"CommandLine\":  \"\\\"C:\\\\Program Files\\\\Microsoft OneDrive\\\\OneDrive.exe\\\" /client=Personal /background\",\n        \"CreationDate\":  \"\\/Date(1788759728980)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  51628,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788855187733)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  32904,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788855187778)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  23696,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788855187822)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  35432,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788855187856)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  19152,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788855200967)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  16844,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788855432350)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  33176,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788855434143)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  39860,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788855434887)\\/\"\n    },\n    {\n        \"Name\":  \"python.exe\",\n        \"ProcessId\":  49476,\n        \"ParentProcessId\":  24252,\n        \"ExecutablePath\":  \"C:\\\\Python314\\\\python.exe\",\n        \"CommandLine\":  \"C:\\\\Python314\\\\python.exe c:\\\\Users\\\\jaswi\\\\.vscode\\\\extensions\\\\ms-python.black-formatter-2026.6.0\\\\bundled\\\\tool\\\\lsp_server.py\",\n        \"CreationDate\":  \"\\/Date(1788857124150)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  48400,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788868839833)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  24684,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788872053304)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  22288,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788890743493)\\/\"\n    },\n    {\n        \"Name\":  \"python.exe\",\n        \"ProcessId\":  46352,\n        \"ParentProcessId\":  51344,\n        \"ExecutablePath\":  \"C:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe\",\n        \"CommandLine\":  \"C:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe -B working/G4C-METADATA-AUDIT-002/observe_metadata.py\",\n        \"CreationDate\":  \"\\/Date(1788892386071)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  26640,\n        \"ParentProcessId\":  46352,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"powershell.exe -NoProfile -NonInteractive -Command \\\"$ErrorActionPreference=\\u0027Stop\\u0027; Get-CimInstance Win32_Process | Where-Object { $_.Name -match \\u0027^(ONENOTE|OneDrive|python.*|pythonw.*|wsl.*|bwrap|WindowsTerminal|powershell)\\\\.exe$\\u0027 } | Select-Object Name,ProcessId,ParentProcessId,ExecutablePath,CommandLine,CreationDate | ConvertTo-Json -Depth 3\\\"\",\n        \"CreationDate\":  \"\\/Date(1788892446450)\\/\"\n    }\n]\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-08T18:35:07.510791+00:00",
+      "returncode": 0,
+      "stdout": "[\n    {\n        \"Name\":  \"wslservice.exe\",\n        \"ProcessId\":  6784,\n        \"ParentProcessId\":  1764,\n        \"ExecutablePath\":  null,\n        \"CommandLine\":  null,\n        \"CreationDate\":  \"\\/Date(1788372677214)\\/\"\n    },\n    {\n        \"Name\":  \"ONENOTE.EXE\",\n        \"ProcessId\":  35804,\n        \"ParentProcessId\":  34952,\n        \"ExecutablePath\":  \"C:\\\\Program Files\\\\Microsoft Office\\\\root\\\\Office16\\\\ONENOTE.EXE\",\n        \"CommandLine\":  \"\\\"C:\\\\Program Files\\\\Microsoft Office\\\\root\\\\Office16\\\\ONENOTE.EXE\\\" /memoryWindow autoRestore\",\n        \"CreationDate\":  \"\\/Date(1788373193876)\\/\"\n    },\n    {\n        \"Name\":  \"OneDrive.exe\",\n        \"ProcessId\":  3148,\n        \"ParentProcessId\":  34660,\n        \"ExecutablePath\":  \"C:\\\\Program Files\\\\Microsoft OneDrive\\\\OneDrive.exe\",\n        \"CommandLine\":  \" /updateInstalled /background\",\n        \"CreationDate\":  \"\\/Date(1788759723697)\\/\"\n    },\n    {\n        \"Name\":  \"OneDrive.exe\",\n        \"ProcessId\":  43684,\n        \"ParentProcessId\":  3148,\n        \"ExecutablePath\":  \"C:\\\\Program Files\\\\Microsoft OneDrive\\\\OneDrive.exe\",\n        \"CommandLine\":  \"\\\"C:\\\\Program Files\\\\Microsoft OneDrive\\\\OneDrive.exe\\\" /client=Personal /background\",\n        \"CreationDate\":  \"\\/Date(1788759728980)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  51628,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788855187733)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  32904,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788855187778)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  23696,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788855187822)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  35432,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788855187856)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  19152,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788855200967)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  16844,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788855432350)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  33176,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788855434143)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  39860,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788855434887)\\/\"\n    },\n    {\n        \"Name\":  \"python.exe\",\n        \"ProcessId\":  49476,\n        \"ParentProcessId\":  24252,\n        \"ExecutablePath\":  \"C:\\\\Python314\\\\python.exe\",\n        \"CommandLine\":  \"C:\\\\Python314\\\\python.exe c:\\\\Users\\\\jaswi\\\\.vscode\\\\extensions\\\\ms-python.black-formatter-2026.6.0\\\\bundled\\\\tool\\\\lsp_server.py\",\n        \"CreationDate\":  \"\\/Date(1788857124150)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  48400,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788868839833)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  24684,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788872053304)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  22288,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788890743493)\\/\"\n    },\n    {\n        \"Name\":  \"python.exe\",\n        \"ProcessId\":  46352,\n        \"ParentProcessId\":  51344,\n        \"ExecutablePath\":  \"C:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe\",\n        \"CommandLine\":  \"C:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe -B working/G4C-METADATA-AUDIT-002/observe_metadata.py\",\n        \"CreationDate\":  \"\\/Date(1788892386071)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  14220,\n        \"ParentProcessId\":  46352,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"powershell.exe -NoProfile -NonInteractive -Command \\\"$ErrorActionPreference=\\u0027Stop\\u0027; Get-CimInstance Win32_Process | Where-Object { $_.Name -match \\u0027^(ONENOTE|OneDrive|python.*|pythonw.*|wsl.*|bwrap|WindowsTerminal|powershell)\\\\.exe$\\u0027 } | Select-Object Name,ProcessId,ParentProcessId,ExecutablePath,CommandLine,CreationDate | ConvertTo-Json -Depth 3\\\"\",\n        \"CreationDate\":  \"\\/Date(1788892506454)\\/\"\n    }\n]\n",
+      "stderr": ""
+    },
+    {
+      "utc": "2026-09-08T18:36:07.548503+00:00",
+      "returncode": 0,
+      "stdout": "[\n    {\n        \"Name\":  \"wslservice.exe\",\n        \"ProcessId\":  6784,\n        \"ParentProcessId\":  1764,\n        \"ExecutablePath\":  null,\n        \"CommandLine\":  null,\n        \"CreationDate\":  \"\\/Date(1788372677214)\\/\"\n    },\n    {\n        \"Name\":  \"ONENOTE.EXE\",\n        \"ProcessId\":  35804,\n        \"ParentProcessId\":  34952,\n        \"ExecutablePath\":  \"C:\\\\Program Files\\\\Microsoft Office\\\\root\\\\Office16\\\\ONENOTE.EXE\",\n        \"CommandLine\":  \"\\\"C:\\\\Program Files\\\\Microsoft Office\\\\root\\\\Office16\\\\ONENOTE.EXE\\\" /memoryWindow autoRestore\",\n        \"CreationDate\":  \"\\/Date(1788373193876)\\/\"\n    },\n    {\n        \"Name\":  \"OneDrive.exe\",\n        \"ProcessId\":  3148,\n        \"ParentProcessId\":  34660,\n        \"ExecutablePath\":  \"C:\\\\Program Files\\\\Microsoft OneDrive\\\\OneDrive.exe\",\n        \"CommandLine\":  \" /updateInstalled /background\",\n        \"CreationDate\":  \"\\/Date(1788759723697)\\/\"\n    },\n    {\n        \"Name\":  \"OneDrive.exe\",\n        \"ProcessId\":  43684,\n        \"ParentProcessId\":  3148,\n        \"ExecutablePath\":  \"C:\\\\Program Files\\\\Microsoft OneDrive\\\\OneDrive.exe\",\n        \"CommandLine\":  \"\\\"C:\\\\Program Files\\\\Microsoft OneDrive\\\\OneDrive.exe\\\" /client=Personal /background\",\n        \"CreationDate\":  \"\\/Date(1788759728980)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  51628,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788855187733)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  32904,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788855187778)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  23696,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788855187822)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  35432,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788855187856)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  19152,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788855200967)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  16844,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788855432350)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  33176,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788855434143)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  39860,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788855434887)\\/\"\n    },\n    {\n        \"Name\":  \"python.exe\",\n        \"ProcessId\":  49476,\n        \"ParentProcessId\":  24252,\n        \"ExecutablePath\":  \"C:\\\\Python314\\\\python.exe\",\n        \"CommandLine\":  \"C:\\\\Python314\\\\python.exe c:\\\\Users\\\\jaswi\\\\.vscode\\\\extensions\\\\ms-python.black-formatter-2026.6.0\\\\bundled\\\\tool\\\\lsp_server.py\",\n        \"CreationDate\":  \"\\/Date(1788857124150)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  48400,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788868839833)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  24684,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788872053304)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  22288,\n        \"ParentProcessId\":  43636,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -noexit -command \\\"try { . \\\\\\\"c:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\08d4889f9e\\\\resources\\\\app\\\\out\\\\vs\\\\workbench\\\\contrib\\\\terminal\\\\common\\\\scripts\\\\shellIntegration.ps1\\\\\\\" } catch {}\\\"\",\n        \"CreationDate\":  \"\\/Date(1788890743493)\\/\"\n    },\n    {\n        \"Name\":  \"python.exe\",\n        \"ProcessId\":  46352,\n        \"ParentProcessId\":  51344,\n        \"ExecutablePath\":  \"C:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe\",\n        \"CommandLine\":  \"C:\\\\Users\\\\jaswi\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe -B working/G4C-METADATA-AUDIT-002/observe_metadata.py\",\n        \"CreationDate\":  \"\\/Date(1788892386071)\\/\"\n    },\n    {\n        \"Name\":  \"powershell.exe\",\n        \"ProcessId\":  35516,\n        \"ParentProcessId\":  46352,\n        \"ExecutablePath\":  \"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\",\n        \"CommandLine\":  \"powershell.exe -NoProfile -NonInteractive -Command \\\"$ErrorActionPreference=\\u0027Stop\\u0027; Get-CimInstance Win32_Process | Where-Object { $_.Name -match \\u0027^(ONENOTE|OneDrive|python.*|pythonw.*|wsl.*|bwrap|WindowsTerminal|powershell)\\\\.exe$\\u0027 } | Select-Object Name,ProcessId,ParentProcessId,ExecutablePath,CommandLine,CreationDate | ConvertTo-Json -Depth 3\\\"\",\n        \"CreationDate\":  \"\\/Date(1788892566453)\\/\"\n    }\n]\n",
+      "stderr": ""
+    }
+  ],
+  "unique_hashes": [
+    "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a"
+  ]
+}

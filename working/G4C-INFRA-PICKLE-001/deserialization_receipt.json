@@ -1,0 +1,23 @@
+{
+  "broad_repository_path_added": false,
+  "dont_write_bytecode": true,
+  "isolated_mode": true,
+  "methods_invoked": [],
+  "models_fit": 0,
+  "module_sha256": "c15ccb5f40b6c9f062f3a332ce523a1021daad65ec1f122394d388d715e2d111",
+  "module_source": "working/minimal_standard_scaler.py",
+  "payload_inspected": false,
+  "pickle_load_returned": true,
+  "pickle_path": "data/preprocessed/preprocessed_data.pkl",
+  "pickle_sha256": "51f11bc9025b5d4ffe2f9e03a8c76b70e4cfd0e91cb36876a9d021181e8ccdbe",
+  "predictions_generated": 0,
+  "registered_exact_module": "working.minimal_standard_scaler",
+  "registered_package": "working",
+  "run_id": "G4C-INFRA-PICKLE-001",
+  "scientific_state_changed": false,
+  "status": "PASS",
+  "sys_path_unchanged": true,
+  "timestamp_utc": "2026-09-08T19:30:56.787103+00:00",
+  "top_level_type": "builtins.dict",
+  "workers_launched": 0
+}

@@ -1,0 +1,1194 @@
+{
+  "result": {
+    "status": "PASS",
+    "packet_parsed": true,
+    "records": [
+      {
+        "stage": "entry_after_os_json_hashlib",
+        "rows": [
+          {
+            "fd": 0,
+            "target": "pipe:[835]",
+            "fdinfo": "pos:\t0\nflags:\t00\nmnt_id:\t17\nino:\t835\n"
+          },
+          {
+            "fd": 1,
+            "target": "pipe:[836]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t836\n"
+          },
+          {
+            "fd": 2,
+            "target": "pipe:[837]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t837\n"
+          },
+          {
+            "fd": 3,
+            "target": "VANISHED_SCAN_DESCRIPTOR"
+          }
+        ],
+        "modules": {}
+      },
+      {
+        "stage": "after_pathlib",
+        "rows": [
+          {
+            "fd": 0,
+            "target": "pipe:[835]",
+            "fdinfo": "pos:\t0\nflags:\t00\nmnt_id:\t17\nino:\t835\n"
+          },
+          {
+            "fd": 1,
+            "target": "pipe:[836]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t836\n"
+          },
+          {
+            "fd": 2,
+            "target": "pipe:[837]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t837\n"
+          },
+          {
+            "fd": 3,
+            "target": "VANISHED_SCAN_DESCRIPTOR"
+          }
+        ],
+        "modules": {}
+      },
+      {
+        "stage": "after_resource",
+        "rows": [
+          {
+            "fd": 0,
+            "target": "pipe:[835]",
+            "fdinfo": "pos:\t0\nflags:\t00\nmnt_id:\t17\nino:\t835\n"
+          },
+          {
+            "fd": 1,
+            "target": "pipe:[836]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t836\n"
+          },
+          {
+            "fd": 2,
+            "target": "pipe:[837]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t837\n"
+          },
+          {
+            "fd": 3,
+            "target": "VANISHED_SCAN_DESCRIPTOR"
+          }
+        ],
+        "modules": {
+          "resource": true
+        }
+      },
+      {
+        "stage": "after_pickle_warnings",
+        "rows": [
+          {
+            "fd": 0,
+            "target": "pipe:[835]",
+            "fdinfo": "pos:\t0\nflags:\t00\nmnt_id:\t17\nino:\t835\n"
+          },
+          {
+            "fd": 1,
+            "target": "pipe:[836]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t836\n"
+          },
+          {
+            "fd": 2,
+            "target": "pipe:[837]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t837\n"
+          },
+          {
+            "fd": 3,
+            "target": "VANISHED_SCAN_DESCRIPTOR"
+          }
+        ],
+        "modules": {
+          "resource": true,
+          "pickle": true,
+          "warnings": true
+        }
+      },
+      {
+        "stage": "immediately_after_numpy",
+        "rows": [
+          {
+            "fd": 0,
+            "target": "pipe:[835]",
+            "fdinfo": "pos:\t0\nflags:\t00\nmnt_id:\t17\nino:\t835\n"
+          },
+          {
+            "fd": 1,
+            "target": "pipe:[836]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t836\n"
+          },
+          {
+            "fd": 2,
+            "target": "pipe:[837]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t837\n"
+          },
+          {
+            "fd": 3,
+            "target": "/usr/lib/x86_64-linux-gnu/libffi.so.8",
+            "fdinfo": "pos:\t0\nflags:\t02100000\nmnt_id:\t524\nino:\t54379\n"
+          },
+          {
+            "fd": 4,
+            "target": "VANISHED_SCAN_DESCRIPTOR"
+          }
+        ],
+        "modules": {
+          "ctypes": true,
+          "numpy": true,
+          "resource": true,
+          "pickle": true,
+          "warnings": true
+        }
+      },
+      {
+        "stage": "numpy_settle_0",
+        "rows": [
+          {
+            "fd": 0,
+            "target": "pipe:[835]",
+            "fdinfo": "pos:\t0\nflags:\t00\nmnt_id:\t17\nino:\t835\n"
+          },
+          {
+            "fd": 1,
+            "target": "pipe:[836]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t836\n"
+          },
+          {
+            "fd": 2,
+            "target": "pipe:[837]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t837\n"
+          },
+          {
+            "fd": 3,
+            "target": "/usr/lib/x86_64-linux-gnu/libffi.so.8",
+            "fdinfo": "pos:\t0\nflags:\t02100000\nmnt_id:\t524\nino:\t54379\n"
+          },
+          {
+            "fd": 4,
+            "target": "VANISHED_SCAN_DESCRIPTOR"
+          }
+        ],
+        "modules": {
+          "ctypes": true,
+          "numpy": true,
+          "resource": true,
+          "pickle": true,
+          "warnings": true
+        }
+      },
+      {
+        "stage": "numpy_settle_1",
+        "rows": [
+          {
+            "fd": 0,
+            "target": "pipe:[835]",
+            "fdinfo": "pos:\t0\nflags:\t00\nmnt_id:\t17\nino:\t835\n"
+          },
+          {
+            "fd": 1,
+            "target": "pipe:[836]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t836\n"
+          },
+          {
+            "fd": 2,
+            "target": "pipe:[837]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t837\n"
+          },
+          {
+            "fd": 3,
+            "target": "/usr/lib/x86_64-linux-gnu/libffi.so.8",
+            "fdinfo": "pos:\t0\nflags:\t02100000\nmnt_id:\t524\nino:\t54379\n"
+          },
+          {
+            "fd": 4,
+            "target": "VANISHED_SCAN_DESCRIPTOR"
+          }
+        ],
+        "modules": {
+          "ctypes": true,
+          "numpy": true,
+          "resource": true,
+          "pickle": true,
+          "warnings": true
+        }
+      },
+      {
+        "stage": "numpy_settle_2",
+        "rows": [
+          {
+            "fd": 0,
+            "target": "pipe:[835]",
+            "fdinfo": "pos:\t0\nflags:\t00\nmnt_id:\t17\nino:\t835\n"
+          },
+          {
+            "fd": 1,
+            "target": "pipe:[836]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t836\n"
+          },
+          {
+            "fd": 2,
+            "target": "pipe:[837]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t837\n"
+          },
+          {
+            "fd": 3,
+            "target": "/usr/lib/x86_64-linux-gnu/libffi.so.8",
+            "fdinfo": "pos:\t0\nflags:\t02100000\nmnt_id:\t524\nino:\t54379\n"
+          },
+          {
+            "fd": 4,
+            "target": "VANISHED_SCAN_DESCRIPTOR"
+          }
+        ],
+        "modules": {
+          "ctypes": true,
+          "numpy": true,
+          "resource": true,
+          "pickle": true,
+          "warnings": true
+        }
+      },
+      {
+        "stage": "numpy_settle_3",
+        "rows": [
+          {
+            "fd": 0,
+            "target": "pipe:[835]",
+            "fdinfo": "pos:\t0\nflags:\t00\nmnt_id:\t17\nino:\t835\n"
+          },
+          {
+            "fd": 1,
+            "target": "pipe:[836]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t836\n"
+          },
+          {
+            "fd": 2,
+            "target": "pipe:[837]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t837\n"
+          },
+          {
+            "fd": 3,
+            "target": "/usr/lib/x86_64-linux-gnu/libffi.so.8",
+            "fdinfo": "pos:\t0\nflags:\t02100000\nmnt_id:\t524\nino:\t54379\n"
+          },
+          {
+            "fd": 4,
+            "target": "VANISHED_SCAN_DESCRIPTOR"
+          }
+        ],
+        "modules": {
+          "ctypes": true,
+          "numpy": true,
+          "resource": true,
+          "pickle": true,
+          "warnings": true
+        }
+      },
+      {
+        "stage": "numpy_settle_4",
+        "rows": [
+          {
+            "fd": 0,
+            "target": "pipe:[835]",
+            "fdinfo": "pos:\t0\nflags:\t00\nmnt_id:\t17\nino:\t835\n"
+          },
+          {
+            "fd": 1,
+            "target": "pipe:[836]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t836\n"
+          },
+          {
+            "fd": 2,
+            "target": "pipe:[837]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t837\n"
+          },
+          {
+            "fd": 3,
+            "target": "/usr/lib/x86_64-linux-gnu/libffi.so.8",
+            "fdinfo": "pos:\t0\nflags:\t02100000\nmnt_id:\t524\nino:\t54379\n"
+          },
+          {
+            "fd": 4,
+            "target": "VANISHED_SCAN_DESCRIPTOR"
+          }
+        ],
+        "modules": {
+          "ctypes": true,
+          "numpy": true,
+          "resource": true,
+          "pickle": true,
+          "warnings": true
+        }
+      },
+      {
+        "stage": "numpy_settle_5",
+        "rows": [
+          {
+            "fd": 0,
+            "target": "pipe:[835]",
+            "fdinfo": "pos:\t0\nflags:\t00\nmnt_id:\t17\nino:\t835\n"
+          },
+          {
+            "fd": 1,
+            "target": "pipe:[836]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t836\n"
+          },
+          {
+            "fd": 2,
+            "target": "pipe:[837]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t837\n"
+          },
+          {
+            "fd": 3,
+            "target": "/usr/lib/x86_64-linux-gnu/libffi.so.8",
+            "fdinfo": "pos:\t0\nflags:\t02100000\nmnt_id:\t524\nino:\t54379\n"
+          },
+          {
+            "fd": 4,
+            "target": "VANISHED_SCAN_DESCRIPTOR"
+          }
+        ],
+        "modules": {
+          "ctypes": true,
+          "numpy": true,
+          "resource": true,
+          "pickle": true,
+          "warnings": true
+        }
+      },
+      {
+        "stage": "numpy_settle_6",
+        "rows": [
+          {
+            "fd": 0,
+            "target": "pipe:[835]",
+            "fdinfo": "pos:\t0\nflags:\t00\nmnt_id:\t17\nino:\t835\n"
+          },
+          {
+            "fd": 1,
+            "target": "pipe:[836]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t836\n"
+          },
+          {
+            "fd": 2,
+            "target": "pipe:[837]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t837\n"
+          },
+          {
+            "fd": 3,
+            "target": "/usr/lib/x86_64-linux-gnu/libffi.so.8",
+            "fdinfo": "pos:\t0\nflags:\t02100000\nmnt_id:\t524\nino:\t54379\n"
+          },
+          {
+            "fd": 4,
+            "target": "VANISHED_SCAN_DESCRIPTOR"
+          }
+        ],
+        "modules": {
+          "ctypes": true,
+          "numpy": true,
+          "resource": true,
+          "pickle": true,
+          "warnings": true
+        }
+      },
+      {
+        "stage": "numpy_settle_7",
+        "rows": [
+          {
+            "fd": 0,
+            "target": "pipe:[835]",
+            "fdinfo": "pos:\t0\nflags:\t00\nmnt_id:\t17\nino:\t835\n"
+          },
+          {
+            "fd": 1,
+            "target": "pipe:[836]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t836\n"
+          },
+          {
+            "fd": 2,
+            "target": "pipe:[837]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t837\n"
+          },
+          {
+            "fd": 3,
+            "target": "/usr/lib/x86_64-linux-gnu/libffi.so.8",
+            "fdinfo": "pos:\t0\nflags:\t02100000\nmnt_id:\t524\nino:\t54379\n"
+          },
+          {
+            "fd": 4,
+            "target": "VANISHED_SCAN_DESCRIPTOR"
+          }
+        ],
+        "modules": {
+          "ctypes": true,
+          "numpy": true,
+          "resource": true,
+          "pickle": true,
+          "warnings": true
+        }
+      },
+      {
+        "stage": "numpy_settle_8",
+        "rows": [
+          {
+            "fd": 0,
+            "target": "pipe:[835]",
+            "fdinfo": "pos:\t0\nflags:\t00\nmnt_id:\t17\nino:\t835\n"
+          },
+          {
+            "fd": 1,
+            "target": "pipe:[836]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t836\n"
+          },
+          {
+            "fd": 2,
+            "target": "pipe:[837]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t837\n"
+          },
+          {
+            "fd": 3,
+            "target": "/usr/lib/x86_64-linux-gnu/libffi.so.8",
+            "fdinfo": "pos:\t0\nflags:\t02100000\nmnt_id:\t524\nino:\t54379\n"
+          },
+          {
+            "fd": 4,
+            "target": "VANISHED_SCAN_DESCRIPTOR"
+          }
+        ],
+        "modules": {
+          "ctypes": true,
+          "numpy": true,
+          "resource": true,
+          "pickle": true,
+          "warnings": true
+        }
+      },
+      {
+        "stage": "numpy_settle_9",
+        "rows": [
+          {
+            "fd": 0,
+            "target": "pipe:[835]",
+            "fdinfo": "pos:\t0\nflags:\t00\nmnt_id:\t17\nino:\t835\n"
+          },
+          {
+            "fd": 1,
+            "target": "pipe:[836]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t836\n"
+          },
+          {
+            "fd": 2,
+            "target": "pipe:[837]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t837\n"
+          },
+          {
+            "fd": 3,
+            "target": "/usr/lib/x86_64-linux-gnu/libffi.so.8",
+            "fdinfo": "pos:\t0\nflags:\t02100000\nmnt_id:\t524\nino:\t54379\n"
+          },
+          {
+            "fd": 4,
+            "target": "VANISHED_SCAN_DESCRIPTOR"
+          }
+        ],
+        "modules": {
+          "ctypes": true,
+          "numpy": true,
+          "resource": true,
+          "pickle": true,
+          "warnings": true
+        }
+      },
+      {
+        "stage": "numpy_settle_10",
+        "rows": [
+          {
+            "fd": 0,
+            "target": "pipe:[835]",
+            "fdinfo": "pos:\t0\nflags:\t00\nmnt_id:\t17\nino:\t835\n"
+          },
+          {
+            "fd": 1,
+            "target": "pipe:[836]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t836\n"
+          },
+          {
+            "fd": 2,
+            "target": "pipe:[837]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t837\n"
+          },
+          {
+            "fd": 3,
+            "target": "/usr/lib/x86_64-linux-gnu/libffi.so.8",
+            "fdinfo": "pos:\t0\nflags:\t02100000\nmnt_id:\t524\nino:\t54379\n"
+          },
+          {
+            "fd": 4,
+            "target": "VANISHED_SCAN_DESCRIPTOR"
+          }
+        ],
+        "modules": {
+          "ctypes": true,
+          "numpy": true,
+          "resource": true,
+          "pickle": true,
+          "warnings": true
+        }
+      },
+      {
+        "stage": "numpy_settle_11",
+        "rows": [
+          {
+            "fd": 0,
+            "target": "pipe:[835]",
+            "fdinfo": "pos:\t0\nflags:\t00\nmnt_id:\t17\nino:\t835\n"
+          },
+          {
+            "fd": 1,
+            "target": "pipe:[836]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t836\n"
+          },
+          {
+            "fd": 2,
+            "target": "pipe:[837]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t837\n"
+          },
+          {
+            "fd": 3,
+            "target": "/usr/lib/x86_64-linux-gnu/libffi.so.8",
+            "fdinfo": "pos:\t0\nflags:\t02100000\nmnt_id:\t524\nino:\t54379\n"
+          },
+          {
+            "fd": 4,
+            "target": "VANISHED_SCAN_DESCRIPTOR"
+          }
+        ],
+        "modules": {
+          "ctypes": true,
+          "numpy": true,
+          "resource": true,
+          "pickle": true,
+          "warnings": true
+        }
+      },
+      {
+        "stage": "numpy_settle_12",
+        "rows": [
+          {
+            "fd": 0,
+            "target": "pipe:[835]",
+            "fdinfo": "pos:\t0\nflags:\t00\nmnt_id:\t17\nino:\t835\n"
+          },
+          {
+            "fd": 1,
+            "target": "pipe:[836]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t836\n"
+          },
+          {
+            "fd": 2,
+            "target": "pipe:[837]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t837\n"
+          },
+          {
+            "fd": 3,
+            "target": "/usr/lib/x86_64-linux-gnu/libffi.so.8",
+            "fdinfo": "pos:\t0\nflags:\t02100000\nmnt_id:\t524\nino:\t54379\n"
+          },
+          {
+            "fd": 4,
+            "target": "VANISHED_SCAN_DESCRIPTOR"
+          }
+        ],
+        "modules": {
+          "ctypes": true,
+          "numpy": true,
+          "resource": true,
+          "pickle": true,
+          "warnings": true
+        }
+      },
+      {
+        "stage": "numpy_settle_13",
+        "rows": [
+          {
+            "fd": 0,
+            "target": "pipe:[835]",
+            "fdinfo": "pos:\t0\nflags:\t00\nmnt_id:\t17\nino:\t835\n"
+          },
+          {
+            "fd": 1,
+            "target": "pipe:[836]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t836\n"
+          },
+          {
+            "fd": 2,
+            "target": "pipe:[837]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t837\n"
+          },
+          {
+            "fd": 3,
+            "target": "/usr/lib/x86_64-linux-gnu/libffi.so.8",
+            "fdinfo": "pos:\t0\nflags:\t02100000\nmnt_id:\t524\nino:\t54379\n"
+          },
+          {
+            "fd": 4,
+            "target": "VANISHED_SCAN_DESCRIPTOR"
+          }
+        ],
+        "modules": {
+          "ctypes": true,
+          "numpy": true,
+          "resource": true,
+          "pickle": true,
+          "warnings": true
+        }
+      },
+      {
+        "stage": "numpy_settle_14",
+        "rows": [
+          {
+            "fd": 0,
+            "target": "pipe:[835]",
+            "fdinfo": "pos:\t0\nflags:\t00\nmnt_id:\t17\nino:\t835\n"
+          },
+          {
+            "fd": 1,
+            "target": "pipe:[836]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t836\n"
+          },
+          {
+            "fd": 2,
+            "target": "pipe:[837]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t837\n"
+          },
+          {
+            "fd": 3,
+            "target": "/usr/lib/x86_64-linux-gnu/libffi.so.8",
+            "fdinfo": "pos:\t0\nflags:\t02100000\nmnt_id:\t524\nino:\t54379\n"
+          },
+          {
+            "fd": 4,
+            "target": "VANISHED_SCAN_DESCRIPTOR"
+          }
+        ],
+        "modules": {
+          "ctypes": true,
+          "numpy": true,
+          "resource": true,
+          "pickle": true,
+          "warnings": true
+        }
+      },
+      {
+        "stage": "numpy_settle_15",
+        "rows": [
+          {
+            "fd": 0,
+            "target": "pipe:[835]",
+            "fdinfo": "pos:\t0\nflags:\t00\nmnt_id:\t17\nino:\t835\n"
+          },
+          {
+            "fd": 1,
+            "target": "pipe:[836]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t836\n"
+          },
+          {
+            "fd": 2,
+            "target": "pipe:[837]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t837\n"
+          },
+          {
+            "fd": 3,
+            "target": "/usr/lib/x86_64-linux-gnu/libffi.so.8",
+            "fdinfo": "pos:\t0\nflags:\t02100000\nmnt_id:\t524\nino:\t54379\n"
+          },
+          {
+            "fd": 4,
+            "target": "VANISHED_SCAN_DESCRIPTOR"
+          }
+        ],
+        "modules": {
+          "ctypes": true,
+          "numpy": true,
+          "resource": true,
+          "pickle": true,
+          "warnings": true
+        }
+      },
+      {
+        "stage": "numpy_settle_16",
+        "rows": [
+          {
+            "fd": 0,
+            "target": "pipe:[835]",
+            "fdinfo": "pos:\t0\nflags:\t00\nmnt_id:\t17\nino:\t835\n"
+          },
+          {
+            "fd": 1,
+            "target": "pipe:[836]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t836\n"
+          },
+          {
+            "fd": 2,
+            "target": "pipe:[837]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t837\n"
+          },
+          {
+            "fd": 3,
+            "target": "/usr/lib/x86_64-linux-gnu/libffi.so.8",
+            "fdinfo": "pos:\t0\nflags:\t02100000\nmnt_id:\t524\nino:\t54379\n"
+          },
+          {
+            "fd": 4,
+            "target": "VANISHED_SCAN_DESCRIPTOR"
+          }
+        ],
+        "modules": {
+          "ctypes": true,
+          "numpy": true,
+          "resource": true,
+          "pickle": true,
+          "warnings": true
+        }
+      },
+      {
+        "stage": "numpy_settle_17",
+        "rows": [
+          {
+            "fd": 0,
+            "target": "pipe:[835]",
+            "fdinfo": "pos:\t0\nflags:\t00\nmnt_id:\t17\nino:\t835\n"
+          },
+          {
+            "fd": 1,
+            "target": "pipe:[836]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t836\n"
+          },
+          {
+            "fd": 2,
+            "target": "pipe:[837]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t837\n"
+          },
+          {
+            "fd": 3,
+            "target": "/usr/lib/x86_64-linux-gnu/libffi.so.8",
+            "fdinfo": "pos:\t0\nflags:\t02100000\nmnt_id:\t524\nino:\t54379\n"
+          },
+          {
+            "fd": 4,
+            "target": "VANISHED_SCAN_DESCRIPTOR"
+          }
+        ],
+        "modules": {
+          "ctypes": true,
+          "numpy": true,
+          "resource": true,
+          "pickle": true,
+          "warnings": true
+        }
+      },
+      {
+        "stage": "numpy_settle_18",
+        "rows": [
+          {
+            "fd": 0,
+            "target": "pipe:[835]",
+            "fdinfo": "pos:\t0\nflags:\t00\nmnt_id:\t17\nino:\t835\n"
+          },
+          {
+            "fd": 1,
+            "target": "pipe:[836]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t836\n"
+          },
+          {
+            "fd": 2,
+            "target": "pipe:[837]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t837\n"
+          },
+          {
+            "fd": 3,
+            "target": "/usr/lib/x86_64-linux-gnu/libffi.so.8",
+            "fdinfo": "pos:\t0\nflags:\t02100000\nmnt_id:\t524\nino:\t54379\n"
+          },
+          {
+            "fd": 4,
+            "target": "VANISHED_SCAN_DESCRIPTOR"
+          }
+        ],
+        "modules": {
+          "ctypes": true,
+          "numpy": true,
+          "resource": true,
+          "pickle": true,
+          "warnings": true
+        }
+      },
+      {
+        "stage": "numpy_settle_19",
+        "rows": [
+          {
+            "fd": 0,
+            "target": "pipe:[835]",
+            "fdinfo": "pos:\t0\nflags:\t00\nmnt_id:\t17\nino:\t835\n"
+          },
+          {
+            "fd": 1,
+            "target": "pipe:[836]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t836\n"
+          },
+          {
+            "fd": 2,
+            "target": "pipe:[837]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t837\n"
+          },
+          {
+            "fd": 3,
+            "target": "/usr/lib/x86_64-linux-gnu/libffi.so.8",
+            "fdinfo": "pos:\t0\nflags:\t02100000\nmnt_id:\t524\nino:\t54379\n"
+          },
+          {
+            "fd": 4,
+            "target": "VANISHED_SCAN_DESCRIPTOR"
+          }
+        ],
+        "modules": {
+          "ctypes": true,
+          "numpy": true,
+          "resource": true,
+          "pickle": true,
+          "warnings": true
+        }
+      },
+      {
+        "stage": "after_packet_parse",
+        "rows": [
+          {
+            "fd": 0,
+            "target": "pipe:[835]",
+            "fdinfo": "pos:\t0\nflags:\t00\nmnt_id:\t17\nino:\t835\n"
+          },
+          {
+            "fd": 1,
+            "target": "pipe:[836]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t836\n"
+          },
+          {
+            "fd": 2,
+            "target": "pipe:[837]",
+            "fdinfo": "pos:\t0\nflags:\t01\nmnt_id:\t17\nino:\t837\n"
+          },
+          {
+            "fd": 3,
+            "target": "/usr/lib/x86_64-linux-gnu/libffi.so.8",
+            "fdinfo": "pos:\t0\nflags:\t02100000\nmnt_id:\t524\nino:\t54379\n"
+          },
+          {
+            "fd": 4,
+            "target": "VANISHED_SCAN_DESCRIPTOR"
+          }
+        ],
+        "modules": {
+          "ctypes": true,
+          "numpy": true,
+          "resource": true,
+          "pickle": true,
+          "warnings": true
+        }
+      }
+    ],
+    "libffi_maps": [
+      "7c7303ce3000-7c7303ce5000 r--p 00000000 08:30 54379                      /usr/lib/x86_64-linux-gnu/libffi.so.8",
+      "7c7303ce5000-7c7303cf0000 r-xp 00002000 08:30 54379                      /usr/lib/x86_64-linux-gnu/libffi.so.8",
+      "7c7303cf0000-7c7303cf2000 r--p 0000d000 08:30 54379                      /usr/lib/x86_64-linux-gnu/libffi.so.8",
+      "7c7303cf2000-7c7303cf3000 r--p 0000e000 08:30 54379                      /usr/lib/x86_64-linux-gnu/libffi.so.8",
+      "7c7303cf3000-7c7303cf4000 rw-p 0000f000 08:30 54379                      /usr/lib/x86_64-linux-gnu/libffi.so.8",
+      "7c7304221000-7c7304222000 r-xp 0000b000 08:30 54379                      /usr/lib/x86_64-linux-gnu/libffi.so.8"
+    ],
+    "candidate_data": false,
+    "models_fit": 0,
+    "predictions": 0
+  },
+  "boundary_evidence": {
+    "role": "diagnostic",
+    "code_sha256": "a47ede30c109c2670dfc2b113218c735f6a2d2d80b0949b2c83015a9af113374",
+    "packet_sha256": "41920f273319cc4e306336f1fadaee5a0625620c453ceaf5da04e289210402f8",
+    "stdout_sha256": "499723360ba2c9f1217c279cf6a771f4cd788e9bf59f4c66879f785756fa602d",
+    "returncode": 0,
+    "reason": null,
+    "stderr": "",
+    "elapsed_seconds": 0.9240013049999902,
+    "namespace": "pid:[4026532231]",
+    "lifecycle": {
+      "pass_": true,
+      "subreaper_enabled": true,
+      "samples": 24,
+      "owner_pid": 362,
+      "known_identities": {
+        "482": 6604,
+        "483": 6604,
+        "484": 6605
+      },
+      "immediate_post_wait": [
+        {
+          "pid": 483,
+          "command": "bwrap",
+          "state": "Z",
+          "ppid": 362,
+          "process_group": 483,
+          "session": 483,
+          "start_ticks": 6604,
+          "exit_signal": 17,
+          "exit_code": 0,
+          "pid_namespace": "pid:[4026532231]",
+          "namespace_pids": [
+            "483",
+            "1"
+          ],
+          "cmdline": ""
+        }
+      ],
+      "final_survivors": [],
+      "reaped": [
+        {
+          "pid": 483,
+          "start_ticks": 6604,
+          "wait_status": 0,
+          "exit_code": 0
+        }
+      ],
+      "deadline_seconds": 5,
+      "events": [
+        {
+          "monotonic_seconds": 0.010006884000006266,
+          "wall_time_ns": 1788897060113283745,
+          "kind": "observation",
+          "stage": "launch",
+          "pid": 482,
+          "start_ticks": 6604,
+          "process": {
+            "pid": 482,
+            "command": "bwrap",
+            "state": "S",
+            "ppid": 362,
+            "process_group": 482,
+            "session": 482,
+            "start_ticks": 6604,
+            "exit_signal": 17,
+            "exit_code": 0,
+            "pid_namespace": "pid:[4026532223]",
+            "namespace_pids": [
+              "482"
+            ],
+            "cmdline": "/usr/bin/bwrap --unshare-all --unshare-user --disable-userns --die-with-parent --new-session --cap-drop ALL --ro-bind /home/jaswin/.local/share/gate4a/runtime_v4_narwhals/image / --proc /proc --dev /dev --tmpfs /tmp --chdir /tmp --clearenv --tmpfs /app --ro-bind-data 4 /app/entry.py --remount-ro /app --info-fd 6 --setenv HOME /tmp --setenv LD_LIBRARY_PATH /numeric/numpy.libs:/numeric/scikit_learn.libs:/numeric/scipy.libs --setenv OMP_NUM_THREADS 1 --setenv OPENBLAS_NUM_THREADS 1 --setenv PATH /usr/bin -- /usr/bin/python3.14 -I -B /app/entry.py "
+          }
+        },
+        {
+          "monotonic_seconds": 0.015753215000003706,
+          "wall_time_ns": 1788897060119017393,
+          "kind": "observation",
+          "stage": "streaming",
+          "pid": 483,
+          "start_ticks": 6604,
+          "process": {
+            "pid": 483,
+            "command": "bwrap",
+            "state": "S",
+            "ppid": 482,
+            "process_group": 483,
+            "session": 483,
+            "start_ticks": 6604,
+            "exit_signal": 17,
+            "exit_code": 0,
+            "pid_namespace": "pid:[4026532231]",
+            "namespace_pids": [
+              "483",
+              "1"
+            ],
+            "cmdline": "/usr/bin/bwrap --unshare-all --unshare-user --disable-userns --die-with-parent --new-session --cap-drop ALL --ro-bind /home/jaswin/.local/share/gate4a/runtime_v4_narwhals/image / --proc /proc --dev /dev --tmpfs /tmp --chdir /tmp --clearenv --tmpfs /app --ro-bind-data 4 /app/entry.py --remount-ro /app --info-fd 6 --setenv HOME /tmp --setenv LD_LIBRARY_PATH /numeric/numpy.libs:/numeric/scikit_learn.libs:/numeric/scipy.libs --setenv OMP_NUM_THREADS 1 --setenv OPENBLAS_NUM_THREADS 1 --setenv PATH /usr/bin -- /usr/bin/python3.14 -I -B /app/entry.py "
+          }
+        },
+        {
+          "monotonic_seconds": 0.020693950000008954,
+          "wall_time_ns": 1788897060123955132,
+          "kind": "observation",
+          "stage": "namespace_created",
+          "pid": 484,
+          "start_ticks": 6605,
+          "process": {
+            "pid": 484,
+            "command": "python3.14",
+            "state": "R",
+            "ppid": 483,
+            "process_group": 483,
+            "session": 483,
+            "start_ticks": 6605,
+            "exit_signal": 17,
+            "exit_code": 0,
+            "pid_namespace": "pid:[4026532231]",
+            "namespace_pids": [
+              "484",
+              "2"
+            ],
+            "cmdline": "/usr/bin/python3.14 -I -B /app/entry.py "
+          }
+        },
+        {
+          "monotonic_seconds": 0.6850434720000038,
+          "wall_time_ns": 1788897060788304734,
+          "kind": "observation",
+          "stage": "streaming",
+          "pid": 484,
+          "start_ticks": 6605,
+          "process": {
+            "pid": 484,
+            "command": "python3.14",
+            "state": "S",
+            "ppid": 483,
+            "process_group": 483,
+            "session": 483,
+            "start_ticks": 6605,
+            "exit_signal": 17,
+            "exit_code": 0,
+            "pid_namespace": "pid:[4026532231]",
+            "namespace_pids": [
+              "484",
+              "2"
+            ],
+            "cmdline": "/usr/bin/python3.14 -I -B /app/entry.py "
+          }
+        },
+        {
+          "monotonic_seconds": 0.879725814000011,
+          "wall_time_ns": 1788897060982987497,
+          "kind": "observation",
+          "stage": "streaming",
+          "pid": 484,
+          "start_ticks": 6605,
+          "process": {
+            "pid": 484,
+            "command": "python3.14",
+            "state": "R",
+            "ppid": 483,
+            "process_group": 483,
+            "session": 483,
+            "start_ticks": 6605,
+            "exit_signal": 17,
+            "exit_code": 0,
+            "pid_namespace": "pid:[4026532231]",
+            "namespace_pids": [
+              "484",
+              "2"
+            ],
+            "cmdline": "/usr/bin/python3.14 -I -B /app/entry.py "
+          }
+        },
+        {
+          "monotonic_seconds": 0.9191582119999993,
+          "wall_time_ns": 1788897061022419965,
+          "kind": "observation",
+          "stage": "before_launcher_wait",
+          "pid": 482,
+          "start_ticks": 6604,
+          "process": {
+            "pid": 482,
+            "command": "bwrap",
+            "state": "Z",
+            "ppid": 362,
+            "process_group": 482,
+            "session": 482,
+            "start_ticks": 6604,
+            "exit_signal": 17,
+            "exit_code": 0,
+            "pid_namespace": "pid:[4026532223]",
+            "namespace_pids": [
+              "482"
+            ],
+            "cmdline": ""
+          }
+        },
+        {
+          "monotonic_seconds": 0.9192972020000099,
+          "wall_time_ns": 1788897061022557652,
+          "kind": "observation",
+          "stage": "before_launcher_wait",
+          "pid": 483,
+          "start_ticks": 6604,
+          "process": {
+            "pid": 483,
+            "command": "bwrap",
+            "state": "Z",
+            "ppid": 362,
+            "process_group": 483,
+            "session": 483,
+            "start_ticks": 6604,
+            "exit_signal": 17,
+            "exit_code": 0,
+            "pid_namespace": "pid:[4026532231]",
+            "namespace_pids": [
+              "483",
+              "1"
+            ],
+            "cmdline": ""
+          }
+        },
+        {
+          "monotonic_seconds": 0.9193272480000019,
+          "wall_time_ns": 1788897061022587548,
+          "kind": "observation",
+          "stage": "before_launcher_wait",
+          "pid": 484,
+          "start_ticks": 6605,
+          "process": null
+        },
+        {
+          "monotonic_seconds": 0.9195208699999995,
+          "wall_time_ns": 1788897061022781211,
+          "kind": "launcher_wait_completed",
+          "returncode": 0
+        },
+        {
+          "monotonic_seconds": 0.9215539070000034,
+          "wall_time_ns": 1788897061024814758,
+          "kind": "observation",
+          "stage": "immediate_post_wait",
+          "pid": 482,
+          "start_ticks": 6604,
+          "process": null
+        },
+        {
+          "monotonic_seconds": 0.9219512399999985,
+          "wall_time_ns": 1788897061025211981,
+          "kind": "waitpid_reaped",
+          "pid": 483,
+          "start_ticks": 6604,
+          "wait_status": 0,
+          "exit_code": 0
+        },
+        {
+          "monotonic_seconds": 0.9241365889999997,
+          "wall_time_ns": 1788897061027397310,
+          "kind": "observation",
+          "stage": "bounded_settle",
+          "pid": 483,
+          "start_ticks": 6604,
+          "process": null
+        },
+        {
+          "monotonic_seconds": 0.9241615460000077,
+          "wall_time_ns": 1788897061027421886,
+          "kind": "teardown_complete",
+          "survivors": []
+        }
+      ],
+      "historical_432_434_state": "Not recorded; cannot retrospectively determine"
+    },
+    "teardown_pass": true,
+    "runtime_lock_sha256": "cbebbda8f2a2a470d3d639e51fdf63b24afa7c950044bbf6b35a81dc9c21b514"
+  }
+}

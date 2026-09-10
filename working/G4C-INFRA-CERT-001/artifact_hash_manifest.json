@@ -1,0 +1,31 @@
+{
+  "certification_id": "G4C-INFRA-CERT-001",
+  "status": "FAIL",
+  "reason": "VALIDATION_BINDING_MISSING",
+  "created_utc": "2026-09-09T07:19:29.488909+00:00",
+  "new_E3_run_created": false,
+  "worker_launches": 0,
+  "files": {
+    "working/G4C-INFRA-CERT-001/certification.json": {
+      "bytes": 2659,
+      "sha256": "8fd2f59178477d472fc1bc991248cf19e755cd53f6f5035d8351e7d3aab9e8a6"
+    },
+    "working/G4C-INFRA-CERT-001/CERTIFICATION_REPORT.md": {
+      "bytes": 5350,
+      "sha256": "70084eb3173af04fc29237b5e50172a2d513315aac81dc3e4935724af815433b"
+    },
+    "working/G4C-INFRA-CERT-001/certify_preflight.py": {
+      "bytes": 6427,
+      "sha256": "78ba671a15abe19a2f96df3f83d71ec302be38994115b255badb424c0ad62e1d"
+    },
+    "working/G4C-INFRA-CERT-001/Open Notebook.onetoc2": {
+      "bytes": 5040,
+      "sha256": "22233f4eafb46a37ffbd93f4180a862c115a7a856685ff09db8f15ae88cac5e8"
+    },
+    "working/G4C-INFRA-CERT-001/preflight.log": {
+      "bytes": 2659,
+      "sha256": "8fd2f59178477d472fc1bc991248cf19e755cd53f6f5035d8351e7d3aab9e8a6"
+    }
+  },
+  "excludes_self": true
+}

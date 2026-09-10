@@ -1,0 +1,19 @@
+{
+  "command": [
+    "wsl",
+    "-d",
+    "Ubuntu",
+    "--exec",
+    "/usr/bin/python3",
+    "-B",
+    "/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/G4C-E2-005/coordinator/g4c_linux_call.py",
+    "/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/G4C-E2-005/evidence/preflight_1.input.json",
+    "/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/G4C-E2-005/coordinator/preflight_worker.py",
+    "preflight",
+    "/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/G4C-E2-005/evidence/preflight_1.json"
+  ],
+  "input_sha256": "e921df37123efc69bae295d0529e4b4faabd83f2a51adb47415c410a242d5b13",
+  "returncode": 1,
+  "stderr": "Traceback (most recent call last):\n  File \"/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/G4C-E2-005/coordinator/g4c_linux_call.py\", line 8, in <module>\n    packet=json.loads(a.packet.read_text());raw,evidence=run(packet,a.worker.read_bytes(),a.role,rf_path=a.rf)\n                                                         ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/G4C-E2-005/coordinator/g4c_boundary.py\", line 18, in run\n    payload=canonical(packet); lock=runtime_check()\n                                    ~~~~~~~~~~~~~^^\n  File \"/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/G4C-E2-005/coordinator/gate4_production_boundary.py\", line 34, in runtime_check\n    assert sha(LOCK_PATH) == LOCK_HASH\n           ~~~^^^^^^^^^^^\n  File \"/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/G4C-E2-005/coordinator/gate4_production_boundary.py\", line 25, in sha\n    with Path(p).open('rb') as f:\n         ~~~~~~~~~~~~^^^^^^\n  File \"/usr/lib/python3.14/pathlib/__init__.py\", line 772, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/G4C-E2-005/working/gate4_runtime_narwhals_lock.json'\n",
+  "stdout": ""
+}

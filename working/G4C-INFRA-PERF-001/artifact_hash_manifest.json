@@ -1,0 +1,97 @@
+{
+  "package_id": "G4C-INFRA-PERF-001",
+  "created_utc": "2026-09-09T07:10:59.105039+00:00",
+  "status": "OFFLINE_INFRASTRUCTURE_CHECKS_PASS",
+  "execution_certification": "PENDING_NO_WORKERS_AUTHORIZED",
+  "files": {
+    "working/G4C-INFRA-PERF-001/changes.patch": {
+      "bytes": 3383,
+      "sha256": "062b92d702e65f0d38c0633c2a4c8bd4e9482ee44cb84b89cc25995a2e4bc9da"
+    },
+    "working/G4C-INFRA-PERF-001/code/audit_offline.py": {
+      "bytes": 4251,
+      "sha256": "208f0be5b6fd3d5b289a05550dd821816638a191d1a30a3501a80dfd6d21c04f"
+    },
+    "working/G4C-INFRA-PERF-001/code/benchmark_coordinator.py": {
+      "bytes": 1669,
+      "sha256": "bd7e767a56810a01e4b14b247efdb25f669fc231c81be4b04736c4f81c2424ce"
+    },
+    "working/G4C-INFRA-PERF-001/code/benchmark_io.py": {
+      "bytes": 1749,
+      "sha256": "b389beeb10d4b683b52989a99f653b0a9c6928ad2fdc0a7771256a6adb6a55d8"
+    },
+    "working/G4C-INFRA-PERF-001/code/estimate_runtime.py": {
+      "bytes": 3145,
+      "sha256": "276b488c177bf197a76605fa0578981777a90c20736866f5e1d3edb28440f0e5"
+    },
+    "working/G4C-INFRA-PERF-001/code/immutable_io.py": {
+      "bytes": 4436,
+      "sha256": "7c21179b2e9c22712d7cdc658139dfa6f7f51e18c82ebc3bd13b775e2bc361e7"
+    },
+    "working/G4C-INFRA-PERF-001/code/Open Notebook.onetoc2": {
+      "bytes": 5040,
+      "sha256": "f2a5477d4cef70fe707f91402d66296435919ad0ee24577d0e3b027d20828ecd"
+    },
+    "working/G4C-INFRA-PERF-001/code/prepare_assets.py": {
+      "bytes": 7360,
+      "sha256": "e11a63ce95924a20343d5426ef4679ea35b05be4788c9c280a774f7cdccf67e6"
+    },
+    "working/G4C-INFRA-PERF-001/code/test_infrastructure.py": {
+      "bytes": 7458,
+      "sha256": "6e20b1bbf26d2e01fd1a0c61b26de791862dd45abcd6896d595a5c29559c8f60"
+    },
+    "working/G4C-INFRA-PERF-001/evidence/coordinator_benchmark.json": {
+      "bytes": 837,
+      "sha256": "3b7aaeba1610f05e0dbc83192c3f7f968c6270958ae5032551233c547951c675"
+    },
+    "working/G4C-INFRA-PERF-001/evidence/independent_offline_audit.json": {
+      "bytes": 1113,
+      "sha256": "e28325cdecd745ddf1c88c8680efdceba3bbe400bee4d530e8471c550e2c9f33"
+    },
+    "working/G4C-INFRA-PERF-001/evidence/native_io_benchmark.json": {
+      "bytes": 1471,
+      "sha256": "cee7f498d3b692bd06c61cdb037129c150b36f49bf0e61e37608e3fa9aeb96d3"
+    },
+    "working/G4C-INFRA-PERF-001/evidence/Open Notebook.onetoc2": {
+      "bytes": 5040,
+      "sha256": "37d0896c104fd3ece13d61c4c0011c933bc43044b0301b48bde810ddf173c4cd"
+    },
+    "working/G4C-INFRA-PERF-001/evidence/prepared_asset_hashes.json": {
+      "bytes": 849,
+      "sha256": "fa800b7457c4450e226b7616f8ba60f6198954ac4256d4f3f347ded22a2e2d94"
+    },
+    "working/G4C-INFRA-PERF-001/evidence/provenance.json": {
+      "bytes": 554,
+      "sha256": "3f95f92eaa3c37752f3c6a430e2d9d309c39ed98361ccb8fc3f4ea4ce210b823"
+    },
+    "working/G4C-INFRA-PERF-001/evidence/runtime_estimates.json": {
+      "bytes": 1467,
+      "sha256": "a4f8649d5c6921f0a4835dafad2c2aeb76ad2ab005b2650896c42d24338d7653"
+    },
+    "working/G4C-INFRA-PERF-001/evidence/tests_linux.log": {
+      "bytes": 1157,
+      "sha256": "5a8d4b7eef1c2ef8084f5b2a2ab5192e74f63cc6bfc120250930c66ec10c6d44"
+    },
+    "working/G4C-INFRA-PERF-001/evidence/tests_linux_final.log": {
+      "bytes": 1295,
+      "sha256": "7c5728a953a332d129ca941c26cd1e3efb54d2e5265ddc7fe5a7f965eaadfc63"
+    },
+    "working/G4C-INFRA-PERF-001/INDEPENDENT_AUDIT.md": {
+      "bytes": 4168,
+      "sha256": "09fec4062ed32d63e287ecf981cd23acea749894956c42a0616884e1cea51e9c"
+    },
+    "working/G4C-INFRA-PERF-001/Open Notebook.onetoc2": {
+      "bytes": 6232,
+      "sha256": "799a6c23cee04b15969504060e1d8d07f32da0482680a0ac0c3e6bd71779d73b"
+    },
+    "working/G4C-INFRA-PERF-001/REPORT.md": {
+      "bytes": 9471,
+      "sha256": "7681d9d54abad98fc1b0eaa7566b8cc11a2ad64c5c3ab1670eb7ebf7a7cce0d6"
+    },
+    "working/G4C-INFRA-PERF-001/RESUME_PROTOCOL.md": {
+      "bytes": 3551,
+      "sha256": "9d81748e96634d7407fdc4b440a7e10c6e7b4a353a008d3ff7f0f2eebde7236e"
+    }
+  },
+  "excludes_self": true
+}

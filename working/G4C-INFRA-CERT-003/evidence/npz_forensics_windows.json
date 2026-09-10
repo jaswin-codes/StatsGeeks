@@ -1,0 +1,861 @@
+{
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.5.3",
+  "zlib_compile": "1.3.1.zlib-ng",
+  "zlib_runtime": "1.3.1.zlib-ng",
+  "writer": "np.savez_compressed(file_object, **ordered_arrays)",
+  "numpy_writer_source_sha256": "749b07678d02700c57dddfbccb50880f75ca5a5f0e1cd17d41f9541af51bdc6e",
+  "zipfile_source_sha256": "645f16217b1ca64fc4b0a27467ec0f8f0032091053fed2ffd39e4c9cd2678599",
+  "descriptions": [
+    {
+      "path": "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\working\\G4C-E3-001\\predictions\\G4A-B005-T01.npz",
+      "bytes": 139993,
+      "sha256": "d3c7641cedf4fde41c6e709fc8ea9d214b710eaa09935ba4d31e96c73773d8b0",
+      "member_order": [
+        "query_indices.npy",
+        "query_ids.npy",
+        "raw_prototype.npy",
+        "rf_reproduced.npy",
+        "candidate.npy",
+        "frozen_rf.npy"
+      ],
+      "zip_comment_hex": "",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "npy_sha256": "eb16e88c91d3790c14c84f3a0b817201f9ceb28bcd341910889400028fff77b5",
+          "npy_header_hex": "934e554d5059010076007b276465736372273a20273c6938272c2027666f727472616e5f6f72646572273a2046616c73652c20277368617065273a202832353937322c292c207d20202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020200a",
+          "npy_version": [
+            1,
+            0
+          ],
+          "fortran_order": false,
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "array_data_sha256": "8af49d38e7a302afb2c07691b08c4ef27c57d8ec726c57f58936ef592c8355c9",
+          "array_data_bytes": 207776,
+          "array_c_order_sha256": "8af49d38e7a302afb2c07691b08c4ef27c57d8ec726c57f58936ef592c8355c9",
+          "zip": {
+            "date_time": [
+              1980,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "compress_type": 8,
+            "compress_size": 39427,
+            "file_size": 207904,
+            "CRC": 3159640050,
+            "create_system": 0,
+            "create_version": 45,
+            "extract_version": 45,
+            "reserved": 0,
+            "flag_bits": 0,
+            "volume": 0,
+            "internal_attr": 0,
+            "external_attr": 25165824,
+            "header_offset": 0
+          },
+          "zip_extra_hex": "",
+          "zip_comment_hex": "",
+          "compressed_data_sha256": "9191a7c543122696d28567d279c63f4fc13939043c1547591a2433fca26077d8",
+          "compressed_data_offset": 67
+        },
+        {
+          "name": "query_ids.npy",
+          "npy_sha256": "e9d6c83fdff41f675200630e0f62f556db69300d48903da23ffa2f880367ae15",
+          "npy_header_hex": "934e554d5059010076007b276465736372273a20273c6934272c2027666f727472616e5f6f72646572273a2046616c73652c20277368617065273a202832353937322c2032292c207d2020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020200a",
+          "npy_version": [
+            1,
+            0
+          ],
+          "fortran_order": false,
+          "dtype": "<i4",
+          "shape": [
+            25972,
+            2
+          ],
+          "array_data_sha256": "f3d4001132326ee7f8cb6fa00350383c456826812e075f6efa85b3a0fac23209",
+          "array_data_bytes": 207776,
+          "array_c_order_sha256": "f3d4001132326ee7f8cb6fa00350383c456826812e075f6efa85b3a0fac23209",
+          "zip": {
+            "date_time": [
+              1980,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "compress_type": 8,
+            "compress_size": 63990,
+            "file_size": 207904,
+            "CRC": 833627980,
+            "create_system": 0,
+            "create_version": 45,
+            "extract_version": 45,
+            "reserved": 0,
+            "flag_bits": 0,
+            "volume": 0,
+            "internal_attr": 0,
+            "external_attr": 25165824,
+            "header_offset": 39494
+          },
+          "zip_extra_hex": "",
+          "zip_comment_hex": "",
+          "compressed_data_sha256": "a885344f394a66ad6c13525f79e464f19be75e7ddeab3fbeae09c8c9f1ef5b6a",
+          "compressed_data_offset": 39557
+        },
+        {
+          "name": "raw_prototype.npy",
+          "npy_sha256": "f68c1a95eb7e12c226597b8bb528ee1523b8ea58c96b1ddeed8ef8afe5b89233",
+          "npy_header_hex": "934e554d5059010076007b276465736372273a20273c6938272c2027666f727472616e5f6f72646572273a2046616c73652c20277368617065273a202832353937322c292c207d20202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020200a",
+          "npy_version": [
+            1,
+            0
+          ],
+          "fortran_order": false,
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "array_data_sha256": "0976adfdb735b145107e3a0515fb4840527c1dd3359c50d9638e395ffe08be0d",
+          "array_data_bytes": 207776,
+          "array_c_order_sha256": "0976adfdb735b145107e3a0515fb4840527c1dd3359c50d9638e395ffe08be0d",
+          "zip": {
+            "date_time": [
+              1980,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "compress_type": 8,
+            "compress_size": 9477,
+            "file_size": 207904,
+            "CRC": 594553506,
+            "create_system": 0,
+            "create_version": 45,
+            "extract_version": 45,
+            "reserved": 0,
+            "flag_bits": 0,
+            "volume": 0,
+            "internal_attr": 0,
+            "external_attr": 25165824,
+            "header_offset": 103547
+          },
+          "zip_extra_hex": "",
+          "zip_comment_hex": "",
+          "compressed_data_sha256": "fe0cad24b1ba4d6620801f7fa5243d75f736b482722475291c8e53e5695edca4",
+          "compressed_data_offset": 103614
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "npy_sha256": "319f931e2b62f0f51aa071cd45ca76125eee833ca39a54db8800156cf6971c22",
+          "npy_header_hex": "934e554d5059010076007b276465736372273a20273c6938272c2027666f727472616e5f6f72646572273a2046616c73652c20277368617065273a202832353937322c292c207d20202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020200a",
+          "npy_version": [
+            1,
+            0
+          ],
+          "fortran_order": false,
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "array_data_sha256": "4a6440f23ecf45d8922881c8a639781fb0e7d9442bc9ae44b0706c9f0375cfea",
+          "array_data_bytes": 207776,
+          "array_c_order_sha256": "4a6440f23ecf45d8922881c8a639781fb0e7d9442bc9ae44b0706c9f0375cfea",
+          "zip": {
+            "date_time": [
+              1980,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "compress_type": 8,
+            "compress_size": 8944,
+            "file_size": 207904,
+            "CRC": 1952629737,
+            "create_system": 0,
+            "create_version": 45,
+            "extract_version": 45,
+            "reserved": 0,
+            "flag_bits": 0,
+            "volume": 0,
+            "internal_attr": 0,
+            "external_attr": 25165824,
+            "header_offset": 113091
+          },
+          "zip_extra_hex": "",
+          "zip_comment_hex": "",
+          "compressed_data_sha256": "08c1bfbf905be2005c37f510cf5af5a251a0b8f4b2c32d7a411c503ef49a7424",
+          "compressed_data_offset": 113158
+        },
+        {
+          "name": "candidate.npy",
+          "npy_sha256": "d0c845ef1cb530275e517e5bb64ceebf22e0271050393a53420e3228f76ff060",
+          "npy_header_hex": "934e554d5059010076007b276465736372273a20273c6938272c2027666f727472616e5f6f72646572273a2046616c73652c20277368617065273a202832353937322c292c207d20202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020200a",
+          "npy_version": [
+            1,
+            0
+          ],
+          "fortran_order": false,
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "array_data_sha256": "9e9cc9371cbbfa49b0bba7548624982ed46d0588d2eb502df43d002f97f427f5",
+          "array_data_bytes": 207776,
+          "array_c_order_sha256": "9e9cc9371cbbfa49b0bba7548624982ed46d0588d2eb502df43d002f97f427f5",
+          "zip": {
+            "date_time": [
+              1980,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "compress_type": 8,
+            "compress_size": 8433,
+            "file_size": 207904,
+            "CRC": 801009047,
+            "create_system": 0,
+            "create_version": 45,
+            "extract_version": 45,
+            "reserved": 0,
+            "flag_bits": 0,
+            "volume": 0,
+            "internal_attr": 0,
+            "external_attr": 25165824,
+            "header_offset": 122102
+          },
+          "zip_extra_hex": "",
+          "zip_comment_hex": "",
+          "compressed_data_sha256": "ce2a18f8dfbb83968daa4baac41802991df4d142765a3b5fa007a139f1eb2ebe",
+          "compressed_data_offset": 122165
+        },
+        {
+          "name": "frozen_rf.npy",
+          "npy_sha256": "319f931e2b62f0f51aa071cd45ca76125eee833ca39a54db8800156cf6971c22",
+          "npy_header_hex": "934e554d5059010076007b276465736372273a20273c6938272c2027666f727472616e5f6f72646572273a2046616c73652c20277368617065273a202832353937322c292c207d20202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020200a",
+          "npy_version": [
+            1,
+            0
+          ],
+          "fortran_order": false,
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "array_data_sha256": "4a6440f23ecf45d8922881c8a639781fb0e7d9442bc9ae44b0706c9f0375cfea",
+          "array_data_bytes": 207776,
+          "array_c_order_sha256": "4a6440f23ecf45d8922881c8a639781fb0e7d9442bc9ae44b0706c9f0375cfea",
+          "zip": {
+            "date_time": [
+              1980,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "compress_type": 8,
+            "compress_size": 8944,
+            "file_size": 207904,
+            "CRC": 1952629737,
+            "create_system": 0,
+            "create_version": 45,
+            "extract_version": 45,
+            "reserved": 0,
+            "flag_bits": 0,
+            "volume": 0,
+            "internal_attr": 0,
+            "external_attr": 25165824,
+            "header_offset": 130598
+          },
+          "zip_extra_hex": "",
+          "zip_comment_hex": "",
+          "compressed_data_sha256": "08c1bfbf905be2005c37f510cf5af5a251a0b8f4b2c32d7a411c503ef49a7424",
+          "compressed_data_offset": 130661
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\working\\G4C-INFRA-CERT-003\\evidence\\reserialized_windows_1.npz",
+      "bytes": 139993,
+      "sha256": "d3c7641cedf4fde41c6e709fc8ea9d214b710eaa09935ba4d31e96c73773d8b0",
+      "member_order": [
+        "query_indices.npy",
+        "query_ids.npy",
+        "raw_prototype.npy",
+        "rf_reproduced.npy",
+        "candidate.npy",
+        "frozen_rf.npy"
+      ],
+      "zip_comment_hex": "",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "npy_sha256": "eb16e88c91d3790c14c84f3a0b817201f9ceb28bcd341910889400028fff77b5",
+          "npy_header_hex": "934e554d5059010076007b276465736372273a20273c6938272c2027666f727472616e5f6f72646572273a2046616c73652c20277368617065273a202832353937322c292c207d20202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020200a",
+          "npy_version": [
+            1,
+            0
+          ],
+          "fortran_order": false,
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "array_data_sha256": "8af49d38e7a302afb2c07691b08c4ef27c57d8ec726c57f58936ef592c8355c9",
+          "array_data_bytes": 207776,
+          "array_c_order_sha256": "8af49d38e7a302afb2c07691b08c4ef27c57d8ec726c57f58936ef592c8355c9",
+          "zip": {
+            "date_time": [
+              1980,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "compress_type": 8,
+            "compress_size": 39427,
+            "file_size": 207904,
+            "CRC": 3159640050,
+            "create_system": 0,
+            "create_version": 45,
+            "extract_version": 45,
+            "reserved": 0,
+            "flag_bits": 0,
+            "volume": 0,
+            "internal_attr": 0,
+            "external_attr": 25165824,
+            "header_offset": 0
+          },
+          "zip_extra_hex": "",
+          "zip_comment_hex": "",
+          "compressed_data_sha256": "9191a7c543122696d28567d279c63f4fc13939043c1547591a2433fca26077d8",
+          "compressed_data_offset": 67
+        },
+        {
+          "name": "query_ids.npy",
+          "npy_sha256": "e9d6c83fdff41f675200630e0f62f556db69300d48903da23ffa2f880367ae15",
+          "npy_header_hex": "934e554d5059010076007b276465736372273a20273c6934272c2027666f727472616e5f6f72646572273a2046616c73652c20277368617065273a202832353937322c2032292c207d2020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020200a",
+          "npy_version": [
+            1,
+            0
+          ],
+          "fortran_order": false,
+          "dtype": "<i4",
+          "shape": [
+            25972,
+            2
+          ],
+          "array_data_sha256": "f3d4001132326ee7f8cb6fa00350383c456826812e075f6efa85b3a0fac23209",
+          "array_data_bytes": 207776,
+          "array_c_order_sha256": "f3d4001132326ee7f8cb6fa00350383c456826812e075f6efa85b3a0fac23209",
+          "zip": {
+            "date_time": [
+              1980,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "compress_type": 8,
+            "compress_size": 63990,
+            "file_size": 207904,
+            "CRC": 833627980,
+            "create_system": 0,
+            "create_version": 45,
+            "extract_version": 45,
+            "reserved": 0,
+            "flag_bits": 0,
+            "volume": 0,
+            "internal_attr": 0,
+            "external_attr": 25165824,
+            "header_offset": 39494
+          },
+          "zip_extra_hex": "",
+          "zip_comment_hex": "",
+          "compressed_data_sha256": "a885344f394a66ad6c13525f79e464f19be75e7ddeab3fbeae09c8c9f1ef5b6a",
+          "compressed_data_offset": 39557
+        },
+        {
+          "name": "raw_prototype.npy",
+          "npy_sha256": "f68c1a95eb7e12c226597b8bb528ee1523b8ea58c96b1ddeed8ef8afe5b89233",
+          "npy_header_hex": "934e554d5059010076007b276465736372273a20273c6938272c2027666f727472616e5f6f72646572273a2046616c73652c20277368617065273a202832353937322c292c207d20202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020200a",
+          "npy_version": [
+            1,
+            0
+          ],
+          "fortran_order": false,
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "array_data_sha256": "0976adfdb735b145107e3a0515fb4840527c1dd3359c50d9638e395ffe08be0d",
+          "array_data_bytes": 207776,
+          "array_c_order_sha256": "0976adfdb735b145107e3a0515fb4840527c1dd3359c50d9638e395ffe08be0d",
+          "zip": {
+            "date_time": [
+              1980,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "compress_type": 8,
+            "compress_size": 9477,
+            "file_size": 207904,
+            "CRC": 594553506,
+            "create_system": 0,
+            "create_version": 45,
+            "extract_version": 45,
+            "reserved": 0,
+            "flag_bits": 0,
+            "volume": 0,
+            "internal_attr": 0,
+            "external_attr": 25165824,
+            "header_offset": 103547
+          },
+          "zip_extra_hex": "",
+          "zip_comment_hex": "",
+          "compressed_data_sha256": "fe0cad24b1ba4d6620801f7fa5243d75f736b482722475291c8e53e5695edca4",
+          "compressed_data_offset": 103614
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "npy_sha256": "319f931e2b62f0f51aa071cd45ca76125eee833ca39a54db8800156cf6971c22",
+          "npy_header_hex": "934e554d5059010076007b276465736372273a20273c6938272c2027666f727472616e5f6f72646572273a2046616c73652c20277368617065273a202832353937322c292c207d20202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020200a",
+          "npy_version": [
+            1,
+            0
+          ],
+          "fortran_order": false,
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "array_data_sha256": "4a6440f23ecf45d8922881c8a639781fb0e7d9442bc9ae44b0706c9f0375cfea",
+          "array_data_bytes": 207776,
+          "array_c_order_sha256": "4a6440f23ecf45d8922881c8a639781fb0e7d9442bc9ae44b0706c9f0375cfea",
+          "zip": {
+            "date_time": [
+              1980,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "compress_type": 8,
+            "compress_size": 8944,
+            "file_size": 207904,
+            "CRC": 1952629737,
+            "create_system": 0,
+            "create_version": 45,
+            "extract_version": 45,
+            "reserved": 0,
+            "flag_bits": 0,
+            "volume": 0,
+            "internal_attr": 0,
+            "external_attr": 25165824,
+            "header_offset": 113091
+          },
+          "zip_extra_hex": "",
+          "zip_comment_hex": "",
+          "compressed_data_sha256": "08c1bfbf905be2005c37f510cf5af5a251a0b8f4b2c32d7a411c503ef49a7424",
+          "compressed_data_offset": 113158
+        },
+        {
+          "name": "candidate.npy",
+          "npy_sha256": "d0c845ef1cb530275e517e5bb64ceebf22e0271050393a53420e3228f76ff060",
+          "npy_header_hex": "934e554d5059010076007b276465736372273a20273c6938272c2027666f727472616e5f6f72646572273a2046616c73652c20277368617065273a202832353937322c292c207d20202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020200a",
+          "npy_version": [
+            1,
+            0
+          ],
+          "fortran_order": false,
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "array_data_sha256": "9e9cc9371cbbfa49b0bba7548624982ed46d0588d2eb502df43d002f97f427f5",
+          "array_data_bytes": 207776,
+          "array_c_order_sha256": "9e9cc9371cbbfa49b0bba7548624982ed46d0588d2eb502df43d002f97f427f5",
+          "zip": {
+            "date_time": [
+              1980,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "compress_type": 8,
+            "compress_size": 8433,
+            "file_size": 207904,
+            "CRC": 801009047,
+            "create_system": 0,
+            "create_version": 45,
+            "extract_version": 45,
+            "reserved": 0,
+            "flag_bits": 0,
+            "volume": 0,
+            "internal_attr": 0,
+            "external_attr": 25165824,
+            "header_offset": 122102
+          },
+          "zip_extra_hex": "",
+          "zip_comment_hex": "",
+          "compressed_data_sha256": "ce2a18f8dfbb83968daa4baac41802991df4d142765a3b5fa007a139f1eb2ebe",
+          "compressed_data_offset": 122165
+        },
+        {
+          "name": "frozen_rf.npy",
+          "npy_sha256": "319f931e2b62f0f51aa071cd45ca76125eee833ca39a54db8800156cf6971c22",
+          "npy_header_hex": "934e554d5059010076007b276465736372273a20273c6938272c2027666f727472616e5f6f72646572273a2046616c73652c20277368617065273a202832353937322c292c207d20202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020200a",
+          "npy_version": [
+            1,
+            0
+          ],
+          "fortran_order": false,
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "array_data_sha256": "4a6440f23ecf45d8922881c8a639781fb0e7d9442bc9ae44b0706c9f0375cfea",
+          "array_data_bytes": 207776,
+          "array_c_order_sha256": "4a6440f23ecf45d8922881c8a639781fb0e7d9442bc9ae44b0706c9f0375cfea",
+          "zip": {
+            "date_time": [
+              1980,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "compress_type": 8,
+            "compress_size": 8944,
+            "file_size": 207904,
+            "CRC": 1952629737,
+            "create_system": 0,
+            "create_version": 45,
+            "extract_version": 45,
+            "reserved": 0,
+            "flag_bits": 0,
+            "volume": 0,
+            "internal_attr": 0,
+            "external_attr": 25165824,
+            "header_offset": 130598
+          },
+          "zip_extra_hex": "",
+          "zip_comment_hex": "",
+          "compressed_data_sha256": "08c1bfbf905be2005c37f510cf5af5a251a0b8f4b2c32d7a411c503ef49a7424",
+          "compressed_data_offset": 130661
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\working\\G4C-INFRA-CERT-003\\evidence\\reserialized_windows_2.npz",
+      "bytes": 139993,
+      "sha256": "d3c7641cedf4fde41c6e709fc8ea9d214b710eaa09935ba4d31e96c73773d8b0",
+      "member_order": [
+        "query_indices.npy",
+        "query_ids.npy",
+        "raw_prototype.npy",
+        "rf_reproduced.npy",
+        "candidate.npy",
+        "frozen_rf.npy"
+      ],
+      "zip_comment_hex": "",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "npy_sha256": "eb16e88c91d3790c14c84f3a0b817201f9ceb28bcd341910889400028fff77b5",
+          "npy_header_hex": "934e554d5059010076007b276465736372273a20273c6938272c2027666f727472616e5f6f72646572273a2046616c73652c20277368617065273a202832353937322c292c207d20202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020200a",
+          "npy_version": [
+            1,
+            0
+          ],
+          "fortran_order": false,
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "array_data_sha256": "8af49d38e7a302afb2c07691b08c4ef27c57d8ec726c57f58936ef592c8355c9",
+          "array_data_bytes": 207776,
+          "array_c_order_sha256": "8af49d38e7a302afb2c07691b08c4ef27c57d8ec726c57f58936ef592c8355c9",
+          "zip": {
+            "date_time": [
+              1980,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "compress_type": 8,
+            "compress_size": 39427,
+            "file_size": 207904,
+            "CRC": 3159640050,
+            "create_system": 0,
+            "create_version": 45,
+            "extract_version": 45,
+            "reserved": 0,
+            "flag_bits": 0,
+            "volume": 0,
+            "internal_attr": 0,
+            "external_attr": 25165824,
+            "header_offset": 0
+          },
+          "zip_extra_hex": "",
+          "zip_comment_hex": "",
+          "compressed_data_sha256": "9191a7c543122696d28567d279c63f4fc13939043c1547591a2433fca26077d8",
+          "compressed_data_offset": 67
+        },
+        {
+          "name": "query_ids.npy",
+          "npy_sha256": "e9d6c83fdff41f675200630e0f62f556db69300d48903da23ffa2f880367ae15",
+          "npy_header_hex": "934e554d5059010076007b276465736372273a20273c6934272c2027666f727472616e5f6f72646572273a2046616c73652c20277368617065273a202832353937322c2032292c207d2020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020200a",
+          "npy_version": [
+            1,
+            0
+          ],
+          "fortran_order": false,
+          "dtype": "<i4",
+          "shape": [
+            25972,
+            2
+          ],
+          "array_data_sha256": "f3d4001132326ee7f8cb6fa00350383c456826812e075f6efa85b3a0fac23209",
+          "array_data_bytes": 207776,
+          "array_c_order_sha256": "f3d4001132326ee7f8cb6fa00350383c456826812e075f6efa85b3a0fac23209",
+          "zip": {
+            "date_time": [
+              1980,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "compress_type": 8,
+            "compress_size": 63990,
+            "file_size": 207904,
+            "CRC": 833627980,
+            "create_system": 0,
+            "create_version": 45,
+            "extract_version": 45,
+            "reserved": 0,
+            "flag_bits": 0,
+            "volume": 0,
+            "internal_attr": 0,
+            "external_attr": 25165824,
+            "header_offset": 39494
+          },
+          "zip_extra_hex": "",
+          "zip_comment_hex": "",
+          "compressed_data_sha256": "a885344f394a66ad6c13525f79e464f19be75e7ddeab3fbeae09c8c9f1ef5b6a",
+          "compressed_data_offset": 39557
+        },
+        {
+          "name": "raw_prototype.npy",
+          "npy_sha256": "f68c1a95eb7e12c226597b8bb528ee1523b8ea58c96b1ddeed8ef8afe5b89233",
+          "npy_header_hex": "934e554d5059010076007b276465736372273a20273c6938272c2027666f727472616e5f6f72646572273a2046616c73652c20277368617065273a202832353937322c292c207d20202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020200a",
+          "npy_version": [
+            1,
+            0
+          ],
+          "fortran_order": false,
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "array_data_sha256": "0976adfdb735b145107e3a0515fb4840527c1dd3359c50d9638e395ffe08be0d",
+          "array_data_bytes": 207776,
+          "array_c_order_sha256": "0976adfdb735b145107e3a0515fb4840527c1dd3359c50d9638e395ffe08be0d",
+          "zip": {
+            "date_time": [
+              1980,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "compress_type": 8,
+            "compress_size": 9477,
+            "file_size": 207904,
+            "CRC": 594553506,
+            "create_system": 0,
+            "create_version": 45,
+            "extract_version": 45,
+            "reserved": 0,
+            "flag_bits": 0,
+            "volume": 0,
+            "internal_attr": 0,
+            "external_attr": 25165824,
+            "header_offset": 103547
+          },
+          "zip_extra_hex": "",
+          "zip_comment_hex": "",
+          "compressed_data_sha256": "fe0cad24b1ba4d6620801f7fa5243d75f736b482722475291c8e53e5695edca4",
+          "compressed_data_offset": 103614
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "npy_sha256": "319f931e2b62f0f51aa071cd45ca76125eee833ca39a54db8800156cf6971c22",
+          "npy_header_hex": "934e554d5059010076007b276465736372273a20273c6938272c2027666f727472616e5f6f72646572273a2046616c73652c20277368617065273a202832353937322c292c207d20202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020200a",
+          "npy_version": [
+            1,
+            0
+          ],
+          "fortran_order": false,
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "array_data_sha256": "4a6440f23ecf45d8922881c8a639781fb0e7d9442bc9ae44b0706c9f0375cfea",
+          "array_data_bytes": 207776,
+          "array_c_order_sha256": "4a6440f23ecf45d8922881c8a639781fb0e7d9442bc9ae44b0706c9f0375cfea",
+          "zip": {
+            "date_time": [
+              1980,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "compress_type": 8,
+            "compress_size": 8944,
+            "file_size": 207904,
+            "CRC": 1952629737,
+            "create_system": 0,
+            "create_version": 45,
+            "extract_version": 45,
+            "reserved": 0,
+            "flag_bits": 0,
+            "volume": 0,
+            "internal_attr": 0,
+            "external_attr": 25165824,
+            "header_offset": 113091
+          },
+          "zip_extra_hex": "",
+          "zip_comment_hex": "",
+          "compressed_data_sha256": "08c1bfbf905be2005c37f510cf5af5a251a0b8f4b2c32d7a411c503ef49a7424",
+          "compressed_data_offset": 113158
+        },
+        {
+          "name": "candidate.npy",
+          "npy_sha256": "d0c845ef1cb530275e517e5bb64ceebf22e0271050393a53420e3228f76ff060",
+          "npy_header_hex": "934e554d5059010076007b276465736372273a20273c6938272c2027666f727472616e5f6f72646572273a2046616c73652c20277368617065273a202832353937322c292c207d20202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020200a",
+          "npy_version": [
+            1,
+            0
+          ],
+          "fortran_order": false,
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "array_data_sha256": "9e9cc9371cbbfa49b0bba7548624982ed46d0588d2eb502df43d002f97f427f5",
+          "array_data_bytes": 207776,
+          "array_c_order_sha256": "9e9cc9371cbbfa49b0bba7548624982ed46d0588d2eb502df43d002f97f427f5",
+          "zip": {
+            "date_time": [
+              1980,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "compress_type": 8,
+            "compress_size": 8433,
+            "file_size": 207904,
+            "CRC": 801009047,
+            "create_system": 0,
+            "create_version": 45,
+            "extract_version": 45,
+            "reserved": 0,
+            "flag_bits": 0,
+            "volume": 0,
+            "internal_attr": 0,
+            "external_attr": 25165824,
+            "header_offset": 122102
+          },
+          "zip_extra_hex": "",
+          "zip_comment_hex": "",
+          "compressed_data_sha256": "ce2a18f8dfbb83968daa4baac41802991df4d142765a3b5fa007a139f1eb2ebe",
+          "compressed_data_offset": 122165
+        },
+        {
+          "name": "frozen_rf.npy",
+          "npy_sha256": "319f931e2b62f0f51aa071cd45ca76125eee833ca39a54db8800156cf6971c22",
+          "npy_header_hex": "934e554d5059010076007b276465736372273a20273c6938272c2027666f727472616e5f6f72646572273a2046616c73652c20277368617065273a202832353937322c292c207d20202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020200a",
+          "npy_version": [
+            1,
+            0
+          ],
+          "fortran_order": false,
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "array_data_sha256": "4a6440f23ecf45d8922881c8a639781fb0e7d9442bc9ae44b0706c9f0375cfea",
+          "array_data_bytes": 207776,
+          "array_c_order_sha256": "4a6440f23ecf45d8922881c8a639781fb0e7d9442bc9ae44b0706c9f0375cfea",
+          "zip": {
+            "date_time": [
+              1980,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "compress_type": 8,
+            "compress_size": 8944,
+            "file_size": 207904,
+            "CRC": 1952629737,
+            "create_system": 0,
+            "create_version": 45,
+            "extract_version": 45,
+            "reserved": 0,
+            "flag_bits": 0,
+            "volume": 0,
+            "internal_attr": 0,
+            "external_attr": 25165824,
+            "header_offset": 130598
+          },
+          "zip_extra_hex": "",
+          "zip_comment_hex": "",
+          "compressed_data_sha256": "08c1bfbf905be2005c37f510cf5af5a251a0b8f4b2c32d7a411c503ef49a7424",
+          "compressed_data_offset": 130661
+        }
+      ]
+    }
+  ],
+  "length_difference": 0,
+  "byte_differences": [],
+  "repeat_byte_identity": true,
+  "models_loaded": 0,
+  "workers_launched": 0,
+  "predictions_computed": 0
+}

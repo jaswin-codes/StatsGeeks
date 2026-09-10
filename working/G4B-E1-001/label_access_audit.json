@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "run_id": "G4B-E1-001",
+  "worker_manifest_access": false,
+  "worker_project_mount": false,
+  "source_worker": {
+    "allowed": ["X_madrid", "y_madrid", "fixed_parameters"],
+    "target_rows_received": 0
+  },
+  "episode_workers": {
+    "count": 60,
+    "allowed": ["frozen_source_state", "current_X_support", "current_y_support", "current_support_ids", "current_X_query", "current_query_ids", "fixed_episode_parameters"],
+    "query_labels_received": 0,
+    "other_episode_labels_received": 0,
+    "fresh_process_each_episode": true,
+    "all_finalized_and_reaped_before_scoring": true
+  },
+  "evaluator": {
+    "privileged_full_target_labels": true,
+    "labels_attached_only_after_all_60_worker_outputs_finalized": true,
+    "feedback_to_workers": false
+  },
+  "scope": "development/reference-comparison; Amsterdam labels are not untouched final-audit labels"
+}

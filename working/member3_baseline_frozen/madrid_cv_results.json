@@ -1,0 +1,41 @@
+{
+  "artifact_type": "recovered_notebook_output_summary",
+  "cv_config": {
+    "n_repeats": 5,
+    "n_splits": 5,
+    "random_state": 42
+  },
+  "fold_macro_f1": [
+    0.6277,
+    0.6363,
+    0.6295,
+    0.6235,
+    0.6231,
+    0.622,
+    0.6328,
+    0.6307,
+    0.6286,
+    0.6245,
+    0.6235,
+    0.6351,
+    0.6272,
+    0.6346,
+    0.6239,
+    0.6298,
+    0.6299,
+    0.6205,
+    0.6284,
+    0.6268,
+    0.6319,
+    0.6292,
+    0.6334,
+    0.6267,
+    0.6237
+  ],
+  "mean_macro_f1": 0.6281319999999999,
+  "printed_mean_macro_f1": 0.6281,
+  "printed_std_macro_f1": 0.0043,
+  "source_executed_notebook": "working\\4-Modelling_member3_reference_executed.ipynb",
+  "source_executed_notebook_sha256": "37761873bc8d9ef57b13515b66ed636d400830b0b186cf25d55b41ccb3fc208e",
+  "std_macro_f1_ddof0": 0.004272490608532676
+}

@@ -1,0 +1,438 @@
+Exit code: 2
+candidate/README.md:1: trailing whitespace.
++# `candidate/` — the source-learned transfer method
+candidate/README.md:2: trailing whitespace.
++
+candidate/README.md:3: trailing whitespace.
++> **FINAL SCIENTIFIC FREEZE.** EXP-010 is the primary result; the safe headline is **45/50 paired wins** against the `k=60, lambda=0` control. Tuned schedule: `k=30, lambda=0.6` at five shots and `k=45, lambda=0` at 25/50/100/200 shots. The authoritative arrays are in `artifacts/joint_sweep.json`; verify them with `verify_frozen_results.py` (arithmetic only).
+candidate/README.md:4: trailing whitespace.
++>
+candidate/README.md:5: trailing whitespace.
++> `artifacts/stage1_madrid.pkl` is a **legacy top-30 artifact and does not represent EXP-010**. The packaging-only `artifacts/exp010_stage1_madrid.pkl` contains the frozen EXP-010 weights, top-30/top-45 indices, Madrid class offsets, and budget schedule; `exp010_predict.py` now consumes it for support-only adaptation and label-free query prediction. `final_vs_starter.json` and `shrinkage_chain.json` are partially verified auxiliary evidence and are not the headline. Do not claim 47/50, 9.7%, or independent replication of EXP-010.
+candidate/README.md:6: trailing whitespace.
++>
+candidate/README.md:7: trailing whitespace.
++## Frozen EXP-010 judge reproduction
+candidate/README.md:8: trailing whitespace.
++
+candidate/README.md:9: trailing whitespace.
++`artifacts/exp010_stage1_madrid.pkl` is the final Madrid Stage 1 state. It stores the ordered 60-feature schema, Madrid RF importances/metric weights, top-30 and top-45 feature indices, Madrid class offsets, classes, metadata, and the frozen budget schedule. `exp010_predict.py` loads that artifact, computes the Amsterdam centre and class prototypes from support data only, and predicts query features without accepting query labels.
+candidate/README.md:10: trailing whitespace.
++
+candidate/README.md:11: trailing whitespace.
++Accepted budgets and immutable settings are: 5 → `(k=30, lambda=0.6)`; 25, 50, 100, and 200 → `(k=45, lambda=0.0)`. The caller supplies exactly that many support rows per class. `seed` is a required run identifier; prediction is deterministic because support rows are supplied rather than sampled by this interface.
+candidate/README.md:12: trailing whitespace.
++
+candidate/README.md:13: trailing whitespace.
++Inputs are NPZ files. Support must contain `X`, `y`, and `feature_names`; query must contain only `X` and `feature_names`. Both `X` arrays must be finite numeric matrices with 60 columns in the artifact's exact order. They must already be constructed with the Madrid-fitted preprocessing used by EXP-010. The legacy feature builder is label-dependent; this interface therefore consumes precomputed feature matrices and never needs query labels, but it does not provide a new raw-data feature builder.
+candidate/README.md:14: trailing whitespace.
++
+candidate/README.md:15: trailing whitespace.
++```bash
+candidate/README.md:16: trailing whitespace.
++python candidate/exp010_predict.py --artifact candidate/artifacts/exp010_stage1_madrid.pkl --support support.npz --query query.npz --shots 5 --seed 31337 --output predictions.npy
+candidate/README.md:17: trailing whitespace.
++```
+candidate/README.md:18: trailing whitespace.
++
+candidate/README.md:19: trailing whitespace.
++Run the software-only clean-process smoke test (synthetic inputs; no scientific metric):
+candidate/README.md:20: trailing whitespace.
++
+candidate/README.md:21: trailing whitespace.
++```bash
+candidate/README.md:22: trailing whitespace.
++python candidate/test_exp010_interface.py
+candidate/README.md:23: trailing whitespace.
++```
+candidate/README.md:24: trailing whitespace.
++
+candidate/README.md:25: trailing whitespace.
++Verify the frozen published arithmetic separately with `python candidate/verify_frozen_results.py`. Check submission-critical file hashes against `artifacts/SHA256SUMS.txt`.
+candidate/README.md:26: trailing whitespace.
++
+candidate/README.md:27: trailing whitespace.
++> The baseline discrepancy is unresolved: unchanged source produced local Madrid CV `0.6281 ± 0.0043` and zero-shot `0.4433`, versus organiser-saved `0.6179 ± 0.0043` and `0.3427`; incomplete package/input provenance prevents attribution or an exact-reproduction claim. The material below records earlier development history and must be read subject to this freeze notice.
+candidate/README.md:28: trailing whitespace.
++
+candidate/README.md:29: trailing whitespace.
++<!-- Historical material below. -->
+candidate/README.md:30: trailing whitespace.
++
+candidate/README.md:31: trailing whitespace.
++This folder contains the team's actual transfer learning method: the thing the
+candidate/README.md:32: trailing whitespace.
++organiser's starter code does **not** do.
+candidate/README.md:33: trailing whitespace.
++
+candidate/README.md:34: trailing whitespace.
++> **The one-line version.** The starter trains a Random Forest on Madrid, then
+candidate/README.md:35: trailing whitespace.
++> throws it away and builds Amsterdam prototypes from Amsterdam data alone. That
+candidate/README.md:36: trailing whitespace.
++> is target-only fitting, not transfer. Everything here exists to fix that and to
+candidate/README.md:37: trailing whitespace.
++> *prove* the fix helped.
+candidate/README.md:38: trailing whitespace.
++
+candidate/README.md:39: trailing whitespace.
++Everything below was produced on branch `member2-baseline`, tag `day1-candidate-v1`.
+candidate/README.md:40: trailing whitespace.
++Status: **smoke/development**. Not reviewed by another member.
+candidate/README.md:41: trailing whitespace.
++
+candidate/README.md:42: trailing whitespace.
++---
+candidate/README.md:43: trailing whitespace.
++
+candidate/README.md:44: trailing whitespace.
++## Before you can run anything
+candidate/README.md:45: trailing whitespace.
++
+candidate/README.md:46: trailing whitespace.
++You need two files that are **not in this repository** (too large for GitHub):
+candidate/README.md:47: trailing whitespace.
++
+candidate/README.md:48: trailing whitespace.
++```
+candidate/README.md:49: trailing whitespace.
++data/madrid_train.parquet        142 MB   from the organisers / hackathon VM
+candidate/README.md:50: trailing whitespace.
++data/amsterdam_data.parquet       44 MB   from the organisers / hackathon VM
+candidate/README.md:51: trailing whitespace.
++```
+candidate/README.md:52: trailing whitespace.
++
+candidate/README.md:53: trailing whitespace.
++Then generate the feature cache once (~13½ minutes):
+candidate/README.md:54: trailing whitespace.
++
+candidate/README.md:55: trailing whitespace.
++```bash
+candidate/README.md:56: trailing whitespace.
++# run the working copy of the organiser's Notebook 3 with CWD = working/
+candidate/README.md:57: trailing whitespace.
++cd working && jupyter nbconvert --to notebook --execute --inplace 3-Preprocessing.ipynb
+candidate/README.md:58: trailing whitespace.
++```
+candidate/README.md:59: trailing whitespace.
++
+candidate/README.md:60: trailing whitespace.
++That writes `data/preprocessed/preprocessed_data.pkl` (48 MB, also not in git).
+candidate/README.md:61: trailing whitespace.
++It should have **SHA256 `f6f588c4e3cfa2e0793354bc7772228bd4c749b39fce67bde5302f4c63955f33`** —
+candidate/README.md:62: trailing whitespace.
++check it matches, or your features differ from the ones every number here was
+candidate/README.md:63: trailing whitespace.
++computed on, and no comparison will be valid.
+candidate/README.md:64: trailing whitespace.
++
+candidate/README.md:65: trailing whitespace.
++**All scripts run from the repository root**, not from inside `candidate/`.
+candidate/README.md:66: trailing whitespace.
++
+candidate/README.md:67: trailing whitespace.
++---
+candidate/README.md:68: trailing whitespace.
++
+candidate/README.md:69: trailing whitespace.
++## The scripts, in the order they were run
+candidate/README.md:70: trailing whitespace.
++
+candidate/README.md:71: trailing whitespace.
++| File | What it does | Runtime |
+candidate/README.md:72: trailing whitespace.
++|---|---|---|
+candidate/README.md:73: trailing whitespace.
++| `transfer_candidate.py` | First candidate. Five representations, select on trials 0–4, audit on 5–9. | ~2 min |
+candidate/README.md:74: trailing whitespace.
++| `search_representations.py` | Nine representations, eight hypotheses. **Selection trials only** — never touches the audit set. | ~4 min |
+candidate/README.md:75: trailing whitespace.
++| `final_audit.py` | Single audit run of the selected method on the sealed trials. Writes the final Stage 1 artifact. | ~2 min |
+candidate/README.md:76: trailing whitespace.
++| `reload_test.py` | **Gate S.** Reloads the artifact in a clean session and adapts with no query labels present. 17 checks. | ~5 s |
+candidate/README.md:77: trailing whitespace.
++| `validity_checks.py` | Label-boundary inclusivity + spatial sensitivity. | ~1 min |
+candidate/README.md:78: trailing whitespace.
++| `make_figures.py` | Exports the six presentation figures. Re-runs no model. | ~10 s |
+candidate/README.md:79: trailing whitespace.
++
+candidate/README.md:80: trailing whitespace.
++**If you only run one thing, run `reload_test.py`.** Gate S requires it to be
+candidate/README.md:81: trailing whitespace.
++executed by someone *other* than its author, and that has not happened yet.
+candidate/README.md:82: trailing whitespace.
++
+candidate/README.md:83: trailing whitespace.
++```bash
+candidate/README.md:84: trailing whitespace.
++python candidate/reload_test.py
+candidate/README.md:85: trailing whitespace.
++```
+candidate/README.md:86: trailing whitespace.
++
+candidate/README.md:87: trailing whitespace.
++---
+candidate/README.md:88: trailing whitespace.
++
+candidate/README.md:89: trailing whitespace.
++## `artifacts/` — what each file is
+candidate/README.md:90: trailing whitespace.
++
+candidate/README.md:91: trailing whitespace.
++| File | Size | What it is |
+candidate/README.md:92: trailing whitespace.
++|---|---|---|
+candidate/README.md:93: trailing whitespace.
++| `stage1_madrid.pkl` | **3 KB** | **The deliverable.** Frozen Madrid state that adaptation consumes. |
+candidate/README.md:94: trailing whitespace.
++| `stage1_rf.joblib` | 244 MB | The source Random Forest. **Not in git.** Only needed to reproduce zero-shot — adaptation does not use it. |
+candidate/README.md:95: trailing whitespace.
++| `episodes.npz` | 52 KB | The stored support-pixel indices for every trial and budget. |
+candidate/README.md:96: trailing whitespace.
++| `final_audit.json` | — | The headline results: audit trials only. |
+candidate/README.md:97: trailing whitespace.
++| `search_selection.json` | — | All nine methods, selection trials only. |
+candidate/README.md:98: trailing whitespace.
++| `results.json` | — | The earlier five-method run. |
+candidate/README.md:99: trailing whitespace.
++| `validity_checks.json` | — | Boundary and spatial-sensitivity results. |
+candidate/README.md:100: trailing whitespace.
++
+candidate/README.md:101: trailing whitespace.
++### Why the deliverable is 3 KB and the model is 244 MB
+candidate/README.md:102: trailing whitespace.
++
+candidate/README.md:103: trailing whitespace.
++The transfer is carried by **60 importance weights and a 30-feature subset** —
+candidate/README.md:104: trailing whitespace.
++not by the forest. The forest is only the apparatus that derived them. So the
+candidate/README.md:105: trailing whitespace.
++artifact you actually ship is 3 KB, and it reloads anywhere instantly.
+candidate/README.md:106: trailing whitespace.
++
+candidate/README.md:107: trailing whitespace.
++### Why episode indices are stored rather than a seed
+candidate/README.md:108: trailing whitespace.
++
+candidate/README.md:109: trailing whitespace.
++A seed is a *recipe*; it only reproduces in an identical environment. This project
+candidate/README.md:110: trailing whitespace.
++has direct evidence that this matters — the same `random_state=42` produces
+candidate/README.md:111: trailing whitespace.
++different Random Forest results on our scikit-learn than on the organiser's
+candidate/README.md:112: trailing whitespace.
++(see `docs/EXPERIMENT_LOG.md` EXP-001). Storing the drawn indices is immune to that.
+candidate/README.md:113: trailing whitespace.
++
+candidate/README.md:114: trailing whitespace.
++---
+candidate/README.md:115: trailing whitespace.
++
+candidate/README.md:116: trailing whitespace.
++## How the method works
+candidate/README.md:117: trailing whitespace.
++
+candidate/README.md:118: trailing whitespace.
++Every method here is the **same procedure**, so comparisons are controlled:
+candidate/README.md:119: trailing whitespace.
++
+candidate/README.md:120: trailing whitespace.
++```
+candidate/README.md:121: trailing whitespace.
++1. Learn a transform T on MADRID ONLY, then freeze it.
+candidate/README.md:122: trailing whitespace.
++2. Push Amsterdam support and query features through T.
+candidate/README.md:123: trailing whitespace.
++3. Class prototypes = mean of the support pixels of each class, in T-space.
+candidate/README.md:124: trailing whitespace.
++4. Each query pixel gets the class of its nearest prototype.
+candidate/README.md:125: trailing whitespace.
++```
+candidate/README.md:126: trailing whitespace.
++
+candidate/README.md:127: trailing whitespace.
++Only `T` changes between methods:
+candidate/README.md:128: trailing whitespace.
++
+candidate/README.md:129: trailing whitespace.
++| method | `T(x)` | what it means |
+candidate/README.md:130: trailing whitespace.
++|---|---|---|
+candidate/README.md:131: trailing whitespace.
++| `raw` | `x` | **the control** — no Madrid learning at all |
+candidate/README.md:132: trailing whitespace.
++| `rfw` | `x * sqrt(importances)` | Madrid says *which features matter* |
+candidate/README.md:133: trailing whitespace.
++| `top30` | top 30 features, weighted | Madrid *selects* as well as weights |
+candidate/README.md:134: trailing whitespace.
++| `leaf` | RF leaf co-occupancy | Madrid's learned *partition* |
+candidate/README.md:135: trailing whitespace.
++| `lda` | LDA projection (rank 3) | Madrid's supervised directions |
+candidate/README.md:136: trailing whitespace.
++| `wcw*` | within-class whitening | Madrid says which directions are *noise* |
+candidate/README.md:137: trailing whitespace.
++| `proba` | `RF.predict_proba(x)` | Madrid classifier's output space |
+candidate/README.md:138: trailing whitespace.
++
+candidate/README.md:139: trailing whitespace.
++**`raw` is the comparison that matters.** Beating zero-shot proves nothing —
+candidate/README.md:140: trailing whitespace.
++zero-shot is a terrible bar. Beating target-only prototypes *on identical
+candidate/README.md:141: trailing whitespace.
++episodes* is what demonstrates that Madrid's supervision helped.
+candidate/README.md:142: trailing whitespace.
++
+candidate/README.md:143: trailing whitespace.
++---
+candidate/README.md:144: trailing whitespace.
++
+candidate/README.md:145: trailing whitespace.
++## The results
+candidate/README.md:146: trailing whitespace.
++
+candidate/README.md:147: trailing whitespace.
++Final audit, trials 5–9, sealed until reported once:
+candidate/README.md:148: trailing whitespace.
++
+candidate/README.md:149: trailing whitespace.
++| shots/class | control | top30 | benefit | paired wins |
+candidate/README.md:150: trailing whitespace.
++|---|---|---|---|---|
+candidate/README.md:151: trailing whitespace.
++| 5 | 0.5556 | 0.5589 | +0.0033 | 4/5 |
+candidate/README.md:152: trailing whitespace.
++| 25 | 0.5956 | 0.6028 | +0.0072 | 3/5 |
+candidate/README.md:153: trailing whitespace.
++| 50 | 0.6152 | 0.6179 | +0.0026 | 4/5 |
+candidate/README.md:154: trailing whitespace.
++| 100 | 0.6191 | 0.6208 | +0.0018 | 3/5 |
+candidate/README.md:155: trailing whitespace.
++| 200 | 0.6185 | 0.6227 | +0.0042 | 5/5 |
+candidate/README.md:156: trailing whitespace.
++
+candidate/README.md:157: trailing whitespace.
++Zero-shot (no Amsterdam labels): **0.4433**. Madrid CV on full data: **0.6281**.
+candidate/README.md:158: trailing whitespace.
++
+candidate/README.md:159: trailing whitespace.
++### Read these honestly
+candidate/README.md:160: trailing whitespace.
++
+candidate/README.md:161: trailing whitespace.
++- **The effect is small** (+0.002 to +0.007). The evidence is *consistency across
+candidate/README.md:162: trailing whitespace.
++  matched episodes*, not magnitude. Do not describe this as a large improvement.
+candidate/README.md:163: trailing whitespace.
++- **Standard deviations are spreads across 5 episodes, not confidence intervals.**
+candidate/README.md:164: trailing whitespace.
++- **Two methods have been audited** (`rfw`, then `top30`). Each cycle was clean
+candidate/README.md:165: trailing whitespace.
++  individually, but choosing between them on their audit scores would be
+candidate/README.md:166: trailing whitespace.
++  selection on audit data. **It has not been done and must not be.** The
+candidate/README.md:167: trailing whitespace.
++  defensible claim is: *several source-learned representations give roughly
+candidate/README.md:168: trailing whitespace.
++  +0.002 to +0.007 over target-only prototypes and are not distinguishable at
+candidate/README.md:169: trailing whitespace.
++  this sample size.*
+candidate/README.md:170: trailing whitespace.
++
+candidate/README.md:171: trailing whitespace.
++### The finding worth presenting
+candidate/README.md:172: trailing whitespace.
++
+candidate/README.md:173: trailing whitespace.
++**The ranking of methods depends on the label budget.**
+candidate/README.md:174: trailing whitespace.
++
+candidate/README.md:175: trailing whitespace.
++| method | 5 shots | 200 shots |
+candidate/README.md:176: trailing whitespace.
++|---|---|---|
+candidate/README.md:177: trailing whitespace.
++| `wcw10` | **−0.0218** | **+0.0090** |
+candidate/README.md:178: trailing whitespace.
++| `wcw10_rfw` | **−0.0131** | **+0.0131** |
+candidate/README.md:179: trailing whitespace.
++
+candidate/README.md:180: trailing whitespace.
++Within-class whitening amplifies low-variance directions. With 5 support points
+candidate/README.md:181: trailing whitespace.
++per class that is destructive; with 200 the prototypes are stable enough to
+candidate/README.md:182: trailing whitespace.
++benefit. The same transform, opposite verdict, depending only on how much target
+candidate/README.md:183: trailing whitespace.
++data you have.
+candidate/README.md:184: trailing whitespace.
++
+candidate/README.md:185: trailing whitespace.
++This also explains why `lda` failed: not because Madrid's supervision is useless,
+candidate/README.md:186: trailing whitespace.
++but because rank-3 projection discards too much. Full-rank whitening recovers the
+candidate/README.md:187: trailing whitespace.
++benefit at high budgets.
+candidate/README.md:188: trailing whitespace.
++
+candidate/README.md:189: trailing whitespace.
++---
+candidate/README.md:190: trailing whitespace.
++
+candidate/README.md:191: trailing whitespace.
++## `figures/`
+candidate/README.md:192: trailing whitespace.
++
+candidate/README.md:193: trailing whitespace.
++| File | Use |
+candidate/README.md:194: trailing whitespace.
++|---|---|
+candidate/README.md:195: trailing whitespace.
++| `fig1_learning_curve.png` | **Required deliverable** — F1 with error bars vs log₂(sample size) |
+candidate/README.md:196: trailing whitespace.
++| `fig2_transfer_benefit.png` | The gain over the control, per budget |
+candidate/README.md:197: trailing whitespace.
++| `fig3_method_ablation.png` | All nine representations ranked |
+candidate/README.md:198: trailing whitespace.
++| `fig4_budget_dependence.png` | The budget-dependence finding |
+candidate/README.md:199: trailing whitespace.
++| `fig5_confusion.png` | Where it still fails (Class 2 is hardest) |
+candidate/README.md:200: trailing whitespace.
++| `fig6_per_class.png` | Per-class F1, control vs candidate |
+candidate/README.md:201: trailing whitespace.
++
+candidate/README.md:202: trailing whitespace.
++---
+candidate/README.md:203: trailing whitespace.
++
+candidate/README.md:204: trailing whitespace.
++## Known limitations — state these, do not hide them
+candidate/README.md:205: trailing whitespace.
++
+candidate/README.md:206: trailing whitespace.
++1. **Features are still built label-dependently.** Feature generation filters on
+candidate/README.md:207: trailing whitespace.
++   `age_class.notna()`, inherited from the organiser's Notebook 3. There is no
+candidate/README.md:208: trailing whitespace.
++   *target* leakage — the scaler saw only Madrid — but the pipeline could not
+candidate/README.md:209: trailing whitespace.
++   currently generate features for an unlabelled hidden test set.
+candidate/README.md:210: trailing whitespace.
++   (MASTER_PLAN priorities #10, #11 remain open.)
+candidate/README.md:211: trailing whitespace.
++2. **Scaling is fitted on all Madrid before cross-validation.** Not fold-safe.
+candidate/README.md:212: trailing whitespace.
++3. **The audit set has informed two decisions.** See above.
+candidate/README.md:213: trailing whitespace.
++4. **No independent verification yet.** Gate S needs a different member.
+candidate/README.md:214: trailing whitespace.
++5. **We appear to be near a ceiling.** Amsterdam few-shot at 200 shots (0.6227)
+candidate/README.md:215: trailing whitespace.
++   has essentially caught Madrid's own full-data CV score (0.6281). The labels are
+candidate/README.md:216: trailing whitespace.
++   intrinsically noisy — `weighted_mean_year` is an area-weighted average over
+candidate/README.md:217: trailing whitespace.
++   whatever buildings fall in a 30 m pixel, so a pixel with a 1950s block and a
+candidate/README.md:218: trailing whitespace.
++   2010s block gets a class describing neither. Further tuning is unlikely to help.
+warning: in the working copy of '.gitignore', CRLF will be replaced by LF the next time Git touches it

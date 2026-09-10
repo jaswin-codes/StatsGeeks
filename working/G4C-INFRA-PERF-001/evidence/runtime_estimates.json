@@ -1,0 +1,33 @@
+{
+  "estimate_only": true,
+  "baseline_E3_generation_seconds": [
+    5600,
+    5900
+  ],
+  "E3_point_generation_seconds": 2600.024602990997,
+  "E3_conservative_scenario_generation_seconds": 4330.597270571073,
+  "E3_point_savings_per_episode_seconds": 53.05091724100005,
+  "E3_conservative_margin_to_5000_seconds": 669.4027294289272,
+  "E4_generation_proxy_seconds": [
+    2200,
+    3000
+  ],
+  "E4_basis": "Unmeasured E4; E2 2570.845 s proxy, bounded signature improvement; include 61st zero-shot record",
+  "E5_generation_seconds": null,
+  "E5_basis": "No authorized worker measurements; leaf-loop time and 180 s worker-cap compliance unknown",
+  "E5_planning_formula": "approximately 1500 + 60 * native-worker-seconds; not a measurement",
+  "independent_validation_seconds": {
+    "E3": null,
+    "E4": null,
+    "E5": null
+  },
+  "phase_3_decision": "NOT_TRIGGERED: E3 prediction-generation projection below 5000; do not redesign for unmeasured E5",
+  "limitations": [
+    "Different-time I/O measurements cannot establish an end-to-end speedup.",
+    "Native staging verification adds a full hash; included in estimates.",
+    "Sequential-read benchmark is an I/O proxy, not measured pickle-load time.",
+    "Runtime increases under memory pressure or cold caches remain possible.",
+    "Scoring and independent candidate validation durations not included or certified.",
+    "No optimized workers or experiments launched."
+  ]
+}

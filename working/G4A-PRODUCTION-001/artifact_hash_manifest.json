@@ -1,0 +1,114 @@
+{
+  "excludes_self": true,
+  "files": {
+    "working/G4A-PRODUCTION-001/Open Notebook.onetoc2": {
+      "bytes": 6256,
+      "sha256": "450602fcbc654cca9a51318fca487edfa552c7f1f2399d508b3f7822d059325a"
+    },
+    "working/G4A-PRODUCTION-001/REPORT.md": {
+      "bytes": 9344,
+      "sha256": "aefa6aba3f91b1be1f430c38f17eadb8860ab504bd08af056818be104dead0fa"
+    },
+    "working/G4A-PRODUCTION-001/code_at_stop/Open Notebook.onetoc2": {
+      "bytes": 5040,
+      "sha256": "54fbbe738ae8bcf126caeba2e9c45a197c6bb4462ce31f3e492d7ef4d4914a5f"
+    },
+    "working/G4A-PRODUCTION-001/code_at_stop/gate4_production_boundary.py": {
+      "bytes": 9747,
+      "sha256": "d942c83a425a78ce92b64a6b8c24d9db0974b17abce5e28a33c62f327cebcff5"
+    },
+    "working/G4A-PRODUCTION-001/code_at_stop/gate4_production_probe.py": {
+      "bytes": 4685,
+      "sha256": "a8a53d7e8b0a3cfd8047817b90ce01a01b3018c3ad2bf3016ee6a0bf716077f0"
+    },
+    "working/G4A-PRODUCTION-001/code_at_stop/run_gate4_production_probe.py": {
+      "bytes": 1843,
+      "sha256": "f0c1fb88583202d3ccc0f2d3d2f67cdd14884d36d2a9f131de21bb48bc3e013f"
+    },
+    "working/G4A-PRODUCTION-001/code_at_stop/verify_gate4_production_suite.py": {
+      "bytes": 3476,
+      "sha256": "46c329b160d875d1a9612246b2aa892ce7efcf35f7e4af474f4080f9248cd91b"
+    },
+    "working/G4A-PRODUCTION-001/current_packet.json": {
+      "bytes": 120218908,
+      "sha256": "052d7462ad6f1a4b4a36f827683429f0beeda38d67010cb779b7aaff8b125fee"
+    },
+    "working/G4A-PRODUCTION-001/entry.json": {
+      "bytes": 8205,
+      "sha256": "e54da99270b520e2b07811d7a36a6f2e6ccf7a1ed25cc1a10c4787cec9d0365d"
+    },
+    "working/G4A-PRODUCTION-001/final_checkpoint.json": {
+      "bytes": 11640,
+      "sha256": "c3c96af9d23a08bd598a210ee845e8d5bfad87a2d7fe2c1d20753d23cb1988f9"
+    },
+    "working/G4A-PRODUCTION-001/probe_normal.json": {
+      "bytes": 1424,
+      "sha256": "3a1c23116aa7e46c33cdb123b91d56e6731e3b29d8f1300389e0f2b2f4206cd1"
+    },
+    "working/G4A-PRODUCTION-001/probe_normal_attempt2.json": {
+      "bytes": 1702,
+      "sha256": "ae67050daff79c0d06c0fea2d5dc47fd612ff090c269b3c9fc6b4ec1b43074b7"
+    },
+    "working/G4A-PRODUCTION-001/probe_normal_attempt3.json": {
+      "bytes": 1915,
+      "sha256": "6085018e299662804d647d9cb983ae989655da760c991e6a90b90d84f97210e8"
+    },
+    "working/G4A-PRODUCTION-001/probe_normal_attempt4.json": {
+      "bytes": 1629,
+      "sha256": "2c2c2f16e72a0662c57fbe5c7427241c53e5821a420287220fe2d5aeba53890a"
+    },
+    "working/G4A-PRODUCTION-001/probe_normal_attempt5.json": {
+      "bytes": 1272,
+      "sha256": "a048973cbe726b826892ebcc1a0d51bb4158e73d7538f4009571b987074794ef"
+    },
+    "working/G4A-PRODUCTION-001/readonly_followup.json": {
+      "bytes": 248,
+      "sha256": "f71ba2d8490aa70b8f4dd263494803c0c6713a51815490de8bababbf307fcacf"
+    },
+    "working/G4A-PRODUCTION-001/second_packet.json": {
+      "bytes": 120218908,
+      "sha256": "4f4b3996711ab1e42c80560235079e4e385c5a4c745ca0ddb0f531a95a488393"
+    },
+    "working/G4A-PRODUCTION-001/suite_001/Open Notebook.onetoc2": {
+      "bytes": 5040,
+      "sha256": "5efa750b44443e76a0a978e038baf92de1cb2b47965eec68de3abe79b3d3901b"
+    },
+    "working/G4A-PRODUCTION-001/suite_001/probe_1.json": {
+      "bytes": 1045,
+      "sha256": "6ab1b0e760d9bf6f75a078e0c8989881dcb24d5d7a6f3f04a6086cbf21771d1c"
+    },
+    "working/gate4_autonomous_runtime_rebuild_001.json": {
+      "bytes": 418,
+      "sha256": "b929dd33fc113e260b0779210d38537d2631034c1aa595f787f5caaaac984859"
+    },
+    "working/gate4_autonomous_sampler_001.json": {
+      "bytes": 106799,
+      "sha256": "467281e6d127d41e8a990f22f2dd3e00447fe35237087790c2309f75dd0c58df"
+    },
+    "working/gate4_production_boundary.py": {
+      "bytes": 9954,
+      "sha256": "4ef1e0545e2cb6f570fd41b5a8e1f9a8a079c349fddf683d0d9756d50a5878ec"
+    },
+    "working/gate4_production_probe.py": {
+      "bytes": 4685,
+      "sha256": "a8a53d7e8b0a3cfd8047817b90ce01a01b3018c3ad2bf3016ee6a0bf716077f0"
+    },
+    "working/gate4_readiness_audit.md": {
+      "bytes": 18085,
+      "sha256": "c13f0637b4329ea9e431138de7255e531bf20cfd272b92b268d9607db762b7be"
+    },
+    "working/run_gate4_production_probe.py": {
+      "bytes": 1843,
+      "sha256": "f0c1fb88583202d3ccc0f2d3d2f67cdd14884d36d2a9f131de21bb48bc3e013f"
+    },
+    "working/verify_gate4_approved_runtime_tree.py": {
+      "bytes": 3099,
+      "sha256": "3b5390c904f83b8335132f5a2e367161b3ae47e071e8d1223dc0b4e97e52caee"
+    },
+    "working/verify_gate4_production_suite.py": {
+      "bytes": 3476,
+      "sha256": "46c329b160d875d1a9612246b2aa892ce7efcf35f7e4af474f4080f9248cd91b"
+    }
+  },
+  "type": "blocked_infrastructure_evidence_inventory_not_episode_manifest"
+}

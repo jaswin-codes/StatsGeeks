@@ -1,0 +1,209 @@
+{
+  "all_other_preexisting_paths_default": "DENY_MUTATION",
+  "authorization_gate": "Candidate execution is absent/disabled; a separate explicit Team Lead execution authorization is required.",
+  "blocked_G4C_E2_002": "UNCHANGED_AND_NOT_REUSED",
+  "closed_G4C_E2_001": "UNCHANGED_AND_NOT_REUSED",
+  "coordinator_integrated": true,
+  "deviations": [
+    "Live worker isolation/teardown is statically checked only because worker launch is prohibited.",
+    "OneNote writer PID remains unattributed as documented by Metadata Audit 002."
+  ],
+  "episode_manifest_contents_loaded": false,
+  "episode_or_support_query_contents_loaded": false,
+  "exact_mutable_path": "working/Open Notebook.onetoc2",
+  "execution_available_in_this_task": false,
+  "git_cleanup_actions": [],
+  "historical_inventories": [
+    {
+      "files_checked": 23,
+      "inventory": "working\\G4C-METADATA-AUDIT-002\\artifact_hash_manifest.json",
+      "inventory_sha256": "d95669f5ee16674f2fa8938c979d73635e3d0ac09cca3fa194b559b5e67bc0e9"
+    },
+    {
+      "files_checked": 14,
+      "inventory": "working\\G4C-PROVENANCE-CHECKPOINT-002\\artifact_hash_manifest.json",
+      "inventory_sha256": "1406deaab5b2781845f4e3ce05dbc7495a5d55fd323b6029ea827fddd223bfc5"
+    },
+    {
+      "files_checked": 18,
+      "inventory": "working\\G4C-E2-001\\artifact_hash_manifest.json",
+      "inventory_sha256": "46cdbabcd98754f9b879250090359d29a8a64861b32887ae8e7b24b423007436"
+    },
+    {
+      "files_checked": 11,
+      "inventory": "working\\G4C-E2-002\\checkpoint\\artifact_hash_manifest.json",
+      "inventory_sha256": "72d5a082443b5f5e6e4eb7879d9e17c860163079b62f0af2ebd2eee959b9e302"
+    }
+  ],
+  "host_python": "3.11.9",
+  "isolation_teardown_finalization_policy": {
+    "checks": {
+      "approved_runtime_check": true,
+      "dedicated_reaping": true,
+      "e2_fixed_parameters_present": true,
+      "episode_packet_exact_fields": true,
+      "final_survivors_required_empty": true,
+      "fresh_private_tmpfs": true,
+      "manifest_not_mounted": true,
+      "prediction_finalization_barrier": true,
+      "project_not_mounted": true,
+      "query_and_cross_episode_labels_forbidden": true,
+      "source_packet_exact_fields": true,
+      "zombies_not_clean": true
+    },
+    "files": {
+      "g4c_boundary.py": {
+        "bytes": 5464,
+        "sha256": "4891fb1847b99246cd30e94b36cfb7cf162c6a5b66290b790caf0c993d1698f2"
+      },
+      "g4c_episode_worker.py": {
+        "bytes": 6082,
+        "sha256": "f556b29631c85cce77b2a196ad64bee50c1aeefe9fe15c1c9bfc3b08da694d8f"
+      },
+      "g4c_linux_call.py": {
+        "bytes": 914,
+        "sha256": "30616e0ba270fef02601685692db600abe3769492846a126c800c5a2151c2034"
+      },
+      "g4c_source_worker.py": {
+        "bytes": 2790,
+        "sha256": "c00c31624c9e107ce5aba2024c9c834648ff92f816acb390127846a2b3938d30"
+      },
+      "gate4_lifecycle.py": {
+        "bytes": 7438,
+        "sha256": "8ccb275ac923e51c502be0b43d327955ab3aa8d6a2f1c2c0563536db140d3de4"
+      },
+      "gate4_production_boundary.py": {
+        "bytes": 11461,
+        "sha256": "e02e2f34e4fb5a099dc014f4dd462ca8cc4362c0e59f7e2476bcea316a6f2ac3"
+      }
+    },
+    "limitation": "Static inspection does not recertify live isolation/teardown or candidate predictions.",
+    "status": "STATIC_PASS_NOT_EXECUTED"
+  },
+  "manifest": {
+    "contents_loaded": false,
+    "sha256": "9d493d99f60098cb22fd781c51e2d2907d6831df72cb2524700293aa1a1bbf32",
+    "status": "HASH_ONLY_PASS"
+  },
+  "metadata_policy": {
+    "allowed_mutable_paths": [
+      "working/Open Notebook.onetoc2"
+    ],
+    "failures": [],
+    "metadata_events": [
+      {
+        "after": {
+          "attributes": 32,
+          "bytes": 9824,
+          "file_id": 19421773393797285,
+          "links": 1,
+          "mtime_ns": 1788894460205881200,
+          "regular": true,
+          "sha256": "d2e659eb755f7229d9e7f278501bb81cc12e8f67e9196328d71ecfac83d3683d",
+          "signature_hex": "a12fff43d9ef764c9ee210ea5722765f"
+        },
+        "before": {
+          "attributes": 32,
+          "bytes": 9544,
+          "file_id": 19421773393797285,
+          "links": 1,
+          "mtime_ns": 1788892892540666500,
+          "regular": true,
+          "sha256": "516003e09e847ddeccff55a466b8a917a83f05791b7136c781ecdf2cfa62f608",
+          "signature_hex": "a12fff43d9ef764c9ee210ea5722765f"
+        },
+        "classification": "EXPECTED_EXTERNAL_METADATA_MUTATION",
+        "path": "working/Open Notebook.onetoc2"
+      }
+    ],
+    "pass": true
+  },
+  "mode": "DRY_RUN_PREFLIGHT_ONLY",
+  "model_data_loaded": false,
+  "models_fit": 0,
+  "new_namespace": {
+    "candidate_artifact_roots_absent": [
+      "predictions",
+      "evidence",
+      "candidate_state",
+      "results"
+    ],
+    "candidate_state_present": false,
+    "owned_paths": {
+      "working/G4C-E2-003/Open Notebook.onetoc2": "COORDINATOR",
+      "working/G4C-E2-003/checkpoint/Open Notebook.onetoc2": "COORDINATOR",
+      "working/G4C-E2-003/coordinator/Open Notebook.onetoc2": "COORDINATOR",
+      "working/G4C-E2-003/coordinator/contract.json": "COORDINATOR",
+      "working/G4C-E2-003/coordinator/coordinator.py": "COORDINATOR",
+      "working/G4C-E2-003/coordinator/integrity_policy.py": "COORDINATOR"
+    }
+  },
+  "original": {
+    "clean": true,
+    "files": 5
+  },
+  "predictions_constructed": 0,
+  "protected_33": {
+    "files": {
+      "data/amsterdam_data.parquet": true,
+      "data/madrid_train.parquet": true,
+      "data/preprocessed/preprocessed_data.pkl": true,
+      "original/1-Introduction.ipynb": true,
+      "original/2-Reading_Data.ipynb": true,
+      "original/3-Preprocessing.ipynb": true,
+      "original/4-Modelling.ipynb": true,
+      "original/Open Notebook.onetoc2": true,
+      "working/3-Preprocessing_member2_baseline.ipynb": true,
+      "working/3-Preprocessing_member2_baseline_executed.ipynb": true,
+      "working/4-Modelling_member3_reference.ipynb": true,
+      "working/4-Modelling_member3_reference_executed.ipynb": true,
+      "working/baseline_artifacts/Open Notebook.onetoc2": true,
+      "working/baseline_artifacts/amsterdam_zero_shot.npz": true,
+      "working/baseline_artifacts/feature_schema.json": true,
+      "working/baseline_artifacts/madrid_cv_oof.npz": true,
+      "working/baseline_artifacts/prototype_trial_scores.npz": true,
+      "working/baseline_artifacts/recovery_manifest.json": true,
+      "working/baseline_artifacts/recovery_validation.json": true,
+      "working/baseline_artifacts/rf_final.pkl": true,
+      "working/freeze_member3_notebook4_outputs.py": true,
+      "working/member3_artifact_helpers.py": true,
+      "working/member3_baseline_frozen/Open Notebook.onetoc2": true,
+      "working/member3_baseline_frozen/amsterdam_prototype_results.json": true,
+      "working/member3_baseline_frozen/amsterdam_zero_shot_results.json": true,
+      "working/member3_baseline_frozen/artifact_manifest.json": true,
+      "working/member3_baseline_frozen/madrid_cv_results.json": true,
+      "working/member3_baseline_frozen/metadata.json": true,
+      "working/minimal_standard_scaler.py": true,
+      "working/run_member2_preprocessing.py": true,
+      "working/run_member3_notebook4_artifact_capture.py": true,
+      "working/run_member3_notebook4_reference.py": true,
+      "working/verify_gate4a_episodes.py": true
+    },
+    "status": "PASS"
+  },
+  "rf": {
+    "deserialized": false,
+    "sha256": "5ffdd11f300532a14b3c2957a1ac77b748aa91c0a4d1a88f1ff0a3735dc75870",
+    "status": "HASH_ONLY_PASS"
+  },
+  "run_id": "G4C-E2-003",
+  "runtime": {
+    "bwrap_match": true,
+    "files": 4355,
+    "python": "3.14.4 (main, Jun 18 2026, 14:25:02) [GCC 15.2.0]",
+    "tree_match": true,
+    "wheel_matches": {
+      "joblib": true,
+      "narwhals": true,
+      "numpy": true,
+      "scikit-learn": true,
+      "scipy": true,
+      "threadpoolctl": true
+    },
+    "worker_launched": false
+  },
+  "status": "READY FOR TEAM LEAD EXECUTION AUTHORIZATION",
+  "target_labels_loaded": false,
+  "timestamp_utc": "2026-09-08T19:08:14.385481+00:00",
+  "workers_launched": 0
+}

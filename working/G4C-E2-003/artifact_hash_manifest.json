@@ -1,0 +1,86 @@
+{
+  "run_id": "G4C-E2-003",
+  "status": "STOPPED_INFRASTRUCTURE_FAILURE_BEFORE_WORKER_LAUNCH",
+  "created_utc": "2026-09-08T19:23:35.998470+00:00",
+  "excludes_self": true,
+  "files": {
+    "working/G4C-E2-003/candidate_state/Open Notebook.onetoc2": {
+      "bytes": 5040,
+      "sha256": "06a6effaf0ce9f4fc1ae0dbb4f26df239421207ea2a2086d5a813d18b4962f97"
+    },
+    "working/G4C-E2-003/checkpoint/execution_authorization.json": {
+      "bytes": 1438,
+      "sha256": "7d2ed2fc78b9c999658131a995064d59ff32e00a30ae5a670922759b7291ab33"
+    },
+    "working/G4C-E2-003/checkpoint/Open Notebook.onetoc2": {
+      "bytes": 5040,
+      "sha256": "b836802a8599f64a30ccd1e471d19560e6e8a6d1c64cafed2653b071a24c4cca"
+    },
+    "working/G4C-E2-003/checkpoint/preflight.json": {
+      "bytes": 8263,
+      "sha256": "ac7ddaa0b7d2391a57d6767c82942132e0cd74b1f877aebb4de8aa3ab83e9b51"
+    },
+    "working/G4C-E2-003/coordinator/contract.json": {
+      "bytes": 1896,
+      "sha256": "5bb05d2ffa8d4343bc1832291b30f274cd7a0c7718a3a99bb56b5862e415da9e"
+    },
+    "working/G4C-E2-003/coordinator/coordinator.py": {
+      "bytes": 15512,
+      "sha256": "22d4487cf8c6caa457945d2ced175e39ed146f7d0c67b04884769fbef0d9c4d1"
+    },
+    "working/G4C-E2-003/coordinator/execution_coordinator.py": {
+      "bytes": 13677,
+      "sha256": "36a5f6ecb08419a1dfde61eab61c03645e9013ae00a31ae8e06da21580dfe78c"
+    },
+    "working/G4C-E2-003/coordinator/independent_verifier.py": {
+      "bytes": 9278,
+      "sha256": "c67bf77ba6ca0f0d72062573bb4b1b6ac6dc02b8036ea250c0ffa17adb8f27e2"
+    },
+    "working/G4C-E2-003/coordinator/integrity_policy.py": {
+      "bytes": 5687,
+      "sha256": "f1c5c75eed9cb7b631a4320aefcf7b751aad7ef0e09e91cef4f203ba3f4f639a"
+    },
+    "working/G4C-E2-003/coordinator/Open Notebook.onetoc2": {
+      "bytes": 5040,
+      "sha256": "aeefce60ca297d431d9117143bec9e3d53208b78ffefabf1b2c42a5e1d49657f"
+    },
+    "working/G4C-E2-003/E2_EXECUTION_REPORT.md": {
+      "bytes": 5457,
+      "sha256": "792a3f841576e339dd0a09446eb40f4b104f2831b0575bf335e69f216e37a375"
+    },
+    "working/G4C-E2-003/evidence/Open Notebook.onetoc2": {
+      "bytes": 5040,
+      "sha256": "73a54ea97a0d22e78a4745e651a00ef77ed512ee6bbf931c1d7cbe7aee033994"
+    },
+    "working/G4C-E2-003/Open Notebook.onetoc2": {
+      "bytes": 6552,
+      "sha256": "434533e232931fd3239bafba0f6e2dd3257e2d1f123fc4d68cecb0f8429b2dc4"
+    },
+    "working/G4C-E2-003/predictions/Open Notebook.onetoc2": {
+      "bytes": 5040,
+      "sha256": "47e0c34044de9925beadbbd8238fc3fd7ff3bec39fd94d74c91652199be046a3"
+    },
+    "working/G4C-E2-003/PREPARATION_REPORT.md": {
+      "bytes": 7406,
+      "sha256": "c54c485e0e06a16af74b705b73db3b30775bac5d0a3c4c281d8e7e2ab8cae7a7"
+    },
+    "working/G4C-E2-003/results/execution.log": {
+      "bytes": 577,
+      "sha256": "f321d468cac9091accde203c39a2369713f10857dc8785c6de806cf413088c1e"
+    },
+    "working/G4C-E2-003/results/EXECUTION_STOP_REASON.md": {
+      "bytes": 625,
+      "sha256": "1ce7f9750f57c241506d6139358114973fa615f549be137a71a8d53bdb99f2bf"
+    },
+    "working/G4C-E2-003/results/independent_stop_audit.json": {
+      "bytes": 1998,
+      "sha256": "44ee6b7908f41e686d43234268bda29409b5ad6a43b3441e2e1dd72dbc33acd2"
+    },
+    "working/G4C-E2-003/results/Open Notebook.onetoc2": {
+      "bytes": 5040,
+      "sha256": "8f8f1b2dd14b0d5975eb0f8942ed314870852379e7fe2aad39bcc6ae024591b4"
+    }
+  },
+  "candidate_prediction_artifacts": 0,
+  "candidate_workers_launched": 0
+}

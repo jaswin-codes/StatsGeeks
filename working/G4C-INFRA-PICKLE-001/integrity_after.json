@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "run_id": "G4C-INFRA-PICKLE-001",
+  "timestamp_utc": "2026-09-08T19:31:49.101003+00:00",
+  "deserialization_receipt_sha256": "2867890f9e207b2c2c1c7722d91d1d621b046fecf18699e83567295e974f68aa",
+  "loader_sha256": "bc4b26e17909642985dab8d6dd1a60f5e6f09982680a09daa74b496c923ff488",
+  "protected_33": "PASS",
+  "frozen_pickle": "PASS_UNCHANGED",
+  "pinned_module": "PASS_UNCHANGED",
+  "manifest": "PASS_UNCHANGED",
+  "rf": "PASS_UNCHANGED",
+  "original_clean": true,
+  "historical_evidence": [
+    {
+      "inventory": "working/G4C-E2-001/artifact_hash_manifest.json",
+      "sha256": "46cdbabcd98754f9b879250090359d29a8a64861b32887ae8e7b24b423007436",
+      "files": 18,
+      "status": "PASS"
+    },
+    {
+      "inventory": "working/G4C-E2-002/checkpoint/artifact_hash_manifest.json",
+      "sha256": "72d5a082443b5f5e6e4eb7879d9e17c860163079b62f0af2ebd2eee959b9e302",
+      "files": 11,
+      "status": "PASS"
+    },
+    {
+      "inventory": "working/G4C-E2-003/artifact_hash_manifest.json",
+      "sha256": "bb88bb5093e33da774023d8e31b280e4e67ea399d6556d03c3d642fd1f3e2d7f",
+      "files": 19,
+      "status": "PASS"
+    }
+  ],
+  "workers_launched": 0,
+  "models_fit": 0,
+  "predictions_generated": 0,
+  "modelling_evaluation_run": false,
+  "notebook4_rerun": false,
+  "pickle_reloaded_during_postcheck": false
+}

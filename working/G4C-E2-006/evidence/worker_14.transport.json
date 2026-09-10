@@ -1,0 +1,19 @@
+{
+  "command": [
+    "wsl",
+    "-d",
+    "Ubuntu",
+    "--exec",
+    "/usr/bin/python3",
+    "-B",
+    "/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/G4C-E2-006/coordinator/g4c_linux_call.py",
+    "/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/G4C-E2-006/evidence/worker_14.input.json",
+    "/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/G4C-E2-006/coordinator/episode_worker.py",
+    "episode",
+    "/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/G4C-E2-006/evidence/worker_14.json"
+  ],
+  "input_sha256": "10d252481bddf88e13b500721266aad40ab4b8db45cadac44f440990c5295c82",
+  "returncode": 0,
+  "stderr": "",
+  "stdout": "{\"status\": \"PASS\", \"role\": \"episode\", \"elapsed_seconds\": 4.291789162999976}\n"
+}

@@ -1,0 +1,11 @@
+{
+  "original_seal": "artifact_hash_manifest.json",
+  "original_seal_sha256": "561141c573ea27a4da5008e78745522e568564fdcde7249567b69cb3968110e2",
+  "prevalidation_report_original_path": "EXECUTION_REPORT.md",
+  "prevalidation_report_preserved_path": "checkpoint/PRIMARY_EXECUTION_REPORT_PREVALIDATION.md",
+  "prevalidation_report_sha256": "b6d3f64c0f91e8cd88166d7e36db0f887b8ce734333523caf07bed1b67a4b44e",
+  "final_report_path": "EXECUTION_REPORT.md",
+  "reason": "Replace only prevalidation human report with required final failure disclosure. Scientific outputs and original seal remain unchanged. Original seal describes prevalidation phase; final manifest will bind final reporting phase.",
+  "independent_validation_status": "FAIL",
+  "validation_retried": false
+}

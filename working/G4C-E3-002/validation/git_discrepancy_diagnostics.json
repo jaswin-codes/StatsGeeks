@@ -1,0 +1,119 @@
+{
+  "windows_status": {
+    "command": [
+      "git",
+      "--no-optional-locks",
+      "status",
+      "--short",
+      "--",
+      "original/"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "linux_status": {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "--exec",
+      "git",
+      "--no-optional-locks",
+      "-C",
+      "/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy",
+      "status",
+      "--short",
+      "--",
+      "original/"
+    ],
+    "returncode": 0,
+    "stdout": " M original/1-Introduction.ipynb\n M original/2-Reading_Data.ipynb\n M original/3-Preprocessing.ipynb\n",
+    "stderr": ""
+  },
+  "windows_autocrlf": {
+    "command": [
+      "git",
+      "--no-optional-locks",
+      "config",
+      "--show-origin",
+      "--get",
+      "core.autocrlf"
+    ],
+    "returncode": 0,
+    "stdout": "file:C:/Program Files/Git/etc/gitconfig\ttrue\n",
+    "stderr": ""
+  },
+  "linux_autocrlf": {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "--exec",
+      "git",
+      "--no-optional-locks",
+      "-C",
+      "/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy",
+      "config",
+      "--show-origin",
+      "--get",
+      "core.autocrlf"
+    ],
+    "returncode": 1,
+    "stdout": "",
+    "stderr": ""
+  },
+  "linux_numstat": {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "--exec",
+      "git",
+      "--no-optional-locks",
+      "-C",
+      "/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy",
+      "diff",
+      "--numstat",
+      "--",
+      "original/"
+    ],
+    "returncode": 0,
+    "stdout": "197\t197\toriginal/1-Introduction.ipynb\n1914\t1914\toriginal/2-Reading_Data.ipynb\n858\t858\toriginal/3-Preprocessing.ipynb\n",
+    "stderr": ""
+  },
+  "linux_ignore_eol_diff": {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "--exec",
+      "git",
+      "--no-optional-locks",
+      "-C",
+      "/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy",
+      "diff",
+      "--ignore-space-at-eol",
+      "--exit-code",
+      "--",
+      "original/"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "linux_processes": {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "--exec",
+      "ps",
+      "-eo",
+      "pid,ppid,args"
+    ],
+    "returncode": 0,
+    "stdout": "    PID    PPID COMMAND\n      1       0 /sbin/init\n      2       1 /init\n      6       2 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate\n     47       1 /usr/lib/systemd/systemd-journald\n     81       1 /usr/lib/systemd/systemd-resolved\n     87       1 /usr/lib/systemd/systemd-udevd\n    105      87 (udev-worker)\n    106      87 (udev-worker)\n    113      87 (udev-worker)\n    114      87 (udev-worker)\n    115      87 (udev-worker)\n    116      87 (udev-worker)\n    117      87 (udev-worker)\n    118      87 (udev-worker)\n    119      87 (udev-worker)\n    120      87 (udev-worker)\n    121      87 (udev-worker)\n    122      87 (udev-worker)\n    123      87 (udev-worker)\n    124      87 (udev-worker)\n    125      87 (udev-worker)\n    126      87 (udev-worker)\n    133      87 (udev-worker)\n    134      87 (udev-worker)\n    135      87 (udev-worker)\n    136      87 (udev-worker)\n    137      87 (udev-worker)\n    138      87 (udev-worker)\n    139      87 (udev-worker)\n    140      87 (udev-worker)\n    141      87 (udev-worker)\n    142      87 (udev-worker)\n    143      87 (udev-worker)\n    144      87 (udev-worker)\n    145      87 (udev-worker)\n    146      87 (udev-worker)\n    147      87 (udev-worker)\n    148      87 (udev-worker)\n    149      87 (udev-worker)\n    150      87 (udev-worker)\n    151      87 (udev-worker)\n    152      87 (udev-worker)\n    153      87 (udev-worker)\n    154      87 (udev-worker)\n    155      87 (udev-worker)\n    156      87 (udev-worker)\n    157       1 /bin/sh /usr/lib/systemd/scripts/chronyd-starter.sh -n -F 1\n    158       1 /usr/sbin/cron -f -P\n    159       1 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only\n    163       1 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers\n    167       1 /usr/lib/snapd/snapd\n    169       1 /usr/lib/systemd/systemd-logind\n    175       1 /usr/libexec/wsl-pro-service\n    176       1 /usr/sbin/rsyslogd -n -iNONE\n    227       1 /usr/sbin/agetty --noreset --noclear --issue-file=/etc/issue:/etc/issue.d:/run/issue.d:/usr/lib/issue.d - linux\n    259     157 /usr/sbin/chronyd -n -F 1 -x\n    274     259 /usr/sbin/chronyd -n -F 1 -x\n    278       1 /usr/lib/systemd/systemd-timedated\n    279       1 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal\n    341       2 login -- jaswin\n    385       1 /usr/lib/systemd/systemd --user\n    389     385 (sd-pam)\n    414     341 -bash\n    452       2 /init\n    453     452 /init\n    454     453 ps -eo pid,ppid,args\n",
+    "stderr": ""
+  }
+}

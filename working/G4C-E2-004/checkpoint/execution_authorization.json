@@ -1,0 +1,44 @@
+{
+  "E3_E5": false,
+  "authorization": "Explicit Team Lead E2-only execution authorization in current user message",
+  "candidate": "E2 only",
+  "manifest_hash": "9d493d99f60098cb22fd781c51e2d2907d6831df72cb2524700293aa1a1bbf32",
+  "metadata_events_at_start": [
+    {
+      "after": {
+        "attributes": 32,
+        "bytes": 11160,
+        "file_id": 19421773393797285,
+        "links": 1,
+        "mtime_ns": 1788896112309413800,
+        "regular": true,
+        "sha256": "18f118107f667c00dd36dd8b8b1f7fd2c7a9b61f9bd95839bd9bee566c25a223",
+        "signature_hex": "a12fff43d9ef764c9ee210ea5722765f"
+      },
+      "before": {
+        "attributes": 32,
+        "bytes": 9544,
+        "file_id": 19421773393797285,
+        "links": 1,
+        "mtime_ns": 1788892892540666500,
+        "regular": true,
+        "sha256": "516003e09e847ddeccff55a466b8a917a83f05791b7136c781ecdf2cfa62f608",
+        "signature_hex": "a12fff43d9ef764c9ee210ea5722765f"
+      }
+    }
+  ],
+  "notebook4_rerun": false,
+  "parameters": {
+    "candidate": "E2",
+    "clip": [
+      0.25,
+      4.0
+    ],
+    "epsilon": 1e-06,
+    "identity_mixture": 0.5
+  },
+  "preparation_preflight_G4C_E2_003": "ac7ddaa0b7d2391a57d6767c82942132e0cd74b1f877aebb4de8aa3ab83e9b51",
+  "rf_hash": "5ffdd11f300532a14b3c2957a1ac77b748aa91c0a4d1a88f1ff0a3735dc75870",
+  "run_id": "G4C-E2-004",
+  "timestamp_utc": "2026-09-08T19:36:08.406125+00:00"
+}

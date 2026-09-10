@@ -1,0 +1,23 @@
+# E2 execution STOP — no retry
+
+```
+Traceback (most recent call last):
+  File "C:\Users\jaswi\Downloads\Hackathon3_StatsGeeks - Copy\working\G4C-E2-007\coordinator\execution_coordinator.py", line 128, in <module>
+    try:main()
+        ~~~~^^
+  File "C:\Users\jaswi\Downloads\Hackathon3_StatsGeeks - Copy\working\G4C-E2-007\coordinator\execution_coordinator.py", line 93, in main
+    z=call(probe,'preflight',f'preflight_{n}');assert z['result']['status']=='PASS' and not z['result']['model_computation']
+  File "C:\Users\jaswi\Downloads\Hackathon3_StatsGeeks - Copy\working\G4C-E2-007\coordinator\execution_coordinator.py", line 61, in call
+    if proc.returncode:raise RuntimeError(label+' transport failed '+proc.stderr)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: preflight_1 transport failed Traceback (most recent call last):
+  File "/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/G4C-E2-007/coordinator/g4c_linux_call.py", line 8, in <module>
+    packet=json.loads(a.packet.read_text());raw,evidence=run(packet,a.worker.read_bytes(),a.role,rf_path=a.rf)
+                                                         ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/G4C-E2-007/coordinator/g4c_boundary.py", line 17, in run
+    if APPROVED.get(role)!=digest: raise RuntimeError('Unapproved worker bytes')
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Unapproved worker bytes
+
+
+```

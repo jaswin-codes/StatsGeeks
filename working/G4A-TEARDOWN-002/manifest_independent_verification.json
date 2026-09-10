@@ -1,0 +1,19 @@
+{
+  "candidate_modelling": false,
+  "exact_per_episode_rng_replays": 60,
+  "independent_ordered_reconstruction": 60,
+  "label_fields_absent": true,
+  "manifest_sha256": "9d493d99f60098cb22fd781c51e2d2907d6831df72cb2524700293aa1a1bbf32",
+  "matched_routing": "PASS",
+  "notebook4_rerun": false,
+  "original_clean": true,
+  "protected_hashes_verified": 33,
+  "readonly": false,
+  "status": "PASS",
+  "teardown_checks": {
+    "abnormal": 2,
+    "normal": 12,
+    "waitpid_reaped": 14
+  },
+  "verifier_sha256": "88e885d5c72b65ad3ab110d7cf39a59ad6357d87061dfa3392f655a4763175c9"
+}

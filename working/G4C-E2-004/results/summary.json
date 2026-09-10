@@ -1,0 +1,20 @@
+{
+  "run_id": "G4C-E2-004",
+  "experiment_status": "STOPPED_INFRASTRUCTURE_FAILURE_FIRST_EPISODE",
+  "validation_status": "NOT_COMPLETED",
+  "scientific_verdict": "NOT_EVALUATED",
+  "episodes_planned": 60,
+  "episodes_completed": 0,
+  "workers_launched": 4,
+  "source_state_fit": true,
+  "candidate_predictions_generated": 0,
+  "prediction_artifacts": 0,
+  "metrics_generated": 0,
+  "failure": "First episode worker rejected unexpected descriptor /proc/self/fd/3 -> /usr/lib/x86_64-linux-gnu/libffi.so.8 before packet deserialization and prediction.",
+  "failed_worker_teardown": "PASS; final_survivors empty",
+  "predefined_success_criteria": "NOT_EVALUATED",
+  "follow_up_analysis_performed": false,
+  "additional_experiments_run": false,
+  "notebook4_rerun": false,
+  "retry_performed": false
+}

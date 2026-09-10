@@ -1,0 +1,202 @@
+{
+  "status": "PASS",
+  "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\jaswi\\Downloads\\Hackathon3_StatsGeeks - Copy\\.venv_baseline\\Scripts\\python.exe",
+  "numpy": "2.5.3",
+  "zlib": "1.3.1.zlib-ng",
+  "arrays": {
+    "X_madrid": {
+      "dtype": "<f8",
+      "shape": [
+        76263,
+        60
+      ],
+      "array_sha256": "1e48d0fd3b4fa9c9155d759a6b1e39677972b591e02622b714a06fbff6398fc8"
+    },
+    "y_madrid": {
+      "dtype": "<i8",
+      "shape": [
+        76263
+      ],
+      "array_sha256": "0032121fac2c5c4f29bd21e399f81044a38e5655de6e34406eefd560d2569327"
+    },
+    "pixel_ids_madrid": {
+      "dtype": "<i4",
+      "shape": [
+        76263,
+        2
+      ],
+      "array_sha256": "e7523f7c7be0f5ff72b357ddd5754375b867d66175e00c0f0cc48c25e34db5c8"
+    },
+    "X_amsterdam": {
+      "dtype": "<f8",
+      "shape": [
+        25992,
+        60
+      ],
+      "array_sha256": "a8ce17a32fe60ea0e5fc0c2abe8fd7d6cf7bd1e6c5eff6ed4219b97d36d540bd"
+    },
+    "y_amsterdam": {
+      "dtype": "<i8",
+      "shape": [
+        25992
+      ],
+      "array_sha256": "97888ca6e70a4ced61486629c4ade6d2b5103ca9639fb89a08d230305460c061"
+    },
+    "pixel_ids_amsterdam": {
+      "dtype": "<i4",
+      "shape": [
+        25992,
+        2
+      ],
+      "array_sha256": "c0d191fb122a5da93d45a1f3772ce61aa0dabae2b7d1b40cd72656e2dd9287c3"
+    }
+  },
+  "feature_names": [
+    "Blue_mean",
+    "Green_mean",
+    "Red_mean",
+    "NIR_mean",
+    "SWIR1_mean",
+    "SWIR2_mean",
+    "Blue_std",
+    "Green_std",
+    "Red_std",
+    "NIR_std",
+    "SWIR1_std",
+    "SWIR2_std",
+    "NDVI_mean",
+    "NDBI_mean",
+    "UI_mean",
+    "MNDWI_mean",
+    "BSI_mean",
+    "NDVI_std",
+    "NDBI_std",
+    "UI_std",
+    "MNDWI_std",
+    "BSI_std",
+    "Blue_early_mean",
+    "Green_early_mean",
+    "Red_early_mean",
+    "NIR_early_mean",
+    "SWIR1_early_mean",
+    "SWIR2_early_mean",
+    "Blue_early_std",
+    "Green_early_std",
+    "Red_early_std",
+    "NIR_early_std",
+    "SWIR1_early_std",
+    "SWIR2_early_std",
+    "Blue_late_mean",
+    "Green_late_mean",
+    "Red_late_mean",
+    "NIR_late_mean",
+    "SWIR1_late_mean",
+    "SWIR2_late_mean",
+    "Blue_late_std",
+    "Green_late_std",
+    "Red_late_std",
+    "NIR_late_std",
+    "SWIR1_late_std",
+    "SWIR2_late_std",
+    "d_Blue_mean",
+    "d_Green_mean",
+    "d_Red_mean",
+    "d_NIR_mean",
+    "d_SWIR1_mean",
+    "d_SWIR2_mean",
+    "d_Blue_std",
+    "d_Green_std",
+    "d_Red_std",
+    "d_NIR_std",
+    "d_SWIR1_std",
+    "d_SWIR2_std",
+    "has_early_data",
+    "has_late_data"
+  ],
+  "episodes": 60,
+  "budgets": [
+    5,
+    10,
+    25,
+    50,
+    100,
+    200
+  ],
+  "trials": 10,
+  "seed": 42,
+  "rng": "PCG64",
+  "manifest_sha256": "9d493d99f60098cb22fd781c51e2d2907d6831df72cb2524700293aa1a1bbf32",
+  "preprocessing_sha256": "51f11bc9025b5d4ffe2f9e03a8c76b70e4cfd0e91cb36876a9d021181e8ccdbe",
+  "parameters": {
+    "candidate": "E3",
+    "translation_strength": 1.0,
+    "continuous_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57
+    ]
+  },
+  "scientific_operations": "No preprocessing refit, RF fit or target query scoring. Existing frozen supervised Madrid means and support-only translation protocol.",
+  "command": [
+    ".venv_baseline/Scripts/python.exe",
+    "-I",
+    "-B",
+    "working/G4C-E3-002/coordinator/execution_coordinator.py"
+  ]
+}

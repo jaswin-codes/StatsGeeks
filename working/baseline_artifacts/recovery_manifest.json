@@ -1,0 +1,32 @@
+{
+  "excludes": [
+    "Open Notebook.onetoc2"
+  ],
+  "files": {
+    "amsterdam_zero_shot.npz": {
+      "bytes": 225424,
+      "sha256": "e1d13830cc0d8d0f820aa0cc93a923b32117101b6ae1cea2c19c28ecb532523c"
+    },
+    "feature_schema.json": {
+      "bytes": 2761,
+      "sha256": "bea946aaf7d96e12370af5800f4e719bafe0f7b30fee4354278f7ef36e1f107a"
+    },
+    "madrid_cv_oof.npz": {
+      "bytes": 3716888,
+      "sha256": "a52a7d721e505f3983fc470e1ef1785fac8ce7e6e4d59e0e09e663c425e2cbc5"
+    },
+    "prototype_trial_scores.npz": {
+      "bytes": 1661,
+      "sha256": "637631d7df4cf0d9f315424e9a3411744b26aeeea91b5c152da41ab7788c29ab"
+    },
+    "recovery_validation.json": {
+      "bytes": 3264,
+      "sha256": "f58c4ad5c99a0031eb5c2673905c53802484247a70874170e10f796fa15706f9"
+    },
+    "rf_final.pkl": {
+      "bytes": 1336382673,
+      "sha256": "5ffdd11f300532a14b3c2957a1ac77b748aa91c0a4d1a88f1ff0a3735dc75870"
+    }
+  },
+  "scope": "Existing payload recovery; no modelling rerun"
+}

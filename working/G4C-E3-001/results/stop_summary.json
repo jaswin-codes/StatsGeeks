@@ -1,0 +1,19 @@
+{
+  "run_id": "G4C-E3-001",
+  "experiment_status": "STOPPED_EXTERNAL_EXECUTION_HARNESS_TIMEOUT",
+  "scientific_verdict": "NOT_EVALUATED",
+  "episodes_planned": 60,
+  "episodes_completed": 52,
+  "episodes_uncompleted": 8,
+  "prediction_artifacts": 52,
+  "all_predictions_finalized_before_scoring": false,
+  "metrics_generated": 0,
+  "validation_status": "NOT_RUN_INCOMPLETE",
+  "completed_worker_teardown_pass": 52,
+  "peak_worker_rss_kib": 2866656,
+  "warnings": [],
+  "failure": "External command timeout after 5000 seconds while preparing episode 53; no episode-53 worker output exists.",
+  "failed_or_interrupted_episode": "G4A-B200-T03",
+  "E4_E5_run": false,
+  "retry_performed": false
+}

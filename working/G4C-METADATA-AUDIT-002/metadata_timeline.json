@@ -1,0 +1,40 @@
+{
+  "events": [
+    {
+      "event": "Initial read before audit directory creation",
+      "utc": "2026-09-08T18:31:59.974012+00:00",
+      "sha256": "e0a91560faa8fb0413d34cf1e7d982a000bf61297f8c61bb8fb4fc69b6ff66d1",
+      "bytes": 8192,
+      "mtime_utc": "2026-09-08T18:20:28.708562+00:00",
+      "creation_utc": "2026-09-08T08:12:37.455044+00:00"
+    },
+    {
+      "event": "First repeated observation; changed since initial read",
+      "utc": "2026-09-08T18:33:06.423545+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368,
+      "mtime_utc": "2026-09-08T18:32:05.673876+00:00"
+    },
+    {
+      "event": "End passive 180-second observation",
+      "utc": "2026-09-08T18:36:06.421817+00:00",
+      "sha256": "bf5daa01690f85533703d0ebad9192bdb3d54c8797626148d51b613ad63c5a8a",
+      "bytes": 9368
+    },
+    {
+      "event": "New checkpoint after required directory creation; second metadata update",
+      "utc": "2026-09-08T18:41:45.644759+00:00",
+      "sha256": "516003e09e847ddeccff55a466b8a917a83f05791b7136c781ecdf2cfa62f608",
+      "bytes": 9544,
+      "mtime_utc": "2026-09-08T18:41:32.540667+00:00"
+    },
+    {
+      "event": "End passive 180-second dry-run",
+      "utc": "2026-09-08T18:44:45.724773+00:00",
+      "sha256": "516003e09e847ddeccff55a466b8a917a83f05791b7136c781ecdf2cfa62f608",
+      "bytes": 9544
+    }
+  ],
+  "mutation_mechanism": "External to audit writes; process PID not attributed. Necessary audit/checkpoint directory creation correlates with added directory strings, not a forced edit to target.",
+  "observation_limits": "No content changes during either 180-second sampled interval; changes detected across initial-read/start and checkpoint-creation intervals. OS modification timestamps are not process-write traces."
+}

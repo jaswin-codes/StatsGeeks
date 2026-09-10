@@ -1,0 +1,3499 @@
+{
+  "status": "PASS",
+  "episodes": 60,
+  "archive_order": [
+    "query_indices.npy",
+    "query_ids.npy",
+    "raw_prototype.npy",
+    "rf_reproduced.npy",
+    "candidate.npy",
+    "frozen_rf.npy"
+  ],
+  "exact_npy_members": 360,
+  "same_windows_producer_byte_replays": 60,
+  "cross_compressor_raw_zip_identity_required": false,
+  "prior_E3_predictions_loaded": false,
+  "seconds": 5.378748000002815,
+  "records": [
+    {
+      "episode_id": "G4A-B005-T01",
+      "status": "PASS",
+      "prediction_sha256": "d3c7641cedf4fde41c6e709fc8ea9d214b710eaa09935ba4d31e96c73773d8b0",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "eb16e88c91d3790c14c84f3a0b817201f9ceb28bcd341910889400028fff77b5"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25972,
+            2
+          ],
+          "npy_sha256": "e9d6c83fdff41f675200630e0f62f556db69300d48903da23ffa2f880367ae15"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "f68c1a95eb7e12c226597b8bb528ee1523b8ea58c96b1ddeed8ef8afe5b89233"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "319f931e2b62f0f51aa071cd45ca76125eee833ca39a54db8800156cf6971c22"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "d0c845ef1cb530275e517e5bb64ceebf22e0271050393a53420e3228f76ff060"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "319f931e2b62f0f51aa071cd45ca76125eee833ca39a54db8800156cf6971c22"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B005-T02",
+      "status": "PASS",
+      "prediction_sha256": "b17b6d3e0f68ccd3cead0c24b15b7c1fb779e9e152d1a4d1f862b85b899897ac",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "fef4131253243084024b12d55628c245c21d60e609a73bca8f328357db5729b8"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25972,
+            2
+          ],
+          "npy_sha256": "284ef2ec8e8f31c2d4318463c6b713a424806573a65d640bce911605bd0ee679"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "4961a7e6562b948cae2d460dde2fcd6fa5b9f96b07c2ef1cb8a9529f65bec41c"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "4a29370dd000e303732c349dde84e6ea8e11dc0a5b6d8ba82096b196d503d5c1"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "4b717ae15536e1b5552c303c8b5d904bab17327cd458ad6bf7dcf55927ab0fbe"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "4a29370dd000e303732c349dde84e6ea8e11dc0a5b6d8ba82096b196d503d5c1"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B005-T03",
+      "status": "PASS",
+      "prediction_sha256": "12de08fa2bd56a0849291a15b17970961ae36cf0f94c0858c04e5658595f406b",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "6c3580ffadaa51cb127993e248b7f4afb26f28c58d6da7eefc0d63a9dbb759ec"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25972,
+            2
+          ],
+          "npy_sha256": "d491ea9ccd791f03898af4c07551f5f1ac355233f5b56b8efc5c6e5f711ad929"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "d443ffb695b4ad8c76eaf233ff1ccf25181ecdfd5e3c62a4caabc8f959679c18"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "6dd03aa743095204f224c6065cfb03d7ca6bab5fdf3532d77d74c78050d4f264"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "c9b9bb9b00256535af2e482fd752d3df7f6909024bd9d544e62e242ce70f7da7"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "6dd03aa743095204f224c6065cfb03d7ca6bab5fdf3532d77d74c78050d4f264"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B005-T04",
+      "status": "PASS",
+      "prediction_sha256": "f2fd273fee9630fd25e591f692225c1020ef6d97773f874eff73638f5d355892",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "2ef393ba5ef7f3900d1ed46907df0d9204d06b7c644006252bf74ed9f74fd41a"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25972,
+            2
+          ],
+          "npy_sha256": "61e0f1ed152f2e049ed425e74d1affc6c1bac06b4a1254fc7065a230dcf771cd"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "a897fd6027383889a383c1e9e060bf6262f8fba8b5d9f1f4635b02e7f5953856"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "165337409d4f4d61fb10eb08bfd4f49bb603e19df1d4207fed55f665f06cfbc4"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "20b7b67a96f4a6ef053e93b205180da44f186f016bcd5de0a2a350dd3bdca3fb"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "165337409d4f4d61fb10eb08bfd4f49bb603e19df1d4207fed55f665f06cfbc4"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B005-T05",
+      "status": "PASS",
+      "prediction_sha256": "482fc4ec2550485daecb89cf19d50cec88a526f05c81ceecbb74d15eea2f9759",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "153f2dad9fe98be48e3322c8b1c25490e715aa71b1c597a4aaa1fa367fbf7b20"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25972,
+            2
+          ],
+          "npy_sha256": "112dd1f66084f6b2559148d03e665ca875370468dc4bae759e4011e4fe4612a7"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "7db23308aa97b5fa6194e617d09a5fb7a9b0e2944ac9565920dd3fdf1eba9c7f"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "05a207f2cfb961e92a50b883cb15e66439b13ed65648df377855606bf396f51a"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "a4073936c3549f150d2190156109278c1ec2b00d33ce7f7374643744dcf4bbd7"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "05a207f2cfb961e92a50b883cb15e66439b13ed65648df377855606bf396f51a"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B005-T06",
+      "status": "PASS",
+      "prediction_sha256": "bf15b94557ff96b0561ed3a67964abe2a8c6fa49f3c938ece16407241f618525",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "0463477c6fe933abb082692759268d39e36e2b487fd4425637b6f7dc783f8b7d"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25972,
+            2
+          ],
+          "npy_sha256": "ca7b82c9607527bc5024ab5314c6df8c7ac4f576afe49dbaa2a8942a49f95e9d"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "d1778c6f5d0f8cb68156d788d0504a3c249662ff7753b23115c2d086f1a66735"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "7e44e62e0c235fa872a3d1957d44cd4f7ae1a9278c6a0f37c89264c1664cccd1"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "369899c375d24eb598e95eee8e9f436df18571e19f35eba7587c4ff78b90ba36"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "7e44e62e0c235fa872a3d1957d44cd4f7ae1a9278c6a0f37c89264c1664cccd1"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B005-T07",
+      "status": "PASS",
+      "prediction_sha256": "31fb56f164e3a177ba59f081bf2fd522d0695a19951a3b5194980e7b23747b11",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "0c51a6771697e73e810099ec55970536e1534fd76bf02c8632bb79736e6bf828"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25972,
+            2
+          ],
+          "npy_sha256": "2e7af6031566e691a447c4099fccb63a70e235b770d08603494b1ac0ebf7cabb"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "2772930d3b69c19a155ee41ed7ed4d59d15abc07a58c387770a494a0d4bfbd20"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "60ef13f68c0a3aba4f4a3d9f7cb988eb22ed48fdbf4255083083bf92e56eb34d"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "f72c310f7fd295e4010e6eb5ede099b96169a70cf334289152b306994e9b2f13"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "60ef13f68c0a3aba4f4a3d9f7cb988eb22ed48fdbf4255083083bf92e56eb34d"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B005-T08",
+      "status": "PASS",
+      "prediction_sha256": "c5f339feaca220237322755f73e2f0779f24937bf4c9b51f507a35aa071cbdec",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "149e463091c20675faddea4941c9974bff18b2b937451badcee96ca7b39f8b11"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25972,
+            2
+          ],
+          "npy_sha256": "b733c8167a47e98e9457c5f30951060f2cfcc08ca4c4e8cff470c4022c925695"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "638a2ab9978fd29fa6ed219e3eefc0d3c42336471c60add302b17a767501c3d5"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "d1d04efb6bbf41e4a9223c4803a434b06e30c52252a18bd99605feeb2f0e6236"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "fe5de73044ae99d5b07f585f85df84e9cf038df5a08a91344aa3513bcef4080b"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "d1d04efb6bbf41e4a9223c4803a434b06e30c52252a18bd99605feeb2f0e6236"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B005-T09",
+      "status": "PASS",
+      "prediction_sha256": "e16f23b82883cae975c82ccd56144d426ac64400615efa479481d6908ee692b7",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "c773c7f0ef03c2e8c1c484a75a9f3f6e6b65c0dd431ff1cbc68b77b4929ebc76"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25972,
+            2
+          ],
+          "npy_sha256": "d310df806480e858d2609f0bfaca98f2951df0c6b10ca0925e2be899347b1797"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "0806dd238f0b2893065cdbc3ef5c1161fd261633d14cdb67851d85d92c2f42cc"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "3c3db1eb2c8fef95211e5a754b7d21523eb808b2a98dbb42abd8d71642e50893"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "f2256ebe9e80566e8db2e1854e56986678bc04d9c89704d06591c35c554d5140"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "3c3db1eb2c8fef95211e5a754b7d21523eb808b2a98dbb42abd8d71642e50893"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B005-T10",
+      "status": "PASS",
+      "prediction_sha256": "5fd513bdc2ab58aec5119c01100b107afba7dcb3fe09a69daa247ff15dfcf864",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "f0fd0ced8431d4326e6b5f23e8e818221cce99cd5445ed838571952ccc2d88e6"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25972,
+            2
+          ],
+          "npy_sha256": "d029712c9c4585ca2b603a9433d27c22ac51cf5245963af253df7e0503d161bf"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "46beb96485f8499144c40618e4c3e9982397b581b3fd56f8e12d4ca8b1492638"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "ad9b132ddeb325166f7326f3f563bfefd721aa45ceb87e1c4d778e4c8604608a"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "104e3d87403199cd162e04998536c6c015ca81767c94476e4c9d4b7042df12e4"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25972
+          ],
+          "npy_sha256": "ad9b132ddeb325166f7326f3f563bfefd721aa45ceb87e1c4d778e4c8604608a"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B010-T01",
+      "status": "PASS",
+      "prediction_sha256": "645a37c940d0c237d322aa3d60222f77197eb1d8ca1e91c7d036cd68524f4ce2",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "623a24dda8869b93ce11c69bd665e251293f44795e1f9589b0941eaf50e862de"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25952,
+            2
+          ],
+          "npy_sha256": "6edcdaddc7816492f8aa8cb31f9f0016303151bcfdd484e4ef9ba6d762427c03"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "272420e6ae208c8ca8b8e794ceb156efa1ef9c0843d6322f98bc9231077b600b"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "0c0f0e70c074434cae9d554b9cb9d775c36d65b9d06508313a2cdfc46351bc06"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "5afe968868e28dfd62501bdcff7ddd0c151df0e0bcf29c0aef383cbb28baa2a5"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "0c0f0e70c074434cae9d554b9cb9d775c36d65b9d06508313a2cdfc46351bc06"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B010-T02",
+      "status": "PASS",
+      "prediction_sha256": "bb0b64962d55e8ea238a4edc737951e50d892c6e348525cff82630a866e6cc59",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "4e30bc04b85f5bee3d4c013399232fd3099d200238a4b585e4e6319961438c8b"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25952,
+            2
+          ],
+          "npy_sha256": "1cbf64557b1fd2f7780cbea07e3ceea4d7e206c2b6c651331af9127b1b9551b4"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "d1cac261472e1745bedf718b9e9b5d40578d863fc5242e2a550e498202b72174"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "c1ffaf978e1bcd0811c6bc55bc06441ec80cdf3987911b5c3df362874193933c"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "5db1da0d1ba9f8e949af9341096001e5e870ce709d49186c2c4bad375219c7ee"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "c1ffaf978e1bcd0811c6bc55bc06441ec80cdf3987911b5c3df362874193933c"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B010-T03",
+      "status": "PASS",
+      "prediction_sha256": "1a56d017157f3c03e584475054725a6ac6084d7e143c90783b105c3dd2d5fd5c",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "ba5c6a9822b44f5eb7d8317060051acd0aed799024cc3e8d46b23f149c55db61"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25952,
+            2
+          ],
+          "npy_sha256": "f895d29b6e4a7fb3094ddbf52402a90180984f4aa09f0ec8d68645518ae4cdf0"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "89d6e96485beb4936866e6f7e4dad44d28cd89fc5a144fd5e460d1fb2c11eb87"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "4f6353c61730698f076124836e62126af3d990429d8d108d5c7037848a332f89"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "2462335e313e2541d68f53c94679533588468bc718f0817048e36212262ed451"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "4f6353c61730698f076124836e62126af3d990429d8d108d5c7037848a332f89"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B010-T04",
+      "status": "PASS",
+      "prediction_sha256": "5c649a6106bd79ad2663d168e2b492332944595f7ba80d337bd00f737b770f35",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "62e8f85857151bd3b6ac2c86e15af43199e4bf49b05a82a2c821bc423c1a05c8"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25952,
+            2
+          ],
+          "npy_sha256": "e5835c2fe962af461c621a197046f8fcf16f188717a2ada41f3adbe4a0369086"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "34e0c4ea51b174a5dbd09908f613bba615b715b034e021f7aeee12668b0fedc5"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "9d64edb3cc48f5ca14792f302cbad237c0f2979d25b42804395d5fb1d66aba0d"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "9b6ab3998cc43ed45a08efd0229a5dc72db1b796af88dc949ba2a63fae3eab17"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "9d64edb3cc48f5ca14792f302cbad237c0f2979d25b42804395d5fb1d66aba0d"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B010-T05",
+      "status": "PASS",
+      "prediction_sha256": "02183c222138ca5576fc1c4d985ad21c3ab66874164497a8ac2211f7970c2e3c",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "f943c8a135a44e0bc8aa6d92732dc32190fbed7bc8471c66b4d83acd80ba4cfe"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25952,
+            2
+          ],
+          "npy_sha256": "7edaf0d8acb483df2bb116ed1a8156f15cc6fbb74faaa21d5564210a3e4edb90"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "fa18d4b568354dae7e301d43aef38556cbd2843d182ab2b1bfb8f8894dfe25d2"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "88cc38a06a66b6da25cc29b3680e7d410d98249b94ead869ddba41cb27989430"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "1406627e1db1c3a8d295a3d77ca2aa7f282d80deea9546eb58365e9df837889f"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "88cc38a06a66b6da25cc29b3680e7d410d98249b94ead869ddba41cb27989430"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B010-T06",
+      "status": "PASS",
+      "prediction_sha256": "1b32ba5b18753aa20d660ea9567e0c741558194b3061a651df1f72151a67edc8",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "ff27b06180af1060e9a62a0eddf9206445f0a6df3301ccafc0b3dacf7440ee92"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25952,
+            2
+          ],
+          "npy_sha256": "28a7ded158382a3bee21746382d5804346715ed7a26ff5fec294ae61df1ff679"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "da6e4bbc010e61bd09f0e9109633b0c4cb8d7635912e461d219c826997f91a42"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "80307647661d2f070c2e6d4b7900761a28782b5cd444d72e62e4101ebe41fa20"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "0292fb4b9e0c0021847f1fc600cd6574db8a8c0228e72258e841f33299b91cd8"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "80307647661d2f070c2e6d4b7900761a28782b5cd444d72e62e4101ebe41fa20"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B010-T07",
+      "status": "PASS",
+      "prediction_sha256": "e378eb42ba924fc753b69a4b8355109a709f9a0f8fca184f85f7f065cff67ed8",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "c0c7741140582eb6aad047d60dbac89716857d5d6a216aa806d43bc6e3b76860"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25952,
+            2
+          ],
+          "npy_sha256": "6b51307f82ee18241bdb1b4ba02fba37d84cd938da5ce60809eec6875117d34b"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "c142ac1f534035cccc97a89349bdca300fbee176371d02c01aa6c8cfa524ee40"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "464719c2447e96c5a5463ef53706eb366c3cdca8624b94f0687ad036fd36c789"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "c135dfe5cc66110fe129d3e092d9da96230e07fd60c00e9cf428598c7ec69619"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "464719c2447e96c5a5463ef53706eb366c3cdca8624b94f0687ad036fd36c789"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B010-T08",
+      "status": "PASS",
+      "prediction_sha256": "96a9d3b80f2288c3815352a97fa07adf9b0f516f051e6306fc0fe9579c084bde",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "f7070fcfb4cc96880604146e1e64aa8da65e1b2eddd98697cadabd5d4bd36378"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25952,
+            2
+          ],
+          "npy_sha256": "05d8f179abfff49757272204b0cd6b7850f9eb121e174b2a7bd21b1be3574410"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "adb9c77d691f258468f4e6415ac74903f2a9642620ae6d5eb53f18c0fdc6dab1"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "9cafd744204233341de69cffbf66ce9ba1e69f359c2afa56f34a603a2703bf52"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "69734c8ae9a1056d9a339131a6d8c88ff34ef2906bd4be6e0adae73353c65f6c"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "9cafd744204233341de69cffbf66ce9ba1e69f359c2afa56f34a603a2703bf52"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B010-T09",
+      "status": "PASS",
+      "prediction_sha256": "d55b77d553e4b5f9ed106f9f46d544338a31b5ec6233be83482f04a815a6c67d",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "9240bcea1e89c7b5a12899d5c229e795e22733d02452b432a7269348b8469577"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25952,
+            2
+          ],
+          "npy_sha256": "9eb5e55d83b7ddeeafa5feaa08bffb532ce2465ebb61c4525f814878b916c658"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "132f5b8a791055b018c21a6ddaef448f1bb26b935c48a4d675b355b69753126a"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "2d88ff308437216027552e5749d10bd03577a473f647b14882e4702a2279f92a"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "a589ad4809dcc2e8c66443665f27562ab3c0c93a746f802d94b6e6c21b3d7fe6"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "2d88ff308437216027552e5749d10bd03577a473f647b14882e4702a2279f92a"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B010-T10",
+      "status": "PASS",
+      "prediction_sha256": "df8b96c17da52010e0a38d16ecbfb78b1fda9e94523da6932222952c13bc85fd",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "2a3b308e4232c78c4230ea6f74afe541354e899a0bbe8939b69a5081b6a587f3"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25952,
+            2
+          ],
+          "npy_sha256": "0fe0e46ac2a5bac1ac55e19edcaafd78de4063c3d5adaa88cb8d1b12e3a8aebd"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "d7c01f6f75a7889da613d19868be44f9412c608e61e11c28a1d9ab5633d96828"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "ad930f66b4e80ee0af7bc00f1189df23a386bce6d40e05a4795259beb0588bb8"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "552fdcceb9aba6305b54a64ed14da248b9c143c5b10fad380147653dc2f11dc8"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25952
+          ],
+          "npy_sha256": "ad930f66b4e80ee0af7bc00f1189df23a386bce6d40e05a4795259beb0588bb8"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B025-T01",
+      "status": "PASS",
+      "prediction_sha256": "a1c468e41f214cb7e620482525cc91da6ad3b1edb661aec1f42a0912ea0aac38",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "5a7671de3d6ce0ca24a869c615fba765e32e500db8d4009347144bc77c705230"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25892,
+            2
+          ],
+          "npy_sha256": "efd302ee50fe87307ebdd108766c786eb46686d4cad1647019923fdfb80c95ff"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "0101192b2efe010dfb155a0870f9b5bb3703888acd2d7187043c898b013c142f"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "36943214029a123b7653228a87d8b2992d060e2764c14373880b28bd5659669d"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "61d79a2d728ba48ceb60ab612e2c8d43f3af2bba81800cacd3c03f137fe9a0f6"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "36943214029a123b7653228a87d8b2992d060e2764c14373880b28bd5659669d"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B025-T02",
+      "status": "PASS",
+      "prediction_sha256": "65717915212775a03839200cd1e93f50d2b430457648652187b5ff7afa62bf0d",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "1cb3ec25f1de8c6454b20e890a6de864e0fde966a05accdbca165711ead82cd0"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25892,
+            2
+          ],
+          "npy_sha256": "6620a16009cdd69a37274533c2f87cf0588d2aad063cccebd60c4b574e44bef1"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "c0d8d42f9b8118d6b160f7c53e8ebd89923c6e401c0b9d82a86201d177c63476"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "c65e4e13aebbe419d5d93a933a4abaf9ab86144cca6820177ef28a083543af9e"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "036b9daf8ef9fb4901fd0570b9947df3c0ca291bfee29e55c404f025b6930031"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "c65e4e13aebbe419d5d93a933a4abaf9ab86144cca6820177ef28a083543af9e"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B025-T03",
+      "status": "PASS",
+      "prediction_sha256": "6485136838d56343fb6bef6bb642c137acdeba15b04ff35409b16540c1ad89ea",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "01b16dcc15e3d90b50fd2de05d2b321c9a19048b4c998e26236ea0ab3cc54c2e"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25892,
+            2
+          ],
+          "npy_sha256": "dd8504c455a2a27034b463bbe5376795ae97a1176704dd73db0cb8cb6a8ebb78"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "731355d5c6727b5f8368505c17f55672c1b6f86ce577ef6adfe189ae815d2902"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "84f5e6d044fe36266c8c41134c7d587ed77719b58d1c15de087f26629f8a299e"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "b14e19fcfab96a08c17a27d50f8ecf439b77c026a1826696f161c045a1ec1f69"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "84f5e6d044fe36266c8c41134c7d587ed77719b58d1c15de087f26629f8a299e"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B025-T04",
+      "status": "PASS",
+      "prediction_sha256": "248140a952839214906809fd6fa9324ad59c9e53e1e81edb60c6f2efa7381663",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "43df74f3a1380ce8ddd29b411330d9774b56f17c0afa98ae02b24f24ce300978"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25892,
+            2
+          ],
+          "npy_sha256": "a13a74f55d1172e90da97ada65a95d53ab5a63c7663d04ae3e7d6353ca472474"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "131cffbe43def28067c9648a86f7805c652bea1e84b46a0cd31dd919a25410a9"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "07259f6a084c3d39042fd4ff63e168ecbe79f5d5564b278fd4b833fd4d91f6ed"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "b09251ea65e6f630f52e127122736cfce781a7a7fec5dab621d1dca17dcbdb56"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "07259f6a084c3d39042fd4ff63e168ecbe79f5d5564b278fd4b833fd4d91f6ed"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B025-T05",
+      "status": "PASS",
+      "prediction_sha256": "23dc35c33ee63ce5d3ce9037dd160ebd464cdd77c5b400177e97b13c4a6a7ea9",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "31aa4386f5003358a8e8ff0a00dcd1aa7b9f479ed6c6038e95063b16e669ad51"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25892,
+            2
+          ],
+          "npy_sha256": "5af0e99a3375156568b1608dbacdc3e270be6735c53339934946a1371d9218a2"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "3930542a2e7a0faa24ea2263656b8b9c2f1db08627b5998129b4f7c8c7048410"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "c7ac40778c9df6c5523c66d1dfdd54357823c8675ca88b4f2ad00d2d2eb5690c"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "7d9ef3e8cfc2897513a763d32e6eb450ff4f099152f9f3f17c15b4b58cbc7973"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "c7ac40778c9df6c5523c66d1dfdd54357823c8675ca88b4f2ad00d2d2eb5690c"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B025-T06",
+      "status": "PASS",
+      "prediction_sha256": "8fe3bf0256b71b66157f1478f351d28fd7f285ff5a90c1c6faf30a50fd53f897",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "3bc57cf52407145ea218a9099269089181ecf3c58bdbe99b4b7577bf4de4d36c"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25892,
+            2
+          ],
+          "npy_sha256": "58029e5ae90cfb0f852138c318a14cb3a5d06e3c5cf7d55dcc13ec1513fe5775"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "d42908e3747215f1d3120486a7029a190cadb11524698257caf85fb6303be209"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "673cb4948849bf4b4b0064a480f251a53815e2c8ac5fc06fae94bbbf6c265610"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "b7c12baad204017ce956dc364fd622eb4a65f563a9a6e01fe551acfb35fcf33a"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "673cb4948849bf4b4b0064a480f251a53815e2c8ac5fc06fae94bbbf6c265610"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B025-T07",
+      "status": "PASS",
+      "prediction_sha256": "424a0a7166f5dd262610447c73576d91ce6bbae20183ab82a8f179a5274d939c",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "a3f6dd3e9ecabf356fc52a5eba22ffb33e31391556572c1b3afe8c965bb44c66"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25892,
+            2
+          ],
+          "npy_sha256": "7d6a98c80bbbef2ecc20d3c1eb3bec17d49cd4873e1f9832a32754b63ad02728"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "3bc0f8900f8f968c17ddc778fe010eb5742761a00bef684850fc4903c4b446fb"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "c8de4e8a7c4e870e7cf80bf4f3b4954a48c04db2826f071f88a8cfc84723baa0"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "9311cdd83964d7745c0d5e807f397a68c2ccddf906390519f842f76f6cd581e6"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "c8de4e8a7c4e870e7cf80bf4f3b4954a48c04db2826f071f88a8cfc84723baa0"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B025-T08",
+      "status": "PASS",
+      "prediction_sha256": "7081d401e7d25026b4ded7d24cacee0aecf4749f4481958e2b43d90da603911c",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "b3b6a4a9f4625b235cc8ec06ae02388b4c238b69850e9156fdf526f958a188ea"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25892,
+            2
+          ],
+          "npy_sha256": "d3675e38d42e16451a26b2a1279e79f7529db0945d33ab748f6d735ca882619f"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "f990fc527810611245bdc9c2a0bd842b795e10ef93e44845de94462a2e7abecb"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "08f8184c4450a7c35bcd355715f817a5b0254add3961d6c596567f19e1b17519"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "36524922941b93cb05af606b5a32ccc52294ac03d3ac52a18e8329b1931b9c36"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "08f8184c4450a7c35bcd355715f817a5b0254add3961d6c596567f19e1b17519"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B025-T09",
+      "status": "PASS",
+      "prediction_sha256": "de6243a6ab1ad93cd9e8111f1b96617a22a18c41fe847dc64d942914e4c4cbd7",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "c530124a17fd2a6b3a0ba9bcf343db233cd27b985a8a436c27dd79b3db3c28bb"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25892,
+            2
+          ],
+          "npy_sha256": "0ab0d7736bf0b16b36829979832ea112e812dd4ce0d324ab572e37237b141a6f"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "c5eea41bb2d16507eacd4e1261ee05e7c2f9d34cc2ba684fe172015edd1eb06d"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "193dec72c1ebfa7734bd45930e92322527a9fe67a845a49901656c34b98dc134"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "28c9e0eaecb18013aea56fa4015a4547fdcce7911f6bc1bb57f92e079701f591"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "193dec72c1ebfa7734bd45930e92322527a9fe67a845a49901656c34b98dc134"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B025-T10",
+      "status": "PASS",
+      "prediction_sha256": "38097af96f3b816c07eae4e0ee67f5af1f8c1a6ea2bddb5036ff531065a7bc5e",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "7d2d674ab7912fca907660ba4c17d43023799db37d736ded284236ec9f9e0993"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25892,
+            2
+          ],
+          "npy_sha256": "4396110c368de0b18ac1853bf5300baeaa7455574265f1c3159d7d282f565a6d"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "b750f0ea09b3431aaf3ee7e255016267c8ce635dc1d944d0122800450fcb237f"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "5f9f95bd70569f21d1632932912b01af5cafa2c0c94188be6958b91215323d83"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "126dff92c84852f5272111f793b0af36fcb85829c83e2f0efd2e9f5008ddceea"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25892
+          ],
+          "npy_sha256": "5f9f95bd70569f21d1632932912b01af5cafa2c0c94188be6958b91215323d83"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B050-T01",
+      "status": "PASS",
+      "prediction_sha256": "0ff980d5e35d8b0dc6fc1b671217530eef04ab5f43b7fc258f57d1f966719efb",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "9b77508d9367111650bdd6474729d64a3e779af7e4e36719f017b772a490e231"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25792,
+            2
+          ],
+          "npy_sha256": "c8ebe986b6082b56b4dc4e76188c39cef722326fdb3f710a7007aa809c877281"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "d26b1437ae7f61268246a0bf6057320c878b758e5ef63a57c27a84e6634e6cdf"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "e29df5f04c405f8c74f0f062bb577b7f57a129b6ff7a4d4c79a6746af52c9cd4"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "25810dba8f43db56e45e1796557cd7a99cd94c70f3e248cd19581a14603d7687"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "e29df5f04c405f8c74f0f062bb577b7f57a129b6ff7a4d4c79a6746af52c9cd4"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B050-T02",
+      "status": "PASS",
+      "prediction_sha256": "9bb38cd76eced1ad249cc48208b5b0a98447ac3e109829fae33860ff4a87fec9",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "ed473f261f7fc01cd644077220c5e468a8bc8f33da4afcfd3411b3502eb67ece"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25792,
+            2
+          ],
+          "npy_sha256": "c8953d51d433b5b6475a9419e1f8a27893b4a711fd091ddee5df05036fa92c9c"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "d3514ff8a36e67adcafba5b4c7719a890f442a80c1b50bb83389751f3f62442c"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "23d09bf44fab264bd8cc3d94941a58b3ee35ed2168625defb723a96eea25e45e"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "a2b03dd8a28b2001880eed221f160d51a128bf3892fc84e970c6803f980b67a1"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "23d09bf44fab264bd8cc3d94941a58b3ee35ed2168625defb723a96eea25e45e"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B050-T03",
+      "status": "PASS",
+      "prediction_sha256": "4b63359bf472dd38065ac42f2989903704d26376f38d23816ef7795a74884a81",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "9cded30f97250fe2467c474f6a3a09c3b15f35f8f556a16740846d3052fb6660"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25792,
+            2
+          ],
+          "npy_sha256": "3dfa540d6c2469add127e1e6be5616e49dc4ff6680674ca010ee1228e35fc9c7"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "6b4b9d49bcea7ca96999ef51e71f6cb3148d7a8a95bd8b0c8c2934375873a6dd"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "85d7e80764d821c66718bd1dc04883981cb8de19dbf3a3f188a925bbec9f2067"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "e6a79ba3ad10f5f25a43aa379a110f3bf91e20f539a8265e3be73ea1abb39ded"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "85d7e80764d821c66718bd1dc04883981cb8de19dbf3a3f188a925bbec9f2067"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B050-T04",
+      "status": "PASS",
+      "prediction_sha256": "a353459e6b84fd422a0705997c8da4dbc6506ce6c86be1bc574a67b6c0f39f0d",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "db7eec1a734ab1d75e65e48c893089c79333df55821aa632f0ed59b8b23b64dd"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25792,
+            2
+          ],
+          "npy_sha256": "a348340580ea261425d4235d27b61cc1ee351d3255fe4e64206f040b452c55e8"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "11bbd11c3c45953eb502bc8234365b02c3d5179fbed6f87ecd8994e696a5489f"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "dc01a9d58fa3a1c6207d20c82fbd25fad3b7cb656de6ff8ac80b982b84e9ca54"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "f71dc4640e682bda8537e1626636ab4e6dbe8795cc1b928b4fb53b493989ee0d"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "dc01a9d58fa3a1c6207d20c82fbd25fad3b7cb656de6ff8ac80b982b84e9ca54"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B050-T05",
+      "status": "PASS",
+      "prediction_sha256": "8bae9fc91b854ec33aa1f84e5e284919f4d9d05b335639a2abaa2d6cde3fec58",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "b932b83521280c772e32b7bf22046ddc29f319c4658516acec6eeb9169d490b4"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25792,
+            2
+          ],
+          "npy_sha256": "617a2b3dc41711188acf1f52239513501796af7cfcb87fb98600b2486d2c228b"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "090f06e4ae4c1c8a5a1690e44f95698c5a2c183d317129413ff4a17d6825d7c8"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "ebfa685b20d385a19b849eb1138d1166de882a4af65adf5451fde25ff282d7c7"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "f2983758b255379270dd4a2fd0d844d0a4413ac095df1dc38bbb04604d5bb057"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "ebfa685b20d385a19b849eb1138d1166de882a4af65adf5451fde25ff282d7c7"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B050-T06",
+      "status": "PASS",
+      "prediction_sha256": "213d7382f0085b101e6570cffa498548799ac355451c5739363e57eafe697817",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "0d7ece390976999e0fb69a225d4b1557ff25c9b5835cf8ec1e0296c140c88216"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25792,
+            2
+          ],
+          "npy_sha256": "f35c3f412c7c31fad86785f363af672f3726a6bffc8effd03f3868f238f3691e"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "3cb7f61bfe789f42735d4578daf4a4815675a05e56c013b97c6797f163a71587"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "fe0750e32038e8d5cc7430126840585313552a89612c34de76d55cc00252f433"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "c6fd23b7895cdc0d42837b79d74166b766badb02ef71522b1652839c06d49ba2"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "fe0750e32038e8d5cc7430126840585313552a89612c34de76d55cc00252f433"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B050-T07",
+      "status": "PASS",
+      "prediction_sha256": "9e03ca9e941ad45a5da23d9f2e32f8f7d56114e758d7cd0f45856e229c9fb6d4",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "50a51ea31a2eb733ede385f1f6e3a1634f9c911baa8f42c2d0d018f9247c3ed8"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25792,
+            2
+          ],
+          "npy_sha256": "19fcae0271c02a8ee33c9b121b3c444cbecf2d2057601d5ec784e81c0125e25c"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "cf63b5ffaacd0bb648883856c3933bf67fc592d5770896f58dbdbf151bbfdd80"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "06f9decbf15ee58b6f8d4af76c4cc12d6eb05a353ac5b7590ea84b54921cdacd"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "5a30def5638c417bb35d9c279537efbcefeadf95847b7c933592e901367970b3"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "06f9decbf15ee58b6f8d4af76c4cc12d6eb05a353ac5b7590ea84b54921cdacd"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B050-T08",
+      "status": "PASS",
+      "prediction_sha256": "4f11fdafe1776e345ffdf95dde1da686727d01a8b4d7062e63c1c9eec10f5040",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "400ad021b2bc95ea0024d4a44d729a29d370641b21dc211c014237828a8a8bf0"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25792,
+            2
+          ],
+          "npy_sha256": "e325e4c43a7c977cb4e97384593c7c4f46644a5eb6a3f344834441eb40e41c18"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "03744c9f05c8c66d30872ef36f8a8abfe3904d95b0880bcd61f19bd7256e4df7"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "7c3e0c6595e00851f115b2b5fbb9edf09278ae5970bd76032c2dd98b84681f6c"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "f5c3acc3515494af4edf25e41c289346c881249cc6769d48c7ec7f76ae24f3d8"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "7c3e0c6595e00851f115b2b5fbb9edf09278ae5970bd76032c2dd98b84681f6c"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B050-T09",
+      "status": "PASS",
+      "prediction_sha256": "1352e593a06d2060cf81ceac8d8e9f3924642aca61251fbad1ee2faaaa15d270",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "61be0732574c3a9f7e05b948bf28d25609b55d3e0b23560f1e3b2dfb19b3ec2c"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25792,
+            2
+          ],
+          "npy_sha256": "ecdc80f0af12e1b4f76dc66290eff03d5d43919bb6b20b9ca4c643288c60b3b4"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "553214ca93d4d123e486e8206b7daaab4662efc2f0b5375d8d123de3ee1c04b1"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "ae1e9e16a910649a63c901bd66edf3066248cba95e9bb84b8e5f2affa1870944"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "71e99a949366a6bd62f4eeafd023abfef4cd826f9e2c094c4cf6a31e75ac9f13"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "ae1e9e16a910649a63c901bd66edf3066248cba95e9bb84b8e5f2affa1870944"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B050-T10",
+      "status": "PASS",
+      "prediction_sha256": "bb2ef13210a0614c7125e129ffdbc86ebcfe017e6a508f6078e6384315eef610",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "ea0bd135806bf897abd3cd24efe10e8705bdc3fb5fbfcec2e3106458e871914f"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25792,
+            2
+          ],
+          "npy_sha256": "2b6a8c110d2d54f0e382d25a161e444acd23cf5a5a93efa6af122a6de5fcfc35"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "855a2eebe1d01c1c0a6d562c11d1d601d27082fb256dab4ddef89b3d235ca7ab"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "5fde469d5929ba09c6b8dc46edfcaabf40a2fdc83818523ae35f3457e3e13f72"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "727b2d209334739e362f4165c8239e38994505d63719d81fe7e38d089b744b35"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25792
+          ],
+          "npy_sha256": "5fde469d5929ba09c6b8dc46edfcaabf40a2fdc83818523ae35f3457e3e13f72"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B100-T01",
+      "status": "PASS",
+      "prediction_sha256": "5c3f698151e2c8c46455ee79ecb8af3678ac1fcb3dcd657aeec8a729c519ef02",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "3a48f3eb7f841e6449fecdb63e10c672cf7b65b3b4db31c329cb34f83806ca86"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25592,
+            2
+          ],
+          "npy_sha256": "97f71c0d2a7f93ec2f0d02aa38e4bda948cd7135e8aea08873426fcac843ed2a"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "0a625f5cffc94c4d0feff7572445d437a02bae2aa392db1226b4dcadeb42c309"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "128822adc55b83b32d6c5270b7cba47a4dddf42736956658c73718f708cd3a55"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "930c76eb64b2be4adc14b0be2b92e2e3341cc89e04f02894c45965081547b96e"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "128822adc55b83b32d6c5270b7cba47a4dddf42736956658c73718f708cd3a55"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B100-T02",
+      "status": "PASS",
+      "prediction_sha256": "22338503fc6c033ec9cd81b1e63e858fabdacd2ae5a8d893f34acc8445d24f6d",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "371ee261996414ff9c747d84a45cc1df845c044c50d0ec2321626b088303baba"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25592,
+            2
+          ],
+          "npy_sha256": "116fd306706f9f3fdd931d3de8e6c90d40433f104f511323bc932e1135df4075"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "a2488d9dbafaf8cb74525237726288c58b6cfb4dad37452c278db6c6c792a5d3"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "ecc1e5e78ba6d11c954666504a7d3f0ba973a4f28489e3ed4f122f99d934643c"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "0cafdebbc6a49f8d7b3ec7dce12dc06f3b33a4d0438057102979d2225437a3f7"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "ecc1e5e78ba6d11c954666504a7d3f0ba973a4f28489e3ed4f122f99d934643c"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B100-T03",
+      "status": "PASS",
+      "prediction_sha256": "97aa8a31527bc99dbddc074d7342bafdbe29f42f0f2707305fdade3955672c00",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "c676463184831a7f66b79c9a9ce5e2a179f6c9343523ed3504f1db9afc9ff136"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25592,
+            2
+          ],
+          "npy_sha256": "5207d1220ffbd084dba46703a67b5da700b59eef3282fa1e42a7075657af57da"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "6eac36cef7a2fd8763b1ce185504fd5ac8126366577aac293287e39e57e53a1a"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "efcee0bcded49fc3659eb5a2b110ddaa46d6a987cbf539fb409b2a5270dd014e"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "3c01babd499cdbcd62a384ee53a666518d2f8f200d95abfe16b8582585359119"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "efcee0bcded49fc3659eb5a2b110ddaa46d6a987cbf539fb409b2a5270dd014e"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B100-T04",
+      "status": "PASS",
+      "prediction_sha256": "4b34376c8367e849aa81d7c391743fa3c0e1ecd3715772a29e95ab24e733bb00",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "4bc8d15a9433a9a71cabee519f2b5efdd1000d93fb183ea497315564180ee464"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25592,
+            2
+          ],
+          "npy_sha256": "bcbf2a2a6d024e3353cef494af720ac390f7175a5b25b9f2f223d2d0f5b807a6"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "517918344d1fe0c428d81a6aed9f73a80a6706a1d812134fd87965abfe9924f5"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "28ab37c6dc2296d862445563f4263d4e5a9f53246cae019ce586035c7a792a2a"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "900a732c1c7f6c403d210020602814b4e8f00fe0342c2b8afdbf5dd30294548f"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "28ab37c6dc2296d862445563f4263d4e5a9f53246cae019ce586035c7a792a2a"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B100-T05",
+      "status": "PASS",
+      "prediction_sha256": "3cee8551884dc2df356a90f743eb1264817ee9baac0504fdfb18ed78a0ae312b",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "9f6821a5da7439aadbf5e2bee4af5a70daeaa6dc1abd37048825f3e97a8e07ae"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25592,
+            2
+          ],
+          "npy_sha256": "2310e166e7a74bdc7e645157d38f94548e5a6ab1cb67632dba06299b7b308f5e"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "a5691a30c498ddb35eed949c759fad22978da4084bcaeafa0b287975cf8b7c0d"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "1f74826eaec8bcb01c368aefba6c7be315a7d118747b703f8250538489595fdb"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "d2dce2a5c68071b3c1da471e5e2ddb8ceab7112def30b659161a7c0c4b759f65"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "1f74826eaec8bcb01c368aefba6c7be315a7d118747b703f8250538489595fdb"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B100-T06",
+      "status": "PASS",
+      "prediction_sha256": "8dd47b07db4f72efb1873064dda1c2cf1aaefb698f5a5280d4d5c4e3812aeaad",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "a665cb03d33497a42d634a04a4c1546d20a0eee0bc2a22732955990ac6a5223e"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25592,
+            2
+          ],
+          "npy_sha256": "eb30606b296a1cbd7029df9a35b484078a9f5d7765eee130b38fe96988a2d3ee"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "98a049e81b1173bb2ba8ae0f5f7ee5faeb4180a6a4e3fed7a883f54e8baa5a0b"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "6b868b3cddc05e33ead557243973a98dccae4d2f271904587efbba75f41c8015"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "8cbdb39b248f6dfb7a0584141745a73b449c0ea14b9616dee4f9ce8815f9e089"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "6b868b3cddc05e33ead557243973a98dccae4d2f271904587efbba75f41c8015"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B100-T07",
+      "status": "PASS",
+      "prediction_sha256": "1c7a14aaf08db3cb10ba33d751bc8349c0b13ce425b923bf95ef06d09f25abdf",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "9c48fe6f497b0f68c5c01e334b9f43d3b9753ab791de82562f50ac1b308b54fe"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25592,
+            2
+          ],
+          "npy_sha256": "99be2a8bde95d4aaa416df6560e19621e027553c62d20ead89d6a898a2d4e3fd"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "87b9233570de1ce8b705f8c005566f602bb68c99fa70d7b7463d4c5bb242709f"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "668350057818cf3e756976c96962d1f9f7c21ca70a8f61d129db29a5e6b03513"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "dcb900b4295b805f864d5ef85685670350c2d06988278a31677f041a19549822"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "668350057818cf3e756976c96962d1f9f7c21ca70a8f61d129db29a5e6b03513"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B100-T08",
+      "status": "PASS",
+      "prediction_sha256": "3e8cb7c6b1e3b738da1dd3c7dec9d2b4d080705cd2dd4d1076384eb2ab3ffa9d",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "df270ba1e5c976a288701e330bcd9eae2ec239be52f0ba891b5f9f4b8266ca96"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25592,
+            2
+          ],
+          "npy_sha256": "5f02464b4250541d3f752ef67c167243aeaa7ecb87c6287f4d09922b8eeb25ab"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "9293ce1bb309a7d6f3cdf24ccdc25e0b070e163b5353aefc021fba0c80d55093"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "0db744e8d7a483a5d3862bee97dbf72d6420e1fbdaa25ae8af141bfc45669426"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "9c53dadcac6a69f84e60bbd8c940dfb888bd8f6429e06c4ce9eedf175added95"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "0db744e8d7a483a5d3862bee97dbf72d6420e1fbdaa25ae8af141bfc45669426"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B100-T09",
+      "status": "PASS",
+      "prediction_sha256": "0040d27f2e6a98e5b9b8dcdb56d9f26e846c4322563c8fc82b24709a14204b41",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "dd5746a3bd00f98d56e325a4d10ababebc8b218b3be2b89f41c212b216d6a03c"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25592,
+            2
+          ],
+          "npy_sha256": "5e2061b44dcdc8fdd89ce9a1009345eb31cc68441ca2078f00a2101e890acaba"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "2896895752d7ffafc6f7e82e001747a23e7f56570ea658fda1d0595770e78a8f"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "45f4053569c7ce539a81139b84d761c7d9bd8c86ac9f254027eaba5816f79b92"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "8e428c686ff177a5dd05c8b5ac7517e86ca5169469dce369b311b1a3df9e275b"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "45f4053569c7ce539a81139b84d761c7d9bd8c86ac9f254027eaba5816f79b92"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B100-T10",
+      "status": "PASS",
+      "prediction_sha256": "44bd1e69f10ff6c25f87c6727390697a01bbc1ac8f855680e4398cfef6c0398d",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "8e295127c2279dcec7695f0991c3c3b0c173456d6ffdf6a7d1a48b45c20b1339"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25592,
+            2
+          ],
+          "npy_sha256": "640dd701dfb5577b269d281db94425b09e8e0e2f5d7252b40e2642086b55683e"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "de347d342c59e7e07c6f5b9219433bcf8c6117c6774da4828e47d4f3d785e2d9"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "7ae98037cc801af88ba8ff689b7a2a9bf02519f01663bb71db6b513356821a9f"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "2d09cf4791bf4b21f3f512f8a4af97823a39c0877af6d121ff4673664858e9ae"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25592
+          ],
+          "npy_sha256": "7ae98037cc801af88ba8ff689b7a2a9bf02519f01663bb71db6b513356821a9f"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B200-T01",
+      "status": "PASS",
+      "prediction_sha256": "8329b553ccea3822d39399609802acf0beb0473c21c9274356ae19c52d70f714",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "98aba4bbe0aac0507d0222a453aee4d8f93de627abb824a8235e3e53d3975a41"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25192,
+            2
+          ],
+          "npy_sha256": "b60f29150ff1d2539f3d4013d43d524f92b11c70c5f3cf780caa08f07b93d635"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "7975f7030a8eaab4844aa7e587126b977c36e3b607b89abd42cd1580e1c491b5"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "45474e452f1871c215d8465e30f6b77da446b889d50479daa1db22f542a55e66"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "0bc3de4a51a09d6832ae4fa21f09684d9d76b13edb28221b343dfc06f6140626"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "45474e452f1871c215d8465e30f6b77da446b889d50479daa1db22f542a55e66"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B200-T02",
+      "status": "PASS",
+      "prediction_sha256": "ff8b81c345434f14abe085586c6f5d617c270b306ba038b5b9686070f3691737",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "c3b10a4df1fb9c4f30dfd1bedf2869ae70013b43d9812b7e58f289718aaaf451"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25192,
+            2
+          ],
+          "npy_sha256": "99cc4e59701931b7dc25065c6f68bfe1515df60ac80e0660539a31639f7a5780"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "553f1288eb1d507f35b5eceda9d7a18bd80165e6b48e67e00cd2766be022c814"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "7fb81fcaa43cd3fc99845ef3c8ac6b720af069126f6570f91d761fe79a71d8ff"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "a73e7a7ebb5135ee0bb52d46305f5776f6d5434299606dfa6f325a171e37025b"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "7fb81fcaa43cd3fc99845ef3c8ac6b720af069126f6570f91d761fe79a71d8ff"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B200-T03",
+      "status": "PASS",
+      "prediction_sha256": "5c44b0b7859a356f55c8b929505df0c5f23e4787ba43a5a7265acb5362235cb1",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "95cb7c6a29fe5256e1fa57ca623573be8897e22509beaa3ffc36cb1922358c50"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25192,
+            2
+          ],
+          "npy_sha256": "c3269d32721673860ec23be091f5f3ceb506e20c7d35d23e90e3091254cdb22d"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "94a19aca6dee495936f14b210375a5611e71bfc088f32f7f82be3cebbe322bc9"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "955bae091c68d066cc6047c0b1b8227a6d0e56939d17121fd7cc34e09ae44e90"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "3f5c89f7eee59c72a6add1e6548aa781826260f1278fe3bc1410b614f61ba79b"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "955bae091c68d066cc6047c0b1b8227a6d0e56939d17121fd7cc34e09ae44e90"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B200-T04",
+      "status": "PASS",
+      "prediction_sha256": "2890ad38c1b3dc03d33a1b3801a2e6d900c0486205a1c51a4b1e8bb3d38a48ba",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "b501970423c99fe2dce0c237c3abf463df8f177c0343393c0d344711509c4fe0"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25192,
+            2
+          ],
+          "npy_sha256": "b2349398ac3d307ef6e3f60f886f5cd21296659c9e8d4bbc02c2dd2237b1cb99"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "52cea211319ee1e0783963f946e0dc75970303beab27540185a061a5eeba8e70"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "6936348a5414089cb4eb866abff4de3eee1e30cdab2afc4844eab2157ffaed2a"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "dc063d2c88c5fac92200d1e1799ebae80f9af5e34e49657293f960bc8be801ea"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "6936348a5414089cb4eb866abff4de3eee1e30cdab2afc4844eab2157ffaed2a"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B200-T05",
+      "status": "PASS",
+      "prediction_sha256": "73f2559b8d92f8e08e550659b340c7470d2b2509f270000f187092e00493ecd7",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "d5259f6424cba24654da72beeac9371dcae98d13b13dddc7eeb5207afb563588"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25192,
+            2
+          ],
+          "npy_sha256": "057bd93ff08c237b85e8693e4d896d47d17a108133440a04777cadb647151605"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "abc256d6ee57acad61fdf7ee79d4e5b9fae8b1dbcfec6252007e81355b583244"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "2276d655a0569f708009dcece47ee20e37eb0e31501ac1a93fb514dbbff083d3"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "a14274a80344973053c1cf111ac04339322a5bfcf4806aff0bfb05e6a4bac2f1"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "2276d655a0569f708009dcece47ee20e37eb0e31501ac1a93fb514dbbff083d3"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B200-T06",
+      "status": "PASS",
+      "prediction_sha256": "b460a8a5dc96624bbef0e52e7d6ed7d9e1425b870d7dfda9bb8859d2f78e7422",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "f42da4a6cd6c7fd8476f75af1fd7b43d5a461b142b341960edabe75176e6652c"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25192,
+            2
+          ],
+          "npy_sha256": "973eec924469c4e7d43f6ef645458ccf574b4dca3c74adf79fbc23b14d190160"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "be2813be7694ae59c6f745c99d41240716ff361d68573bf9e721ab35c76d94e7"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "0fee9f20524bab13a9a3b0028ad1395cc0f97ffb925c045c82cec8653e8087d0"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "0be13a7d20c932842ae36daffb593a804fd9ff436422cdb021010d2b14799284"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "0fee9f20524bab13a9a3b0028ad1395cc0f97ffb925c045c82cec8653e8087d0"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B200-T07",
+      "status": "PASS",
+      "prediction_sha256": "3536a1b8447ac59764bed1774f0ed9e4e0072dfcbd580f14c4bb35df051adc95",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "8b8027623809f09b40294b9056fa5e236fc96d45fb632327c447ccf5f9c748b7"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25192,
+            2
+          ],
+          "npy_sha256": "8f8bbb2f10c3ad50ff3a8a2766cb23083fa3fa3fd4a9f52a1cb0190936a33f0c"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "50026a0ea824872a6720c008da7390fd60bbb702b5490426bb296530940fd871"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "f3f75b8e43575755a51f91bc10e0fbdc2f7f0379773189415dcc5766a07e87eb"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "832f92893b4ae41ebb69b40de0330766fe7da3deb89abe5d8faf899f1876f381"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "f3f75b8e43575755a51f91bc10e0fbdc2f7f0379773189415dcc5766a07e87eb"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B200-T08",
+      "status": "PASS",
+      "prediction_sha256": "d6b200ba81a388e02289dfcf6fbe97b95a38c4f8e823469d57f7dbae99d179b3",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "71f538443c6e3b4db9f552eb82035599cc8e415eda8f52c12773bddbbdb81672"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25192,
+            2
+          ],
+          "npy_sha256": "cc5413e63fff95a859448016d478f7ec361263236ab31375906cc02a95876476"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "aea051ab120567cf5362d4aa1a433f462ecfe3584029d27efc42c7ad8be7cc5b"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "0c65f186151d8803b56db236e0b9bbb277995b59f3d7f8df9ba6e4a2c44df6d2"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "2c64d15265fbfe786ee22d73145a0c5da7ac95076e0ef2a24745ffb28bfcf92c"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "0c65f186151d8803b56db236e0b9bbb277995b59f3d7f8df9ba6e4a2c44df6d2"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B200-T09",
+      "status": "PASS",
+      "prediction_sha256": "8baa0cbfbe023bbf9d1e56b96b8a48a91605cfa0eb29bfd731367685dca2c81d",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "0590b879279592a5ef3dfc8534c864266c7ce57977d301d00336dbef85b201dd"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25192,
+            2
+          ],
+          "npy_sha256": "d06852f69a6dc48458b91d4e2eadefa8fffe4395076f977e8cabb4289d12acfc"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "0d2976ac9e19a785535cba8583b4e77670feeee3509a72979f23f6ec4f563a08"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "6149c8a1516493c0aab06d93b624ae087836427695e72e81ccaa455ed669f521"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "3b1eeebed30021e13d814281913471d279c695c51919d576f0093453a9b8fa78"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "6149c8a1516493c0aab06d93b624ae087836427695e72e81ccaa455ed669f521"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    },
+    {
+      "episode_id": "G4A-B200-T10",
+      "status": "PASS",
+      "prediction_sha256": "8fee29e348d9593b99b5f049e3e11ca14fdfd908c88bf3c493b678e494cd493d",
+      "members": [
+        {
+          "name": "query_indices.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "7bd8eb526b981e69ffebd74bde55a647d6a473bfbf2cd9bb1ba84d67ec591f26"
+        },
+        {
+          "name": "query_ids.npy",
+          "dtype": "<i4",
+          "shape": [
+            25192,
+            2
+          ],
+          "npy_sha256": "e50b65483ca3d67921506f1686d94a66fbada288e810150a97d34e141bc6aedd"
+        },
+        {
+          "name": "raw_prototype.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "6d21f8fc60245adfca6fc57c902eb57e2b63adc2fd2b28491a8e3c50c6df9aa1"
+        },
+        {
+          "name": "rf_reproduced.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "ca184cc45dcad77c88776aa68a7a34b4623c001bb5df4f564f65b65515632f75"
+        },
+        {
+          "name": "candidate.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "257c658538211140edaa80c0da1a74fcb74be688a90179202ece14dfc0cfdcdd"
+        },
+        {
+          "name": "frozen_rf.npy",
+          "dtype": "<i8",
+          "shape": [
+            25192
+          ],
+          "npy_sha256": "ca184cc45dcad77c88776aa68a7a34b4623c001bb5df4f564f65b65515632f75"
+        }
+      ],
+      "windows_producer_byte_identity": true,
+      "native_rf_created": false
+    }
+  ]
+}

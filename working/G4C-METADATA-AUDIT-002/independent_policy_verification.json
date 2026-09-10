@@ -1,0 +1,129 @@
+{
+  "status": "PASS",
+  "utc": "2026-09-08T18:38:38.204775+00:00",
+  "metadata_type": "Windows-registered OneNote Table Of Contents; matching binary GUID and directory-name contents",
+  "external_mutability_established": true,
+  "evidence": "Initial and subsequent reads changed without any audit writer targeting the file; new audit directory name appears in metadata. No candidate launched.",
+  "writer_pid_attributed": false,
+  "writer_attribution_limit": "OneNote/OneDrive processes present; Restart Manager returned no resource users; neither proves write-event ownership.",
+  "policy_justified": true,
+  "justification": "Exact path is unrelated to model/data packet contents and cannot be mounted in candidate sandbox. Existing broad integrity inventory is its only G4C execution dependency. Metadata mutability is established even though writer identity is not.",
+  "allowed_path": "working/Open Notebook.onetoc2",
+  "tests": [
+    {
+      "change": "working/Open Notebook.onetoc2",
+      "expected": "ALLOW_AND_LOG",
+      "passed": true
+    },
+    {
+      "change": "working/g4c_episode_worker.py",
+      "expected": "STOP",
+      "passed": true
+    },
+    {
+      "change": "working/run_g4c_candidate.py",
+      "expected": "STOP",
+      "passed": true
+    },
+    {
+      "change": "working/G4C-E2-002/parameters.json",
+      "expected": "STOP",
+      "passed": true
+    },
+    {
+      "change": "data/preprocessed/preprocessed_data.pkl",
+      "expected": "STOP",
+      "passed": true
+    },
+    {
+      "change": "working/baseline_artifacts/rf_final.pkl",
+      "expected": "STOP",
+      "passed": true
+    },
+    {
+      "change": "working/baseline_artifacts/Open Notebook.onetoc2",
+      "expected": "STOP",
+      "passed": true
+    },
+    {
+      "change": "working/gate4_episode_manifest.json",
+      "expected": "STOP",
+      "passed": true
+    },
+    {
+      "change": "working/G4C-E2-001/summary.json",
+      "expected": "STOP",
+      "passed": true
+    },
+    {
+      "change": "working/G4C-E2-002/predictions/episode.npz",
+      "expected": "STOP",
+      "passed": true
+    },
+    {
+      "change": "original/Open Notebook.onetoc2",
+      "expected": "STOP",
+      "passed": true
+    },
+    {
+      "change": "original/4-Modelling.ipynb",
+      "expected": "STOP",
+      "passed": true
+    },
+    {
+      "change": "working/nested/Open Notebook.onetoc2",
+      "expected": "STOP",
+      "passed": true
+    },
+    {
+      "change": "working/another.onetoc2",
+      "expected": "STOP",
+      "passed": true
+    },
+    {
+      "change": "working/gate4_runtime_narwhals_lock.json",
+      "expected": "STOP",
+      "passed": true
+    },
+    {
+      "change": "runtime/numeric/numpy/__init__.py",
+      "expected": "STOP",
+      "passed": true
+    },
+    {
+      "change": "allowlisted metadata delete",
+      "expected": "STOP",
+      "passed": true
+    },
+    {
+      "change": "allowlisted metadata reparse",
+      "expected": "STOP",
+      "passed": true
+    },
+    {
+      "change": "allowlisted metadata hardlink",
+      "expected": "STOP",
+      "passed": true
+    },
+    {
+      "change": "allowlisted metadata wrong_signature",
+      "expected": "STOP",
+      "passed": true
+    },
+    {
+      "change": "allowlisted metadata new_identity",
+      "expected": "STOP",
+      "passed": true
+    },
+    {
+      "change": "allowlisted metadata attribute_change",
+      "expected": "STOP",
+      "passed": true
+    }
+  ],
+  "tests_count": 22,
+  "test_method": "Synthetic dictionaries only, no mutations to any project input",
+  "no_candidate_workers": true,
+  "policy_sha256": "8946c08a9e3baa1fa6166196d2e6f21ef7086922323d7e4d44e598da0c7b7f43",
+  "verifier_sha256": "2b3c859fac4d05e81028d847c0d694573c1943a1933301d9b78e50fb86f10447"
+}

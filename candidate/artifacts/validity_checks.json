@@ -1,0 +1,62 @@
+{
+  "boundary_inclusivity": {
+    "Madrid": {
+      "1959": 1,
+      "1960": 1,
+      "1961": 2,
+      "1984": 2,
+      "1985": 3,
+      "2004": 3,
+      "2005": 4
+    },
+    "Amsterdam": {
+      "1944": 1,
+      "1945": 1,
+      "1946": 2,
+      "1984": 2,
+      "1985": 3,
+      "2004": 3,
+      "2005": 4
+    }
+  },
+  "boundary_note": "pd.cut is right-closed; exact boundary years fall in the lower class.",
+  "spatial": {
+    "split_px": 20934.5,
+    "n_west": 12996,
+    "n_east": 12996,
+    "per_budget": [
+      {
+        "budget": 5,
+        "random": 0.545291085108755,
+        "blocked": 0.5667482098957678,
+        "drop": -0.021457124787012782
+      },
+      {
+        "budget": 25,
+        "random": 0.6018397122889263,
+        "blocked": 0.625651100956307,
+        "drop": -0.02381138866738075
+      },
+      {
+        "budget": 50,
+        "random": 0.6169890887064059,
+        "blocked": 0.6215116712687914,
+        "drop": -0.004522582562385469
+      },
+      {
+        "budget": 100,
+        "random": 0.6209341002431181,
+        "blocked": 0.635912803687926,
+        "drop": -0.014978703444807895
+      },
+      {
+        "budget": 200,
+        "random": 0.6243066360085019,
+        "blocked": 0.6394764973773308,
+        "drop": -0.015169861368828919
+      }
+    ],
+    "mean_drop": -0.015987932166083164,
+    "verdict": "NO EVIDENCE OF SPATIAL OPTIMISM. Blocking made scores HIGHER, not lower, so proximity between support and query is not inflating the results. The east half is simply easier than the city as a whole - a difficulty difference between regions, not leakage."
+  }
+}

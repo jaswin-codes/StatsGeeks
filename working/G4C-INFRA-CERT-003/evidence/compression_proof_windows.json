@@ -1,0 +1,54 @@
+{
+  "platform": "windows",
+  "zlib_compile": "1.3.1.zlib-ng",
+  "zlib_runtime": "1.3.1.zlib-ng",
+  "compression_level": -1,
+  "method": 8,
+  "wbits": -15,
+  "zipfile_default_compressor_source": "def _get_compressor(compress_type, compresslevel=None):\n    if compress_type == ZIP_DEFLATED:\n        if compresslevel is not None:\n            return zlib.compressobj(compresslevel, zlib.DEFLATED, -15)\n        return zlib.compressobj(zlib.Z_DEFAULT_COMPRESSION, zlib.DEFLATED, -15)\n    elif compress_type == ZIP_BZIP2:\n        if compresslevel is not None:\n            return bz2.BZ2Compressor(compresslevel)\n        return bz2.BZ2Compressor()\n    # compresslevel is ignored for ZIP_LZMA\n    elif compress_type == ZIP_LZMA:\n        return LZMACompressor()\n    elif compress_type == ZIP_ZSTANDARD:\n        return zstd.ZstdCompressor(level=compresslevel)\n    else:\n        return None\n",
+  "members": [
+    {
+      "member": "query_indices.npy",
+      "npy_sha256": "eb16e88c91d3790c14c84f3a0b817201f9ceb28bcd341910889400028fff77b5",
+      "raw_deflate_sha256": "9191a7c543122696d28567d279c63f4fc13939043c1547591a2433fca26077d8",
+      "independent_compression_sha256": "9191a7c543122696d28567d279c63f4fc13939043c1547591a2433fca26077d8",
+      "exact_stream_match": true
+    },
+    {
+      "member": "query_ids.npy",
+      "npy_sha256": "e9d6c83fdff41f675200630e0f62f556db69300d48903da23ffa2f880367ae15",
+      "raw_deflate_sha256": "a885344f394a66ad6c13525f79e464f19be75e7ddeab3fbeae09c8c9f1ef5b6a",
+      "independent_compression_sha256": "a885344f394a66ad6c13525f79e464f19be75e7ddeab3fbeae09c8c9f1ef5b6a",
+      "exact_stream_match": true
+    },
+    {
+      "member": "raw_prototype.npy",
+      "npy_sha256": "f68c1a95eb7e12c226597b8bb528ee1523b8ea58c96b1ddeed8ef8afe5b89233",
+      "raw_deflate_sha256": "fe0cad24b1ba4d6620801f7fa5243d75f736b482722475291c8e53e5695edca4",
+      "independent_compression_sha256": "fe0cad24b1ba4d6620801f7fa5243d75f736b482722475291c8e53e5695edca4",
+      "exact_stream_match": true
+    },
+    {
+      "member": "rf_reproduced.npy",
+      "npy_sha256": "319f931e2b62f0f51aa071cd45ca76125eee833ca39a54db8800156cf6971c22",
+      "raw_deflate_sha256": "08c1bfbf905be2005c37f510cf5af5a251a0b8f4b2c32d7a411c503ef49a7424",
+      "independent_compression_sha256": "08c1bfbf905be2005c37f510cf5af5a251a0b8f4b2c32d7a411c503ef49a7424",
+      "exact_stream_match": true
+    },
+    {
+      "member": "candidate.npy",
+      "npy_sha256": "d0c845ef1cb530275e517e5bb64ceebf22e0271050393a53420e3228f76ff060",
+      "raw_deflate_sha256": "ce2a18f8dfbb83968daa4baac41802991df4d142765a3b5fa007a139f1eb2ebe",
+      "independent_compression_sha256": "ce2a18f8dfbb83968daa4baac41802991df4d142765a3b5fa007a139f1eb2ebe",
+      "exact_stream_match": true
+    },
+    {
+      "member": "frozen_rf.npy",
+      "npy_sha256": "319f931e2b62f0f51aa071cd45ca76125eee833ca39a54db8800156cf6971c22",
+      "raw_deflate_sha256": "08c1bfbf905be2005c37f510cf5af5a251a0b8f4b2c32d7a411c503ef49a7424",
+      "independent_compression_sha256": "08c1bfbf905be2005c37f510cf5af5a251a0b8f4b2c32d7a411c503ef49a7424",
+      "exact_stream_match": true
+    }
+  ],
+  "status": "EXACT_DEFLATE_STREAM_REPRODUCTION_PASS"
+}

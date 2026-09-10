@@ -1,0 +1,78 @@
+{
+  "status": "STOPPED_NO_CANDIDATE_EXECUTION",
+  "excludes_self": true,
+  "files": {
+    "working/G4C-E2-001/independent_stop_audit.json": {
+      "bytes": 9452,
+      "sha256": "dd6e70f050a98ebe68f1f3ea99b090419b8fb2245981884abc3e383afe03382f"
+    },
+    "working/G4C-E2-001/Open Notebook.onetoc2": {
+      "bytes": 6288,
+      "sha256": "7cd4d363fd5e19c983a9fe829a4423c0d6cc68363181b2aae458afb161b111da"
+    },
+    "working/G4C-E2-001/REPORT.md": {
+      "bytes": 2691,
+      "sha256": "8379ea2f3e0bcd7b2643e4a2dcc99751de6812729d1f8dfdb62851171177e1ec"
+    },
+    "working/G4C-E2-001/STOP_REASON.md": {
+      "bytes": 714,
+      "sha256": "85a98c50fbbc9c260a3064868202ee922e5caa007c003e45505ca7743fba5465"
+    },
+    "working/G4C-E2-001/summary.json": {
+      "bytes": 797,
+      "sha256": "da15af3a7e5e3e66fa5da46cab07ef2c243a6bb2b2c51b8b29ee9712f5ed88b7"
+    },
+    "working/G4C-E2-001/code/Open Notebook.onetoc2": {
+      "bytes": 5040,
+      "sha256": "3d34bb04614114fdae2cd8aab5dcb2ab625ba209b6de51820720aeb5a5b4c21d"
+    },
+    "working/G4C-E2-001/evidence/changed_file_1.bin": {
+      "bytes": 8192,
+      "sha256": "e0a91560faa8fb0413d34cf1e7d982a000bf61297f8c61bb8fb4fc69b6ff66d1"
+    },
+    "working/G4C-E2-001/evidence/git_status_at_stop.txt": {
+      "bytes": 4321,
+      "sha256": "149bedad734d3df5ae0a52f6eaf8cefb36011e6df5579d635b10002737a1269a"
+    },
+    "working/G4C-E2-001/evidence/Open Notebook.onetoc2": {
+      "bytes": 5040,
+      "sha256": "e6e41b5e39dbc445229ac440af76ade9f57f7c9eaa3e3443fed0106304d012ea"
+    },
+    "working/G4C-E2-001/predictions/Open Notebook.onetoc2": {
+      "bytes": 5040,
+      "sha256": "84c0fc514118d200b82f2d72d1ecbc0104f31456f126428ceb051071199cc793"
+    },
+    "working/G4C-E2-execution.log": {
+      "bytes": 849,
+      "sha256": "15e73a0da4212e1acc35f657a761b87ef1092bf7d2ea9216b253b1fe6b02c896"
+    },
+    "working/G4C-PROVENANCE-CHECKPOINT/CONTINUATION-FINAL-REPORT.md": {
+      "bytes": 4201,
+      "sha256": "f3323925517e7e7aec3e86bda00f8d4bb1fd5c4033224011661e9b97a9e301d7"
+    },
+    "working/g4c_source_worker.py": {
+      "bytes": 2790,
+      "sha256": "c00c31624c9e107ce5aba2024c9c834648ff92f816acb390127846a2b3938d30"
+    },
+    "working/g4c_episode_worker.py": {
+      "bytes": 6082,
+      "sha256": "f556b29631c85cce77b2a196ad64bee50c1aeefe9fe15c1c9bfc3b08da694d8f"
+    },
+    "working/g4c_boundary.py": {
+      "bytes": 5464,
+      "sha256": "4891fb1847b99246cd30e94b36cfb7cf162c6a5b66290b790caf0c993d1698f2"
+    },
+    "working/g4c_linux_call.py": {
+      "bytes": 914,
+      "sha256": "30616e0ba270fef02601685692db600abe3769492846a126c800c5a2151c2034"
+    },
+    "working/run_g4c_candidate.py": {
+      "bytes": 13417,
+      "sha256": "f911e5beba7bed5a0d60e1c758b391a6daa2a9ff0a6db30cfbe55e77a2a56a3f"
+    },
+    "working/verify_g4c_candidate.py": {
+      "bytes": 13213,
+      "sha256": "4aa8424170014052507104b253e4bf56055e568853696136b0480368b5bdc04f"
+    }
+  }
+}

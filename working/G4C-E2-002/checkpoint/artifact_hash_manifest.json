@@ -1,0 +1,65 @@
+{
+  "candidate_artifacts": [],
+  "excludes_self": true,
+  "files": {
+    "working/G4C-E2-002/Open Notebook.onetoc2": {
+      "bytes": 6232,
+      "owner": "COORDINATOR",
+      "sha256": "da49b669f32812fbb9e099a2e079f22805329ef9f9b72fdc4aefb15dce084af9"
+    },
+    "working/G4C-E2-002/PREPARATION_REPORT.md": {
+      "bytes": 6352,
+      "owner": "COORDINATOR",
+      "sha256": "17bfea8511d735aa67d5f305b1f8981a180984ce5264a1809ebf2e54630291f4"
+    },
+    "working/G4C-E2-002/checkpoint/Open Notebook.onetoc2": {
+      "bytes": 5040,
+      "owner": "COORDINATOR",
+      "sha256": "46da7a71548e179964a4975b0ede5db7d4ac4816240fd1dea9e7ed1703908449"
+    },
+    "working/G4C-E2-002/checkpoint/final_integrity.json": {
+      "bytes": 1252,
+      "owner": "COORDINATOR",
+      "sha256": "db224b8a6a139fa697b9aaa8fbfcfda1d5c446a1e4f123d01b97fe62d43118b3"
+    },
+    "working/G4C-E2-002/checkpoint/independent_anchor_verification.json": {
+      "bytes": 4763,
+      "owner": "COORDINATOR",
+      "sha256": "189cc41f62aa3bd8757e9dfbcdb5b214b57050c4e8ee80b011337bbd17dfdd1e"
+    },
+    "working/G4C-E2-002/checkpoint/preflight_attempt_1_failure.json": {
+      "bytes": 1303,
+      "owner": "COORDINATOR",
+      "sha256": "9a088d174ab2420b658ad3b99b91426a9c570d5962455cbc3aa8650249395022"
+    },
+    "working/G4C-E2-002/checkpoint/static_source_review.json": {
+      "bytes": 812,
+      "owner": "COORDINATOR",
+      "sha256": "37e3052f9c53f05fb5467b6b49940f63182a24b3ab9ba11204fada697d339c90"
+    },
+    "working/G4C-E2-002/coordinator/Open Notebook.onetoc2": {
+      "bytes": 5040,
+      "owner": "COORDINATOR",
+      "sha256": "662470f63649a7b5e3fe8c43c11095fe087e3ba986c0f77fca84bab6bfc41603"
+    },
+    "working/G4C-E2-002/coordinator/contract.json": {
+      "bytes": 1793,
+      "owner": "COORDINATOR",
+      "sha256": "40972708221a343faff85e8c29b2b3497438c5abfb197f7e698e55f648ef9224"
+    },
+    "working/G4C-E2-002/coordinator/coordinator.py": {
+      "bytes": 14343,
+      "owner": "COORDINATOR",
+      "sha256": "0c4f6719ccc776cd726a2e9672a44bdd071d6b91f907fdde160cfc858304927d"
+    },
+    "working/G4C-E2-002/coordinator/integrity_policy.py": {
+      "bytes": 5578,
+      "owner": "COORDINATOR",
+      "sha256": "580d2ae8f716783b3702e636749075d220da15c7390ce011f1c8b051039802f2"
+    }
+  },
+  "historical_files_modified": [],
+  "run_id": "G4C-E2-002",
+  "status": "BLOCKED_PREPARATION",
+  "workers_launched": 0
+}

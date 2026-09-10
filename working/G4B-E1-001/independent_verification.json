@@ -1,0 +1,14 @@
+{
+  "candidate_label_access": "source state + current support labels only; independent verifier privileged and does not alter candidate outputs",
+  "historical_raw_trial_scores_exact": 60,
+  "independent_predictions": 60,
+  "independent_scores": 60,
+  "independent_source_state": true,
+  "manifest_sha256": "9d493d99f60098cb22fd781c51e2d2907d6831df72cb2524700293aa1a1bbf32",
+  "original_clean": true,
+  "protected_hashes": 33,
+  "same_query_alignment": true,
+  "status": "PASS",
+  "verifier_sha256": "11a4e2dd270355d554b44687cc0b774a51aa1c4b17bfff55993a40a1f1915be5",
+  "worker_teardown": 60
+}

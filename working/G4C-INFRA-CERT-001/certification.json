@@ -1,0 +1,85 @@
+{
+  "certification_status": "FAIL",
+  "checks": {
+    "G4C-INFRA-PERF-001": {
+      "payloads": 22,
+      "mismatches": []
+    },
+    "G4C-E2-008": {
+      "payloads": 216,
+      "mismatches": []
+    },
+    "G4C-E3-001": {
+      "payloads": 184,
+      "mismatches": []
+    },
+    "protected": {
+      "count": 33,
+      "mismatches": []
+    },
+    "original_rf_sha256": "5ffdd11f300532a14b3c2957a1ac77b748aa91c0a4d1a88f1ff0a3735dc75870",
+    "episode_manifest_sha256": "9d493d99f60098cb22fd781c51e2d2907d6831df72cb2524700293aa1a1bbf32",
+    "coordinator_AST": {
+      "changed_functions": [
+        "preexisting_integrity"
+      ],
+      "added_functions": [
+        "signature_hex"
+      ],
+      "main_metric_call_unchanged": true
+    },
+    "unchanged_assets": [
+      "episode_worker.py",
+      "source_worker.py",
+      "preflight_worker.py",
+      "g4c_boundary.py",
+      "gate4_production_boundary.py",
+      "gate4_lifecycle.py"
+    ],
+    "complete_original_optimized_integrity_checks": "PASS; identical results",
+    "prepared_assets": [
+      "episode_worker.py",
+      "execution_coordinator.py",
+      "g4c_boundary.py",
+      "g4c_linux_call.py",
+      "gate4_lifecycle.py",
+      "gate4_production_boundary.py",
+      "immutable_io.py",
+      "preflight_worker.py",
+      "source_worker.py"
+    ],
+    "prepared_validator_assets": [],
+    "producer_output_contract": [
+      "candidate_state/source_state.json",
+      "results/per_episode_results.json",
+      "results/execution_summary.json",
+      "coordinator/*"
+    ],
+    "legacy_verifier": {
+      "path": "working\\verify_g4c_candidate.py",
+      "sha256": "4aa8424170014052507104b253e4bf56055e568853696136b0480368b5bdc04f",
+      "fixed_identity": "G4C-{method}-001",
+      "expected_files": [
+        "entry.json",
+        "source_state.json",
+        "per_episode_results.json",
+        "summary.json",
+        "parameters.json",
+        "code/*"
+      ],
+      "compatible_with_prepared_output_contract": false
+    }
+  },
+  "failures": [
+    {
+      "type": "RuntimeError",
+      "message": "VALIDATION_BINDING_MISSING: optimized preparation emits no independent E3 validator. Legacy verify_g4c_candidate.py targets the closed -001 identity and an incompatible file/schema layout. No unchanged production verification path is bound to a new run."
+    }
+  ],
+  "new_E3_run_created": false,
+  "candidate_workers_launched": 0,
+  "prediction_subset": "NOT_RUN: preflight must pass first",
+  "native_runtime_live_check": "NOT_RUN",
+  "infrastructure_modified": false,
+  "seconds": 18.937369500000386
+}

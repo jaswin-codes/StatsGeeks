@@ -1,0 +1,28 @@
+{
+  "source_sha256": "30528dcc1f7ceb5219fd64e0795b9e9727af277f302f215fca7d281242546b05",
+  "bounded_sha256": "4aae65bfd53bafef7d10856a50922fd0b25f55fea3795a4f6d09e7ed5be09adb",
+  "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+  "samples": [
+    {
+      "repeat": 1,
+      "before_seconds": 7.711434400000144,
+      "after_seconds": 6.2732687999996415,
+      "same_result": true
+    },
+    {
+      "repeat": 2,
+      "after_seconds": 6.161065299999791,
+      "before_seconds": 7.179575699999987,
+      "same_result": true
+    },
+    {
+      "repeat": 3,
+      "before_seconds": 7.177555399999619,
+      "after_seconds": 6.189554800000224,
+      "same_result": true
+    }
+  ],
+  "integrity_checks_skipped": 0,
+  "workers_launched": 0,
+  "experiments_started": 0
+}

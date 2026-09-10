@@ -1,0 +1,39 @@
+{
+  "abnormal_ready_marker_before_termination": true,
+  "candidate_modelling": false,
+  "code_hashes": {
+    "gate4_lifecycle.py": "8ccb275ac923e51c502be0b43d327955ab3aa8d6a2f1c2c0563536db140d3de4",
+    "gate4_production_boundary.py": "d9d635682863fe927bae59ffff5b620966d2525cd82c0e8e798b321597ddf57e",
+    "gate4_production_probe.py": "a8a53d7e8b0a3cfd8047817b90ce01a01b3018c3ad2bf3016ee6a0bf716077f0",
+    "verify_gate4_production_suite.py": "c7938c7dc68977a3465412c4a292cfb2b076b74568132804f391d7ca9138f4b0"
+  },
+  "evidence_hashes": {
+    "probe_1.json": "aef0cd0465a449ad1bfca4b8702c385dc7c48b81a7b18d9b2b2e3b75f49af18d",
+    "probe_2.json": "3e70973cee71e3953f609ede088cd513ef262c8a7a066745622bab28409e50c5",
+    "probe_3.json": "60a17f01c6de6017795b758be1577dc7db3554d6baddcc61dcda26e984ee4afb",
+    "probe_4.json": "047265f4f075a52bf50ad7d577523ffe2917df428115ff96cebd6f04da833be2"
+  },
+  "normal_and_detached_child_teardown": true,
+  "output_negative_tests": {
+    "boolean": true,
+    "duplicate_field": true,
+    "duplicate_or_reordered_ids": true,
+    "extra_episode": true,
+    "extra_episode_packet": true,
+    "extra_label": true,
+    "hidden_labels": true,
+    "interrupted": true,
+    "invalid_class": true,
+    "invalid_json": true,
+    "label_request": true,
+    "nonfinite": true,
+    "path": true,
+    "short": true,
+    "unreaped": true,
+    "worker_failure": true
+  },
+  "post_abnormal_fresh_state": true,
+  "production_real_episode_probes": 4,
+  "status": "PASS",
+  "two_distinct_episode_packets": true
+}

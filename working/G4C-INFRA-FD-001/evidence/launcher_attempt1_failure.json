@@ -1,0 +1,8 @@
+{
+  "status": "INFRA_HARNESS_SYNTAX_FAILURE_BEFORE_WORKER_LAUNCH",
+  "error": "SyntaxError: unterminated string literal at infra_call.py line 8",
+  "cause": "Generator escaping emitted a literal newline inside f.write string.",
+  "workers_launched": 0,
+  "scope_of_repair": "New infrastructure launcher only; replace malformed two-line string with f.write('\\n').",
+  "candidate_execution": false
+}

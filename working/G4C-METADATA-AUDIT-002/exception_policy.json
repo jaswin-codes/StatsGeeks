@@ -1,0 +1,16 @@
+{
+  "status": "INDEPENDENTLY_JUSTIFIED_AUDIT_POLICY_NOT_INSTALLED_IN_RUNNER",
+  "allowed_mutable_paths": ["working/Open Notebook.onetoc2"],
+  "matching": "Exact repository-relative path; no extension, glob, directory, prefix or basename exemption.",
+  "allowed_changes": "Content hash, length and modification time only, always recorded with before/after values. Must remain same-identity regular single-link non-reparse OneNote TOC file with unchanged attributes and TOC signature.",
+  "missing_replaced_or_redirected_metadata": "STOP",
+  "all_other_checkpointed_files": "Any fingerprint change or disappearance is STOP, including all other .onetoc2 files.",
+  "original": "Any content, identity, attribute or membership change is STOP; Git status/diff must remain empty.",
+  "protected_33": "All expected SHA256 values must match the accepted historical protected list independently of the metadata exception.",
+  "frozen_manifest": "Exact authorized hash remains mandatory; evaluator-only, never transported or mounted.",
+  "runtime": "Full approved runtime tree, wheel and Bubblewrap hashes must match; metadata exception does not apply.",
+  "new_artifacts": "Exclusive creation only within separately declared new audit/checkpoint or future run write sets. No existing-file overwrite; record and hash new artifacts separately. Unrelated additions must not be silently accepted.",
+  "candidate_visibility": "No metadata file or project directory mounted; metadata content never enters source/episode packets. Future changes to inputs/mounts require renewed audit.",
+  "implementation": "Reference comparison implementation and synthetic tests exist only under this new audit directory. Existing candidate coordinator and historical checkpoints are untouched and will still enforce their old broad check.",
+  "authorization": "Current user permits only provenance/integrity analysis, observation, new checkpoint and dry-run. No candidate execution is authorized."
+}

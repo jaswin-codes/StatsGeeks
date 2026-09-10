@@ -1,0 +1,26 @@
+# Preserve frozen evidence bytes when adding/exporting release artifacts.
+# Do not run git add --renormalize on the scientific tree.
+/candidate/** -text
+/FINAL_SUBMISSION/** -text
+/working/** -text
+/original/** -text
+/data/** -text
+/models/** -text
+/submission/** -text
+/submission_dry_run/** -text
+/archive/** -text
+/reproducibility/** -text
+/SHA256SUMS.json -text
+
+# Stable line endings for editable release entry points only.
+/.gitattributes text eol=lf
+/.gitignore text eol=lf
+/README.md text eol=lf
+/scripts/README.md text eol=lf
+/docs/judge/** text eol=lf
+/docs/methodology/** text eol=lf
+/docs/reproducibility/** text eol=lf
+/docs/release/** text eol=lf
+/presentation/*.pptx binary
+/presentation/*.pdf binary
+/presentation/*.png binary

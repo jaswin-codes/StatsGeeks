@@ -1,0 +1,81 @@
+{
+  "method": "Static text search only; Notebook 4 not executed; no pickle/NPZ loaded.",
+  "review": [
+    {
+      "path": "original/4-Modelling.ipynb",
+      "matching_source_lines": [
+        {
+          "line": 117,
+          "text": "    \"with open('../data/preprocessed/preprocessed_data.pkl', 'rb') as f:\\n\","
+        }
+      ]
+    },
+    {
+      "path": "working/member3_artifact_helpers.py",
+      "matching_source_lines": [
+        {
+          "line": 5,
+          "text": "preprocessed_data.pkl exists."
+        },
+        {
+          "line": 45,
+          "text": "    with Path(path).open(\"rb\") as f:"
+        },
+        {
+          "line": 57,
+          "text": "    with Path(path).open(\"rb\") as f:"
+        },
+        {
+          "line": 64,
+          "text": "    with path.open(\"wb\") as f:"
+        },
+        {
+          "line": 80,
+          "text": "    with path.open(\"w\", encoding=\"utf-8\") as f:"
+        },
+        {
+          "line": 91,
+          "text": "    with path.open(\"a\", encoding=\"utf-8\", newline=\"\") as f:"
+        },
+        {
+          "line": 107,
+          "text": "def validate_preprocessed_data("
+        },
+        {
+          "line": 117,
+          "text": "        raise ValueError(f\"Missing required preprocessed_data keys: {missing}\")"
+        }
+      ]
+    },
+    {
+      "path": "working/freeze_member3_notebook4_outputs.py",
+      "matching_source_lines": [
+        {
+          "line": 19,
+          "text": "PICKLE = ROOT / \"data\" / \"preprocessed\" / \"preprocessed_data.pkl\""
+        },
+        {
+          "line": 25,
+          "text": "    with path.open(\"rb\") as handle:"
+        }
+      ]
+    },
+    {
+      "path": "working/run_member3_notebook4_artifact_capture.py",
+      "matching_source_lines": [
+        {
+          "line": 34,
+          "text": "    with open(path, 'rb') as handle:"
+        },
+        {
+          "line": 39,
+          "text": "with open(artifact_dir / 'rf_final.pkl', 'wb') as handle:"
+        },
+        {
+          "line": 101,
+          "text": "    'input_pickle_sha256': _sha256(Path('../data/preprocessed/preprocessed_data.pkl')),"
+        }
+      ]
+    }
+  ]
+}

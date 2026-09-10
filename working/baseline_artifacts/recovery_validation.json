@@ -1,0 +1,96 @@
+{
+  "candidate_modelling": false,
+  "checks": {
+    "all_existing_payloads_reloaded": true,
+    "cv_25_scores_recomputed_from_oof": true,
+    "frozen_evidence_hashes_pass": true,
+    "hashes_unchanged": true,
+    "metrics_match_accepted_at_4_decimals": true,
+    "rf_reload_predictions_equal_saved": true
+  },
+  "classes": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "created_utc": "2026-09-08T10:45:44.111174+00:00",
+  "environment_provenance": "Versions observed in this validation process; prior capture preflight recorded same versions. Not recovered kernel runtime metadata.",
+  "gaps": [
+    "Madrid final-model in-sample predictions not saved",
+    "Prototype support/query indices, prototypes and query predictions not saved; trial summaries validated but trial F1 cannot be recomputed",
+    "Capture rerun executed notebook not saved after sidecar error; kernel-specific metadata unavailable",
+    "CV fitted forests not saved"
+  ],
+  "input_pickle_sha256": "51f11bc9025b5d4ffe2f9e03a8c76b70e4cfd0e91cb36876a9d021181e8ccdbe",
+  "measured": {
+    "amsterdam_zero_shot": 0.443273608786401,
+    "madrid_cv_mean": 0.6281315050690548,
+    "madrid_cv_std": 0.004265247306708275,
+    "prototype": {
+      "10": {
+        "mean": 0.5648726210862619,
+        "std_ddof0": 0.03118672560026078
+      },
+      "100": {
+        "mean": 0.6128982733807506,
+        "std_ddof0": 0.00974403931972581
+      },
+      "200": {
+        "mean": 0.6149548502301738,
+        "std_ddof0": 0.0035964674443349975
+      },
+      "25": {
+        "mean": 0.5985975030424968,
+        "std_ddof0": 0.01763692365781789
+      },
+      "5": {
+        "mean": 0.5436864654724165,
+        "std_ddof0": 0.03240100566074138
+      },
+      "50": {
+        "mean": 0.607878932509608,
+        "std_ddof0": 0.010115419496318822
+      }
+    }
+  },
+  "notebook_rerun": false,
+  "precision_limit": "Accepted baseline was printed to four decimal places; full-precision equality to the first run cannot be established.",
+  "protocol": {
+    "cv": "RepeatedStratifiedKFold, 5 folds x 5 repeats, seed 42",
+    "metric": "macro F1",
+    "prototype": "nearest class mean L2, 10 trials per shot, one advancing default_rng(42)",
+    "std_ddof": 0
+  },
+  "repair": "Added import sys to terminal sidecar; runner was NOT executed.",
+  "rf_full_params": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "class_weight": "balanced",
+    "criterion": "gini",
+    "max_depth": null,
+    "max_features": "sqrt",
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 500,
+    "n_jobs": -1,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "status": "PASS_existing_file_recovery",
+  "training_performed": false,
+  "validation_environment": {
+    "executable": "C:\\Users\\jaswi\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "numpy": "2.4.6",
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "scipy": "1.17.1",
+    "sklearn": "1.9.0"
+  }
+}

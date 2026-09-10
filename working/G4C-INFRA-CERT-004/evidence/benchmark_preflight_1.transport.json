@@ -1,0 +1,19 @@
+{
+  "command": [
+    "wsl",
+    "-d",
+    "Ubuntu",
+    "--exec",
+    "/usr/bin/python3",
+    "-B",
+    "/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/G4C-INFRA-CERT-004/coordinator/g4c_linux_call.py",
+    "/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/G4C-INFRA-CERT-004/evidence/benchmark_preflight_1.input.json",
+    "/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/G4C-INFRA-CERT-004/coordinator/preflight_worker.py",
+    "preflight",
+    "/mnt/c/Users/jaswi/Downloads/Hackathon3_StatsGeeks - Copy/working/G4C-INFRA-CERT-004/evidence/benchmark_preflight_1.json"
+  ],
+  "input_sha256": "e921df37123efc69bae295d0529e4b4faabd83f2a51adb47415c410a242d5b13",
+  "returncode": 0,
+  "stderr": "",
+  "stdout": "{\"status\": \"PASS\", \"role\": \"preflight\", \"elapsed_seconds\": 6.8615100340000055}\n"
+}

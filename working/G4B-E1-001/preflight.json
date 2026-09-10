@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "runs": 2,
+  "manifest_not_mounted": true,
+  "query_labels_not_transported": true,
+  "model_computation": false,
+  "protected_33": "PASS"
+}

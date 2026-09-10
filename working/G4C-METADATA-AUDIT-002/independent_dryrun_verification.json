@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "utc": "2026-09-08T18:46:37.100844+00:00",
+  "checkpoint_files_rehashed": 431,
+  "nonallowlisted_changes": 0,
+  "metadata_changes_since_checkpoint": [],
+  "second_observed_metadata_update_valid_under_policy": true,
+  "metadata_samples_in_dryrun": 37,
+  "dryrun_seconds": 180.0,
+  "dryrun_changes": 0,
+  "protected_33": "PASS",
+  "original_clean": true,
+  "closed_G4C_E2_001_inventory": "PASS",
+  "runtime_before_after": "MATCH",
+  "candidate_workers_launched": 0,
+  "candidate_data_loaded": false,
+  "candidate_prediction_verification": "NOT_RUN_NOT_AUTHORIZED",
+  "policy_scope": "Exact path only; tests use synthetic maps, not modified real files",
+  "verifier_sha256": "c2abfead33b0902add70b50d755b1f3ec6938a44c527888ec6c5f4d644e62c7a"
+}

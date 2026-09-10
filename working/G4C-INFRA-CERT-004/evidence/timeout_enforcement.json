@@ -1,0 +1,18 @@
+{
+  "enforcement": "pi coding-agent bash tool per-call timeout",
+  "not_shell_timeout": true,
+  "not_python_or_coordinator_global_timeout": true,
+  "session_path": "C:\\Users\\jaswi\\.pi\\agent\\sessions\\--C--Users-jaswi-Downloads-Hackathon3_StatsGeeks - Copy--\\2026-09-08T19-57-46-508Z_01a08299-188a-7078-829d-ddb7299f65b5.jsonl",
+  "session_sha256": "ddf751339c764e49a973a51d5d50b3bd6454e38c5d925ccf7a6e465c3947ef6f",
+  "source_record": {
+    "line": 96,
+    "tool_name": "bash",
+    "tool_arguments": {
+      "command": "set -o pipefail; .venv_baseline/Scripts/python.exe -I -B working/G4C-E3-001/coordinator/execution_coordinator.py 2>&1 | tee working/G4C-E3-001/results/execution.log",
+      "timeout": 5000
+    },
+    "tool_call_id": "call_jDxvm6a4Ag7GR64te2bbHS7j|fc_06ec521792105d33016aa0ecfcd0c487d292dcd7909d25f7d4"
+  },
+  "coordinator_subprocess_timeout_seconds_per_worker": 300,
+  "linux_boundary_timeout_seconds_per_worker": 180
+}

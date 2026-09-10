@@ -1,0 +1,11 @@
+{
+  "candidate_modelling": false,
+  "declared_native_mappings_only": "PASS",
+  "exact_six_distributions": "PASS",
+  "files": 4355,
+  "independent_full_tree_rebuild": "PASS",
+  "notebook4_rerun": false,
+  "production_isolation": "NOT_RUN",
+  "runtime_lock_sha256": "cbebbda8f2a2a470d3d639e51fdf63b24afa7c950044bbf6b35a81dc9c21b514",
+  "tree_sha256": "b4e8c3f09000fd6764d8491ca963b8a3a246545e8a4a6244270db44a2d51b19f"
+}

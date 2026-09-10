@@ -1,0 +1,60 @@
+{
+  "status": "INDEPENDENT_BYTE_PAYLOAD_METRIC_AUDIT_PASS",
+  "comparisons": [
+    {
+      "episode_id": "G4A-B005-T01",
+      "mode": "original",
+      "query_rows": 25972,
+      "npy_members_exact": 6,
+      "producer_replays_exact": 2,
+      "metrics_exact": true
+    },
+    {
+      "episode_id": "G4A-B005-T01",
+      "mode": "optimized_native",
+      "query_rows": 25972,
+      "npy_members_exact": 6,
+      "producer_replays_exact": 2,
+      "metrics_exact": true
+    },
+    {
+      "episode_id": "G4A-B025-T01",
+      "mode": "original",
+      "query_rows": 25892,
+      "npy_members_exact": 6,
+      "producer_replays_exact": 2,
+      "metrics_exact": true
+    },
+    {
+      "episode_id": "G4A-B025-T01",
+      "mode": "optimized_native",
+      "query_rows": 25892,
+      "npy_members_exact": 6,
+      "producer_replays_exact": 2,
+      "metrics_exact": true
+    },
+    {
+      "episode_id": "G4A-B200-T01",
+      "mode": "original",
+      "query_rows": 25192,
+      "npy_members_exact": 6,
+      "producer_replays_exact": 2,
+      "metrics_exact": true
+    },
+    {
+      "episode_id": "G4A-B200-T01",
+      "mode": "optimized_native",
+      "query_rows": 25192,
+      "npy_members_exact": 6,
+      "producer_replays_exact": 2,
+      "metrics_exact": true
+    }
+  ],
+  "unique_episode_query_predictions": 77056,
+  "historical_files_verified": 1072,
+  "historical_changes": [],
+  "rng_replays": 60,
+  "new_worker_launches": 0,
+  "new_model_loads": 0,
+  "scope": "Separate implementation/process; not independent human review; runtime not certified"
+}

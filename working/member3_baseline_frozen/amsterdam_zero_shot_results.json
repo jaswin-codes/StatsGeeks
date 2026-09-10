@@ -1,0 +1,9 @@
+{
+  "artifact_type": "recovered_notebook_output_summary",
+  "classification_report_text": "Zero-shot transfer to Amsterdam (no Amsterdam labels):\n  Macro F1: 0.4433\n\n              precision    recall  f1-score   support\n\n     Class 1     0.4635    0.4223    0.4420      7568\n     Class 2     0.3862    0.6489    0.4843      8802\n     Class 3     0.7741    0.1870    0.3012      6745\n     Class 4     0.5659    0.5269    0.5457      2877\n\n    accuracy                         0.4496     25992\n   macro avg     0.5474    0.4463    0.4433     25992\nweighted avg     0.5293    0.4496    0.4312     25992\n\n",
+  "macro_f1": 0.4433,
+  "note": "Notebook output stores metrics/report text only; y_ams_pred_zero was kernel memory and is unavailable after shutdown.",
+  "prediction_arrays_available": false,
+  "source_executed_notebook": "working\\4-Modelling_member3_reference_executed.ipynb",
+  "source_executed_notebook_sha256": "37761873bc8d9ef57b13515b66ed636d400830b0b186cf25d55b41ccb3fc208e"
+}

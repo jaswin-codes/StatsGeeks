@@ -1,0 +1,41 @@
+{
+  "artifact_type": "real_episode_infrastructure_probe_not_predictions",
+  "boundary_sha256": "2e4a0763d0f91602087c21ea213b9faf12577b207fa7224173ac0404d45ec0fc",
+  "candidate_modelling": false,
+  "child_pid": 418,
+  "code_file_sha256": "f33b32a939b3825abdc18a2f96236b11b22fcbf51b3958ae53c693f6095451d3",
+  "code_sha256": "f33b32a939b3825abdc18a2f96236b11b22fcbf51b3958ae53c693f6095451d3",
+  "elapsed_seconds": 0.34502448399999963,
+  "forbidden_target_labels_supplied": false,
+  "namespace": "pid:[4026532231]",
+  "namespace_initial_members": [
+    418
+  ],
+  "namespace_survivors": [],
+  "packet_fields": [
+    "X_query",
+    "X_source",
+    "X_support",
+    "parameters",
+    "query_ids",
+    "support_ids",
+    "y_source",
+    "y_support"
+  ],
+  "packet_sha256": "5bce267731a1a9e12d0d1179a220e08bd61769d969d45026b4207c4fcf4048d4",
+  "reason": null,
+  "resource_limits": {
+    "address_space_bytes": 6442450944,
+    "cpu_seconds": 120,
+    "output_bytes": 78172,
+    "threads": 1
+  },
+  "returncode": 1,
+  "runtime_lock_sha256": "cbebbda8f2a2a470d3d639e51fdf63b24afa7c950044bbf6b35a81dc9c21b514",
+  "status": "BLOCKED",
+  "stderr": "Traceback (most recent call last):\n  File \"/app/entry.py\", line 15, in <module>\n    assert set(os.environ) <= {'LD_LIBRARY_PATH', 'OPENBLAS_NUM_THREADS', 'OMP_NUM_THREADS', 'HOME', 'PATH', 'LC_CTYPE'}\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+  "stdout_bytes": 0,
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "teardown_pass": true,
+  "validation_error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
+}
