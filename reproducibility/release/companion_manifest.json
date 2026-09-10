@@ -1,0 +1,14 @@
+{
+  "scope": "Presentation-only companion; repository-relative paths; original scientific seal unchanged; self excluded.",
+  "scientific_execution": false,
+  "locked_macro_f1": "0.749299",
+  "files": {
+    "presentation/Coordinate-RF_Judges.pptx": "0b8f43a9cbfb8d4123786ad9b5c0294074b8d387d1d4028dec9ebf8506b11f13",
+    "presentation/Coordinate-RF_Judges.pdf": "386d55c9be14429874fb749d7c5ae08b4acfa53b0e1a98bbe6b1c3c4830a460c",
+    "presentation/judge_learning_curve.png": "e11e2db3c2264046481778098b5e9f46af895c34de5ebc41f9d2732cdd5f1c61",
+    "presentation/build_judge_deck.py": "3e51021e7cbaf97a9f3ed765083e992436770929391ae1512ec23481efede152",
+    "presentation/export_judge_deck.ps1": "9a0dd72585fa71e37e08c22deebf09e7015c34312518f4642208fa76681fc22e",
+    "docs/judge/WRITTEN_JUSTIFICATION.md": "57a81d709da3885f84e45695bd468806ff35ad39f9b7d9e42230bc1303c54b34",
+    "FINAL_SUBMISSION/results_summary/learning_curve.csv": "52eb8c1e7f743b343e850d793165f04d6d0d411e544fe5e6d6e4fe255b120594"
+  }
+}

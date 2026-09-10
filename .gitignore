@@ -12,8 +12,9 @@ __pycache__/
 # Large model artifacts - locations and checksums recorded instead
 candidate/artifacts/*.joblib
 
-# The 9 KB adaptation artifact IS the deliverable, so keep it despite *.pkl above
+# Small Stage 1 adaptation artifacts are deliverables; keep them despite *.pkl above
 !candidate/artifacts/stage1_madrid.pkl
+!candidate/artifacts/exp010_stage1_madrid.pkl
 
 # Figures are committed (small, needed for slides); large artifacts are not
 
@@ -21,3 +22,21 @@ candidate/artifacts/*.joblib
 data/preprocessed/features_v2.pkl
 working/G4A-PRODUCTION-001/current_packet.json
 working/G4A-PRODUCTION-001/second_packet.json
+
+# Publication packaging hygiene (do not hide scientific logs or manifests)
+.venv-publication/
+.venv_baseline/
+*.py[cod]
+*.onetoc2
+*.swp
+*.swo
+candidate/competitor_forensics/
+candidate/publication/*.zip
+archive/publication_cleanup/exports/*.zip
+# Frozen inference state is a deliberate deliverable (<100 MB).
+!candidate/best_model/pool_state.pkl
+
+# Local presentation render previews; PDF/PPTX and source remain reviewable.
+/reproducibility/release/slide_render/
+/reproducibility/release/contact_sheet.png
+# Existing notebook checkpoint and bytecode rules remain unchanged.

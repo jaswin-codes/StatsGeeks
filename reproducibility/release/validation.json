@@ -1,0 +1,4218 @@
+{
+  "checks": [
+    {
+      "name": "preexisting_files_preserved_or_documented_moves",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "all_scientific_and_other_protected_bytes_unchanged",
+      "status": "PASS",
+      "detail": {
+        "violations": [],
+        "editable_changes": [
+          ".gitignore",
+          "PROJECT_EXECUTIVE_SUMMARY.md",
+          "README.md",
+          "REPOSITORY_AUDIT.md",
+          "deliverables/README.md",
+          "docs/FAQ.md",
+          "docs/MASTER_PLAN.md",
+          "docs/METHOD.md",
+          "docs/PIPELINE.md",
+          "docs/PRESENTATION_OUTLINE.md",
+          "docs/PROJECT_SUMMARY.md",
+          "docs/README_SUBMISSION.md",
+          "docs/REPRODUCIBILITY.md",
+          "docs/SUBMISSION_INVENTORY.md",
+          "docs/VALIDATION_ADDENDUM.md",
+          "docs/WRITTEN_JUSTIFICATION.md",
+          "scripts/README.md"
+        ]
+      }
+    },
+    {
+      "name": "local_onenote_sidecar_bytes",
+      "status": "WARNING",
+      "detail": {
+        "changed": [
+          "Open Notebook.onetoc2",
+          "archive/Open Notebook.onetoc2",
+          "deliverables/Open Notebook.onetoc2",
+          "docs/Open Notebook.onetoc2",
+          "figures/Open Notebook.onetoc2",
+          "presentation/Open Notebook.onetoc2",
+          "reproducibility/Open Notebook.onetoc2",
+          "scripts/Open Notebook.onetoc2"
+        ],
+        "note": "Non-scientific OneNote navigation sidecars changed during folder relocation; retained locally. No model/data/result exception."
+      }
+    },
+    {
+      "name": "sealed_package_membership",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "sealed_package_manifest_hashes",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "sealed_checksum_coverage",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "sealed_checksums",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "inference_hashes",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "model_selection_and_pool_contract",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "frozen_confusion_f1_arithmetic",
+      "status": "PASS",
+      "detail": {
+        "records": 4000,
+        "errors": []
+      }
+    },
+    {
+      "name": "frozen_summary_arithmetic",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "all_learning_curve_copies_match_evidence",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "locked_five_budget_values",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "notebook_structure_syntax_and_input_paths",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "notebook_full_schema",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "sealed_zip_xml_and_npz_crc",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "companion_pptx_zip_integrity",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "companion_exactly_ten_slides",
+      "status": "PASS",
+      "detail": 10
+    },
+    {
+      "name": "companion_slide_shape_bounds",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "companion_score_and_name",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "presentation_companion_hashes",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "native_powerpoint_text_bounds",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "companion_pdf_container",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "companion_pdf_pages_and_results",
+      "status": "PASS",
+      "detail": {
+        "pages": 10
+      }
+    },
+    {
+      "name": "concise_explanation_under_300_words",
+      "status": "PASS",
+      "detail": 235
+    },
+    {
+      "name": "all_budget_mean_sd_tokens:README.md",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "all_budget_mean_sd_tokens:docs/methodology/METHOD.md",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "all_budget_mean_sd_tokens:docs/judge/WRITTEN_JUSTIFICATION.md",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "active_document_local_links_and_images",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "historical_protected_local_links",
+      "status": "WARNING",
+      "detail": [
+        {
+          "file": "archive/repository_polish/snapshots/README.md",
+          "target": "candidate/reports/RESULTS.md"
+        },
+        {
+          "file": "archive/repository_polish/snapshots/README.md",
+          "target": "candidate/reports/METHODS.md"
+        },
+        {
+          "file": "archive/repository_polish/snapshots/README.md",
+          "target": "candidate/reports/STATISTICAL_ANALYSIS.md"
+        },
+        {
+          "file": "archive/repository_polish/snapshots/README.md",
+          "target": "candidate/reports/FINAL_REPORT.md"
+        },
+        {
+          "file": "archive/repository_polish/snapshots/README.md",
+          "target": "candidate/reports/REPRODUCIBILITY.md"
+        },
+        {
+          "file": "archive/repository_polish/snapshots/README.md",
+          "target": "candidate/reports/DIRECTORY_STRUCTURE.md"
+        },
+        {
+          "file": "archive/repository_polish/snapshots/README.md",
+          "target": "candidate/reports/REPOSITORY_AUDIT.md"
+        },
+        {
+          "file": "archive/repository_polish/snapshots/README.md",
+          "target": "candidate/publication/README.md"
+        },
+        {
+          "file": "archive/repository_polish/snapshots/README.md",
+          "target": "candidate/presentation/README.md"
+        },
+        {
+          "file": "archive/repository_polish/snapshots/README.md",
+          "target": "candidate/tables/leaderboard.md"
+        },
+        {
+          "file": "archive/repository_polish/snapshots/README.md",
+          "target": "candidate/reproducibility/environment_summary.json"
+        },
+        {
+          "file": "archive/repository_polish/snapshots/README.md",
+          "target": "CITATION.cff"
+        },
+        {
+          "file": "candidate/autonomous_ml_overnight/20260909T200015Z/local_deps/pypdfium2-5.13.0.dist-info/licenses/data/windows_x64/BUILD_LICENSES/libjpeg_turbo.md",
+          "target": "README.ijg"
+        }
+      ]
+    },
+    {
+      "name": "active_document_wording",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "protected_historical_wording_exceptions",
+      "status": "WARNING",
+      "detail": {
+        "hits": 964,
+        "locations": [
+          {
+            "file": "SHA256SUMS.json",
+            "line": 1432
+          },
+          {
+            "file": "SHA256SUMS.json",
+            "line": 1433
+          },
+          {
+            "file": "SHA256SUMS.json",
+            "line": 1454
+          },
+          {
+            "file": "SHA256SUMS.json",
+            "line": 1455
+          },
+          {
+            "file": "SHA256SUMS.json",
+            "line": 1456
+          },
+          {
+            "file": "SHA256SUMS.json",
+            "line": 1457
+          },
+          {
+            "file": "SHA256SUMS.json",
+            "line": 1458
+          },
+          {
+            "file": "SHA256SUMS.json",
+            "line": 1459
+          },
+          {
+            "file": "SHA256SUMS.json",
+            "line": 1460
+          },
+          {
+            "file": "SHA256SUMS.json",
+            "line": 1461
+          },
+          {
+            "file": "archive/release_history/FINAL_VALIDATION_REPORT.md",
+            "line": 23
+          },
+          {
+            "file": "archive/release_history/FINAL_VALIDATION_REPORT.md",
+            "line": 24
+          },
+          {
+            "file": "archive/release_history/INDEPENDENCE_AUDIT.md",
+            "line": 5
+          },
+          {
+            "file": "archive/release_history/INDEPENDENCE_AUDIT.md",
+            "line": 13
+          },
+          {
+            "file": "archive/release_history/INDEPENDENCE_AUDIT.md",
+            "line": 14
+          },
+          {
+            "file": "archive/release_history/INDEPENDENCE_AUDIT.md",
+            "line": 15
+          },
+          {
+            "file": "archive/release_history/INDEPENDENCE_AUDIT.md",
+            "line": 16
+          },
+          {
+            "file": "archive/release_history/INDEPENDENCE_AUDIT.md",
+            "line": 22
+          },
+          {
+            "file": "archive/release_history/INDEPENDENCE_AUDIT.md",
+            "line": 26
+          },
+          {
+            "file": "archive/release_history/scripts/build_repository_polish.py",
+            "line": 259
+          },
+          {
+            "file": "archive/repository_polish/package_draft_01/README.md",
+            "line": 101
+          },
+          {
+            "file": "archive/repository_polish/package_draft_01/solution_notebook.ipynb",
+            "line": 20
+          },
+          {
+            "file": "archive/repository_polish/package_draft_01/model/provenance.json",
+            "line": 71
+          },
+          {
+            "file": "archive/repository_polish/package_draft_01/model/provenance.json",
+            "line": 72
+          },
+          {
+            "file": "archive/repository_polish/package_draft_01/model/evidence/PREFLIGHT.json",
+            "line": 19
+          },
+          {
+            "file": "archive/repository_polish/package_draft_01/results_summary/LOCKED_REPORT.md",
+            "line": 42
+          },
+          {
+            "file": "archive/repository_polish/package_draft_01/written_explanation/written_justification.txt",
+            "line": 9
+          },
+          {
+            "file": "archive/repository_polish/snapshots/README.md",
+            "line": 47
+          },
+          {
+            "file": "archive/repository_polish/snapshots/README.md",
+            "line": 55
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/audit.py",
+            "line": 37
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/build_submission.py",
+            "line": 51
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/build_submission.py",
+            "line": 93
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/build_submission.py",
+            "line": 242
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/FINAL_OVERNIGHT_REPORT.md",
+            "line": 28
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/FINAL_OVERNIGHT_REPORT.md",
+            "line": 162
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/overnight.py",
+            "line": 83
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/overnight_finalization.log",
+            "line": 19
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/PACKAGE_RECEIPT.json",
+            "line": 24
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/RUN_LOG.md",
+            "line": 5
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260909T221222/evidence/PREFLIGHT.json",
+            "line": 17
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260909T221222/justification/written_justification.txt",
+            "line": 9
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260909T221222/model/provenance.json",
+            "line": 71
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260909T221222/model/provenance.json",
+            "line": 72
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260909T221222/notebook/FINAL_NOTEBOOK.ipynb",
+            "line": 20
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260909T221222/reports/FINAL_REPORT.md",
+            "line": 40
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260909T221903/evidence/PREFLIGHT.json",
+            "line": 17
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260909T221903/justification/written_justification.txt",
+            "line": 9
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260909T221903/model/provenance.json",
+            "line": 71
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260909T221903/model/provenance.json",
+            "line": 72
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260909T221903/notebook/FINAL_NOTEBOOK.ipynb",
+            "line": 20
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260909T221903/reports/FINAL_REPORT.md",
+            "line": 40
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260909T222158/evidence/PREFLIGHT.json",
+            "line": 19
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260909T222158/justification/written_justification.txt",
+            "line": 9
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260909T222158/model/provenance.json",
+            "line": 71
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260909T222158/model/provenance.json",
+            "line": 72
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260909T222158/notebook/FINAL_NOTEBOOK.ipynb",
+            "line": 20
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260909T222158/reports/FINAL_REPORT.md",
+            "line": 42
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260909T222533/evidence/PREFLIGHT.json",
+            "line": 19
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260909T222533/justification/written_justification.txt",
+            "line": 9
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260909T222533/model/provenance.json",
+            "line": 71
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260909T222533/model/provenance.json",
+            "line": 72
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260909T222533/notebook/FINAL_NOTEBOOK.ipynb",
+            "line": 20
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260909T222533/reports/FINAL_REPORT.md",
+            "line": 42
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260910T041854/evidence/PREFLIGHT.json",
+            "line": 19
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260910T041854/justification/written_justification.txt",
+            "line": 9
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260910T041854/model/provenance.json",
+            "line": 71
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260910T041854/model/provenance.json",
+            "line": 72
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260910T041854/notebook/FINAL_NOTEBOOK.ipynb",
+            "line": 20
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260910T041854/reports/FINAL_REPORT.md",
+            "line": 42
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/submission_build/evidence/PREFLIGHT.json",
+            "line": 19
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/submission_build/justification/written_justification.txt",
+            "line": 9
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/submission_build/model/provenance.json",
+            "line": 71
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/submission_build/model/provenance.json",
+            "line": 72
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/submission_build/notebook/FINAL_NOTEBOOK.ipynb",
+            "line": 20
+          },
+          {
+            "file": "candidate/autonomous_ml_overnight/20260909T200015Z/submission_build/reports/FINAL_REPORT.md",
+            "line": 42
+          },
+          {
+            "file": "candidate/autonomous_runs/20260909_1727/FINAL_REPORT.md",
+            "line": 6
+          },
+          {
+            "file": "candidate/autonomous_runs/20260909_1727/provenance.json",
+            "line": 71
+          },
+          {
+            "file": "candidate/autonomous_runs/20260909_1727/provenance.json",
+            "line": 72
+          },
+          {
+            "file": "candidate/autonomous_runs/20260909_1727/sprint.py",
+            "line": 50
+          },
+          {
+            "file": "candidate/autonomous_runs/20260909_1727/sprint.py",
+            "line": 186
+          },
+          {
+            "file": "candidate/best_model/provenance.json",
+            "line": 71
+          },
+          {
+            "file": "candidate/best_model/provenance.json",
+            "line": 72
+          },
+          {
+            "file": "candidate/experiments_2h_v2/ADAPTIVE_LOCAL_PLAN.md",
+            "line": 9
+          },
+          {
+            "file": "candidate/experiments_2h_v2/ALL_RESULTS.csv",
+            "line": 357
+          },
+          {
+            "file": "candidate/experiments_2h_v2/ALL_RESULTS.csv",
+            "line": 358
+          },
+          {
+            "file": "candidate/experiments_2h_v2/ALL_RESULTS.csv",
+            "line": 359
+          },
+          {
+            "file": "candidate/experiments_2h_v2/ALL_RESULTS.csv",
+            "line": 360
+          },
+          {
+            "file": "candidate/experiments_2h_v2/ALL_RESULTS.csv",
+            "line": 361
+          },
+          {
+            "file": "candidate/experiments_2h_v2/ALL_RESULTS.csv",
+            "line": 362
+          },
+          {
+            "file": "candidate/experiments_2h_v2/ALL_RESULTS.csv",
+            "line": 363
+          },
+          {
+            "file": "candidate/experiments_2h_v2/ALL_RESULTS.csv",
+            "line": 364
+          },
+          {
+            "file": "candidate/experiments_2h_v2/ALL_RESULTS.csv",
+            "line": 365
+          },
+          {
+            "file": "candidate/experiments_2h_v2/ALL_RESULTS.csv",
+            "line": 366
+          },
+          {
+            "file": "candidate/experiments_2h_v2/ALL_RESULTS.csv",
+            "line": 367
+          },
+          {
+            "file": "candidate/experiments_2h_v2/ALL_RESULTS.csv",
+            "line": 368
+          },
+          {
+            "file": "candidate/experiments_2h_v2/ALL_RESULTS.csv",
+            "line": 369
+          },
+          {
+            "file": "candidate/experiments_2h_v2/ALL_RESULTS.csv",
+            "line": 370
+          },
+          {
+            "file": "candidate/experiments_2h_v2/ALL_RESULTS.csv",
+            "line": 371
+          },
+          {
+            "file": "candidate/experiments_2h_v2/ALL_RESULTS.csv",
+            "line": 452
+          },
+          {
+            "file": "candidate/experiments_2h_v2/ALL_RESULTS.csv",
+            "line": 453
+          },
+          {
+            "file": "candidate/experiments_2h_v2/ALL_RESULTS.csv",
+            "line": 454
+          },
+          {
+            "file": "candidate/experiments_2h_v2/ALL_RESULTS.csv",
+            "line": 455
+          },
+          {
+            "file": "candidate/experiments_2h_v2/ALL_RESULTS.csv",
+            "line": 456
+          },
+          {
+            "file": "candidate/experiments_2h_v2/ALL_RESULTS.csv",
+            "line": 457
+          },
+          {
+            "file": "candidate/experiments_2h_v2/ALL_RESULTS.csv",
+            "line": 458
+          },
+          {
+            "file": "candidate/experiments_2h_v2/ALL_RESULTS.csv",
+            "line": 459
+          },
+          {
+            "file": "candidate/experiments_2h_v2/ALL_RESULTS.csv",
+            "line": 460
+          },
+          {
+            "file": "candidate/experiments_2h_v2/ALL_RESULTS.csv",
+            "line": 461
+          },
+          {
+            "file": "candidate/experiments_2h_v2/complete_manifest.py",
+            "line": 4
+          },
+          {
+            "file": "candidate/experiments_2h_v2/complete_manifest.py",
+            "line": 16
+          },
+          {
+            "file": "candidate/experiments_2h_v2/complete_manifest.py",
+            "line": 17
+          },
+          {
+            "file": "candidate/experiments_2h_v2/complete_manifest.py",
+            "line": 21
+          },
+          {
+            "file": "candidate/experiments_2h_v2/complete_manifest.py",
+            "line": 23
+          },
+          {
+            "file": "candidate/experiments_2h_v2/context.py",
+            "line": 2
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 102
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 123
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 167
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 188
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 232
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 253
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 297
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 318
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 362
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 383
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 392
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 397
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 398
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 399
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 400
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 406
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 407
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 408
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 409
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 415
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 416
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 417
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 418
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 424
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 425
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 426
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 427
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 433
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 434
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 435
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 436
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 563
+          },
+          {
+            "file": "candidate/experiments_2h_v2/DECISION_SUMMARY.json",
+            "line": 564
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 8
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 10
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 49
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 51
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 90
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 92
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 131
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 133
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 172
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 174
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 213
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 215
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 254
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 256
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 295
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 297
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 336
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 338
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 377
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 379
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 418
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 420
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 459
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 461
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 500
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 502
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 541
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 543
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 582
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 584
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 623
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 625
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 664
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 666
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 705
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 707
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 746
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 748
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 787
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 789
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 828
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 830
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 869
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 871
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 910
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 912
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 951
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 953
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 992
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 994
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1033
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1035
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1074
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1076
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1115
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1117
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1156
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1158
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1197
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1199
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1238
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1240
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1279
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1281
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1320
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1322
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1361
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1363
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1402
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1404
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1443
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1445
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1484
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1486
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1525
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1527
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1566
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1568
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1607
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1609
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1648
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1650
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1689
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1691
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1730
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1732
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1771
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1773
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1812
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1814
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1853
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1855
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1894
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1896
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1935
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1937
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1976
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 1978
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2017
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2019
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2058
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2060
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2099
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2101
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2140
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2142
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2181
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2183
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2222
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2224
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2263
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2265
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2304
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2306
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2345
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2347
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2386
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2388
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2427
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2429
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2468
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2470
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2509
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2511
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2550
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2552
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2591
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2593
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2632
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2634
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2673
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2675
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2714
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2716
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2755
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2757
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2796
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2798
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2837
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2839
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2878
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2880
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2919
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2921
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2960
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 2962
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3001
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3003
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3042
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3044
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3083
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3085
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3124
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3126
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3165
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3167
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3206
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3208
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3247
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3249
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3288
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3290
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3329
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3331
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3370
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3372
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3411
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3413
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3452
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3454
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3493
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3495
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3534
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3536
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3575
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3577
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3616
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3618
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3657
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3659
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3698
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3700
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3739
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3741
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3780
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3782
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3821
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3823
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3862
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3864
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3903
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3905
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3944
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3946
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3985
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 3987
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 4026
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 4028
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 4067
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 4069
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 4109
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 4110
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 4111
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 4112
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 4118
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 4119
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 4120
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 4121
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 4127
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 4128
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 4129
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 4130
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 4136
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 4137
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 4138
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 4139
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 4145
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 4146
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 4147
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 4148
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.json",
+            "line": 4155
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.log",
+            "line": 11
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.log",
+            "line": 12
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.log",
+            "line": 13
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.log",
+            "line": 14
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.log",
+            "line": 20
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.log",
+            "line": 21
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.log",
+            "line": 22
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.log",
+            "line": 23
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.log",
+            "line": 29
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.log",
+            "line": 30
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.log",
+            "line": 31
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.log",
+            "line": 32
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.log",
+            "line": 38
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.log",
+            "line": 39
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.log",
+            "line": 40
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.log",
+            "line": 41
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.log",
+            "line": 47
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.log",
+            "line": 48
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.log",
+            "line": 49
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.log",
+            "line": 50
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.py",
+            "line": 1
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.py",
+            "line": 15
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.py",
+            "line": 18
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.py",
+            "line": 22
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.py",
+            "line": 23
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.py",
+            "line": 27
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.py",
+            "line": 28
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.py",
+            "line": 30
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.py",
+            "line": 31
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol.py",
+            "line": 33
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 8
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 10
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 49
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 51
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 90
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 92
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 131
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 133
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 172
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 174
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 213
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 215
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 254
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 256
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 295
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 297
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 336
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 338
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 377
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 379
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 418
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 420
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 459
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 461
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 500
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 502
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 541
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 543
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 582
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 584
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 623
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 625
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 664
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 666
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 705
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 707
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 746
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 748
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 787
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 789
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 828
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 830
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 869
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 871
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 910
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 912
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 951
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 953
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 992
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 994
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1033
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1035
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1074
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1076
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1115
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1117
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1156
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1158
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1197
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1199
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1238
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1240
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1279
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1281
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1320
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1322
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1361
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1363
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1402
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1404
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1443
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1445
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1484
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1486
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1525
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1527
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1566
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1568
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1607
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1609
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1648
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1650
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1689
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1691
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1730
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1732
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1771
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1773
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1812
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1814
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1853
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1855
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1894
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1896
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1935
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1937
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1976
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 1978
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2017
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2019
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2058
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2060
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2099
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2101
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2140
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2142
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2181
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2183
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2222
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2224
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2263
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2265
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2304
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2306
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2345
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2347
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2386
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2388
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2427
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2429
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2468
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2470
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2509
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2511
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2550
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2552
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2591
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2593
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2632
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2634
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2673
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2675
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2714
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2716
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2755
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2757
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2796
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2798
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2837
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2839
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2878
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2880
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2919
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2921
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2960
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 2962
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3001
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3003
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3042
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3044
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3083
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3085
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3124
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3126
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3165
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3167
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3206
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3208
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3247
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3249
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3288
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3290
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3329
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3331
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3370
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3372
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3411
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3413
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3452
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3454
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3493
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3495
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3534
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3536
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3575
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3577
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3616
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3618
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3657
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3659
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3698
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3700
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3739
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3741
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3780
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3782
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3821
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3823
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3862
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3864
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3903
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3905
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3944
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3946
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3985
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 3987
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 4026
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 4028
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 4067
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 4069
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 4109
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 4110
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 4111
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 4112
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 4118
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 4119
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 4120
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 4121
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 4127
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 4128
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 4129
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 4130
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 4136
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 4137
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 4138
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 4139
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 4145
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 4146
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 4147
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 4148
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.json",
+            "line": 4155
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.log",
+            "line": 11
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.log",
+            "line": 12
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.log",
+            "line": 13
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.log",
+            "line": 14
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.log",
+            "line": 20
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.log",
+            "line": 21
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.log",
+            "line": 22
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.log",
+            "line": 23
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.log",
+            "line": 29
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.log",
+            "line": 30
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.log",
+            "line": 31
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.log",
+            "line": 32
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.log",
+            "line": 38
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.log",
+            "line": 39
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.log",
+            "line": 40
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.log",
+            "line": 41
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.log",
+            "line": 47
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.log",
+            "line": 48
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.log",
+            "line": 49
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_competitor_protocol_repeat.log",
+            "line": 50
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FINAL_SHA256SUMS.json",
+            "line": 7
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FINAL_SHA256SUMS.json",
+            "line": 39
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FINAL_SHA256SUMS.json",
+            "line": 40
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FINAL_SHA256SUMS.json",
+            "line": 41
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_verification.json",
+            "line": 18
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_verification.json",
+            "line": 36
+          },
+          {
+            "file": "candidate/experiments_2h_v2/final_verification.json",
+            "line": 37
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 6
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 7
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 63
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 64
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 84
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 85
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 86
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 87
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 88
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 89
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 90
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 91
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 217
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 218
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 219
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 220
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 221
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 222
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 223
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 224
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 225
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 226
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 227
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 228
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 229
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 230
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 231
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 232
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 233
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 234
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 235
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 236
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 237
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 238
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 239
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 240
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 241
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 242
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 243
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 244
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 245
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 246
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 247
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 248
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 249
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 250
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 251
+          },
+          {
+            "file": "candidate/experiments_2h_v2/FULL_EVIDENCE_SHA256.json",
+            "line": 256
+          },
+          {
+            "file": "candidate/experiments_2h_v2/package_reports.py",
+            "line": 9
+          },
+          {
+            "file": "candidate/experiments_2h_v2/package_reports.py",
+            "line": 23
+          },
+          {
+            "file": "candidate/experiments_2h_v2/package_reports.py",
+            "line": 24
+          },
+          {
+            "file": "candidate/experiments_2h_v2/package_reports.py",
+            "line": 43
+          },
+          {
+            "file": "candidate/experiments_2h_v2/package_reports.py",
+            "line": 65
+          },
+          {
+            "file": "candidate/experiments_2h_v2/package_reports.py",
+            "line": 66
+          },
+          {
+            "file": "candidate/experiments_2h_v2/package_reports.py",
+            "line": 74
+          },
+          {
+            "file": "candidate/experiments_2h_v2/package_reports.py",
+            "line": 78
+          },
+          {
+            "file": "candidate/experiments_2h_v2/package_reports.py",
+            "line": 90
+          },
+          {
+            "file": "candidate/experiments_2h_v2/package_reports.py",
+            "line": 94
+          },
+          {
+            "file": "candidate/experiments_2h_v2/package_reports.py",
+            "line": 96
+          },
+          {
+            "file": "candidate/experiments_2h_v2/package_reports.py",
+            "line": 106
+          },
+          {
+            "file": "candidate/experiments_2h_v2/package_reports.py",
+            "line": 115
+          },
+          {
+            "file": "candidate/experiments_2h_v2/package_reports.py",
+            "line": 166
+          },
+          {
+            "file": "candidate/experiments_2h_v2/package_reports.py",
+            "line": 174
+          },
+          {
+            "file": "candidate/experiments_2h_v2/package_reports.py",
+            "line": 176
+          },
+          {
+            "file": "candidate/experiments_2h_v2/package_reports.py",
+            "line": 178
+          },
+          {
+            "file": "candidate/experiments_2h_v2/package_reports.py",
+            "line": 190
+          },
+          {
+            "file": "candidate/experiments_2h_v2/package_reports.py",
+            "line": 193
+          },
+          {
+            "file": "candidate/experiments_2h_v2/package_reports.py",
+            "line": 201
+          },
+          {
+            "file": "candidate/experiments_2h_v2/package_reports.py",
+            "line": 203
+          },
+          {
+            "file": "candidate/experiments_2h_v2/package_reports.py",
+            "line": 207
+          },
+          {
+            "file": "candidate/experiments_2h_v2/package_reports.py",
+            "line": 223
+          },
+          {
+            "file": "candidate/experiments_2h_v2/package_reports.py",
+            "line": 228
+          },
+          {
+            "file": "candidate/experiments_2h_v2/package_reports.py",
+            "line": 229
+          },
+          {
+            "file": "candidate/experiments_2h_v2/package_reports.py",
+            "line": 232
+          },
+          {
+            "file": "candidate/experiments_2h_v2/PAIRED_COMPARISONS.json",
+            "line": 38
+          },
+          {
+            "file": "candidate/experiments_2h_v2/PAIRED_COMPARISONS.json",
+            "line": 59
+          },
+          {
+            "file": "candidate/experiments_2h_v2/PAIRED_COMPARISONS.json",
+            "line": 103
+          },
+          {
+            "file": "candidate/experiments_2h_v2/PAIRED_COMPARISONS.json",
+            "line": 124
+          },
+          {
+            "file": "candidate/experiments_2h_v2/PAIRED_COMPARISONS.json",
+            "line": 168
+          },
+          {
+            "file": "candidate/experiments_2h_v2/PAIRED_COMPARISONS.json",
+            "line": 189
+          },
+          {
+            "file": "candidate/experiments_2h_v2/PAIRED_COMPARISONS.json",
+            "line": 233
+          },
+          {
+            "file": "candidate/experiments_2h_v2/PAIRED_COMPARISONS.json",
+            "line": 254
+          },
+          {
+            "file": "candidate/experiments_2h_v2/PAIRED_COMPARISONS.json",
+            "line": 298
+          },
+          {
+            "file": "candidate/experiments_2h_v2/PAIRED_COMPARISONS.json",
+            "line": 319
+          },
+          {
+            "file": "candidate/experiments_2h_v2/PLAN.md",
+            "line": 3
+          },
+          {
+            "file": "candidate/experiments_2h_v2/PLAN.md",
+            "line": 11
+          },
+          {
+            "file": "candidate/experiments_2h_v2/PLAN.md",
+            "line": 18
+          },
+          {
+            "file": "candidate/experiments_2h_v2/protocol_comparison.py",
+            "line": 1
+          },
+          {
+            "file": "candidate/experiments_2h_v2/protocol_comparison.py",
+            "line": 17
+          },
+          {
+            "file": "candidate/experiments_2h_v2/protocol_comparison.py",
+            "line": 29
+          },
+          {
+            "file": "candidate/experiments_2h_v2/README.md",
+            "line": 19
+          },
+          {
+            "file": "candidate/experiments_2h_v2/README.md",
+            "line": 25
+          },
+          {
+            "file": "candidate/experiments_2h_v2/README.md",
+            "line": 26
+          },
+          {
+            "file": "candidate/experiments_2h_v2/README.md",
+            "line": 27
+          },
+          {
+            "file": "candidate/experiments_2h_v2/README.md",
+            "line": 90
+          },
+          {
+            "file": "candidate/experiments_2h_v2/README.md",
+            "line": 94
+          },
+          {
+            "file": "candidate/experiments_2h_v2/safety_checks.py",
+            "line": 19
+          },
+          {
+            "file": "candidate/experiments_2h_v2/SMOOTHING_PLAN.md",
+            "line": 3
+          },
+          {
+            "file": "candidate/experiments_2h_v2/SMOOTHING_PLAN.md",
+            "line": 8
+          },
+          {
+            "file": "candidate/experiments_2h_v2/SOURCE_BASIS_PLAN.md",
+            "line": 3
+          },
+          {
+            "file": "candidate/experiments_2h_v2/SOURCE_BASIS_PLAN.md",
+            "line": 5
+          },
+          {
+            "file": "candidate/experiments_2h_v2/SOURCE_BASIS_PLAN.md",
+            "line": 7
+          },
+          {
+            "file": "candidate/experiments_2h_v2/SOURCE_CONTEXT_PLAN.md",
+            "line": 5
+          },
+          {
+            "file": "candidate/experiments_2h_v2/stage2_models.py",
+            "line": 2
+          },
+          {
+            "file": "candidate/experiments_2h_v2/STAGE2_PLAN.md",
+            "line": 5
+          },
+          {
+            "file": "candidate/experiments_2h_v2/STAGE2_PLAN.md",
+            "line": 11
+          },
+          {
+            "file": "candidate/experiments_2h_v2/whitening.py",
+            "line": 2
+          },
+          {
+            "file": "candidate/experiments_2h_v2/WHITENING_HYPOTHESIS.md",
+            "line": 3
+          },
+          {
+            "file": "candidate/experiments_agf/FINAL_REPORT.md",
+            "line": 6
+          },
+          {
+            "file": "candidate/experiments_agf/provenance.json",
+            "line": 71
+          },
+          {
+            "file": "candidate/experiments_agf/provenance.json",
+            "line": 72
+          },
+          {
+            "file": "candidate/final_submission/evidence/PREFLIGHT.json",
+            "line": 19
+          },
+          {
+            "file": "candidate/final_submission/justification/written_justification.txt",
+            "line": 9
+          },
+          {
+            "file": "candidate/final_submission/model/provenance.json",
+            "line": 71
+          },
+          {
+            "file": "candidate/final_submission/model/provenance.json",
+            "line": 72
+          },
+          {
+            "file": "candidate/final_submission/notebook/FINAL_NOTEBOOK.ipynb",
+            "line": 20
+          },
+          {
+            "file": "candidate/final_submission/reports/FINAL_REPORT.md",
+            "line": 42
+          },
+          {
+            "file": "candidate/publication/audit_and_seal.py",
+            "line": 38
+          },
+          {
+            "file": "candidate/publication/audit_and_seal.py",
+            "line": 65
+          },
+          {
+            "file": "candidate/publication/audit_and_seal.py",
+            "line": 70
+          },
+          {
+            "file": "candidate/publication/audit_and_seal.py",
+            "line": 91
+          },
+          {
+            "file": "candidate/publication/export_submission.py",
+            "line": 25
+          },
+          {
+            "file": "candidate/publication/export_submission.py",
+            "line": 27
+          },
+          {
+            "file": "candidate/publication/export_submission.py",
+            "line": 43
+          },
+          {
+            "file": "candidate/publication/prepare_package.py",
+            "line": 27
+          },
+          {
+            "file": "candidate/publication/prepare_package.py",
+            "line": 29
+          },
+          {
+            "file": "candidate/publication/experiment_catalog/candidate__experiments_2h_v2/hashes.json",
+            "line": 54
+          },
+          {
+            "file": "candidate/publication/experiment_catalog/candidate__experiments_2h_v2/hashes.json",
+            "line": 55
+          },
+          {
+            "file": "candidate/publication/experiment_catalog/candidate__experiments_2h_v2/hashes.json",
+            "line": 76
+          },
+          {
+            "file": "candidate/publication/experiment_catalog/candidate__experiments_2h_v2/hashes.json",
+            "line": 77
+          },
+          {
+            "file": "candidate/publication/experiment_catalog/candidate__experiments_2h_v2/hashes.json",
+            "line": 78
+          },
+          {
+            "file": "candidate/publication/experiment_catalog/candidate__experiments_2h_v2/hashes.json",
+            "line": 79
+          },
+          {
+            "file": "candidate/publication/experiment_catalog/candidate__experiments_2h_v2/hashes.json",
+            "line": 80
+          },
+          {
+            "file": "candidate/publication/experiment_catalog/candidate__experiments_2h_v2/hashes.json",
+            "line": 81
+          },
+          {
+            "file": "candidate/publication/experiment_catalog/candidate__experiments_2h_v2/hashes.json",
+            "line": 82
+          },
+          {
+            "file": "candidate/publication/experiment_catalog/candidate__experiments_2h_v2/hashes.json",
+            "line": 83
+          },
+          {
+            "file": "candidate/publication/experiment_catalog/candidate__experiments_2h_v2/logs.json",
+            "line": 20
+          },
+          {
+            "file": "candidate/publication/experiment_catalog/candidate__experiments_2h_v2/logs.json",
+            "line": 21
+          },
+          {
+            "file": "candidate/reports/FINAL_REPORT.md",
+            "line": 17
+          },
+          {
+            "file": "candidate/reports/REPOSITORY_AUDIT.md",
+            "line": 17
+          },
+          {
+            "file": "candidate/reports/REPOSITORY_AUDIT.md",
+            "line": 21
+          },
+          {
+            "file": "candidate/reports/REPOSITORY_AUDIT.md",
+            "line": 29
+          },
+          {
+            "file": "candidate/reports/REPOSITORY_AUDIT.md",
+            "line": 32
+          },
+          {
+            "file": "candidate/reports/REPRODUCIBILITY.md",
+            "line": 65
+          },
+          {
+            "file": "candidate/reproducibility/artifact_manifest.json",
+            "line": 8567
+          },
+          {
+            "file": "candidate/reproducibility/artifact_manifest.json",
+            "line": 8573
+          },
+          {
+            "file": "candidate/reproducibility/artifact_manifest.json",
+            "line": 8699
+          },
+          {
+            "file": "candidate/reproducibility/artifact_manifest.json",
+            "line": 8705
+          },
+          {
+            "file": "candidate/reproducibility/artifact_manifest.json",
+            "line": 8711
+          },
+          {
+            "file": "candidate/reproducibility/artifact_manifest.json",
+            "line": 8717
+          },
+          {
+            "file": "candidate/reproducibility/artifact_manifest.json",
+            "line": 8723
+          },
+          {
+            "file": "candidate/reproducibility/artifact_manifest.json",
+            "line": 8729
+          },
+          {
+            "file": "candidate/reproducibility/artifact_manifest.json",
+            "line": 8735
+          },
+          {
+            "file": "candidate/reproducibility/artifact_manifest.json",
+            "line": 8741
+          },
+          {
+            "file": "candidate/reproducibility/cleanup_actions.json",
+            "line": 23
+          },
+          {
+            "file": "candidate/reproducibility/directory_hashes.json",
+            "line": 1603
+          },
+          {
+            "file": "candidate/reproducibility/directory_hashes.json",
+            "line": 1604
+          },
+          {
+            "file": "candidate/reproducibility/directory_hashes.json",
+            "line": 1623
+          },
+          {
+            "file": "candidate/reproducibility/directory_hashes.json",
+            "line": 1624
+          },
+          {
+            "file": "candidate/reproducibility/directory_hashes.json",
+            "line": 1625
+          },
+          {
+            "file": "candidate/reproducibility/directory_hashes.json",
+            "line": 1626
+          },
+          {
+            "file": "candidate/reproducibility/directory_hashes.json",
+            "line": 1627
+          },
+          {
+            "file": "candidate/reproducibility/directory_hashes.json",
+            "line": 1628
+          },
+          {
+            "file": "candidate/reproducibility/directory_hashes.json",
+            "line": 1629
+          },
+          {
+            "file": "candidate/reproducibility/directory_hashes.json",
+            "line": 1630
+          },
+          {
+            "file": "candidate/reproducibility/excluded_historical_comparisons.json",
+            "line": 3
+          },
+          {
+            "file": "candidate/reproducibility/excluded_historical_comparisons.json",
+            "line": 4
+          },
+          {
+            "file": "candidate/reproducibility/excluded_historical_comparisons.json",
+            "line": 5
+          },
+          {
+            "file": "candidate/reproducibility/excluded_historical_comparisons.json",
+            "line": 6
+          },
+          {
+            "file": "candidate/reproducibility/excluded_historical_comparisons.json",
+            "line": 7
+          },
+          {
+            "file": "candidate/reproducibility/excluded_historical_comparisons.json",
+            "line": 8
+          },
+          {
+            "file": "candidate/reproducibility/excluded_historical_comparisons.json",
+            "line": 9
+          },
+          {
+            "file": "candidate/reproducibility/excluded_historical_comparisons.json",
+            "line": 10
+          },
+          {
+            "file": "candidate/reproducibility/excluded_historical_comparisons.json",
+            "line": 11
+          },
+          {
+            "file": "candidate/reproducibility/excluded_historical_comparisons.json",
+            "line": 12
+          },
+          {
+            "file": "candidate/reproducibility/final_validation.json",
+            "line": 16
+          },
+          {
+            "file": "candidate/reproducibility/freeze_before.json",
+            "line": 1439
+          },
+          {
+            "file": "candidate/reproducibility/freeze_before.json",
+            "line": 1440
+          },
+          {
+            "file": "candidate/reproducibility/freeze_before.json",
+            "line": 1461
+          },
+          {
+            "file": "candidate/reproducibility/freeze_before.json",
+            "line": 1462
+          },
+          {
+            "file": "candidate/reproducibility/freeze_before.json",
+            "line": 1463
+          },
+          {
+            "file": "candidate/reproducibility/freeze_before.json",
+            "line": 1464
+          },
+          {
+            "file": "candidate/reproducibility/freeze_before.json",
+            "line": 1465
+          },
+          {
+            "file": "candidate/reproducibility/freeze_before.json",
+            "line": 1466
+          },
+          {
+            "file": "candidate/reproducibility/freeze_before.json",
+            "line": 1467
+          },
+          {
+            "file": "candidate/reproducibility/freeze_before.json",
+            "line": 1468
+          },
+          {
+            "file": "candidate/reproducibility/git_status_before.txt",
+            "line": 26
+          },
+          {
+            "file": "candidate/team_preparation/catalog_evidence.py",
+            "line": 27
+          },
+          {
+            "file": "candidate/team_preparation/catalog_evidence.py",
+            "line": 29
+          },
+          {
+            "file": "candidate/team_preparation/CONSISTENCY_AUDIT.md",
+            "line": 4
+          },
+          {
+            "file": "candidate/team_preparation/CONSISTENCY_AUDIT.md",
+            "line": 25
+          },
+          {
+            "file": "candidate/team_preparation/CONSISTENCY_AUDIT.md",
+            "line": 26
+          },
+          {
+            "file": "candidate/team_preparation/CONSISTENCY_AUDIT.md",
+            "line": 27
+          },
+          {
+            "file": "candidate/team_preparation/create_safety_snapshot.py",
+            "line": 114
+          },
+          {
+            "file": "candidate/team_preparation/create_safety_snapshot.py",
+            "line": 129
+          },
+          {
+            "file": "candidate/team_preparation/FINAL_VALIDATION.json",
+            "line": 22
+          },
+          {
+            "file": "candidate/team_preparation/FINAL_VALIDATION.json",
+            "line": 59
+          },
+          {
+            "file": "candidate/team_preparation/FORENSIC_SOURCE_REFERENCES.json",
+            "line": 3
+          },
+          {
+            "file": "candidate/team_preparation/FORENSIC_SOURCE_REFERENCES.json",
+            "line": 5
+          },
+          {
+            "file": "candidate/team_preparation/FORENSIC_SOURCE_REFERENCES.json",
+            "line": 28
+          },
+          {
+            "file": "candidate/team_preparation/INSPECTION_AND_SUBMISSION_DECISION.md",
+            "line": 4
+          },
+          {
+            "file": "candidate/team_preparation/INSPECTION_AND_SUBMISSION_DECISION.md",
+            "line": 21
+          },
+          {
+            "file": "candidate/team_preparation/INSPECTION_AND_SUBMISSION_DECISION.md",
+            "line": 32
+          },
+          {
+            "file": "candidate/team_preparation/MEMBER_3_GUIDE.md",
+            "line": 21
+          },
+          {
+            "file": "candidate/team_preparation/MEMBER_3_GUIDE.md",
+            "line": 81
+          },
+          {
+            "file": "candidate/team_preparation/MEMBER_3_GUIDE.md",
+            "line": 90
+          },
+          {
+            "file": "candidate/team_preparation/NEXT_TASK_GUARDRAILS.md",
+            "line": 8
+          },
+          {
+            "file": "candidate/team_preparation/PRESENTATION_QA.md",
+            "line": 14
+          },
+          {
+            "file": "candidate/team_preparation/PRESENTATION_QA.md",
+            "line": 15
+          },
+          {
+            "file": "candidate/team_preparation/PRESENTATION_QA.md",
+            "line": 17
+          },
+          {
+            "file": "candidate/team_preparation/PRESENTATION_QA.md",
+            "line": 18
+          },
+          {
+            "file": "candidate/team_preparation/PRESENTATION_QA.md",
+            "line": 20
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_MASTER_GUIDE.md",
+            "line": 26
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_MASTER_GUIDE.md",
+            "line": 54
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_MASTER_GUIDE.md",
+            "line": 165
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_MASTER_GUIDE.md",
+            "line": 167
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_MASTER_GUIDE.md",
+            "line": 169
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_MASTER_GUIDE.md",
+            "line": 172
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_MASTER_GUIDE.md",
+            "line": 177
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_MASTER_GUIDE.md",
+            "line": 182
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_MASTER_GUIDE.md",
+            "line": 184
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_MASTER_GUIDE.md",
+            "line": 285
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_MASTER_GUIDE.md",
+            "line": 327
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_MASTER_GUIDE.md",
+            "line": 490
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_MASTER_GUIDE.md",
+            "line": 536
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_MASTER_GUIDE.md",
+            "line": 655
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_MASTER_GUIDE.md",
+            "line": 658
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_MASTER_GUIDE.md",
+            "line": 660
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_MASTER_GUIDE.md",
+            "line": 661
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_MASTER_GUIDE.md",
+            "line": 665
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_MASTER_GUIDE.md",
+            "line": 666
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_MASTER_GUIDE.md",
+            "line": 668
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_MASTER_GUIDE.md",
+            "line": 669
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_MASTER_GUIDE.md",
+            "line": 676
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_MASTER_GUIDE.md",
+            "line": 834
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_MASTER_GUIDE.md",
+            "line": 835
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_MASTER_GUIDE.md",
+            "line": 836
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_NARRATIVE.md",
+            "line": 26
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_NARRATIVE.md",
+            "line": 54
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_NARRATIVE.md",
+            "line": 165
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_NARRATIVE.md",
+            "line": 167
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_NARRATIVE.md",
+            "line": 169
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_NARRATIVE.md",
+            "line": 172
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_NARRATIVE.md",
+            "line": 177
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_NARRATIVE.md",
+            "line": 182
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_NARRATIVE.md",
+            "line": 184
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_NARRATIVE.md",
+            "line": 285
+          },
+          {
+            "file": "candidate/team_preparation/PROJECT_NARRATIVE.md",
+            "line": 327
+          },
+          {
+            "file": "candidate/team_preparation/protected_before.json",
+            "line": 125
+          },
+          {
+            "file": "candidate/team_preparation/protected_before.json",
+            "line": 126
+          },
+          {
+            "file": "candidate/team_preparation/protected_before.json",
+            "line": 147
+          },
+          {
+            "file": "candidate/team_preparation/protected_before.json",
+            "line": 148
+          },
+          {
+            "file": "candidate/team_preparation/protected_before.json",
+            "line": 149
+          },
+          {
+            "file": "candidate/team_preparation/protected_before.json",
+            "line": 150
+          },
+          {
+            "file": "candidate/team_preparation/protected_before.json",
+            "line": 151
+          },
+          {
+            "file": "candidate/team_preparation/protected_before.json",
+            "line": 152
+          },
+          {
+            "file": "candidate/team_preparation/protected_before.json",
+            "line": 153
+          },
+          {
+            "file": "candidate/team_preparation/protected_before.json",
+            "line": 154
+          },
+          {
+            "file": "candidate/team_preparation/QUESTION_BANK.json",
+            "line": 160
+          },
+          {
+            "file": "candidate/team_preparation/QUESTION_BANK.json",
+            "line": 214
+          },
+          {
+            "file": "candidate/team_preparation/QUESTION_BANK.json",
+            "line": 355
+          },
+          {
+            "file": "candidate/team_preparation/QUESTION_BANK.json",
+            "line": 356
+          },
+          {
+            "file": "candidate/team_preparation/QUESTION_BANK.json",
+            "line": 358
+          },
+          {
+            "file": "candidate/team_preparation/QUESTION_BANK.json",
+            "line": 359
+          },
+          {
+            "file": "candidate/team_preparation/QUESTION_BANK.json",
+            "line": 364
+          },
+          {
+            "file": "candidate/team_preparation/QUESTION_BANK.json",
+            "line": 365
+          },
+          {
+            "file": "candidate/team_preparation/QUESTION_BANK.json",
+            "line": 366
+          },
+          {
+            "file": "candidate/team_preparation/QUESTION_BANK.json",
+            "line": 368
+          },
+          {
+            "file": "candidate/team_preparation/QUESTION_BANK.json",
+            "line": 369
+          },
+          {
+            "file": "candidate/team_preparation/QUESTION_BANK.json",
+            "line": 373
+          },
+          {
+            "file": "candidate/team_preparation/QUESTION_BANK.json",
+            "line": 378
+          },
+          {
+            "file": "candidate/team_preparation/QUESTION_BANK.json",
+            "line": 564
+          },
+          {
+            "file": "candidate/team_preparation/QUESTION_BANK.json",
+            "line": 565
+          },
+          {
+            "file": "candidate/team_preparation/QUESTION_BANK.json",
+            "line": 566
+          },
+          {
+            "file": "candidate/team_preparation/question_bank.py",
+            "line": 21
+          },
+          {
+            "file": "candidate/team_preparation/question_bank.py",
+            "line": 27
+          },
+          {
+            "file": "candidate/team_preparation/question_bank.py",
+            "line": 43
+          },
+          {
+            "file": "candidate/team_preparation/question_bank.py",
+            "line": 44
+          },
+          {
+            "file": "candidate/team_preparation/question_bank.py",
+            "line": 45
+          },
+          {
+            "file": "candidate/team_preparation/question_bank.py",
+            "line": 66
+          },
+          {
+            "file": "candidate/team_preparation/SNAPSHOT_SEAL.json",
+            "line": 131
+          },
+          {
+            "file": "candidate/team_preparation/TONIGHT_REVISION.md",
+            "line": 45
+          },
+          {
+            "file": "candidate/team_preparation/TONIGHT_REVISION.md",
+            "line": 46
+          },
+          {
+            "file": "candidate/team_preparation/TONIGHT_REVISION.md",
+            "line": 66
+          },
+          {
+            "file": "candidate/team_preparation/TONIGHT_REVISION.md",
+            "line": 103
+          },
+          {
+            "file": "candidate/team_preparation/verify_preparation.py",
+            "line": 30
+          },
+          {
+            "file": "candidate/team_preparation/verify_preparation.py",
+            "line": 70
+          },
+          {
+            "file": "candidate/team_preparation/verify_preparation.py",
+            "line": 71
+          },
+          {
+            "file": "docs/Hackathon_Analysis_Report.md",
+            "line": 184
+          },
+          {
+            "file": "FINAL_SUBMISSION/README.md",
+            "line": 101
+          },
+          {
+            "file": "FINAL_SUBMISSION/solution_notebook.ipynb",
+            "line": 20
+          },
+          {
+            "file": "FINAL_SUBMISSION/model/provenance.json",
+            "line": 71
+          },
+          {
+            "file": "FINAL_SUBMISSION/model/provenance.json",
+            "line": 72
+          },
+          {
+            "file": "FINAL_SUBMISSION/model/evidence/PREFLIGHT.json",
+            "line": 19
+          },
+          {
+            "file": "FINAL_SUBMISSION/results_summary/LOCKED_REPORT.md",
+            "line": 42
+          },
+          {
+            "file": "FINAL_SUBMISSION/written_explanation/written_justification.txt",
+            "line": 9
+          },
+          {
+            "file": "reproducibility/repository_polish/baseline.json",
+            "line": 11234
+          },
+          {
+            "file": "reproducibility/repository_polish/baseline.json",
+            "line": 11238
+          },
+          {
+            "file": "reproducibility/repository_polish/baseline.json",
+            "line": 11314
+          },
+          {
+            "file": "reproducibility/repository_polish/baseline.json",
+            "line": 11318
+          },
+          {
+            "file": "reproducibility/repository_polish/baseline.json",
+            "line": 11322
+          },
+          {
+            "file": "reproducibility/repository_polish/baseline.json",
+            "line": 11326
+          },
+          {
+            "file": "reproducibility/repository_polish/baseline.json",
+            "line": 11330
+          },
+          {
+            "file": "reproducibility/repository_polish/baseline.json",
+            "line": 11334
+          },
+          {
+            "file": "reproducibility/repository_polish/baseline.json",
+            "line": 11338
+          },
+          {
+            "file": "reproducibility/repository_polish/baseline.json",
+            "line": 11342
+          },
+          {
+            "file": "reproducibility/repository_polish/inventory_summary.json",
+            "line": 1554
+          },
+          {
+            "file": "reproducibility/repository_polish/inventory_summary.json",
+            "line": 1555
+          },
+          {
+            "file": "reproducibility/repository_polish/inventory_summary.json",
+            "line": 1558
+          },
+          {
+            "file": "reproducibility/repository_polish/inventory_summary.json",
+            "line": 1559
+          },
+          {
+            "file": "reproducibility/repository_polish/inventory_summary.json",
+            "line": 1562
+          },
+          {
+            "file": "reproducibility/repository_polish/inventory_summary.json",
+            "line": 1563
+          },
+          {
+            "file": "reproducibility/repository_polish/inventory_summary.json",
+            "line": 2778
+          },
+          {
+            "file": "reproducibility/repository_polish/validation_attempt_03/presentation_text.txt",
+            "line": 288
+          },
+          {
+            "file": "reproducibility/repository_polish/validation_attempt_04/presentation_text.txt",
+            "line": 288
+          },
+          {
+            "file": "reproducibility/repository_polish/validation_attempt_05/presentation_text.txt",
+            "line": 288
+          },
+          {
+            "file": "reproducibility/repository_polish/validation_final/presentation_text.txt",
+            "line": 288
+          },
+          {
+            "file": "scripts/validate_release.py",
+            "line": 223
+          }
+        ]
+      }
+    },
+    {
+      "name": "git_index_untouched",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "release_script_syntax",
+      "status": "PASS",
+      "detail": []
+    }
+  ],
+  "details": {
+    "preservation": {
+      "baseline_files": 5389,
+      "baseline_bytes": 6409488637,
+      "byte_identical_files": 5364,
+      "moves": 67
+    },
+    "duplicate_groups": 332,
+    "dispositions": {
+      "KEEP": 5322,
+      "ARCHIVE": 57,
+      "MOVE": 10
+    },
+    "excluded_local_state": {
+      "KEEP": "Git internals and local environments; not release content",
+      "REMOVE_recommended_only": "Bytecode caches, notebook checkpoints, editor scratch files; no scientific evidence deleted"
+    },
+    "scan_scope": "All project text files of listed source/document/evidence types; Git internals/environments/cache excluded. Binary wording not certified; frozen binary bytes preserved.",
+    "text_files_scanned": 2311,
+    "empty_directories": [],
+    "large_files_over_100MB": [
+      {
+        "path": "working/baseline_artifacts/rf_final.pkl",
+        "bytes": 1336382673
+      },
+      {
+        "path": "candidate/experiments_2h_v2/conditional_source_models.pkl",
+        "bytes": 736691529
+      },
+      {
+        "path": "candidate/experiments_2h_v2/physical_source_models.pkl",
+        "bytes": 592142131
+      },
+      {
+        "path": "candidate/experiments_2h_v2/source_context_models.pkl",
+        "bytes": 565951795
+      },
+      {
+        "path": "data/madrid_train.parquet",
+        "bytes": 141959981
+      },
+      {
+        "path": "candidate/publication/submission_bundle.zip",
+        "bytes": 129468817
+      },
+      {
+        "path": "archive/publication_cleanup/exports/submission_bundle_pre_final_audit.zip",
+        "bytes": 129466482
+      },
+      {
+        "path": "working/G4A-PRODUCTION-001/current_packet.json",
+        "bytes": 120218908
+      },
+      {
+        "path": "working/G4A-PRODUCTION-001/second_packet.json",
+        "bytes": 120218908
+      },
+      {
+        "path": "candidate/autonomous_ml_overnight/20260909T200015Z/SEARCH_RESULTS.json",
+        "bytes": 110485031
+      }
+    ],
+    "link_scope": "Inline relative Markdown links/images; external URLs and heading anchors not certified.",
+    "environment": {
+      "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+      "installed_versions": {
+        "numpy": "2.5.3",
+        "scipy": "1.18.1",
+        "scikit-learn": "1.9.0",
+        "pandas": "3.0.5",
+        "matplotlib": "3.11.1",
+        "python-pptx": "1.0.2",
+        "Pillow": "12.3.0",
+        "nbformat": "5.11.1",
+        "fastjsonschema": "2.22.2"
+      },
+      "clean_install_tested": false
+    },
+    "not_executed": [
+      "training",
+      "optimization",
+      "hyperparameter search",
+      "support fitting",
+      "prediction regeneration",
+      "notebook cells",
+      "pickle deserialization",
+      "package installation",
+      "git add/commit/push"
+    ]
+  },
+  "failures": 0,
+  "warnings": 3,
+  "scope": "Static validation and arithmetic on saved confusion matrices only"
+}

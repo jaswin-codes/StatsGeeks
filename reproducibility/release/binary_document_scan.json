@@ -1,0 +1,360 @@
+{
+  "scope": "Read-only text extraction from all inventoried ZIP/PPTX/DOCX text members <=30MB and PDFs; no pickle loading, no nested archive recursion, no OCR. Original binary scientific evidence unchanged.",
+  "containers": 23,
+  "text_members": 1087,
+  "pdfs": 114,
+  "wording_hits": [
+    {
+      "file": "archive/publication_cleanup/exports/submission_bundle_pre_final_audit.zip",
+      "member": "README.md"
+    },
+    {
+      "file": "archive/publication_cleanup/exports/submission_bundle_pre_final_audit.zip",
+      "member": "SUBMISSION_SCOPE.json"
+    },
+    {
+      "file": "archive/publication_cleanup/exports/submission_bundle_pre_final_audit.zip",
+      "member": "candidate/autonomous_runs/20260909_1727/FINAL_REPORT.md"
+    },
+    {
+      "file": "archive/publication_cleanup/exports/submission_bundle_pre_final_audit.zip",
+      "member": "candidate/autonomous_runs/20260909_1727/provenance.json"
+    },
+    {
+      "file": "archive/publication_cleanup/exports/submission_bundle_pre_final_audit.zip",
+      "member": "candidate/best_model/provenance.json"
+    },
+    {
+      "file": "archive/publication_cleanup/exports/submission_bundle_pre_final_audit.zip",
+      "member": "candidate/publication/audit_and_seal.py"
+    },
+    {
+      "file": "archive/publication_cleanup/exports/submission_bundle_pre_final_audit.zip",
+      "member": "candidate/publication/export_submission.py"
+    },
+    {
+      "file": "archive/publication_cleanup/exports/submission_bundle_pre_final_audit.zip",
+      "member": "candidate/reports/FINAL_REPORT.md"
+    },
+    {
+      "file": "archive/publication_cleanup/exports/submission_bundle_pre_final_audit.zip",
+      "member": "candidate/reports/REPOSITORY_AUDIT.md"
+    },
+    {
+      "file": "archive/publication_cleanup/exports/submission_bundle_pre_final_audit.zip",
+      "member": "candidate/reports/REPRODUCIBILITY.md"
+    },
+    {
+      "file": "archive/publication_cleanup/exports/submission_bundle_pre_final_audit.zip",
+      "member": "candidate/reproducibility/cleanup_actions.json"
+    },
+    {
+      "file": "archive/publication_cleanup/exports/submission_bundle_pre_final_audit.zip",
+      "member": "candidate/reproducibility/excluded_historical_comparisons.json"
+    },
+    {
+      "file": "archive/publication_cleanup/exports/submission_bundle_pre_final_audit.zip",
+      "member": "candidate/reproducibility/final_validation.json"
+    },
+    {
+      "file": "archive/publication_cleanup/exports/submission_bundle_pre_final_audit.zip",
+      "member": "candidate/reproducibility/freeze_before.json"
+    },
+    {
+      "file": "archive\\repository_polish\\package_draft_01\\presentation.pdf"
+    },
+    {
+      "file": "archive/repository_polish/package_draft_01/presentation.pptx",
+      "member": "ppt/slides/slide16.xml"
+    },
+    {
+      "file": "archive/repository_polish/package_draft_01/presentation.pptx",
+      "member": "ppt/notesSlides/notesSlide16.xml"
+    },
+    {
+      "file": "candidate/final_submission.zip",
+      "member": "final_submission/evidence/PREFLIGHT.json"
+    },
+    {
+      "file": "candidate/final_submission.zip",
+      "member": "final_submission/justification/written_justification.txt"
+    },
+    {
+      "file": "candidate/final_submission.zip",
+      "member": "final_submission/model/provenance.json"
+    },
+    {
+      "file": "candidate/final_submission.zip",
+      "member": "final_submission/notebook/FINAL_NOTEBOOK.ipynb"
+    },
+    {
+      "file": "candidate/final_submission.zip",
+      "member": "final_submission/reports/FINAL_REPORT.md"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/final_submission.zip",
+      "member": "final_submission/evidence/PREFLIGHT.json"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/final_submission.zip",
+      "member": "final_submission/justification/written_justification.txt"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/final_submission.zip",
+      "member": "final_submission/model/provenance.json"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/final_submission.zip",
+      "member": "final_submission/notebook/FINAL_NOTEBOOK.ipynb"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/final_submission.zip",
+      "member": "final_submission/reports/FINAL_REPORT.md"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_zip_20260909T221225.zip",
+      "member": "final_submission/evidence/PREFLIGHT.json"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_zip_20260909T221225.zip",
+      "member": "final_submission/justification/written_justification.txt"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_zip_20260909T221225.zip",
+      "member": "final_submission/model/provenance.json"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_zip_20260909T221225.zip",
+      "member": "final_submission/notebook/FINAL_NOTEBOOK.ipynb"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_zip_20260909T221225.zip",
+      "member": "final_submission/reports/FINAL_REPORT.md"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_zip_20260909T221907.zip",
+      "member": "final_submission/evidence/PREFLIGHT.json"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_zip_20260909T221907.zip",
+      "member": "final_submission/justification/written_justification.txt"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_zip_20260909T221907.zip",
+      "member": "final_submission/model/provenance.json"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_zip_20260909T221907.zip",
+      "member": "final_submission/notebook/FINAL_NOTEBOOK.ipynb"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_zip_20260909T221907.zip",
+      "member": "final_submission/reports/FINAL_REPORT.md"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_zip_20260909T222202.zip",
+      "member": "final_submission/evidence/PREFLIGHT.json"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_zip_20260909T222202.zip",
+      "member": "final_submission/justification/written_justification.txt"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_zip_20260909T222202.zip",
+      "member": "final_submission/model/provenance.json"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_zip_20260909T222202.zip",
+      "member": "final_submission/notebook/FINAL_NOTEBOOK.ipynb"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_zip_20260909T222202.zip",
+      "member": "final_submission/reports/FINAL_REPORT.md"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_zip_20260909T222537.zip",
+      "member": "final_submission/evidence/PREFLIGHT.json"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_zip_20260909T222537.zip",
+      "member": "final_submission/justification/written_justification.txt"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_zip_20260909T222537.zip",
+      "member": "final_submission/model/provenance.json"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_zip_20260909T222537.zip",
+      "member": "final_submission/notebook/FINAL_NOTEBOOK.ipynb"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_zip_20260909T222537.zip",
+      "member": "final_submission/reports/FINAL_REPORT.md"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_zip_20260910T041858.zip",
+      "member": "final_submission/evidence/PREFLIGHT.json"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_zip_20260910T041858.zip",
+      "member": "final_submission/justification/written_justification.txt"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_zip_20260910T041858.zip",
+      "member": "final_submission/model/provenance.json"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_zip_20260910T041858.zip",
+      "member": "final_submission/notebook/FINAL_NOTEBOOK.ipynb"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_zip_20260910T041858.zip",
+      "member": "final_submission/reports/FINAL_REPORT.md"
+    },
+    {
+      "file": "candidate\\autonomous_ml_overnight\\20260909T200015Z\\previous_final_20260909T221222\\presentation\\StatsGeeks_BuildingAge_FINAL.pdf"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260909T221222/presentation/StatsGeeks_BuildingAge_FINAL.pptx",
+      "member": "ppt/slides/slide16.xml"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260909T221222/presentation/StatsGeeks_BuildingAge_FINAL.pptx",
+      "member": "ppt/notesSlides/notesSlide16.xml"
+    },
+    {
+      "file": "candidate\\autonomous_ml_overnight\\20260909T200015Z\\previous_final_20260909T221903\\presentation\\StatsGeeks_BuildingAge_FINAL.pdf"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260909T221903/presentation/StatsGeeks_BuildingAge_FINAL.pptx",
+      "member": "ppt/slides/slide16.xml"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260909T221903/presentation/StatsGeeks_BuildingAge_FINAL.pptx",
+      "member": "ppt/notesSlides/notesSlide16.xml"
+    },
+    {
+      "file": "candidate\\autonomous_ml_overnight\\20260909T200015Z\\previous_final_20260909T222158\\presentation\\StatsGeeks_BuildingAge_FINAL.pdf"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260909T222158/presentation/StatsGeeks_BuildingAge_FINAL.pptx",
+      "member": "ppt/slides/slide16.xml"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260909T222158/presentation/StatsGeeks_BuildingAge_FINAL.pptx",
+      "member": "ppt/notesSlides/notesSlide16.xml"
+    },
+    {
+      "file": "candidate\\autonomous_ml_overnight\\20260909T200015Z\\previous_final_20260909T222533\\presentation\\StatsGeeks_BuildingAge_FINAL.pdf"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260909T222533/presentation/StatsGeeks_BuildingAge_FINAL.pptx",
+      "member": "ppt/slides/slide16.xml"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260909T222533/presentation/StatsGeeks_BuildingAge_FINAL.pptx",
+      "member": "ppt/notesSlides/notesSlide16.xml"
+    },
+    {
+      "file": "candidate\\autonomous_ml_overnight\\20260909T200015Z\\previous_final_20260910T041854\\presentation\\StatsGeeks_BuildingAge_FINAL.pdf"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260910T041854/presentation/StatsGeeks_BuildingAge_FINAL.pptx",
+      "member": "ppt/slides/slide16.xml"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/previous_final_20260910T041854/presentation/StatsGeeks_BuildingAge_FINAL.pptx",
+      "member": "ppt/notesSlides/notesSlide16.xml"
+    },
+    {
+      "file": "candidate\\autonomous_ml_overnight\\20260909T200015Z\\submission_build\\presentation\\StatsGeeks_BuildingAge_FINAL.pdf"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/submission_build/presentation/StatsGeeks_BuildingAge_FINAL.pptx",
+      "member": "ppt/slides/slide16.xml"
+    },
+    {
+      "file": "candidate/autonomous_ml_overnight/20260909T200015Z/submission_build/presentation/StatsGeeks_BuildingAge_FINAL.pptx",
+      "member": "ppt/notesSlides/notesSlide16.xml"
+    },
+    {
+      "file": "candidate\\final_submission\\presentation\\StatsGeeks_BuildingAge_FINAL.pdf"
+    },
+    {
+      "file": "candidate/final_submission/presentation/StatsGeeks_BuildingAge_FINAL.pptx",
+      "member": "ppt/slides/slide16.xml"
+    },
+    {
+      "file": "candidate/final_submission/presentation/StatsGeeks_BuildingAge_FINAL.pptx",
+      "member": "ppt/notesSlides/notesSlide16.xml"
+    },
+    {
+      "file": "candidate/publication/submission_bundle.zip",
+      "member": "README.md"
+    },
+    {
+      "file": "candidate/publication/submission_bundle.zip",
+      "member": "SUBMISSION_SCOPE.json"
+    },
+    {
+      "file": "candidate/publication/submission_bundle.zip",
+      "member": "candidate/autonomous_runs/20260909_1727/FINAL_REPORT.md"
+    },
+    {
+      "file": "candidate/publication/submission_bundle.zip",
+      "member": "candidate/autonomous_runs/20260909_1727/provenance.json"
+    },
+    {
+      "file": "candidate/publication/submission_bundle.zip",
+      "member": "candidate/best_model/provenance.json"
+    },
+    {
+      "file": "candidate/publication/submission_bundle.zip",
+      "member": "candidate/publication/audit_and_seal.py"
+    },
+    {
+      "file": "candidate/publication/submission_bundle.zip",
+      "member": "candidate/publication/export_submission.py"
+    },
+    {
+      "file": "candidate/publication/submission_bundle.zip",
+      "member": "candidate/reports/FINAL_REPORT.md"
+    },
+    {
+      "file": "candidate/publication/submission_bundle.zip",
+      "member": "candidate/reports/REPOSITORY_AUDIT.md"
+    },
+    {
+      "file": "candidate/publication/submission_bundle.zip",
+      "member": "candidate/reports/REPRODUCIBILITY.md"
+    },
+    {
+      "file": "candidate/publication/submission_bundle.zip",
+      "member": "candidate/reproducibility/cleanup_actions.json"
+    },
+    {
+      "file": "candidate/publication/submission_bundle.zip",
+      "member": "candidate/reproducibility/excluded_historical_comparisons.json"
+    },
+    {
+      "file": "candidate/publication/submission_bundle.zip",
+      "member": "candidate/reproducibility/final_validation.json"
+    },
+    {
+      "file": "candidate/publication/submission_bundle.zip",
+      "member": "candidate/reproducibility/freeze_before.json"
+    },
+    {
+      "file": "FINAL_SUBMISSION\\presentation.pdf"
+    },
+    {
+      "file": "FINAL_SUBMISSION/presentation.pptx",
+      "member": "ppt/slides/slide16.xml"
+    },
+    {
+      "file": "FINAL_SUBMISSION/presentation.pptx",
+      "member": "ppt/notesSlides/notesSlide16.xml"
+    }
+  ],
+  "errors": []
+}

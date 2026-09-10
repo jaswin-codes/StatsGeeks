@@ -1,0 +1,9 @@
+{
+  "slides": 10,
+  "scientific_execution": false,
+  "source_table": "FINAL_SUBMISSION/results_summary/learning_curve.csv",
+  "source_sha256": "52eb8c1e7f743b343e850d793165f04d6d0d411e544fe5e6d6e4fe255b120594",
+  "model_display_name": "Coordinate-RF",
+  "locked_macro_f1": "0.749299",
+  "figure_policy": "New presentation view of unchanged CSV means/SD; canonical figures untouched."
+}

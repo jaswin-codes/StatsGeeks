@@ -4,7 +4,9 @@
 
 Source: `Hackathon_Analysis_Report.md`. This plan summarises that audit; it does not represent a new repository inspection or completed implementation. Update status, owners, evidence, and organiser decisions as work progresses. Preserve the audit as the historical reference. Operational instructions for AI assistants are in `AGENTS.md`.
 
-**Current phase:** Planning and context handover. Baseline reproduction and implementation are not yet recorded as completed.
+**Current phase: final release preparation; Coordinate-RF is selected and macro-F1 is locked at 0.749299.** The overnight search is complete; no retraining, support fitting or prediction regeneration is authorized. The sections below preserve the planning chronology and historical assumptions, not the current release state. Start with [current documentation](README.md) and the [final synchronization report](release/FINAL_SYNC_REPORT.md).
+
+Release milestone: approved ten-slide presentation, revised justification and Pixel Prophets logo synchronized into `FINAL_SUBMISSION/`; its PDF exported directly from the approved deck (no PDF supplied in intake). Root README and judge navigation now point to that one package. [PRESENTATION_GUIDE.md](presentation/PRESENTATION_GUIDE.md) consolidates three speaking slots, actual slide order, timing, Q&A and verbatim historical sources. Hash-bound legacy guides are archived in place; earlier distribution presentation files are preserved outside the submission. Scientific artifacts, notebooks, results and scientific hash files remain unchanged; only presentation/documentation distribution entries were refreshed. Runtime replay is not a release validation step. Git staging/commit/push remain pending and were not performed. Organizer eligibility, wording caveats, exact upload format and presentation-machine visual review remain open.
 
 ## Problem statement
 
