@@ -1,5 +1,7 @@
 # Project
 
+> Team **Pixel Prophets** (3 people) at the StatsGeeks Society Data Science Hackathon, September 2026. **Won the Best F1 Score category out of six teams.**
+
 **Building-age transfer learning · Madrid → Amsterdam.** We classify 30 m Landsat pixels into four construction-era classes using Madrid source knowledge and a small labelled Amsterdam support set.
 
 # Final Result

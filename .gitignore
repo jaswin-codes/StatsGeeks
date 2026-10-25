@@ -43,3 +43,9 @@ archive/publication_cleanup/exports/*.zip
 
 # Overnight search artifacts
 candidate/autonomous_ml_overnight/
+
+# OneNote / OS files
+*.onetoc2
+*.one
+desktop.ini
+Thumbs.db
