@@ -1,8 +1,8 @@
-# License status — not a license grant
+# License status
 
-No root LICENSE was present at inspection. The team has not authorized a specific
-license, and organizer data rights are unresolved. This document grants no rights
-and must not be presented as an OSI license. KEEP all existing notices. KEEP raw
-data out of the judge distribution. MOVE a team-approved license decision into a
-future dedicated licensing change only after rights-holder approval; do not alter
-frozen evidence or silently license organizer materials.
+The team approved the MIT License in October 2026; see the root [LICENSE](../../LICENSE).
+
+**Scope:** MIT covers the team's own code, documentation, notebook and presentation. Competition
+data supplied by the organisers (and anything derived only from it) is **not** covered and stays
+under the organisers' terms; organiser data rights are still unresolved. Keep raw data out of
+redistribution, and keep all existing notices and frozen evidence unchanged.

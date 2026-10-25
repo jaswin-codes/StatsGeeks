@@ -64,4 +64,8 @@ The artifact requires the original ordered Amsterdam pool. The additional 800-la
 
 <img src="FINAL_SUBMISSION/assets/pixel_prophets_logo.png" alt="Pixel Prophets team logo" width="180">
 
-[Presentation guide](docs/presentation/PRESENTATION_GUIDE.md) · [License and redistribution status](docs/reproducibility/LICENSE_STATUS.md)
+[Presentation guide](docs/presentation/PRESENTATION_GUIDE.md) · [License (MIT, team code only)](LICENSE) · [License and redistribution status](docs/reproducibility/LICENSE_STATUS.md)
+
+## License
+
+MIT, see [LICENSE](LICENSE). Organiser-supplied competition data is not covered; see [license status](docs/reproducibility/LICENSE_STATUS.md).
