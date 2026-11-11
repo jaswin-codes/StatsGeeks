@@ -5,4 +5,4 @@ matplotlib==3.11.1
 pandas==3.0.5
 psutil==7.2.2
 threadpoolctl==3.6.0
-pillow==12.3.0
+pillow==13.0.0
