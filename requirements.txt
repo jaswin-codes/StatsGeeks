@@ -8,15 +8,15 @@
 # deterministic, not noise. See docs/EXPERIMENT_LOG.md EXP-001 and EXP-002.
 #
 # Python 3.13.15
-numpy==2.5.1
-pandas==3.0.5
-scikit-learn==1.9.0
+numpy==2.5.4
+pandas==3.1.1
+scikit-learn==1.9.1
 scipy==1.18.1
 pyarrow==25.0.1
-matplotlib==3.11.1
+matplotlib==3.11.2
 joblib==1.6.0
 nbformat==5.11.1
-nbconvert==7.17.1
+nbconvert==7.17.2
 
 # Presentation build only - not required to reproduce any result
 python-pptx==1.0.2
