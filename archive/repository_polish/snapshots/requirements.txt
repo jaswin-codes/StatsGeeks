@@ -16,7 +16,7 @@ pyarrow==25.0.1
 matplotlib==3.11.1
 joblib==1.6.0
 nbformat==5.11.1
-nbconvert==7.17.1
+nbconvert==7.17.2
 
 # Presentation build only - not required to reproduce any result
 python-pptx==1.0.2
